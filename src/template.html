@@ -109,6 +109,26 @@
       transition: opacity 0.08s ease;
     }
 
+    /* Fix #3: Default Browser #0000EE Blue Underlined Links Inside #grb-tooltip */
+    #grb-tooltip a:not(.mobile-tooltip-wowhead-btn):not(.tt-sheet-wowhead-btn) {
+      color: inherit;
+      text-decoration: none;
+    }
+    #grb-tooltip a:not(.mobile-tooltip-wowhead-btn):not(.tt-sheet-wowhead-btn):hover {
+      text-decoration: underline;
+    }
+    #grb-tooltip tt-line[data-line-type*="use"],
+    #grb-tooltip tt-line[data-line-type*="use"] a,
+    #grb-tooltip tt-line[data-line-type*="equip"],
+    #grb-tooltip tt-line[data-line-type*="equip"] a,
+    #grb-tooltip tt-line[data-line-type*="effect"],
+    #grb-tooltip tt-line[data-line-type*="effect"] a,
+    #grb-tooltip tt-line[data-line-type*="captured-"] > a,
+    #grb-tooltip .q2,
+    #grb-tooltip .q2 a {
+      color: #1eff00 !important;
+    }
+
     #grb-tooltip tt-title,
     #grb-tooltip tt-line,
     #grb-tooltip tt-double-line,
@@ -171,7 +191,7 @@
     }
 
     #grb-tooltip tt-indented-line a {
-      color: #ffd100;
+      color: #ffd100 !important;
       text-decoration: none;
     }
     #grb-tooltip tt-indented-line a:hover {
@@ -1657,14 +1677,15 @@
       z-index: 100005 !important;
       box-sizing: border-box !important;
       margin: 0 auto !important;
-      padding: 32px 14px 14px 14px !important;
+      padding: 44px 16px 16px 16px !important;
       background: rgba(14, 18, 28, 0.98) !important;
       border: 1px solid var(--border-gold) !important;
       box-shadow: 0 12px 40px rgba(0, 0, 0, 0.95), 0 0 20px rgba(200, 155, 60, 0.25) !important;
       border-radius: 10px !important;
     }
 
-    .tt-sheet-close-btn {
+    .tt-sheet-close-btn,
+    .mobile-tooltip-close {
       position: absolute;
       top: 8px;
       right: 8px;
@@ -1682,7 +1703,8 @@
       cursor: pointer;
       z-index: 10;
     }
-    .tt-sheet-close-btn:hover {
+    .tt-sheet-close-btn:hover,
+    .mobile-tooltip-close:hover {
       background: rgba(255, 255, 255, 0.16);
       color: #fff;
     }
@@ -1695,7 +1717,8 @@
       justify-content: stretch;
     }
 
-    .tt-sheet-wowhead-btn {
+    .tt-sheet-wowhead-btn,
+    .mobile-tooltip-wowhead-btn {
       width: 100%;
       justify-content: center;
       font-size: 13px;
@@ -1865,35 +1888,34 @@
         font-size: 18px !important;
       }
 
-      /* Horizontal Scrollable Nav Tabs */
+      /* Nav Tabs Visible Without Scrolling on Mobile */
       .nav-tabs {
-        overflow-x: auto !important;
-        -webkit-overflow-scrolling: touch !important;
-        scrollbar-width: none !important;
-        white-space: nowrap !important;
-        display: flex !important;
-        gap: 4px !important;
-        padding-bottom: 2px !important;
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 2px !important;
+        overflow: visible !important;
         width: 100% !important;
         box-sizing: border-box !important;
       }
-      .nav-tabs::-webkit-scrollbar {
-        display: none !important;
-      }
       .tab-btn {
-        flex: 1 0 auto !important;
-        padding: 8px 12px !important;
-        font-size: 13px !important;
-        gap: 6px !important;
         justify-content: center !important;
+        padding: 9px 3px !important;
+        font-size: 10.5px !important;
+        letter-spacing: 0.1px !important;
+        gap: 3px !important;
+        min-width: 0 !important;
+        flex: none !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
       }
       .tab-btn svg {
-        width: 15px !important;
-        height: 15px !important;
+        display: none !important;
       }
       .tab-badge {
-        font-size: 10.5px !important;
-        padding: 0 5px !important;
+        padding: 1px 4px !important;
+        font-size: 9.5px !important;
+        flex-shrink: 0 !important;
       }
 
       /* Search & Filters Toolbar */
@@ -2874,7 +2896,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         if (isSheet) {
           const closeBtn = document.createElement('button');
           closeBtn.type = 'button';
-          closeBtn.className = 'tt-sheet-close-btn';
+          closeBtn.className = 'tt-sheet-close-btn mobile-tooltip-close';
           closeBtn.setAttribute('aria-label', 'Close tooltip');
           closeBtn.innerHTML = '&times;';
           closeBtn.addEventListener('click', (e) => {
@@ -2889,7 +2911,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
 
           const actionsDiv = document.createElement('div');
           actionsDiv.className = 'tt-sheet-actions';
-          actionsDiv.innerHTML = `<a href="${wowheadUrl}" target="_blank" rel="noopener" class="btn btn-gold tt-sheet-wowhead-btn">View on Wowhead ↗</a>`;
+          actionsDiv.innerHTML = `<a href="${wowheadUrl}" target="_blank" rel="noopener" class="btn btn-gold tt-sheet-wowhead-btn mobile-tooltip-wowhead-btn">View on Wowhead ↗</a>`;
           tt.appendChild(actionsDiv);
         }
       }
