@@ -14,8 +14,8 @@
        ========================================================================== */
     :root {
       --bg-dark: #090c12;
-      --bg-surface: rgba(16, 21, 32, 0.80);
-      --bg-surface-elevated: rgba(22, 29, 43, 0.82);
+      --bg-surface: #101520;
+      --bg-surface-elevated: #161d2b;
       --bg-surface-hover: #1c2537;
       --border-dark: #222d42;
       --border-subtle: rgba(200, 155, 60, 0.18);
@@ -255,26 +255,6 @@
     }
 
     
-    /* Watermark Background */
-    .watermark-bg,
-    .bg-watermark {
-      position: fixed;
-      top: 52%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: min(65vw, 620px);
-      height: min(65vw, 620px);
-      opacity: 0.095;
-      pointer-events: none;
-      z-index: 0;
-    }
-    .watermark-svg,
-    .bg-watermark svg {
-      width: 100%;
-      height: 100%;
-      display: block;
-    }
-
     .guild-crest-wrapper {
       width: 52px;
       height: 52px;
@@ -418,10 +398,27 @@
       display: flex;
       flex-direction: column;
       gap: 2px;
-      transition: border-color 0.15s ease;
+      cursor: pointer;
+      user-select: none;
+      transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
     }
     .kpi-card:hover {
-      border-color: rgba(200, 155, 60, 0.3);
+      border-color: var(--border-gold);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 14px rgba(200, 155, 60, 0.18);
+    }
+    .kpi-card:focus-visible {
+      outline: 2px solid var(--gold-bright);
+      outline-offset: 2px;
+    }
+
+    @keyframes sidebar-pulse-glow {
+      0% { box-shadow: 0 0 0 0 rgba(255, 209, 0, 0.7); border-color: var(--gold-primary); }
+      50% { box-shadow: 0 0 16px 3px rgba(255, 209, 0, 0.45); border-color: var(--gold-bright); }
+      100% { box-shadow: none; border-color: var(--border-subtle); }
+    }
+    .sidebar-pulse {
+      animation: sidebar-pulse-glow 1.4s ease-out;
     }
 
     .kpi-label {
@@ -522,10 +519,12 @@
     /* ==========================================================================
        5. VIEW 1: RECIPES TOME LAYOUT
        ========================================================================== */
-    .view-content {
+    .view-content,
+    .view-section {
       display: none;
     }
-    .view-content.active {
+    .view-content.active,
+    .view-section.active {
       display: block;
     }
 
@@ -1102,6 +1101,143 @@
       border: 1px solid rgba(200, 155, 60, 0.35);
     }
 
+    .crafter-pill-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(200, 155, 60, 0.1);
+      border: 1px dashed rgba(200, 155, 60, 0.4);
+      border-radius: 4px;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--gold-bright);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .crafter-pill-toggle:hover {
+      background: rgba(200, 155, 60, 0.22);
+      border-color: var(--border-gold);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+    .crafters-overflow-list {
+      display: contents;
+    }
+
+    /* Sidebar Crafters Preview */
+    .sidebar-crafters-box {
+      margin-top: 14px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(200, 155, 60, 0.12);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .sidebar-crafters-link-btn {
+      background: none;
+      border: none;
+      color: var(--gold-bright);
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+      transition: color 0.15s ease;
+    }
+    .sidebar-crafters-link-btn:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    .sidebar-crafters-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .sidebar-crafter-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 6px 8px;
+      border-radius: 6px;
+      background: rgba(14, 19, 30, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-align: left;
+      width: 100%;
+      color: var(--text-main);
+    }
+    .sidebar-crafter-item:hover {
+      background: rgba(200, 155, 60, 0.1);
+      border-color: rgba(200, 155, 60, 0.3);
+      transform: translateX(2px);
+    }
+    .sidebar-crafter-item.active {
+      background: rgba(200, 155, 60, 0.15);
+      border-color: var(--border-gold);
+    }
+    .sidebar-crafter-name {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-main);
+    }
+    .sidebar-crafter-recipes {
+      font-size: 10.5px;
+      color: var(--gold-bright);
+      font-family: var(--font-mono);
+    }
+    .sidebar-see-all-bottom-btn {
+      width: 100%;
+      margin-top: 6px;
+      padding: 6px 10px;
+      background: rgba(200, 155, 60, 0.08);
+      border: 1px solid rgba(200, 155, 60, 0.25);
+      border-radius: 6px;
+      color: var(--gold-bright);
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.15s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+    }
+    .sidebar-see-all-bottom-btn:hover {
+      background: rgba(200, 155, 60, 0.18);
+      border-color: var(--border-gold);
+      color: #fff;
+    }
+
+    /* Crafters View Toolbar */
+    .crafters-toolbar {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 12px 18px;
+      margin-bottom: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .crafters-search-wrap {
+      flex: 1;
+      max-width: 440px;
+      min-width: 240px;
+    }
+    .crafters-toolbar-meta {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .crafters-count-bold {
+      font-weight: 700;
+      color: var(--gold-bright);
+    }
+
     /* Infinite Scroll Sentinel / Load More */
     .load-more-container {
       display: flex;
@@ -1542,13 +1678,6 @@
   </style>
 </head>
 <body>
-  <!-- FADED INNER SANCTUM WATERMARK BACKGROUND -->
-  <div class="watermark-bg bg-watermark" aria-hidden="true">
-    <svg viewBox="0 0 100 100" class="watermark-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <use href="#inner-sanctum-emblem"/>
-    </svg>
-  </div>
-
   <!-- REUSABLE INNER SANCTUM EMBLEM SVG DEFINITION -->
   <svg style="position:absolute; width:0; height:0; overflow:hidden;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
     <defs>
@@ -1634,19 +1763,19 @@
 
       <!-- KPI STATS BAR -->
       <div class="kpi-row" id="guild-kpi-bar">
-        <div class="kpi-card">
+        <div class="kpi-card" id="kpi-card-recipes" role="button" tabindex="0" title="Switch to Recipes Tome (All Professions)">
           <div class="kpi-label">Total Recipes</div>
           <div class="kpi-value" id="kpi-total-recipes">0</div>
         </div>
-        <div class="kpi-card">
+        <div class="kpi-card" id="kpi-card-profs" role="button" tabindex="0" title="Jump to Professions list">
           <div class="kpi-label">Professions</div>
           <div class="kpi-value" id="kpi-total-profs">0</div>
         </div>
-        <div class="kpi-card">
+        <div class="kpi-card" id="kpi-card-crafters" role="button" tabindex="0" title="Switch to Guild Crafters">
           <div class="kpi-label">Active Crafters</div>
           <div class="kpi-value" id="kpi-total-crafters">0</div>
         </div>
-        <div class="kpi-card">
+        <div class="kpi-card" id="kpi-card-artisan" role="button" tabindex="0" title="Filter by Artisan Recipes (225+)">
           <div class="kpi-label">Artisan Recipes (225+)</div>
           <div class="kpi-value" id="kpi-artisan-recipes">0</div>
         </div>
@@ -1656,12 +1785,17 @@
     <!-- NAVIGATION TABS -->
     <nav class="nav-tabs" role="tablist">
       <button class="tab-btn active" id="tab-recipes" data-view="recipes" role="tab" aria-selected="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
         Recipes Tome
         <span class="tab-badge" id="tab-recipes-badge">0</span>
       </button>
+      <button class="tab-btn" id="tab-professions" data-view="professions" role="tab" aria-selected="false" title="Jump to Professions list">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        Professions
+        <span class="tab-badge" id="tab-professions-badge">0</span>
+      </button>
       <button class="tab-btn" id="tab-crafters" data-view="crafters" role="tab" aria-selected="false">
-        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
         Guild Crafters
         <span class="tab-badge" id="tab-crafters-badge">0</span>
       </button>
@@ -1688,16 +1822,16 @@
     </div>
 
     <!-- VIEW 1: RECIPES TOME -->
-    <div id="view-recipes" class="view-content active">
+    <div id="view-recipes" class="view-content view-section active">
       <div class="tome-layout">
         
         <!-- SIDEBAR: PROFESSIONS -->
-        <aside class="professions-sidebar">
+        <aside class="professions-sidebar" id="professions-sidebar">
           <div class="sidebar-header">
             <span class="sidebar-title">Professions</span>
           </div>
 
-          <button class="prof-item-btn active" data-prof-id="all">
+          <button class="prof-item-btn prof-nav-btn active" data-prof-id="all">
             <div class="prof-item-left">
               <span class="prof-icon-wrap" data-icon="all"></span>
               <span class="prof-name">All Professions</span>
@@ -1707,6 +1841,20 @@
 
           <div id="prof-groups-wrapper">
             <!-- Rendered dynamically -->
+          </div>
+
+          <!-- SIDEBAR CRAFTERS PREVIEW -->
+          <div class="sidebar-crafters-box">
+            <div class="sidebar-header" style="margin-top: 10px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
+              <span class="sidebar-title">Guild Crafters</span>
+              <button class="sidebar-crafters-link-btn" id="btn-sidebar-see-all-top" title="Switch to Guild Crafters view">See all →</button>
+            </div>
+            <div id="sidebar-crafters-preview" class="sidebar-crafters-list">
+              <!-- Rendered dynamically -->
+            </div>
+            <button class="sidebar-see-all-bottom-btn" id="btn-sidebar-see-all-bottom" title="Switch to Guild Crafters view">
+              See all crafters (<span id="sidebar-crafters-count">0</span>) →
+            </button>
           </div>
         </aside>
 
@@ -1807,9 +1955,27 @@
     </div>
 
     <!-- VIEW 2: GUILD CRAFTERS -->
-    <div id="view-crafters" class="view-content">
+    <div id="view-crafters" class="view-content view-section">
+      <div class="crafters-toolbar">
+        <div class="search-box-wrap crafters-search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="crafter-search-input" class="search-input" placeholder="Search crafters by name, profession..." autocomplete="off" spellcheck="false">
+          <button class="clear-search-btn" id="btn-clear-crafter-search" title="Clear crafter search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <div class="crafters-toolbar-meta">
+          Showing <span class="crafters-count-bold" id="crafters-filtered-count">0</span> of <span id="crafters-total-count">0</span> crafters
+        </div>
+      </div>
+
       <div class="crafters-grid" id="crafters-grid-view">
         <!-- Rendered dynamically -->
+      </div>
+
+      <div class="empty-search-state" id="empty-crafters-state" style="display:none; padding:48px 20px; text-align:center;">
+        <h3>No crafters matched your search</h3>
+        <p>Try searching for a different character name or profession.</p>
       </div>
     </div>
 
@@ -1934,25 +2100,40 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
          ========================================================================== */
       const els = {
         guildTitle: document.getElementById('guild-title-text'),
-        guildRealm: document.getElementById('guild-realm-text'),
         guildSync: document.getElementById('guild-sync-text'),
         guildSelect: document.getElementById('guild-switcher-select'),
         kpiRecipes: document.getElementById('kpi-total-recipes'),
         kpiProfs: document.getElementById('kpi-total-profs'),
         kpiCrafters: document.getElementById('kpi-total-crafters'),
         kpiArtisan: document.getElementById('kpi-artisan-recipes'),
+        kpiCardRecipes: document.getElementById('kpi-card-recipes'),
+        kpiCardProfs: document.getElementById('kpi-card-profs'),
+        kpiCardCrafters: document.getElementById('kpi-card-crafters'),
+        kpiCardArtisan: document.getElementById('kpi-card-artisan'),
         filterSkillPreset: document.getElementById('filter-skill-preset-select'),
         minSkillInput: document.getElementById('filter-min-skill-input'),
         maxSkillInput: document.getElementById('filter-max-skill-input'),
         tabRecipes: document.getElementById('tab-recipes'),
+        tabProfessions: document.getElementById('tab-professions'),
         tabCrafters: document.getElementById('tab-crafters'),
         tabRecipesBadge: document.getElementById('tab-recipes-badge'),
+        tabProfessionsBadge: document.getElementById('tab-professions-badge'),
         tabCraftersBadge: document.getElementById('tab-crafters-badge'),
         viewRecipes: document.getElementById('view-recipes'),
         viewCrafters: document.getElementById('view-crafters'),
         emptyView: document.getElementById('empty-state-view'),
+        profSidebar: document.getElementById('professions-sidebar'),
         profGroups: document.getElementById('prof-groups-wrapper'),
         sidebarAllCount: document.getElementById('sidebar-all-count'),
+        sidebarCraftersPreview: document.getElementById('sidebar-crafters-preview'),
+        sidebarCraftersCount: document.getElementById('sidebar-crafters-count'),
+        sidebarSeeAllTop: document.getElementById('btn-sidebar-see-all-top'),
+        sidebarSeeAllBottom: document.getElementById('btn-sidebar-see-all-bottom'),
+        crafterSearchInput: document.getElementById('crafter-search-input'),
+        clearCrafterSearchBtn: document.getElementById('btn-clear-crafter-search'),
+        craftersFilteredCount: document.getElementById('crafters-filtered-count'),
+        craftersTotalCount: document.getElementById('crafters-total-count'),
+        emptyCraftersState: document.getElementById('empty-crafters-state'),
         searchInput: document.getElementById('recipe-search-input'),
         clearSearchBtn: document.getElementById('btn-clear-search'),
         searchHint: document.getElementById('search-shortcut-hint'),
@@ -2111,15 +2292,41 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         }
       }
 
+      function convertToWowheadUrl(url) {
+        if (!url) return '';
+        return url
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1')
+          .replace(/\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
+          .replace(/\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1');
+      }
+
+      function convertToWowheadLinks(html) {
+        if (!html) return '';
+        return html
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
+          .replace(/href="\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
+          .replace(/href="\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1');
+      }
+
       function renderTooltipContent(recipe, meta) {
         const tt = els.tooltip;
         if (!tt) return;
 
         if (meta && meta.tooltipHtml) {
-          tt.innerHTML = meta.tooltipHtml;
+          tt.innerHTML = convertToWowheadLinks(meta.tooltipHtml);
           // Apply tt-inline-color data-color
           tt.querySelectorAll('tt-inline-color[data-color]').forEach(el => {
             el.style.color = el.dataset.color;
+          });
+          // Ensure all links point to Wowhead Classic with target="_blank"
+          tt.querySelectorAll('a').forEach(a => {
+            if (a.href) a.href = convertToWowheadUrl(a.href);
+            a.target = '_blank';
+            a.rel = 'noopener';
           });
           // Also append guild crafters footer if embedded in tooltip
           if (recipe.crafters && recipe.crafters.length > 0) {
@@ -2354,17 +2561,17 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
       function renderHeader() {
         if (!currentGuild) {
           els.guildTitle.textContent = "Inner Sanctum";
-          if (els.guildRealm) els.guildRealm.textContent = "";
           els.guildSync.textContent = "Awaiting data import";
           els.kpiRecipes.textContent = "0";
           els.kpiProfs.textContent = "0";
           els.kpiCrafters.textContent = "0";
           if (els.kpiArtisan) els.kpiArtisan.textContent = "0";
+          if (els.tabProfessionsBadge) els.tabProfessionsBadge.textContent = "0";
+          renderSidebarCraftersPreview();
           return;
         }
 
         els.guildTitle.textContent = currentGuild.name || "Inner Sanctum";
-        if (els.guildRealm) els.guildRealm.textContent = "";
         
         const maxTs = Math.max(currentGuild.lastUpdated || 0, ...(currentGuild.crafters || []).map(c => c.lastUpdated || 0));
         let relTime = formatRelativeTime(maxTs);
@@ -2407,8 +2614,49 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         if (els.kpiArtisan) els.kpiArtisan.textContent = artisanCount.toLocaleString();
 
         els.tabRecipesBadge.textContent = totalRecipes;
+        if (els.tabProfessionsBadge) els.tabProfessionsBadge.textContent = totalProfs;
         els.tabCraftersBadge.textContent = totalCrafters;
         els.sidebarAllCount.textContent = totalRecipes;
+
+        renderSidebarCraftersPreview();
+      }
+
+      /* Compact Sidebar Crafters Preview */
+      function renderSidebarCraftersPreview() {
+        if (!els.sidebarCraftersPreview) return;
+        if (!currentGuild || !currentGuild.crafters || currentGuild.crafters.length === 0) {
+          els.sidebarCraftersPreview.innerHTML = '<div style="font-size:11.5px; color:var(--text-muted); padding:4px;">No crafters</div>';
+          if (els.sidebarCraftersCount) els.sidebarCraftersCount.textContent = '0';
+          return;
+        }
+
+        const crafters = [...currentGuild.crafters].sort((a, b) => (b.totalRecipes || 0) - (a.totalRecipes || 0));
+        if (els.sidebarCraftersCount) els.sidebarCraftersCount.textContent = crafters.length;
+
+        const topCrafters = crafters.slice(0, 5);
+        els.sidebarCraftersPreview.innerHTML = topCrafters.map(c => {
+          const fullName = c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter'));
+          const isSelected = selectedCrafter === c.char;
+          return `
+            <button class="sidebar-crafter-item ${isSelected ? 'active' : ''}" data-char="${escapeHtml(c.char)}" title="Filter recipes by ${escapeHtml(fullName)}">
+              <span class="sidebar-crafter-name">${escapeHtml(fullName)}</span>
+              <span class="sidebar-crafter-recipes">${c.totalRecipes || 0} recipes</span>
+            </button>
+          `;
+        }).join('');
+
+        els.sidebarCraftersPreview.querySelectorAll('.sidebar-crafter-item').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const char = btn.getAttribute('data-char');
+            selectedCrafter = char;
+            if (els.filterCrafter) els.filterCrafter.value = char;
+            currentView = 'recipes';
+            updateViewTabs();
+            renderRecipesList(true);
+            syncUrlHash();
+            renderSidebarCraftersPreview();
+          });
+        });
       }
 
       /* ==========================================================================
@@ -2440,7 +2688,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
             const iconSvg = getProfIconSvg(p.id);
             return `
               <li>
-                <button class="prof-item-btn ${isActive ? 'active' : ''}" data-prof-id="${p.id}">
+                <button class="prof-item-btn prof-nav-btn ${isActive ? 'active' : ''}" data-prof-id="${p.id}">
                   <div class="prof-item-left">
                     <span class="prof-icon-wrap">${iconSvg}</span>
                     <span class="prof-name">${escapeHtml(p.name)}</span>
@@ -2689,11 +2937,11 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         const qualityColor = getQualityColor(quality);
 
         const primaryLink = recipe.itemId 
-          ? `https://forever.warcraftdb.com/data/item/${recipe.itemId}`
-          : `https://forever.warcraftdb.com/data/spell/${recipe.spellId}`;
+          ? `https://www.wowhead.com/classic/item=${recipe.itemId}`
+          : `https://www.wowhead.com/classic/spell=${recipe.spellId}`;
         
         const secondarySpellLink = recipe.itemId 
-          ? `<a href="https://forever.warcraftdb.com/data/spell/${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on WarcraftDB">${ICONS_SVG.spell}</a>`
+          ? `<a href="https://www.wowhead.com/classic/spell=${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on Wowhead">${ICONS_SVG.spell}</a>`
           : '';
 
         const iconUrl = (meta && meta.icon) 
@@ -2716,8 +2964,13 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           reagentsHtml = `<div class="recipe-reagents-line">${ICONS_SVG.hammer}<span>${escapeHtml(meta.reagentsText)}</span></div>`;
         }
 
-        // Crafter pills
-        const craftersHtml = (recipe.crafters || []).map(c => {
+        // Crafter pills with MAX_CARD_CRAFTERS = 3 cap and See all toggle
+        const MAX_CARD_CRAFTERS = 3;
+        const crafters = recipe.crafters || [];
+        const visibleCrafters = crafters.slice(0, MAX_CARD_CRAFTERS);
+        const overflowCrafters = crafters.slice(MAX_CARD_CRAFTERS);
+
+        function renderCrafterPill(c) {
           const isMax = c.skill >= 300 || (c.max && c.skill >= c.max);
           const displayName = c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter'));
           return `
@@ -2726,7 +2979,22 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
               <span class="crafter-skill-tag">${c.skill}/${c.max || 300}</span>
             </button>
           `;
-        }).join('');
+        }
+
+        let craftersHtml = visibleCrafters.map(renderCrafterPill).join('');
+        if (overflowCrafters.length > 0) {
+          craftersHtml += `
+            <div class="crafters-overflow-list" style="display:none;">
+              ${overflowCrafters.map(renderCrafterPill).join('')}
+            </div>
+            <button class="crafter-pill-toggle btn-see-more-crafters" data-action="expand" title="See all ${crafters.length} crafters">
+              +${overflowCrafters.length} more · See all
+            </button>
+            <button class="crafter-pill-toggle btn-see-less-crafters" data-action="collapse" style="display:none;" title="Show fewer crafters">
+              Show less
+            </button>
+          `;
+        }
 
         const profIcon = getProfIconSvg(recipe.profId);
 
@@ -2789,12 +3057,35 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
               copyWhisper(char, rName, dName);
             });
           });
+
+          // Crafter pill toggle expand/collapse
+          row.querySelectorAll('.crafter-pill-toggle').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const col = row.querySelector('.recipe-crafters-column');
+              if (!col) return;
+              const overflow = col.querySelector('.crafters-overflow-list');
+              const moreBtn = col.querySelector('.btn-see-more-crafters');
+              const lessBtn = col.querySelector('.btn-see-less-crafters');
+              if (btn.getAttribute('data-action') === 'expand') {
+                if (overflow) overflow.style.display = 'contents';
+                if (moreBtn) moreBtn.style.display = 'none';
+                if (lessBtn) lessBtn.style.display = 'inline-flex';
+              } else {
+                if (overflow) overflow.style.display = 'none';
+                if (moreBtn) moreBtn.style.display = 'inline-flex';
+                if (lessBtn) lessBtn.style.display = 'none';
+              }
+            });
+          });
         });
       }
 
       /* ==========================================================================
          RENDERERS: CRAFTERS GRID VIEW
          ========================================================================== */
+      let crafterSearchQuery = '';
+
       function renderCraftersGrid() {
         if (!currentGuild || !currentGuild.crafters || currentGuild.crafters.length === 0) {
           els.craftersGrid.innerHTML = `
@@ -2803,10 +3094,35 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
               <p>Import a GuildRecipeBook.lua file to see active guild crafters.</p>
             </div>
           `;
+          if (els.craftersTotalCount) els.craftersTotalCount.textContent = '0';
+          if (els.craftersFilteredCount) els.craftersFilteredCount.textContent = '0';
           return;
         }
 
-        const crafters = [...currentGuild.crafters].sort((a, b) => (b.totalRecipes || 0) - (a.totalRecipes || 0));
+        const totalCrafters = currentGuild.crafters.length;
+        if (els.craftersTotalCount) els.craftersTotalCount.textContent = totalCrafters;
+
+        const q = crafterSearchQuery.trim().toLowerCase();
+        let crafters = [...currentGuild.crafters].sort((a, b) => (b.totalRecipes || 0) - (a.totalRecipes || 0));
+
+        if (q) {
+          crafters = crafters.filter(c => {
+            const fullName = (c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || ''))).toLowerCase();
+            const charName = (c.char || '').toLowerCase();
+            const profNames = (c.professions || []).map(p => (p.name || '').toLowerCase()).join(' ');
+            return fullName.includes(q) || charName.includes(q) || profNames.includes(q);
+          });
+        }
+
+        if (els.craftersFilteredCount) els.craftersFilteredCount.textContent = crafters.length;
+
+        if (crafters.length === 0) {
+          els.craftersGrid.innerHTML = '';
+          if (els.emptyCraftersState) els.emptyCraftersState.style.display = 'block';
+          return;
+        } else {
+          if (els.emptyCraftersState) els.emptyCraftersState.style.display = 'none';
+        }
 
         const cardsHtml = crafters.map(c => {
           const relTime = formatRelativeTime(c.lastUpdated);
@@ -2894,12 +3210,16 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         updateViewTabs();
         
         // Update filter controls
-        els.filterCrafter.value = char;
+        if (els.filterCrafter) els.filterCrafter.value = char;
         updateActiveSidebarProfession(profId);
         
         renderRecipesList(true);
         syncUrlHash();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        renderSidebarCraftersPreview();
+        const target = els.profSidebar || els.viewRecipes;
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
       }
 
       /* ==========================================================================
@@ -2909,23 +3229,31 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         if (currentView === 'recipes') {
           els.tabRecipes.classList.add('active');
           els.tabCrafters.classList.remove('active');
+          if (els.tabProfessions) els.tabProfessions.classList.remove('active');
           els.tabRecipes.setAttribute('aria-selected', 'true');
           els.tabCrafters.setAttribute('aria-selected', 'false');
+          if (els.tabProfessions) els.tabProfessions.setAttribute('aria-selected', 'false');
           els.viewRecipes.classList.add('active');
           els.viewCrafters.classList.remove('active');
+          els.viewRecipes.style.display = 'block';
+          els.viewCrafters.style.display = 'none';
         } else {
           els.tabCrafters.classList.add('active');
           els.tabRecipes.classList.remove('active');
+          if (els.tabProfessions) els.tabProfessions.classList.remove('active');
           els.tabCrafters.setAttribute('aria-selected', 'true');
           els.tabRecipes.setAttribute('aria-selected', 'false');
+          if (els.tabProfessions) els.tabProfessions.setAttribute('aria-selected', 'false');
           els.viewCrafters.classList.add('active');
           els.viewRecipes.classList.remove('active');
+          els.viewCrafters.style.display = 'block';
+          els.viewRecipes.style.display = 'none';
           renderCraftersGrid();
         }
       }
 
       function updateActiveSidebarProfession(profId) {
-        document.querySelectorAll('.prof-item-btn').forEach(btn => {
+        document.querySelectorAll('.prof-item-btn, .prof-nav-btn').forEach(btn => {
           if (btn.getAttribute('data-prof-id') === String(profId)) {
             btn.classList.add('active');
           } else {
@@ -2998,8 +3326,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         }
 
         els.emptyView.style.display = 'none';
-        els.viewRecipes.style.display = currentView === 'recipes' ? 'block' : 'none';
-        els.viewCrafters.style.display = currentView === 'crafters' ? 'block' : 'none';
+        updateViewTabs();
 
         if (currentGuildIndex >= window.__GRB_DATA__.guilds.length) {
           currentGuildIndex = 0;
@@ -3020,6 +3347,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         updateActiveSidebarProfession(selectedProfession);
         renderRecipesList(true);
         renderCraftersGrid();
+        renderSidebarCraftersPreview();
         updateViewTabs();
       }
 
@@ -3363,18 +3691,146 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
          EVENT HANDLERS & INITIALIZATION
          ========================================================================== */
       function setupEventListeners() {
+        // Helper to jump to Professions sidebar
+        function jumpToProfessionsSidebar() {
+          currentView = 'recipes';
+          updateViewTabs();
+          syncUrlHash();
+          if (els.profSidebar) {
+            els.profSidebar.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            els.profSidebar.classList.remove('sidebar-pulse');
+            void els.profSidebar.offsetWidth;
+            els.profSidebar.classList.add('sidebar-pulse');
+            setTimeout(() => els.profSidebar.classList.remove('sidebar-pulse'), 1500);
+          }
+        }
+
+        // Helper to jump to Guild Crafters view
+        function jumpToGuildCrafters() {
+          currentView = 'crafters';
+          updateViewTabs();
+          syncUrlHash();
+          const target = document.getElementById('view-crafters') || els.craftersGrid;
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+
         // Nav tabs
         els.tabRecipes.addEventListener('click', () => {
           currentView = 'recipes';
           updateViewTabs();
           syncUrlHash();
+          const target = els.profSidebar || els.viewRecipes;
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         });
+
+        if (els.tabProfessions) {
+          els.tabProfessions.addEventListener('click', jumpToProfessionsSidebar);
+        }
 
         els.tabCrafters.addEventListener('click', () => {
           currentView = 'crafters';
           updateViewTabs();
           syncUrlHash();
+          const target = document.getElementById('view-crafters') || els.craftersGrid;
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
         });
+
+        // Top KPI shortcuts
+        if (els.kpiCardRecipes) {
+          els.kpiCardRecipes.addEventListener('click', () => {
+            currentView = 'recipes';
+            selectedProfession = 'all';
+            selectedCrafter = 'all';
+            selectedSkillPreset = 'all';
+            minSkillFilter = null;
+            maxSkillFilter = null;
+            if (els.filterCrafter) els.filterCrafter.value = 'all';
+            if (els.filterSkillPreset) els.filterSkillPreset.value = 'all';
+            if (els.minSkillInput) els.minSkillInput.value = '';
+            if (els.maxSkillInput) els.maxSkillInput.value = '';
+            updateActiveSidebarProfession('all');
+            updateViewTabs();
+            renderRecipesList(true);
+            syncUrlHash();
+            renderSidebarCraftersPreview();
+            const target = els.profSidebar || els.viewRecipes;
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          });
+        }
+
+        if (els.kpiCardProfs) {
+          els.kpiCardProfs.addEventListener('click', jumpToProfessionsSidebar);
+        }
+
+        if (els.kpiCardCrafters) {
+          els.kpiCardCrafters.addEventListener('click', jumpToGuildCrafters);
+        }
+
+        if (els.kpiCardArtisan) {
+          els.kpiCardArtisan.addEventListener('click', () => {
+            currentView = 'recipes';
+            selectedProfession = 'all';
+            selectedCrafter = 'all';
+            selectedSkillPreset = '225-300';
+            minSkillFilter = 225;
+            maxSkillFilter = 300;
+            if (els.filterCrafter) els.filterCrafter.value = 'all';
+            if (els.filterSkillPreset) els.filterSkillPreset.value = '225-300';
+            if (els.minSkillInput) els.minSkillInput.value = '225';
+            if (els.maxSkillInput) els.maxSkillInput.value = '300';
+            updateActiveSidebarProfession('all');
+            updateViewTabs();
+            renderRecipesList(true);
+            syncUrlHash();
+            const target = els.recipesList || els.viewRecipes;
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          });
+        }
+
+        // Keyboard accessible KPI cards
+        [els.kpiCardRecipes, els.kpiCardProfs, els.kpiCardCrafters, els.kpiCardArtisan].forEach(card => {
+          if (!card) return;
+          card.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              card.click();
+            }
+          });
+        });
+
+        // Sidebar "See all crafters" links
+        if (els.sidebarSeeAllTop) els.sidebarSeeAllTop.addEventListener('click', jumpToGuildCrafters);
+        if (els.sidebarSeeAllBottom) els.sidebarSeeAllBottom.addEventListener('click', jumpToGuildCrafters);
+
+        // Crafter view search input
+        if (els.crafterSearchInput) {
+          els.crafterSearchInput.addEventListener('input', (e) => {
+            crafterSearchQuery = e.target.value;
+            if (els.clearCrafterSearchBtn) {
+              els.clearCrafterSearchBtn.style.display = crafterSearchQuery ? 'block' : 'none';
+            }
+            renderCraftersGrid();
+          });
+        }
+
+        if (els.clearCrafterSearchBtn) {
+          els.clearCrafterSearchBtn.addEventListener('click', () => {
+            crafterSearchQuery = '';
+            if (els.crafterSearchInput) els.crafterSearchInput.value = '';
+            els.clearCrafterSearchBtn.style.display = 'none';
+            renderCraftersGrid();
+          });
+        }
 
         // Guild switcher
         els.guildSelect.addEventListener('change', (e) => {
@@ -3385,13 +3841,22 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
 
         // Sidebar professions
         document.addEventListener('click', (e) => {
-          const btn = e.target.closest('.prof-item-btn');
+          const btn = e.target.closest('.prof-item-btn') || e.target.closest('.prof-nav-btn');
           if (btn) {
             const profId = btn.getAttribute('data-prof-id');
+            if (profId === null || profId === undefined) return;
+            if (currentView !== 'recipes') {
+              currentView = 'recipes';
+              updateViewTabs();
+            }
             selectedProfession = profId;
             updateActiveSidebarProfession(profId);
             renderRecipesList(true);
             syncUrlHash();
+            const mainArea = document.querySelector('.recipes-main') || els.recipesList;
+            if (mainArea && window.scrollY > mainArea.offsetTop) {
+              mainArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
           }
         });
 
