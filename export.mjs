@@ -27,7 +27,8 @@ const MIME_TYPES = {
   '.jpeg': 'image/jpeg',
   '.webp': 'image/webp',
   '.svg': 'image/svg+xml',
-  '.ico': 'image/x-icon'
+  '.ico': 'image/x-icon',
+  '.webmanifest': 'application/manifest+json; charset=utf-8'
 };
 
 /**
@@ -312,6 +313,45 @@ export async function runExport(options) {
     }
   } else {
     console.log(`[Export] Notice: ${templatePath} not found yet. dist/recipes.json generated successfully.`);
+  }
+
+  // 9. Copy PWA assets (manifest, service worker, icons) to dist
+  try {
+    const srcDir = path.dirname(options.templatePath);
+    const manifestSrc = path.join(srcDir, 'manifest.webmanifest');
+    const swSrc = path.join(srcDir, 'sw.js');
+    const iconsSrcDir = path.join(srcDir, 'icons');
+    const iconsDistDir = path.join(options.outDir, 'icons');
+
+    if (fs.existsSync(manifestSrc)) {
+      fs.copyFileSync(manifestSrc, path.join(options.outDir, 'manifest.webmanifest'));
+      console.log(`[Export] Copied: dist/manifest.webmanifest`);
+    }
+
+    if (fs.existsSync(swSrc)) {
+      let swContent = fs.readFileSync(swSrc, 'utf8');
+      // Stamp cache version with export timestamp to ensure client cache updates cleanly on new export
+      const buildTag = new Date().toISOString().replace(/[^0-9]/g, '').slice(0, 14);
+      swContent = swContent.replace(
+        /const CACHE_VERSION = '.*?';/,
+        `const CACHE_VERSION = 'is-recipes-${buildTag}';`
+      );
+      fs.writeFileSync(path.join(options.outDir, 'sw.js'), swContent, 'utf8');
+      console.log(`[Export] Written: dist/sw.js (version: is-recipes-${buildTag})`);
+    }
+
+    if (fs.existsSync(iconsSrcDir)) {
+      fs.mkdirSync(iconsDistDir, { recursive: true });
+      const iconFiles = fs.readdirSync(iconsSrcDir);
+      for (const iconFile of iconFiles) {
+        if (iconFile.endsWith('.png')) {
+          fs.copyFileSync(path.join(iconsSrcDir, iconFile), path.join(iconsDistDir, iconFile));
+        }
+      }
+      console.log(`[Export] Copied: ${iconFiles.length} icon(s) to dist/icons/`);
+    }
+  } catch (pwaErr) {
+    console.warn(`[Export] Warning copying PWA assets: ${pwaErr.message}`);
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);

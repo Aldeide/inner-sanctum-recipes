@@ -4,6 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Inner Sanctum · Guild Recipe Book</title>
+  <!-- Progressive Web App (PWA) Manifest & Meta Tags -->
+  <link rel="manifest" href="./manifest.webmanifest">
+  <meta name="theme-color" content="#090c12">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Inner Sanctum">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22cross%22%20x1%3D%2215%25%22%20y1%3D%220%25%22%20x2%3D%2285%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%2F%3E%3Cstop%20offset%3D%2220%25%22%20stop-color%3D%22%23f1f5f9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%2F%3E%3Cstop%20offset%3D%2275%25%22%20stop-color%3D%22%2394a3b8%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2364748b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22edge%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%20stop-opacity%3D%220.6%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23475569%22%20stop-opacity%3D%220.7%22%2F%3E%3C%2FlinearGradient%3E%3Cfilter%20id%3D%22drop%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%3CfeDropShadow%20dx%3D%220%22%20dy%3D%221.5%22%20stdDeviation%3D%221.5%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.7%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M%2029.7%2015.2%20L%2042.7%2015.2%20L%2042.7%205.0%20L%2057.3%205.0%20L%2057.3%2015.2%20L%2070.3%2015.2%20C%2058.0%2037.7%2C%2062.3%2042.0%2C%2084.8%2029.7%20L%2084.8%2042.7%20L%2095.0%2042.7%20L%2095.0%2057.3%20L%2084.8%2057.3%20L%2084.8%2070.3%20C%2062.3%2058.0%2C%2058.0%2062.3%2C%2070.3%2084.8%20L%2057.3%2084.8%20L%2057.3%2095.0%20L%2042.7%2095.0%20L%2042.7%2084.8%20L%2029.7%2084.8%20C%2042.0%2062.3%2C%2037.7%2058.0%2C%2015.2%2070.3%20L%2015.2%2057.3%20L%205.0%2057.3%20L%205.0%2042.7%20L%2015.2%2042.7%20L%2015.2%2029.7%20C%2037.7%2042.0%2C%2042.0%2037.7%2C%2029.7%2015.2%20Z%22%20fill%3D%22url(%23cross)%22%20stroke%3D%22url(%23edge)%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22round%22%20filter%3D%22url(%23drop)%22%2F%3E%3C%2Fsvg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -399,6 +407,20 @@
       background: var(--bg-surface-elevated);
       border-color: rgba(200, 155, 60, 0.4);
       color: var(--gold-bright);
+    }
+
+    .btn-install-app {
+      background: linear-gradient(180deg, #1e2638 0%, #111723 100%);
+      border: 1px solid rgba(200, 155, 60, 0.45);
+      color: var(--gold-bright);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(230, 196, 105, 0.15);
+    }
+    .btn-install-app:hover {
+      background: linear-gradient(180deg, #28334b 0%, #161e2e 100%);
+      border-color: #ffd100;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(200, 155, 60, 0.3);
+      transform: translateY(-1px);
     }
 
     .btn svg {
@@ -1857,12 +1879,15 @@
       }
       .header-actions {
         width: 100% !important;
-        display: flex !important;
-        flex-direction: row !important;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
         gap: 8px !important;
       }
+      #btn-install-app {
+        grid-column: 1 / -1 !important;
+      }
       .header-actions .btn {
-        flex: 1 !important;
+        width: 100% !important;
         justify-content: center !important;
         padding: 8px 10px !important;
         font-size: 12.5px !important;
@@ -2132,6 +2157,183 @@
         display: none !important;
       }
     }
+
+    /* ==========================================================================
+       PWA INSTALL MODAL & STANDALONE STYLES
+       ========================================================================== */
+    @media all and (display-mode: standalone) {
+      body {
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: env(safe-area-inset-bottom, 0px);
+        padding-left: env(safe-area-inset-left, 0px);
+        padding-right: env(safe-area-inset-right, 0px);
+      }
+      .grb-header {
+        padding-top: calc(16px + env(safe-area-inset-top, 0px));
+      }
+    }
+
+    .grb-modal-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: rgba(4, 6, 10, 0.82);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      animation: modalFadeIn 0.2s ease-out;
+    }
+    @keyframes modalFadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .grb-modal-card {
+      background: linear-gradient(180deg, #161d2b 0%, #0d121c 100%);
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.85), 0 0 24px rgba(200, 155, 60, 0.2);
+      border-radius: 12px;
+      max-width: 440px;
+      width: 100%;
+      overflow: hidden;
+      animation: modalSlideUp 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes modalSlideUp {
+      from { transform: translateY(16px) scale(0.97); }
+      to { transform: translateY(0) scale(1); }
+    }
+    .grb-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 18px;
+      border-bottom: 1px solid rgba(200, 155, 60, 0.18);
+      background: rgba(9, 12, 18, 0.6);
+    }
+    .grb-modal-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .install-modal-badge {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: #090c12;
+      border: 1px solid var(--border-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    .grb-modal-title {
+      margin: 0;
+      font-family: var(--font-display);
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.3px;
+    }
+    .grb-modal-subtitle {
+      margin: 2px 0 0 0;
+      font-size: 11.5px;
+      color: var(--gold-antique);
+    }
+    .grb-modal-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 24px;
+      line-height: 1;
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: color 0.15s, background 0.15s;
+    }
+    .grb-modal-close:hover {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .grb-modal-body {
+      padding: 18px;
+    }
+    .install-app-preview {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 14px;
+      background: rgba(9, 12, 18, 0.7);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .install-preview-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 8px;
+      background: #090c12;
+      border: 1px solid rgba(200, 155, 60, 0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .install-preview-name {
+      font-family: var(--font-display);
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .install-preview-meta {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+    .install-instructions-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .install-step-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 14px;
+      background: rgba(22, 29, 43, 0.6);
+      border: 1px solid rgba(200, 155, 60, 0.15);
+      border-radius: 8px;
+    }
+    .install-step-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--gold-antique);
+      color: #090c12;
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .install-step-text {
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--text-main);
+    }
+    .install-step-text strong {
+      color: #fff;
+    }
+    .grb-modal-footer {
+      padding: 14px 18px 18px;
+      background: rgba(9, 12, 18, 0.4);
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
   </style>
 </head>
 <body>
@@ -2179,6 +2381,46 @@
   <!-- TOAST NOTIFICATION CONTAINER -->
   <div id="grb-toasts" aria-live="polite"></div>
 
+  <!-- PWA INSTALL SHORTCUT MODAL -->
+  <div id="pwa-install-modal" class="grb-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="install-modal-title" style="display:none;">
+    <div class="grb-modal-card">
+      <div class="grb-modal-header">
+        <div class="grb-modal-title-row">
+          <div class="install-modal-badge">
+            <svg viewBox="0 0 100 100" fill="none" style="width:24px; height:24px;">
+              <use href="#inner-sanctum-emblem"/>
+            </svg>
+          </div>
+          <div>
+            <h3 id="install-modal-title" class="grb-modal-title">Install Inner Sanctum</h3>
+            <p class="grb-modal-subtitle">Guild Recipe Book · Progressive Web App</p>
+          </div>
+        </div>
+        <button id="btn-close-install-modal" class="grb-modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="grb-modal-body">
+        <div class="install-app-preview">
+          <div class="install-preview-icon">
+            <svg viewBox="0 0 100 100" fill="none" style="width:36px; height:36px;">
+              <use href="#inner-sanctum-emblem"/>
+            </svg>
+          </div>
+          <div class="install-preview-info">
+            <div class="install-preview-name">Inner Sanctum</div>
+            <div class="install-preview-meta">Full offline crafting tome & crafter directory</div>
+          </div>
+        </div>
+
+        <div id="install-instructions-content" class="install-instructions-box"></div>
+      </div>
+
+      <div class="grb-modal-footer">
+        <button id="btn-dismiss-install-modal" class="btn btn-gold" style="width:100%; justify-content:center;">Got it</button>
+      </div>
+    </div>
+  </div>
+
   <!-- HIDDEN LUA FILE INPUT -->
   <input type="file" id="grb-file-input" accept=".lua" style="display:none" aria-hidden="true">
 
@@ -2207,6 +2449,10 @@
         </div>
 
         <div class="header-actions">
+          <button class="btn btn-install-app" id="btn-install-app" title="Install Inner Sanctum App">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line><polyline points="9 9 12 12 15 9"></polyline><line x1="12" y1="5" x2="12" y2="12"></line></svg>
+            Install App
+          </button>
           <button class="btn btn-gold" id="btn-import-lua" title="Import an updated GuildRecipeBook.lua">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
             Import .lua
@@ -2637,10 +2883,15 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         tooltip: document.getElementById('grb-tooltip'),
         toasts: document.getElementById('grb-toasts'),
         fileInput: document.getElementById('grb-file-input'),
+        btnInstallApp: document.getElementById('btn-install-app'),
         btnImportLua: document.getElementById('btn-import-lua'),
         btnExportHtml: document.getElementById('btn-export-html'),
         btnEmptyBrowse: document.getElementById('btn-empty-browse'),
-        dropOverlay: document.getElementById('grb-drop-overlay')
+        dropOverlay: document.getElementById('grb-drop-overlay'),
+        installModal: document.getElementById('pwa-install-modal'),
+        btnCloseInstallModal: document.getElementById('btn-close-install-modal'),
+        btnDismissInstallModal: document.getElementById('btn-dismiss-install-modal'),
+        installInstructionsContent: document.getElementById('install-instructions-content')
       };
 
       /* Set sidebar "all" icon */
@@ -4773,10 +5024,167 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
       }
 
       /* ==========================================================================
+         PWA INSTALLATION & SERVICE WORKER
+         ========================================================================== */
+      let deferredInstallPrompt = null;
+
+      function isRunningStandalone() {
+        return window.matchMedia('(display-mode: standalone)').matches ||
+          window.navigator.standalone === true ||
+          document.referrer.includes('android-app://');
+      }
+
+      function detectPlatform() {
+        const ua = navigator.userAgent || '';
+        const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        const isAndroid = /Android/.test(ua);
+        if (isIOS) return 'ios';
+        if (isAndroid) return 'android';
+        return 'desktop';
+      }
+
+      function getInstallInstructions(platform) {
+        if (platform === 'ios') {
+          return `
+            <div class="install-step-card">
+              <div class="install-step-num">1</div>
+              <div class="install-step-text">Tap the <strong>Share</strong> icon (<strong><svg style="display:inline-block; vertical-align:middle; width:15px; height:15px; margin-bottom:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><polyline points="16 6 12 2 8 6"/><line x1="12" y1="2" x2="12" y2="15"/></svg></strong>) in Safari's bar.</div>
+            </div>
+            <div class="install-step-card">
+              <div class="install-step-num">2</div>
+              <div class="install-step-text">Scroll down and tap <strong>Add to Home Screen</strong>.</div>
+            </div>
+          `;
+        } else if (platform === 'android') {
+          return `
+            <div class="install-step-card">
+              <div class="install-step-num">1</div>
+              <div class="install-step-text">Tap the browser menu (<strong>⋮</strong>) in the top-right corner.</div>
+            </div>
+            <div class="install-step-card">
+              <div class="install-step-num">2</div>
+              <div class="install-step-text">Tap <strong>Install app</strong> or <strong>Add to Home screen</strong>.</div>
+            </div>
+          `;
+        } else {
+          return `
+            <div class="install-step-card">
+              <div class="install-step-num">1</div>
+              <div class="install-step-text">Click the <strong>Install</strong> icon (<strong><svg style="display:inline-block; vertical-align:middle; width:15px; height:15px; margin-bottom:2px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg></strong>) on the right side of your browser's address bar.</div>
+            </div>
+            <div class="install-step-card">
+              <div class="install-step-num">2</div>
+              <div class="install-step-text">Or open browser menu (<strong>⋮</strong> / <strong>⋯</strong>) &rarr; <strong>Apps / Cast, save, and share</strong> &rarr; <strong>Install page as app</strong>.</div>
+            </div>
+          `;
+        }
+      }
+
+      function openInstallModal() {
+        if (!els.installModal) return;
+        const platform = detectPlatform();
+        if (els.installInstructionsContent) {
+          els.installInstructionsContent.innerHTML = getInstallInstructions(platform);
+        }
+        els.installModal.style.display = 'flex';
+      }
+
+      function closeInstallModal() {
+        if (!els.installModal) return;
+        els.installModal.style.display = 'none';
+      }
+
+      // Expose for external controls / verification
+      window.openInstallModal = openInstallModal;
+      window.closeInstallModal = closeInstallModal;
+      window.__clearDeferredInstallPrompt = () => { deferredInstallPrompt = null; };
+      window.__hasDeferredInstallPrompt = () => !!deferredInstallPrompt;
+
+      function initPwa() {
+        // Hide install button immediately if already standalone
+        if (isRunningStandalone() && els.btnInstallApp) {
+          els.btnInstallApp.style.display = 'none';
+        }
+
+        // Capture beforeinstallprompt
+        window.addEventListener('beforeinstallprompt', (e) => {
+          e.preventDefault();
+          deferredInstallPrompt = e;
+          if (!isRunningStandalone() && els.btnInstallApp) {
+            els.btnInstallApp.style.display = '';
+          }
+        });
+
+        // App successfully installed
+        window.addEventListener('appinstalled', () => {
+          deferredInstallPrompt = null;
+          if (els.btnInstallApp) {
+            els.btnInstallApp.style.display = 'none';
+          }
+          closeInstallModal();
+          showToast('Inner Sanctum installed!', 'success');
+        });
+
+        // Install button click
+        if (els.btnInstallApp) {
+          els.btnInstallApp.addEventListener('click', async () => {
+            if (deferredInstallPrompt) {
+              deferredInstallPrompt.prompt();
+              const choiceResult = await deferredInstallPrompt.userChoice;
+              if (choiceResult && choiceResult.outcome === 'accepted') {
+                showToast('Installing Inner Sanctum...', 'success');
+              }
+              deferredInstallPrompt = null;
+            } else {
+              openInstallModal();
+            }
+          });
+        }
+
+        // Modal close button
+        if (els.btnCloseInstallModal) {
+          els.btnCloseInstallModal.addEventListener('click', closeInstallModal);
+        }
+        if (els.btnDismissInstallModal) {
+          els.btnDismissInstallModal.addEventListener('click', closeInstallModal);
+        }
+        if (els.installModal) {
+          els.installModal.addEventListener('click', (e) => {
+            if (e.target === els.installModal) {
+              closeInstallModal();
+            }
+          });
+        }
+
+        // Close on escape
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && els.installModal && els.installModal.style.display !== 'none') {
+            closeInstallModal();
+          }
+        });
+
+        // Service Worker registration: Only register on https, localhost, or 127.0.0.1
+        const isSupportedProtocol =
+          location.protocol === 'https:' ||
+          location.hostname === 'localhost' ||
+          location.hostname === '127.0.0.1';
+
+        if ('serviceWorker' in navigator && isSupportedProtocol) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('./sw.js', { scope: './' })
+              .catch((err) => {
+                console.warn('Service Worker registration skipped:', err);
+              });
+          });
+        }
+      }
+
+      /* ==========================================================================
          APPLICATION BOOTSTRAP
          ========================================================================== */
       function init() {
         setupEventListeners();
+        initPwa();
         readUrlHash();
         initGuildData();
       }
