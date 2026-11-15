@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Inner Sanctum · Guild Recipe Book</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22cross%22%20x1%3D%2215%25%22%20y1%3D%220%25%22%20x2%3D%2285%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%2F%3E%3Cstop%20offset%3D%2220%25%22%20stop-color%3D%22%23f1f5f9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%2F%3E%3Cstop%20offset%3D%2275%25%22%20stop-color%3D%22%2394a3b8%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2364748b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22edge%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%20stop-opacity%3D%220.6%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23475569%22%20stop-opacity%3D%220.7%22%2F%3E%3C%2FlinearGradient%3E%3Cfilter%20id%3D%22drop%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%3CfeDropShadow%20dx%3D%220%22%20dy%3D%221.5%22%20stdDeviation%3D%221.5%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.7%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M%2029.7%2015.2%20L%2042.7%2015.2%20L%2042.7%205.0%20L%2057.3%205.0%20L%2057.3%2015.2%20L%2070.3%2015.2%20C%2058.0%2037.7%2C%2062.3%2042.0%2C%2084.8%2029.7%20L%2084.8%2042.7%20L%2095.0%2042.7%20L%2095.0%2057.3%20L%2084.8%2057.3%20L%2084.8%2070.3%20C%2062.3%2058.0%2C%2058.0%2062.3%2C%2070.3%2084.8%20L%2057.3%2084.8%20L%2057.3%2095.0%20L%2042.7%2095.0%20L%2042.7%2084.8%20L%2029.7%2084.8%20C%2042.0%2062.3%2C%2037.7%2058.0%2C%2015.2%2070.3%20L%2015.2%2057.3%20L%205.0%2057.3%20L%205.0%2042.7%20L%2015.2%2042.7%20L%2015.2%2029.7%20C%2037.7%2042.0%2C%2042.0%2037.7%2C%2029.7%2015.2%20Z%22%20fill%3D%22url(%23cross)%22%20stroke%3D%22url(%23edge)%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22round%22%20filter%3D%22url(%23drop)%22%2F%3E%3C%2Fsvg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,6 +48,11 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    html, body {
+      overflow-x: hidden;
+      max-width: 100vw;
     }
 
     body {
@@ -216,6 +221,8 @@
       display: flex;
       flex-direction: column;
       gap: 20px;
+      box-sizing: border-box;
+      overflow-x: hidden;
     }
 
     header.grb-header {
@@ -1617,26 +1624,167 @@
       to { transform: translateX(0); opacity: 1; }
     }
 
+    .recipe-prof-inline {
+      display: none;
+    }
+
+    .mobile-filters-toggle-btn {
+      display: none;
+    }
+
+    .filter-arrow-icon {
+      width: 14px;
+      height: 14px;
+      margin-left: auto;
+      transition: transform 0.2s ease;
+    }
+
+    .filter-active-count-badge {
+      display: none;
+    }
+
+    /* Floating WarcraftDB Mobile Tooltip Sheet & Backdrop */
+    #grb-tooltip.is-mobile-sheet {
+      position: fixed !important;
+      left: 12px !important;
+      right: 12px !important;
+      bottom: 16px !important;
+      top: auto !important;
+      max-width: calc(100vw - 24px) !important;
+      max-height: 75vh !important;
+      overflow-y: auto !important;
+      pointer-events: auto !important;
+      z-index: 100005 !important;
+      box-sizing: border-box !important;
+      margin: 0 auto !important;
+      padding: 32px 14px 14px 14px !important;
+      background: rgba(14, 18, 28, 0.98) !important;
+      border: 1px solid var(--border-gold) !important;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.95), 0 0 20px rgba(200, 155, 60, 0.25) !important;
+      border-radius: 10px !important;
+    }
+
+    .tt-sheet-close-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 6px;
+      color: #e2e8f0;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .tt-sheet-close-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      color: #fff;
+    }
+
+    .tt-sheet-actions {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      justify-content: stretch;
+    }
+
+    .tt-sheet-wowhead-btn {
+      width: 100%;
+      justify-content: center;
+      font-size: 13px;
+      padding: 9px 12px;
+      text-decoration: none;
+    }
+
+    .tt-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(2px);
+      z-index: 100004;
+      display: none;
+    }
+
     /* ==========================================================================
-       10. RESPONSIVE BREAKPOINTS
+       10. RESPONSIVE BREAKPOINTS (TABLETS <= 900px & PHONES <= 640px)
        ========================================================================== */
-    @media (max-width: 1024px) {
+    @media (max-width: 900px) {
       .tome-layout {
         grid-template-columns: 1fr;
+        gap: 14px;
       }
       aside.professions-sidebar {
         position: static;
         max-height: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        white-space: nowrap;
+        gap: 8px;
+        padding: 8px 10px;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        background: var(--bg-surface);
+      }
+      aside.professions-sidebar::-webkit-scrollbar {
+        display: none;
+      }
+      aside.professions-sidebar .sidebar-header,
+      aside.professions-sidebar .prof-group-title,
+      aside.professions-sidebar .sidebar-crafters-box,
+      #sidebar-crafters-box {
+        display: none !important;
+      }
+      #prof-groups-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
       }
       .prof-list {
         display: flex;
         flex-direction: row;
-        overflow-x: auto;
-        padding-bottom: 6px;
+        align-items: center;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-shrink: 0;
+      }
+      .prof-list li {
+        display: inline-flex;
+        flex-shrink: 0;
       }
       .prof-item-btn {
         width: auto;
+        flex-shrink: 0;
         white-space: nowrap;
+        padding: 6px 12px;
+        border-radius: 20px;
+        background: rgba(16, 21, 32, 0.7);
+        border: 1px solid var(--border-dark);
+      }
+      .prof-item-btn.active {
+        background: rgba(200, 155, 60, 0.2);
+        border-color: var(--border-gold);
+        color: var(--gold-bright);
       }
       .recipe-row {
         grid-template-columns: 40px 1fr;
@@ -1652,27 +1800,314 @@
     }
 
     @media (max-width: 640px) {
+      html, body {
+        overflow-x: hidden;
+      }
       .app-container {
         padding: 12px 12px 40px 12px;
+        max-width: 100%;
+        overflow-x: hidden;
+        gap: 14px;
+      }
+      header.grb-header {
+        padding: 14px 12px;
       }
       .header-top {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 12px !important;
+      }
+      .header-brand {
+        width: 100%;
+        gap: 12px;
+      }
+      .guild-crest-wrapper {
+        width: 44px;
+        height: 44px;
+      }
+      h1.guild-name {
+        font-size: 22px;
+        line-height: 1.2;
+      }
+      .header-subtext {
+        font-size: 11.5px;
       }
       .header-actions {
-        width: 100%;
-        justify-content: stretch;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 8px !important;
       }
       .header-actions .btn {
-        flex: 1;
-        justify-content: center;
+        flex: 1 !important;
+        justify-content: center !important;
+        padding: 8px 10px !important;
+        font-size: 12.5px !important;
+        white-space: nowrap !important;
       }
-      .toolbar-row-filters {
+
+      /* Crisp 2x2 KPI Grid */
+      .kpi-row {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+        margin-top: 12px !important;
+        padding-top: 12px !important;
+      }
+      .kpi-card {
+        padding: 8px 10px !important;
+        border-radius: 6px;
+      }
+      .kpi-label {
+        font-size: 10px !important;
+        letter-spacing: 0.4px;
+      }
+      .kpi-value {
+        font-size: 18px !important;
+      }
+
+      /* Horizontal Scrollable Nav Tabs */
+      .nav-tabs {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        scrollbar-width: none !important;
+        white-space: nowrap !important;
+        display: flex !important;
+        gap: 4px !important;
+        padding-bottom: 2px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+      }
+      .nav-tabs::-webkit-scrollbar {
+        display: none !important;
+      }
+      .tab-btn {
+        flex: 1 0 auto !important;
+        padding: 8px 12px !important;
+        font-size: 13px !important;
+        gap: 6px !important;
+        justify-content: center !important;
+      }
+      .tab-btn svg {
+        width: 15px !important;
+        height: 15px !important;
+      }
+      .tab-badge {
+        font-size: 10.5px !important;
+        padding: 0 5px !important;
+      }
+
+      /* Search & Filters Toolbar */
+      .toolbar-container {
+        padding: 12px;
+        gap: 10px;
+      }
+      .toolbar-row-primary {
+        display: flex;
         flex-direction: column;
+        gap: 8px;
         align-items: stretch;
       }
-      .filter-group {
-        justify-content: space-between;
+      .search-box-wrap {
+        width: 100%;
+      }
+      .search-shortcut-hint,
+      #search-shortcut-hint {
+        display: none !important;
+      }
+
+      /* Input font size 16px to prevent iOS Safari auto-zoom */
+      #recipe-search-input,
+      #crafter-search-input,
+      .search-input,
+      .filter-select,
+      .skill-range-input,
+      .skill-num-input,
+      input[type="text"],
+      input[type="number"],
+      select {
+        font-size: 16px !important;
+      }
+
+      /* Mobile Filters Toggle Button */
+      .mobile-filters-toggle-btn {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        padding: 9px 14px;
+        font-size: 13.5px;
+        font-weight: 600;
+        background: var(--bg-surface-elevated);
+        border: 1px solid var(--border-dark);
+        border-radius: 6px;
+        color: var(--text-main);
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+      .mobile-filters-toggle-btn.has-active-filters,
+      .mobile-filters-toggle-btn[aria-expanded="true"] {
+        border-color: var(--border-gold);
+        color: var(--gold-bright);
+        background: rgba(200, 155, 60, 0.12);
+      }
+      .mobile-filters-toggle-btn[aria-expanded="true"] .filter-arrow-icon {
+        transform: rotate(180deg);
+      }
+      .filter-active-count-badge {
+        background: var(--gold-bright);
+        color: #090c12;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 9999px;
+        padding: 0 6px;
+        height: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 18px;
+      }
+
+      /* Collapsed Secondary Filters Drawer */
+      .toolbar-row-filters {
+        display: none !important;
+      }
+      .toolbar-row-filters.is-expanded {
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .toolbar-row-filters.is-expanded .filter-group {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 4px;
+      }
+      .toolbar-row-filters.is-expanded .filter-label {
+        font-size: 11px;
+        color: var(--text-muted);
+      }
+      .toolbar-row-filters.is-expanded .filter-select {
+        width: 100%;
+        padding: 8px 10px;
+        height: 40px;
+      }
+      .toolbar-row-filters.is-expanded .skill-range-inputs {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 6px;
+      }
+      .toolbar-row-filters.is-expanded .skill-range-input {
+        flex: 1;
+        height: 40px;
+        min-width: 0;
+      }
+
+      /* Stacked Recipe Card Row */
+      .recipe-row {
+        display: grid !important;
+        grid-template-columns: 40px 1fr !important;
+        gap: 8px 10px !important;
+        padding: 10px 12px !important;
+        box-sizing: border-box !important;
+        max-width: 100% !important;
+      }
+      .recipe-icon-wrapper {
+        grid-column: 1;
+        grid-row: 1;
+        width: 40px;
+        height: 40px;
+      }
+      .recipe-details {
+        grid-column: 2;
+        grid-row: 1;
+        min-width: 0;
+      }
+      .recipe-reagents-line {
+        white-space: normal !important;
+        word-break: break-word;
+        font-size: 11.5px;
+        margin-top: 4px;
+        line-height: 1.35;
+      }
+      .recipe-prof-column {
+        display: none !important;
+      }
+      .recipe-prof-inline {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 4px;
+        font-size: 11px;
+        font-weight: 500;
+        color: #94a3b8;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        padding: 1px 6px;
+        border-radius: 4px;
+      }
+      .recipe-prof-inline .prof-micro-icon {
+        width: 13px;
+        height: 13px;
+        color: var(--gold-antique);
+      }
+      .recipe-crafters-column {
+        grid-column: 1 / -1 !important;
+        justify-content: flex-start !important;
+        width: 100% !important;
+        gap: 6px !important;
+        margin-top: 2px;
+      }
+      .crafter-pill,
+      .crafter-pill-toggle {
+        min-height: 32px !important;
+        padding: 4px 10px !important;
+        font-size: 12px !important;
+      }
+
+      /* Mobile Guild Crafters View */
+      .crafters-toolbar {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        padding: 12px !important;
+        gap: 10px !important;
+      }
+      .crafters-search-wrap {
+        max-width: 100% !important;
+        min-width: 0 !important;
+        width: 100% !important;
+      }
+      .crafters-toolbar-meta {
+        font-size: 12px !important;
+        text-align: right;
+      }
+      .crafters-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+      }
+      .crafter-card {
+        padding: 14px 12px !important;
+        box-sizing: border-box !important;
+        max-width: 100% !important;
+      }
+      .view-crafter-recipes-btn {
+        min-height: 36px !important;
+        padding: 8px 14px !important;
+        font-size: 12px !important;
+        justify-content: center !important;
+      }
+      .view-crafter-all-btn {
+        min-height: 38px !important;
+        font-size: 13px !important;
+      }
+    }
+
+    @media (hover: none) and (pointer: coarse) {
+      .search-shortcut-hint,
+      #search-shortcut-hint {
+        display: none !important;
       }
     }
   </style>
@@ -1844,7 +2279,7 @@
           </div>
 
           <!-- SIDEBAR CRAFTERS PREVIEW -->
-          <div class="sidebar-crafters-box">
+          <div class="sidebar-crafters-box" id="sidebar-crafters-box">
             <div class="sidebar-header" style="margin-top: 10px; margin-bottom: 6px; display: flex; justify-content: space-between; align-items: center;">
               <span class="sidebar-title">Guild Crafters</span>
               <button class="sidebar-crafters-link-btn" id="btn-sidebar-see-all-top" title="Switch to Guild Crafters view">See all →</button>
@@ -1872,9 +2307,15 @@
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
                 </button>
               </div>
+              <button type="button" class="btn btn-secondary mobile-filters-toggle-btn" id="btn-toggle-filters" aria-expanded="false" aria-controls="toolbar-filters-drawer" title="Toggle Filters &amp; Sort">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+                <span>Filters &amp; Sort</span>
+                <span class="filter-active-count-badge" id="filter-active-badge" style="display:none;">0</span>
+                <svg class="filter-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </button>
             </div>
 
-            <div class="toolbar-row-filters">
+            <div class="toolbar-row-filters" id="toolbar-filters-drawer">
               <div class="filter-group">
                 <span class="filter-label">Crafter</span>
                 <select id="filter-crafter-select" class="filter-select">
@@ -1895,9 +2336,9 @@
                     <option value="custom" disabled hidden>Custom Range</option>
                   </select>
                   <div class="skill-range-inputs">
-                    <input type="number" id="filter-min-skill-input" class="skill-range-input" min="1" max="300" placeholder="Min" aria-label="Minimum Skill Level">
+                    <input type="number" id="filter-min-skill-input" class="skill-range-input skill-num-input" min="1" max="300" placeholder="Min" aria-label="Minimum Skill Level">
                     <span class="skill-range-sep">–</span>
-                    <input type="number" id="filter-max-skill-input" class="skill-range-input" min="1" max="300" placeholder="Max" aria-label="Maximum Skill Level">
+                    <input type="number" id="filter-max-skill-input" class="skill-range-input skill-num-input" min="1" max="300" placeholder="Max" aria-label="Maximum Skill Level">
                   </div>
                 </div>
               </div>
@@ -2160,6 +2601,9 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         filterCrafter: document.getElementById('filter-crafter-select'),
         filterRarity: document.getElementById('filter-rarity-select'),
         filterSort: document.getElementById('filter-sort-select'),
+        btnToggleFilters: document.getElementById('btn-toggle-filters'),
+        filterActiveBadge: document.getElementById('filter-active-badge'),
+        toolbarFiltersDrawer: document.getElementById('toolbar-filters-drawer'),
         resultsCount: document.getElementById('results-count-text'),
         resultsTotal: document.getElementById('results-total-text'),
         resetFiltersBtn: document.getElementById('btn-reset-filters'),
@@ -2267,6 +2711,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
       function positionTooltip(e) {
         const tt = els.tooltip;
         if (!tt || tt.style.display !== 'block') return;
+        if (tt.classList.contains('is-mobile-sheet')) return;
 
         const pad = 14;
         let x = e.clientX + 16;
@@ -2288,13 +2733,26 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
 
       window.addEventListener('mousemove', positionTooltip);
 
+      function isTouchDevice() {
+        return window.matchMedia('(hover: none), (pointer: coarse)').matches || window.innerWidth <= 640;
+      }
+
       function hideTooltip() {
         activeHoveredSpellId = null;
         if (els.tooltip) {
           els.tooltip.style.display = 'none';
+          els.tooltip.classList.remove('is-mobile-sheet');
           els.tooltip.innerHTML = '';
         }
+        const backdrop = document.getElementById('grb-tooltip-backdrop');
+        if (backdrop) backdrop.style.display = 'none';
       }
+
+      window.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          hideTooltip();
+        }
+      });
 
       function showTooltipForRecipe(recipe, e) {
         if (!recipe) return;
@@ -2312,29 +2770,63 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         }
       }
 
+      function showTouchTooltipForRecipe(recipe) {
+        if (!recipe) return;
+        activeHoveredSpellId = recipe.spellId;
+
+        const tt = els.tooltip;
+        tt.classList.add('is-mobile-sheet');
+
+        const meta = getMeta(recipe.spellId);
+        renderTooltipContent(recipe, meta);
+
+        tt.style.display = 'block';
+
+        let backdrop = document.getElementById('grb-tooltip-backdrop');
+        if (!backdrop) {
+          backdrop = document.createElement('div');
+          backdrop.id = 'grb-tooltip-backdrop';
+          backdrop.className = 'tt-backdrop';
+          backdrop.addEventListener('click', hideTooltip);
+          document.body.appendChild(backdrop);
+        }
+        backdrop.style.display = 'block';
+
+        if (!meta || !meta.tooltipHtml) {
+          lazyFetchWarcraftDb(recipe.spellId);
+        }
+      }
+
       function convertToWowheadUrl(url) {
         if (!url) return '';
         return url
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1')
-          .replace(/\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
-          .replace(/\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1');
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1')
+          .replace(/https:\/\/www\.wowhead\.com\/classic\/item=(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/https:\/\/www\.wowhead\.com\/classic\/spell=(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1')
+          .replace(/\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1');
       }
 
       function convertToWowheadLinks(html) {
         if (!html) return '';
         return html
-          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
-          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
-          .replace(/href="\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
-          .replace(/href="\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1');
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1"')
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1"')
+          .replace(/href="https:\/\/www\.wowhead\.com\/classic\/item=(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1"')
+          .replace(/href="https:\/\/www\.wowhead\.com\/classic\/spell=(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1"')
+          .replace(/href="\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1"')
+          .replace(/href="\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1"')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1')
+          .replace(/https:\/\/www\.wowhead\.com\/classic\/item=(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/https:\/\/www\.wowhead\.com\/classic\/spell=(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1');
       }
 
       function renderTooltipContent(recipe, meta) {
         const tt = els.tooltip;
         if (!tt) return;
+        const isSheet = tt.classList.contains('is-mobile-sheet');
 
         if (meta && meta.tooltipHtml) {
           tt.innerHTML = convertToWowheadLinks(meta.tooltipHtml);
@@ -2342,7 +2834,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           tt.querySelectorAll('tt-inline-color[data-color]').forEach(el => {
             el.style.color = el.dataset.color;
           });
-          // Ensure all links point to Wowhead Classic with target="_blank"
+          // Ensure all links point to Wowhead Forever with target="_blank"
           tt.querySelectorAll('a').forEach(a => {
             if (a.href) a.href = convertToWowheadUrl(a.href);
             a.target = '_blank';
@@ -2356,29 +2848,50 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
             footer.innerHTML = `Known by: <span class="tt-fallback-crafter-names">${crafterNames}</span>`;
             tt.appendChild(footer);
           }
-          return;
+        } else {
+          // Authentic Fallback Tooltip
+          const quality = meta ? meta.quality : (recipe.isCustom ? 4 : null);
+          const qualityColor = getQualityColor(quality);
+          const reagents = (meta && meta.reagentsText) ? meta.reagentsText : '';
+          const crafterNames = recipe.crafters ? recipe.crafters.map(c => escapeHtml(c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter')))).join(', ') : '';
+
+          let slotSubType = '';
+          if (meta && (meta.slot || meta.subType)) {
+            slotSubType = `<tt-double-line><span>${escapeHtml(meta.slot || '')}</span><span>${escapeHtml(meta.subType || '')}</span></tt-double-line>`;
+          }
+
+          tt.innerHTML = `
+            <tt-title data-quality="${quality !== null ? quality : ''}" style="${quality === null ? 'color:#ffd100;' : ''}">${escapeHtml(recipe.name)}</tt-title>
+            ${recipe.isCustom ? '<tt-subtitle style="color:#c084fc;">WoW: Forever Custom Recipe</tt-subtitle>' : ''}
+            <tt-line data-line-type="required-skill">Requires ${escapeHtml(recipe.profName)}</tt-line>
+            ${reagents ? `<tt-line data-line-type="spell-reagents">Reagents:</tt-line><tt-indented-line>${escapeHtml(reagents)}</tt-indented-line>` : ''}
+            ${slotSubType}
+            <tt-spacer></tt-spacer>
+            ${crafterNames ? `<div class="tt-fallback-craft-info">Known by: <span class="tt-fallback-crafter-names">${crafterNames}</span></div>` : ''}
+          `;
         }
 
-        // Authentic Fallback Tooltip
-        const quality = meta ? meta.quality : (recipe.isCustom ? 4 : null);
-        const qualityColor = getQualityColor(quality);
-        const reagents = (meta && meta.reagentsText) ? meta.reagentsText : '';
-        const crafterNames = recipe.crafters ? recipe.crafters.map(c => escapeHtml(c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter')))).join(', ') : '';
+        if (isSheet) {
+          const closeBtn = document.createElement('button');
+          closeBtn.type = 'button';
+          closeBtn.className = 'tt-sheet-close-btn';
+          closeBtn.setAttribute('aria-label', 'Close tooltip');
+          closeBtn.innerHTML = '&times;';
+          closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            hideTooltip();
+          });
+          tt.prepend(closeBtn);
 
-        let slotSubType = '';
-        if (meta && (meta.slot || meta.subType)) {
-          slotSubType = `<tt-double-line><span>${escapeHtml(meta.slot || '')}</span><span>${escapeHtml(meta.subType || '')}</span></tt-double-line>`;
+          const wowheadUrl = recipe.itemId 
+            ? `https://www.wowhead.com/forever/item=${recipe.itemId}`
+            : `https://www.wowhead.com/forever/spell=${recipe.spellId}`;
+
+          const actionsDiv = document.createElement('div');
+          actionsDiv.className = 'tt-sheet-actions';
+          actionsDiv.innerHTML = `<a href="${wowheadUrl}" target="_blank" rel="noopener" class="btn btn-gold tt-sheet-wowhead-btn">View on Wowhead ↗</a>`;
+          tt.appendChild(actionsDiv);
         }
-
-        tt.innerHTML = `
-          <tt-title data-quality="${quality !== null ? quality : ''}" style="${quality === null ? 'color:#ffd100;' : ''}">${escapeHtml(recipe.name)}</tt-title>
-          ${recipe.isCustom ? '<tt-subtitle style="color:#c084fc;">WoW: Forever Custom Recipe</tt-subtitle>' : ''}
-          <tt-line data-line-type="required-skill">Requires ${escapeHtml(recipe.profName)}</tt-line>
-          ${reagents ? `<tt-line data-line-type="spell-reagents">Reagents:</tt-line><tt-indented-line>${escapeHtml(reagents)}</tt-indented-line>` : ''}
-          ${slotSubType}
-          <tt-spacer></tt-spacer>
-          ${crafterNames ? `<div class="tt-fallback-craft-info">Known by: <span class="tt-fallback-crafter-names">${crafterNames}</span></div>` : ''}
-        `;
       }
 
       /* ==========================================================================
@@ -2877,6 +3390,30 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         return results;
       }
 
+      function updateFilterActiveBadge() {
+        let count = 0;
+        if (selectedCrafter && selectedCrafter !== 'all') count++;
+        if ((selectedSkillPreset && selectedSkillPreset !== 'all') || minSkillFilter !== null || maxSkillFilter !== null) count++;
+        if (selectedRarity && selectedRarity !== 'all') count++;
+        if (selectedSort && selectedSort !== 'name-asc') count++;
+
+        if (els.filterActiveBadge) {
+          if (count > 0) {
+            els.filterActiveBadge.style.display = 'inline-flex';
+            els.filterActiveBadge.textContent = count;
+          } else {
+            els.filterActiveBadge.style.display = 'none';
+          }
+        }
+        if (els.btnToggleFilters) {
+          if (count > 0) {
+            els.btnToggleFilters.classList.add('has-active-filters');
+          } else {
+            els.btnToggleFilters.classList.remove('has-active-filters');
+          }
+        }
+      }
+
       /* ==========================================================================
          RENDERERS: RECIPES LIST WITH CHUNKING
          ========================================================================== */
@@ -2884,6 +3421,8 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         if (resetLimit) {
           visibleRecipeLimit = CHUNK_SIZE;
         }
+
+        updateFilterActiveBadge();
 
         filteredRecipesCache = getFilteredRecipes();
         const total = filteredRecipesCache.length;
@@ -2957,11 +3496,11 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         const qualityColor = getQualityColor(quality);
 
         const primaryLink = recipe.itemId 
-          ? `https://www.wowhead.com/classic/item=${recipe.itemId}`
-          : `https://www.wowhead.com/classic/spell=${recipe.spellId}`;
+          ? `https://www.wowhead.com/forever/item=${recipe.itemId}`
+          : `https://www.wowhead.com/forever/spell=${recipe.spellId}`;
         
         const secondarySpellLink = recipe.itemId 
-          ? `<a href="https://www.wowhead.com/classic/spell=${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on Wowhead">${ICONS_SVG.spell}</a>`
+          ? `<a href="https://www.wowhead.com/forever/spell=${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on Wowhead">${ICONS_SVG.spell}</a>`
           : '';
 
         const iconUrl = (meta && meta.icon) 
@@ -3032,6 +3571,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
                 <a href="${primaryLink}" target="_blank" rel="noopener" class="recipe-title-link" data-quality="${quality !== null ? quality : 'null'}" style="color:${qualityColor};">
                   ${escapeHtml(recipe.name)}
                 </a>
+                <span class="recipe-prof-inline"><span class="prof-micro-icon">${profIcon}</span>${escapeHtml(recipe.profName)}</span>
                 ${badgesHtml}
                 ${secondarySpellLink}
               </div>
@@ -3057,14 +3597,38 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           const recipe = currentGuild ? currentGuild.recipes.find(r => r.spellId === spellId) : null;
           if (!recipe) return;
 
-          // Tooltip on icon or title
+          // Tooltip on icon or title (hover on desktop)
           const iconWrapper = row.querySelector('.recipe-icon-wrapper');
           const titleLink = row.querySelector('.recipe-title-link');
 
           [iconWrapper, titleLink].forEach(el => {
             if (!el) return;
-            el.addEventListener('mouseenter', (e) => showTooltipForRecipe(recipe, e));
-            el.addEventListener('mouseleave', hideTooltip);
+            el.addEventListener('mouseenter', (e) => {
+              if (isTouchDevice()) return;
+              showTooltipForRecipe(recipe, e);
+            });
+            el.addEventListener('mouseleave', () => {
+              if (isTouchDevice()) return;
+              hideTooltip();
+            });
+          });
+
+          // Tap on icon wrapper to open tooltip sheet on mobile/touch
+          if (iconWrapper) {
+            iconWrapper.addEventListener('click', (e) => {
+              if (isTouchDevice()) {
+                e.preventDefault();
+                e.stopPropagation();
+                showTouchTooltipForRecipe(recipe);
+              }
+            });
+          }
+
+          // Tap on recipe row (outside links and buttons) on mobile/touch
+          row.addEventListener('click', (e) => {
+            if (!isTouchDevice()) return;
+            if (e.target.closest('a, button, input, select')) return;
+            showTouchTooltipForRecipe(recipe);
           });
 
           // Crafter whisper click
@@ -3314,6 +3878,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         }
         if (params.has('crafter')) {
           selectedCrafter = params.get('crafter');
+          if (els.filterCrafter) els.filterCrafter.value = selectedCrafter;
         }
         if (params.has('rarity')) {
           selectedRarity = params.get('rarity');
@@ -3323,6 +3888,20 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           selectedSort = params.get('sort');
           if (els.filterSort) els.filterSort.value = selectedSort;
         }
+        if (params.has('minSkill')) {
+          const val = parseInt(params.get('minSkill'), 10);
+          if (!isNaN(val)) {
+            minSkillFilter = val;
+            if (els.minSkillInput) els.minSkillInput.value = val;
+          }
+        }
+        if (params.has('maxSkill')) {
+          const val = parseInt(params.get('maxSkill'), 10);
+          if (!isNaN(val)) {
+            maxSkillFilter = val;
+            if (els.maxSkillInput) els.maxSkillInput.value = val;
+          }
+        }
         if (params.has('q')) {
           searchQuery = params.get('q');
           if (els.searchInput) {
@@ -3331,6 +3910,17 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
             els.searchHint.style.display = searchQuery ? 'none' : 'block';
           }
         }
+
+        const hasSecondary = (params.has('crafter') && params.get('crafter') !== 'all') ||
+          params.has('minSkill') || params.has('maxSkill') ||
+          (params.has('rarity') && params.get('rarity') !== 'all') ||
+          (params.has('sort') && params.get('sort') !== 'name-asc');
+
+        if (hasSecondary && els.toolbarFiltersDrawer && els.btnToggleFilters) {
+          els.toolbarFiltersDrawer.classList.add('is-expanded');
+          els.btnToggleFilters.setAttribute('aria-expanded', 'true');
+        }
+        updateFilterActiveBadge();
       }
 
       /* ==========================================================================
@@ -3958,6 +4548,14 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           renderRecipesList(true);
           syncUrlHash();
         });
+
+        // Mobile filters toggle button
+        if (els.btnToggleFilters && els.toolbarFiltersDrawer) {
+          els.btnToggleFilters.addEventListener('click', () => {
+            const isExp = els.toolbarFiltersDrawer.classList.toggle('is-expanded');
+            els.btnToggleFilters.setAttribute('aria-expanded', isExp ? 'true' : 'false');
+          });
+        }
 
         // Filter dropdowns
         els.filterCrafter.addEventListener('change', (e) => {

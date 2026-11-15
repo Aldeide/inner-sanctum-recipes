@@ -267,12 +267,12 @@ export async function runExport(options) {
     for (const key of Object.keys(meta)) {
       if (meta[key] && meta[key].tooltipHtml) {
         meta[key].tooltipHtml = meta[key].tooltipHtml
-          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
-          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
-          .replace(/href="\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1"')
-          .replace(/href="\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1"')
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/classic/item=$1')
-          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/classic/spell=$1');
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1"')
+          .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1"')
+          .replace(/href="\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1"')
+          .replace(/href="\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1"')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/items?\/(\d+)/gi, 'https://www.wowhead.com/forever/item=$1')
+          .replace(/https:\/\/forever\.warcraftdb\.com\/data\/spells?\/(\d+)/gi, 'https://www.wowhead.com/forever/spell=$1');
       }
     }
   }

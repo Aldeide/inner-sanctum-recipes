@@ -87,10 +87,10 @@ async function fetchWithRetry(url, timeoutMs = DEFAULT_TIMEOUT_MS, retries = 1) 
 export function sanitizeTooltipHtml(html) {
   if (!html || typeof html !== 'string') return null;
   return html
-    .replace(/href="(?:https:\/\/forever\.warcraftdb\.com)?\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/item=$1" target="_blank" rel="noopener"')
-    .replace(/href="(?:https:\/\/forever\.warcraftdb\.com)?\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/classic/spell=$1" target="_blank" rel="noopener"')
-    .replace(/href="\/data\/([^"]*)"/gi, 'href="https://www.wowhead.com/classic/$1" target="_blank" rel="noopener"')
-    .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/([^"]*)"/gi, 'href="https://www.wowhead.com/classic/$1" target="_blank" rel="noopener"')
+    .replace(/href="(?:https:\/\/forever\.warcraftdb\.com)?\/data\/items?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/item=$1" target="_blank" rel="noopener"')
+    .replace(/href="(?:https:\/\/forever\.warcraftdb\.com)?\/data\/spells?\/(\d+)[^"]*"/gi, 'href="https://www.wowhead.com/forever/spell=$1" target="_blank" rel="noopener"')
+    .replace(/href="\/data\/([^"]*)"/gi, 'href="https://www.wowhead.com/forever/$1" target="_blank" rel="noopener"')
+    .replace(/href="https:\/\/forever\.warcraftdb\.com\/data\/([^"]*)"/gi, 'href="https://www.wowhead.com/forever/$1" target="_blank" rel="noopener"')
     .replace(/<tt-inline-color data-color="([^"]+)">/gi, '<tt-inline-color data-color="$1" style="color:$1">');
 }
 
