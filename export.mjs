@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import http from 'node:http';
 import { fileURLToPath } from 'node:url';
-import { parseLuaSavedVariables, mergeRawDatabases, transformGuildRecipeBook, createBrowserParserBundle } from './src/lua-parser.mjs';
+import { parseLuaSavedVariables, mergeRawDatabases, transformGuildRecipeBook, createBrowserParserBundle, isProfessionExcluded } from './src/lua-parser.mjs';
 import { enrichRecipes } from './src/enrich.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -236,12 +236,17 @@ export async function runExport(options) {
   if (mergedDb.recipes) {
     for (const [spellIdStr, recInfo] of Object.entries(mergedDb.recipes)) {
       const spellId = Number(spellIdStr);
+      const profId = Number(recInfo.prof || 0);
+      const profName = recInfo.profName || '';
+      if (isProfessionExcluded(profId, profName)) {
+        continue;
+      }
       if (!allRecipesMap.has(spellId)) {
         allRecipesMap.set(spellId, {
           spellId,
           name: recInfo.name || `Recipe #${spellId}`,
           itemId: recInfo.item != null ? Number(recInfo.item) : null,
-          profId: Number(recInfo.prof || 0)
+          profId
         });
       }
     }

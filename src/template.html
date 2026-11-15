@@ -2012,6 +2012,26 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         356: { name: "Fishing", isSecondary: true, icon: "fishing" }
       };
 
+      const EXCLUDED_PROF_IDS = new Set([129, 186, 182, 393, 356]);
+      const EXCLUDED_PROF_NAMES = new Set([
+        'first aid',
+        'mining',
+        'smelting',
+        'herbalism',
+        'herb gathering',
+        'skinning',
+        'fishing'
+      ]);
+
+      function isProfessionExcluded(id, name) {
+        if (id != null && EXCLUDED_PROF_IDS.has(Number(id))) return true;
+        if (name != null) {
+          const clean = String(name).trim().toLowerCase();
+          if (EXCLUDED_PROF_NAMES.has(clean)) return true;
+        }
+        return false;
+      }
+
       const ICONS_SVG = {
         all: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>`,
         alchemy: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v5L5.5 18a2.5 2.5 0 0 0 2.2 3.5h8.6a2.5 2.5 0 0 0 2.2-3.5L14 7V2"></path><line x1="8.5" y1="2" x2="15.5" y2="2"></line><line x1="7" y1="14" x2="17" y2="14"></line></svg>`,
@@ -3289,7 +3309,8 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           currentView = params.get('view') === 'crafters' ? 'crafters' : 'recipes';
         }
         if (params.has('prof')) {
-          selectedProfession = params.get('prof');
+          const profParam = params.get('prof');
+          selectedProfession = isProfessionExcluded(profParam) ? 'all' : profParam;
         }
         if (params.has('crafter')) {
           selectedCrafter = params.get('crafter');
@@ -3315,6 +3336,52 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
       /* ==========================================================================
          LUA PARSER & CLIENT-SIDE IMPORT
          ========================================================================== */
+      /* Defensive Sanitizer: ensures excluded professions never appear in UI */
+      function sanitizeGuildData(guild) {
+        if (!guild) return;
+
+        // 1. Filter professions
+        if (Array.isArray(guild.professions)) {
+          guild.professions = guild.professions.filter(p => !isProfessionExcluded(p.id, p.name));
+        }
+
+        // 2. Filter recipes
+        if (Array.isArray(guild.recipes)) {
+          guild.recipes = guild.recipes.filter(r => !isProfessionExcluded(r.profId, r.profName));
+        }
+
+        // 3. Filter crafters & recalculate totalRecipes
+        if (Array.isArray(guild.crafters)) {
+          const crafterSpellMap = new Map();
+          if (Array.isArray(guild.recipes)) {
+            for (const r of guild.recipes) {
+              if (Array.isArray(r.crafters)) {
+                for (const c of r.crafters) {
+                  if (!crafterSpellMap.has(c.char)) {
+                    crafterSpellMap.set(c.char, new Set());
+                  }
+                  crafterSpellMap.get(c.char).add(r.spellId);
+                }
+              }
+            }
+          }
+
+          guild.crafters = guild.crafters
+            .map(c => {
+              const profs = (c.professions || []).filter(p => !isProfessionExcluded(p.id, p.name));
+              const totalRec = crafterSpellMap.has(c.char)
+                ? crafterSpellMap.get(c.char).size
+                : profs.reduce((acc, p) => acc + (p.recipeCount || 0), 0);
+              return {
+                ...c,
+                professions: profs,
+                totalRecipes: totalRec
+              };
+            })
+            .filter(c => c.professions.length > 0 && c.totalRecipes > 0);
+        }
+      }
+
       function initGuildData() {
         if (!window.__GRB_DATA__ || !window.__GRB_DATA__.guilds || window.__GRB_DATA__.guilds.length === 0) {
           currentGuild = null;
@@ -3323,6 +3390,13 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           els.viewCrafters.style.display = 'none';
           renderHeader();
           return;
+        }
+
+        // Defensively sanitize all guilds
+        window.__GRB_DATA__.guilds.forEach(g => sanitizeGuildData(g));
+
+        if (isProfessionExcluded(selectedProfession)) {
+          selectedProfession = 'all';
         }
 
         els.emptyView.style.display = 'none';
@@ -3509,6 +3583,10 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
                 crafters: []
               };
 
+              if (isProfessionExcluded(rObj.profId, rObj.profName)) {
+                continue;
+              }
+
               if (r.crafters) {
                 for (const cKey in r.crafters) {
                   const cInfo = r.crafters[cKey];
@@ -3574,7 +3652,9 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
           }
 
           // Format crafters array
-          const craftersArr = Object.values(crafterMap).map(c => ({
+          const craftersArr = Object.values(crafterMap)
+            .filter(c => Object.keys(c.professions).length > 0 && c.totalRecipes > 0)
+            .map(c => ({
             char: c.char,
             fullName: c.fullName,
             firstName: c.firstName,

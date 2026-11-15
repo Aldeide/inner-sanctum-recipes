@@ -4,7 +4,31 @@
  */
 
 // Secondary profession IDs in WoW
-export const SECONDARY_PROF_IDS = new Set([129, 185, 356, 794]); // First Aid, Cooking, Fishing, Archaeology
+export const SECONDARY_PROF_IDS = new Set([185, 794]); // Cooking, Archaeology (First Aid & Fishing are excluded)
+
+// Excluded profession IDs & names (First Aid, all gathering professions, fishing)
+export const EXCLUDED_PROF_IDS = new Set([129, 186, 182, 393, 356]);
+export const EXCLUDED_PROF_NAMES = new Set([
+  'first aid',
+  'mining',
+  'smelting',
+  'herbalism',
+  'herb gathering',
+  'skinning',
+  'fishing'
+]);
+
+/**
+ * Checks whether a profession is excluded (First Aid, Gathering, Fishing).
+ */
+export function isProfessionExcluded(id, name) {
+  if (id != null && EXCLUDED_PROF_IDS.has(Number(id))) return true;
+  if (name != null) {
+    const clean = String(name).trim().toLowerCase();
+    if (EXCLUDED_PROF_NAMES.has(clean)) return true;
+  }
+  return false;
+}
 
 // Fallback profession name dictionary
 export const KNOWN_PROFESSIONS = {
@@ -566,10 +590,13 @@ export function transformGuildRecipeBook(rawDb) {
     const guildName = guildDashIdx !== -1 ? guildKey.slice(0, guildDashIdx) : guildKey;
     const guildRealm = guildDashIdx !== -1 ? guildKey.slice(guildDashIdx + 1) : '';
 
-    // Collect active entries (skip entry.del === true)
+    // Collect active entries (skip entry.del === true and excluded professions)
     const activeEntries = [];
     for (const entry of Object.values(guildData.entries)) {
       if (!entry || entry.del === true) continue;
+      const profId = Number(entry.prof || 0);
+      const profName = String(entry.name || profNameMap.get(profId) || '');
+      if (isProfessionExcluded(profId, profName)) continue;
       activeEntries.push(entry);
     }
 
@@ -635,6 +662,9 @@ export function transformGuildRecipeBook(rawDb) {
     // Sort professions within each crafter alphabetically
     const craftersList = [];
     for (const cObj of crafterMap.values()) {
+      if (cObj.professions.length === 0 || cObj.totalRecipesSet.size === 0) {
+        continue;
+      }
       cObj.professions.sort((a, b) => a.name.localeCompare(b.name));
       craftersList.push({
         char: cObj.char,
@@ -779,6 +809,10 @@ export function transformGuildRecipeBook(rawDb) {
       const itemId = recInfo.item != null ? Number(recInfo.item) : null;
       const isCustom = Boolean(spellId >= 400000 || (itemId != null && itemId >= 200000));
 
+      if (isProfessionExcluded(profId, profName)) {
+        continue;
+      }
+
       recipesList.push({
         spellId: Number(spellId),
         name: String(recInfo.name || `Recipe #${spellId}`),
@@ -825,8 +859,19 @@ export function transformGuildRecipeBook(rawDb) {
  */
 export function createBrowserParserBundle() {
   return `(function(global){
-  const SECONDARY_PROF_IDS = new Set([129, 185, 356, 794]);
+  const SECONDARY_PROF_IDS = new Set([185, 794]);
+  const EXCLUDED_PROF_IDS = new Set([129, 186, 182, 393, 356]);
+  const EXCLUDED_PROF_NAMES = new Set([
+    'first aid',
+    'mining',
+    'smelting',
+    'herbalism',
+    'herb gathering',
+    'skinning',
+    'fishing'
+  ]);
   const KNOWN_PROFESSIONS = ${JSON.stringify(KNOWN_PROFESSIONS)};
+  ${isProfessionExcluded.toString()}
   ${tokenizeLua.toString()}
   ${isNumberChar.toString()}
   ${isIdentStart.toString()}
@@ -839,7 +884,10 @@ export function createBrowserParserBundle() {
 
   global.GRBParser = {
     SECONDARY_PROF_IDS,
+    EXCLUDED_PROF_IDS,
+    EXCLUDED_PROF_NAMES,
     KNOWN_PROFESSIONS,
+    isProfessionExcluded,
     parseLuaSavedVariables,
     mergeRawDatabases,
     transformGuildRecipeBook
