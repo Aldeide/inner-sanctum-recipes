@@ -2366,8 +2366,16 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         els.guildTitle.textContent = currentGuild.name || "Inner Sanctum";
         if (els.guildRealm) els.guildRealm.textContent = "";
         
-        const relTime = formatRelativeTime(currentGuild.lastUpdated);
-        const fullTime = formatFullDate(currentGuild.lastUpdated);
+        const maxTs = Math.max(currentGuild.lastUpdated || 0, ...(currentGuild.crafters || []).map(c => c.lastUpdated || 0));
+        let relTime = formatRelativeTime(maxTs);
+        let fullTime = formatFullDate(maxTs);
+        if (relTime === 'Unknown' && window.__GRB_DATA__ && window.__GRB_DATA__.exportedAt) {
+          const expSeconds = Math.floor(new Date(window.__GRB_DATA__.exportedAt).getTime() / 1000);
+          if (expSeconds) {
+            relTime = formatRelativeTime(expSeconds);
+            fullTime = formatFullDate(expSeconds);
+          }
+        }
         els.guildSync.textContent = `Synced ${relTime}`;
         els.guildSync.title = fullTime;
 

@@ -1,11 +1,12 @@
 {
-  "exportedAt": "2026-11-15T22:46:06.267Z",
+  "exportedAt": "2026-11-15T22:50:16.220Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
+      "lastUpdated": 1794776999,
       "professions": [
         {
           "id": 164,

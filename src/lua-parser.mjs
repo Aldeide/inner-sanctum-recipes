@@ -797,10 +797,13 @@ export function transformGuildRecipeBook(rawDb) {
       return a.name.localeCompare(b.name);
     });
 
+    const guildMaxTs = craftersList.reduce((acc, c) => Math.max(acc, c.lastUpdated || 0), 0);
+
     transformedGuilds.push({
       guildKey,
       name: guildName,
       realm: guildRealm,
+      lastUpdated: guildMaxTs,
       professions: professionsList,
       crafters: craftersList,
       recipes: recipesList
