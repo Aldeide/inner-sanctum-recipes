@@ -1,0 +1,3620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inner Sanctum · Guild Recipe Book</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22cross%22%20x1%3D%2215%25%22%20y1%3D%220%25%22%20x2%3D%2285%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%2F%3E%3Cstop%20offset%3D%2220%25%22%20stop-color%3D%22%23f1f5f9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%2F%3E%3Cstop%20offset%3D%2275%25%22%20stop-color%3D%22%2394a3b8%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2364748b%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGradient%20id%3D%22edge%22%20x1%3D%220%25%22%20y1%3D%220%25%22%20x2%3D%22100%25%22%20y2%3D%22100%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23ffffff%22%20stop-opacity%3D%220.9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23cbd5e1%22%20stop-opacity%3D%220.6%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23475569%22%20stop-opacity%3D%220.7%22%2F%3E%3C%2FlinearGradient%3E%3Cfilter%20id%3D%22drop%22%20x%3D%22-20%25%22%20y%3D%22-20%25%22%20width%3D%22140%25%22%20height%3D%22140%25%22%3E%3CfeDropShadow%20dx%3D%220%22%20dy%3D%221.5%22%20stdDeviation%3D%221.5%22%20flood-color%3D%22%23000000%22%20flood-opacity%3D%220.7%22%2F%3E%3C%2Ffilter%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M%2029.7%2015.2%20L%2042.7%2015.2%20L%2042.7%205.0%20L%2057.3%205.0%20L%2057.3%2015.2%20L%2070.3%2015.2%20C%2058.0%2037.7%2C%2062.3%2042.0%2C%2084.8%2029.7%20L%2084.8%2042.7%20L%2095.0%2042.7%20L%2095.0%2057.3%20L%2084.8%2057.3%20L%2084.8%2070.3%20C%2062.3%2058.0%2C%2058.0%2062.3%2C%2070.3%2084.8%20L%2057.3%2084.8%20L%2057.3%2095.0%20L%2042.7%2095.0%20L%2042.7%2084.8%20L%2029.7%2084.8%20C%2042.0%2062.3%2C%2037.7%2058.0%2C%2015.2%2070.3%20L%2015.2%2057.3%20L%205.0%2057.3%20L%205.0%2042.7%20L%2015.2%2042.7%20L%2015.2%2029.7%20C%2037.7%2042.0%2C%2042.0%2037.7%2C%2029.7%2015.2%20Z%22%20fill%3D%22url(%23cross)%22%20stroke%3D%22url(%23edge)%22%20stroke-width%3D%221%22%20stroke-linejoin%3D%22round%22%20filter%3D%22url(%23drop)%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================================================================
+       1. WARCRAFT GRIMOIRE THEME & CSS VARIABLES
+       ========================================================================== */
+    :root {
+      --bg-dark: #090c12;
+      --bg-surface: rgba(16, 21, 32, 0.80);
+      --bg-surface-elevated: rgba(22, 29, 43, 0.82);
+      --bg-surface-hover: #1c2537;
+      --border-dark: #222d42;
+      --border-subtle: rgba(200, 155, 60, 0.18);
+      --border-gold: #c89b3c;
+      --border-gold-glow: rgba(200, 155, 60, 0.4);
+      --gold-primary: #ffd100;
+      --gold-antique: #c89b3c;
+      --gold-bright: #e6c469;
+      --text-main: #e2e8f0;
+      --text-muted: #94a3b8;
+      --text-faint: #64748b;
+      --arcane-purple: #a855f7;
+      --arcane-glow: rgba(168, 85, 247, 0.35);
+
+      /* WoW Quality Colors */
+      --q-poor: #9d9d9d;
+      --q-common: #ffffff;
+      --q-uncommon: #1eff00;
+      --q-rare: #0070dd;
+      --q-epic: #a335ee;
+      --q-legendary: #ff8000;
+      --q-spell: #ffd100;
+
+      --font-display: 'Cinzel', Georgia, 'Times New Roman', serif;
+      --font-ui: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 50% 0%, rgba(200, 155, 60, 0.08) 0%, transparent 65%),
+        radial-gradient(circle at 15% 30%, rgba(79, 70, 229, 0.04) 0%, transparent 50%),
+        radial-gradient(circle at 85% 70%, rgba(168, 85, 247, 0.03) 0%, transparent 50%),
+        linear-gradient(to bottom, #090c12, #0d111a);
+      color: var(--text-main);
+      font-family: var(--font-ui);
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090c12;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #232d3f;
+      border-radius: 4px;
+      border: 1px solid rgba(200, 155, 60, 0.15);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--gold-antique);
+    }
+
+    /* ==========================================================================
+       2. WARCRAFTDB TOOLTIP STYLES (EXACT SPECIFICATION)
+       ========================================================================== */
+    #grb-tooltip {
+      position: fixed;
+      z-index: 99999;
+      display: none;
+      pointer-events: none;
+      max-width: 360px;
+      min-width: 220px;
+      padding: 10px 12px;
+      background: rgba(11, 14, 23, 0.97);
+      border: 1px solid #5a6578;
+      border-radius: 6px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.9), inset 0 0 1px 1px rgba(255, 255, 255, 0.08), 0 0 14px rgba(200, 155, 60, 0.18);
+      font-family: var(--font-ui);
+      color: #e5e7eb;
+      line-height: 1.4;
+      transition: opacity 0.08s ease;
+    }
+
+    #grb-tooltip tt-title,
+    #grb-tooltip tt-line,
+    #grb-tooltip tt-double-line,
+    #grb-tooltip tt-indented-line,
+    #grb-tooltip tt-spacer {
+      display: block;
+    }
+
+    #grb-tooltip tt-title {
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 3px;
+      color: #ffd100;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    }
+
+    #grb-tooltip tt-title[data-quality="0"] { color: #9d9d9d; }
+    #grb-tooltip tt-title[data-quality="1"] { color: #ffffff; }
+    #grb-tooltip tt-title[data-quality="2"] { color: #1eff00; }
+    #grb-tooltip tt-title[data-quality="3"] { color: #0070dd; }
+    #grb-tooltip tt-title[data-quality="4"] { color: #a335ee; }
+    #grb-tooltip tt-title[data-quality="5"] { color: #ff8000; }
+
+    #grb-tooltip tt-subtitle {
+      color: #ffd100;
+      font-size: 12px;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    #grb-tooltip tt-double-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: 12.5px;
+      color: #e5e7eb;
+    }
+
+    #grb-tooltip tt-line {
+      font-size: 12.5px;
+      line-height: 1.4;
+      color: #ffd100;
+    }
+
+    #grb-tooltip tt-line[data-line-type^="captured-"] {
+      color: #ffffff;
+    }
+
+    #grb-tooltip tt-line[data-line-type="spell-reagents"],
+    #grb-tooltip tt-line[data-line-type="spell-tools"],
+    #grb-tooltip tt-line[data-line-type="required-skill"] {
+      color: #ffd100;
+      margin-top: 3px;
+    }
+
+    #grb-tooltip tt-indented-line {
+      padding-left: 10px;
+      font-size: 12.5px;
+      color: #e5e7eb;
+    }
+
+    #grb-tooltip tt-indented-line a {
+      color: #ffd100;
+      text-decoration: none;
+    }
+    #grb-tooltip tt-indented-line a:hover {
+      text-decoration: underline;
+    }
+
+    #grb-tooltip tt-spacer {
+      height: 8px;
+    }
+
+    #grb-tooltip .wcdb-tooltip-embedded {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 209, 0, 0.22);
+    }
+
+    #grb-tooltip .price-gold::after { content: "g "; color: #ffd700; }
+    #grb-tooltip .price-silver::after { content: "s "; color: #c7c7cf; margin-left: 2px; }
+    #grb-tooltip .price-copper::after { content: "c"; color: #eda55f; margin-left: 2px; }
+
+    #grb-tooltip tt-inline-color {
+      color: inherit;
+    }
+
+    /* Fallback Tooltip Header */
+    .tt-fallback-craft-info {
+      margin-top: 8px;
+      padding-top: 6px;
+      border-top: 1px dashed rgba(200, 155, 60, 0.2);
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+    .tt-fallback-crafter-names {
+      color: var(--gold-bright);
+      font-weight: 500;
+    }
+
+    /* ==========================================================================
+       3. APPLICATION LAYOUT & HEADER
+       ========================================================================== */
+    .app-container {
+      position: relative;
+      z-index: 1;
+      max-width: 1560px;
+      margin: 0 auto;
+      padding: 20px 24px 60px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    header.grb-header {
+      background: linear-gradient(180deg, rgba(22, 29, 43, 0.95) 0%, rgba(16, 21, 32, 0.95) 100%);
+      border: 1px solid var(--border-subtle);
+      border-top: 2px solid var(--border-gold);
+      border-radius: 10px;
+      padding: 18px 24px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6), 0 0 15px rgba(200, 155, 60, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header.grb-header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 320px;
+      height: 100%;
+      background: radial-gradient(circle at 100% 0%, rgba(200, 155, 60, 0.12) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    
+    /* Watermark Background */
+    .watermark-bg,
+    .bg-watermark {
+      position: fixed;
+      top: 52%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(65vw, 620px);
+      height: min(65vw, 620px);
+      opacity: 0.095;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .watermark-svg,
+    .bg-watermark svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .guild-crest-wrapper {
+      width: 52px;
+      height: 52px;
+      flex-shrink: 0;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.6)) drop-shadow(0 0 10px rgba(226, 232, 240, 0.25));
+    }
+    .guild-crest-wrapper svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .guild-titles {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .guild-title-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    h1.guild-name {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      background: linear-gradient(180deg, #fffaf0 0%, #e6c469 65%, #c89b3c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 2px 10px rgba(200, 155, 60, 0.35);
+    }
+
+    .guild-select {
+      background: rgba(9, 12, 18, 0.85);
+      border: 1px solid var(--border-gold);
+      color: var(--gold-bright);
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      outline: none;
+      cursor: pointer;
+    }
+    .guild-select option {
+      background: #101520;
+      color: #f1f5f9;
+    }
+
+
+
+    .header-subtext {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 12.5px;
+      color: var(--text-muted);
+    }
+
+
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* Primary & Secondary Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-decoration: none;
+      outline: none;
+    }
+
+    .btn-gold {
+      background: linear-gradient(180deg, #322614 0%, #1f170c 100%);
+      border: 1px solid var(--border-gold);
+      color: var(--gold-bright);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(230, 196, 105, 0.25);
+    }
+    .btn-gold:hover {
+      background: linear-gradient(180deg, #44341b 0%, #2a2010 100%);
+      border-color: #ffd100;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(200, 155, 60, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: rgba(16, 21, 32, 0.8);
+      border: 1px solid var(--border-dark);
+      color: var(--text-main);
+    }
+    .btn-secondary:hover {
+      background: var(--bg-surface-elevated);
+      border-color: rgba(200, 155, 60, 0.4);
+      color: var(--gold-bright);
+    }
+
+    .btn svg {
+      width: 15px;
+      height: 15px;
+      flex-shrink: 0;
+    }
+
+    /* KPI STATS ROW */
+    .kpi-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .kpi-card {
+      background: rgba(10, 13, 20, 0.6);
+      border: 1px solid rgba(200, 155, 60, 0.12);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      transition: border-color 0.15s ease;
+    }
+    .kpi-card:hover {
+      border-color: rgba(200, 155, 60, 0.3);
+    }
+
+    .kpi-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-muted);
+    }
+
+    .kpi-value {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--gold-bright);
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    .kpi-custom-chip {
+      color: #c084fc;
+      text-shadow: 0 0 8px rgba(168, 85, 247, 0.4);
+    }
+
+    /* ==========================================================================
+       4. NAVIGATION TABS (WARCRAFT-STYLE)
+       ========================================================================== */
+    .nav-tabs {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-dark);
+      padding-bottom: 2px;
+    }
+
+    .tab-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      padding: 10px 20px;
+      background: transparent;
+      border: 1px solid transparent;
+      border-bottom: none;
+      border-radius: 8px 8px 0 0;
+      color: var(--text-muted);
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      position: relative;
+    }
+
+    .tab-btn svg {
+      width: 17px;
+      height: 17px;
+      stroke: currentColor;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(22, 29, 43, 0.4);
+    }
+
+    .tab-btn.active {
+      color: var(--gold-bright);
+      background: linear-gradient(180deg, rgba(22, 29, 43, 0.95) 0%, rgba(16, 21, 32, 0.95) 100%);
+      border-color: var(--border-subtle);
+      border-top: 2px solid var(--border-gold);
+    }
+
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: var(--bg-surface);
+    }
+
+    .tab-badge {
+      background: rgba(9, 12, 18, 0.8);
+      border: 1px solid var(--border-dark);
+      font-family: var(--font-ui);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 7px;
+      border-radius: 9999px;
+      color: var(--text-muted);
+    }
+    .tab-btn.active .tab-badge {
+      border-color: rgba(200, 155, 60, 0.3);
+      color: var(--gold-bright);
+    }
+
+    /* ==========================================================================
+       5. VIEW 1: RECIPES TOME LAYOUT
+       ========================================================================== */
+    .view-content {
+      display: none;
+    }
+    .view-content.active {
+      display: block;
+    }
+
+    .tome-layout {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    /* LEFT SIDEBAR: PROFESSIONS */
+    aside.professions-sidebar {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      position: sticky;
+      top: 16px;
+      max-height: calc(100vh - 32px);
+      overflow-y: auto;
+    }
+
+    .sidebar-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .sidebar-title {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gold-bright);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+    }
+
+    .prof-group-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      color: var(--text-faint);
+      margin: 6px 0 4px 6px;
+    }
+
+    .prof-list {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      list-style: none;
+    }
+
+    .prof-item-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 8px 10px;
+      border-radius: 6px;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-main);
+      font-size: 13px;
+      font-weight: 500;
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+
+    .prof-item-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .prof-icon-wrap {
+      width: 22px;
+      height: 22px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: var(--gold-antique);
+    }
+
+    .prof-icon-wrap svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .prof-name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .prof-count {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 9999px;
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text-muted);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      flex-shrink: 0;
+    }
+
+    .prof-item-btn:hover {
+      background: rgba(22, 29, 43, 0.6);
+      color: #fff;
+    }
+
+    .prof-item-btn.active {
+      background: linear-gradient(90deg, rgba(200, 155, 60, 0.18) 0%, rgba(200, 155, 60, 0.05) 100%);
+      border: 1px solid rgba(200, 155, 60, 0.35);
+      color: var(--gold-bright);
+      font-weight: 600;
+    }
+
+    .prof-item-btn.active .prof-count {
+      background: rgba(200, 155, 60, 0.2);
+      border-color: rgba(200, 155, 60, 0.3);
+      color: var(--gold-bright);
+    }
+
+    /* MAIN RECIPES SECTION */
+    main.recipes-main {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* TOOLBAR */
+    .toolbar-container {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .toolbar-row-primary {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .search-box-wrap {
+      flex: 1;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-box-wrap svg.search-icon {
+      position: absolute;
+      left: 12px;
+      width: 17px;
+      height: 17px;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .search-input {
+      width: 100%;
+      background: #090c12;
+      border: 1px solid var(--border-dark);
+      border-radius: 6px;
+      padding: 9px 38px 9px 38px;
+      color: #f8fafc;
+      font-size: 13.5px;
+      outline: none;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--border-gold);
+      box-shadow: 0 0 10px rgba(200, 155, 60, 0.25);
+    }
+
+    .search-shortcut-hint {
+      position: absolute;
+      right: 12px;
+      font-family: var(--font-mono);
+      font-size: 11px;
+      padding: 2px 6px;
+      background: #161d2b;
+      border: 1px solid #2a3449;
+      border-radius: 4px;
+      color: var(--text-faint);
+      pointer-events: none;
+    }
+
+    .clear-search-btn {
+      position: absolute;
+      right: 10px;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: none;
+      padding: 4px;
+    }
+    .clear-search-btn:hover {
+      color: #fff;
+    }
+    .clear-search-btn svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .toolbar-row-filters {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .filter-label {
+      font-size: 11.5px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-faint);
+    }
+
+    .filter-select {
+      background: #090c12;
+      border: 1px solid var(--border-dark);
+      border-radius: 6px;
+      padding: 6px 10px;
+      color: var(--text-main);
+      font-size: 12.5px;
+      font-weight: 500;
+      outline: none;
+      cursor: pointer;
+      transition: border-color 0.12s ease;
+    }
+    .filter-select:hover,
+        .skill-range-inputs {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .skill-range-input {
+      width: 58px;
+      background: rgba(10, 13, 20, 0.8);
+      border: 1px solid var(--border-dark);
+      color: var(--text-main);
+      border-radius: 6px;
+      padding: 6px 8px;
+      font-size: 13px;
+      font-family: var(--font-ui);
+      outline: none;
+      text-align: center;
+      transition: all 0.15s ease;
+    }
+    .skill-range-input:focus {
+      border-color: var(--border-gold);
+      box-shadow: 0 0 8px rgba(200, 155, 60, 0.25);
+    }
+    .skill-range-input::-webkit-outer-spin-button,
+    .skill-range-input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    .skill-range-input[type=number] {
+      -moz-appearance: textfield;
+    }
+    .skill-range-sep {
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+
+    .filter-select:focus {
+      border-color: var(--border-gold);
+    }
+    .filter-select option {
+      background: #101520;
+      color: #f1f5f9;
+    }
+
+    /* Result counter bar */
+    .results-summary-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12.5px;
+      color: var(--text-muted);
+      padding: 0 4px;
+    }
+
+    .results-count-bold {
+      color: var(--gold-bright);
+      font-weight: 600;
+    }
+
+    .reset-filters-btn {
+      background: transparent;
+      border: none;
+      color: #c084fc;
+      cursor: pointer;
+      font-size: 12px;
+      text-decoration: underline;
+      display: none;
+    }
+    .reset-filters-btn:hover {
+      color: #e9d5ff;
+    }
+
+    /* ==========================================================================
+       6. RECIPE LIST & CARD ROWS
+       ========================================================================== */
+    .recipes-container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .recipe-row {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: grid;
+      grid-template-columns: 42px 1fr 150px minmax(180px, 280px);
+      gap: 14px;
+      align-items: center;
+      transition: transform 0.1s ease, border-color 0.12s ease, background 0.12s ease;
+    }
+
+    .recipe-row:hover {
+      border-color: rgba(200, 155, 60, 0.35);
+      background: var(--bg-surface-elevated);
+      transform: translateY(-1px);
+    }
+
+    /* Recipe Icon */
+    .recipe-icon-wrapper {
+      width: 40px;
+      height: 40px;
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #000;
+      border: 2px solid #5a6578;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .recipe-icon-wrapper[data-quality="0"] { border-color: var(--q-poor); }
+    .recipe-icon-wrapper[data-quality="1"] { border-color: var(--q-common); }
+    .recipe-icon-wrapper[data-quality="2"] { border-color: var(--q-uncommon); }
+    .recipe-icon-wrapper[data-quality="3"] { border-color: var(--q-rare); }
+    .recipe-icon-wrapper[data-quality="4"] { border-color: var(--q-epic); }
+    .recipe-icon-wrapper[data-quality="5"] { border-color: var(--q-legendary); }
+    .recipe-icon-wrapper[data-quality="null"] { border-color: var(--q-spell); }
+
+    .recipe-icon-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .recipe-icon-fallback {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #141b29;
+      color: var(--gold-antique);
+    }
+    .recipe-icon-fallback svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* Recipe Details */
+    .recipe-details {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      min-width: 0;
+    }
+
+    .recipe-headline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .recipe-title-link {
+      font-size: 14.5px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #ffd100;
+      transition: filter 0.1s ease;
+      cursor: pointer;
+    }
+    .recipe-title-link:hover {
+      text-decoration: underline;
+      filter: brightness(1.2);
+    }
+
+    .recipe-title-link[data-quality="0"] { color: var(--q-poor); }
+    .recipe-title-link[data-quality="1"] { color: var(--q-common); }
+    .recipe-title-link[data-quality="2"] { color: var(--q-uncommon); }
+    .recipe-title-link[data-quality="3"] { color: var(--q-rare); }
+    .recipe-title-link[data-quality="4"] { color: var(--q-epic); }
+    .recipe-title-link[data-quality="5"] { color: var(--q-legendary); }
+    .recipe-title-link[data-quality="null"] { color: var(--q-spell); }
+
+    .badge-skill-req {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 1px 7px;
+      border-radius: 4px;
+      letter-spacing: 0.3px;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      transition: all 0.15s ease;
+    }
+    .badge-skill-req.rank-apprentice {
+      background: rgba(148, 163, 184, 0.12);
+      border: 1px solid rgba(148, 163, 184, 0.28);
+      color: #cbd5e1;
+    }
+    .badge-skill-req.rank-journeyman {
+      background: rgba(34, 197, 94, 0.12);
+      border: 1px solid rgba(74, 222, 128, 0.3);
+      color: #86efac;
+    }
+    .badge-skill-req.rank-expert {
+      background: rgba(14, 165, 233, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #7dd3fc;
+    }
+    .badge-skill-req.rank-artisan {
+      background: rgba(200, 155, 60, 0.16);
+      border: 1px solid rgba(230, 196, 105, 0.45);
+      color: #ffd100;
+      text-shadow: 0 0 6px rgba(255, 209, 0, 0.25);
+    }
+
+    .badge-meta-tag {
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: rgba(0, 0, 0, 0.3);
+      padding: 1px 6px;
+      border-radius: 4px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .spell-secondary-link {
+      color: var(--text-faint);
+      display: inline-flex;
+      align-items: center;
+      padding: 2px;
+      border-radius: 3px;
+      transition: color 0.12s ease;
+    }
+    .spell-secondary-link:hover {
+      color: var(--gold-bright);
+    }
+    .spell-secondary-link svg {
+      width: 13px;
+      height: 13px;
+    }
+
+    .recipe-reagents-line {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: var(--text-muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .recipe-reagents-line svg {
+      width: 13px;
+      height: 13px;
+      color: var(--gold-antique);
+      flex-shrink: 0;
+    }
+
+    /* Profession column */
+    .recipe-prof-column {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 12.5px;
+      font-weight: 500;
+      color: #cbd5e1;
+    }
+    .recipe-prof-column .prof-micro-icon {
+      width: 16px;
+      height: 16px;
+      color: var(--gold-antique);
+      flex-shrink: 0;
+    }
+
+    /* Crafters Column */
+    .recipe-crafters-column {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: flex-end;
+    }
+
+    .crafter-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(9, 12, 18, 0.75);
+      border: 1px solid var(--border-dark);
+      border-radius: 4px;
+      padding: 3px 7px;
+      font-size: 11.5px;
+      color: var(--text-main);
+      cursor: pointer;
+      transition: all 0.12s ease;
+      text-decoration: none;
+      outline: none;
+    }
+
+    .crafter-pill:hover {
+      background: rgba(22, 29, 43, 0.95);
+      border-color: var(--border-gold);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    }
+
+    .crafter-short-name {
+      font-weight: 600;
+    }
+
+    .crafter-skill-tag {
+      font-family: var(--font-mono);
+      font-size: 10.5px;
+      font-weight: 600;
+      padding: 1px 4px;
+      border-radius: 3px;
+      background: #141b29;
+      color: var(--text-muted);
+    }
+
+    .crafter-pill.is-max-skill .crafter-skill-tag {
+      background: rgba(200, 155, 60, 0.18);
+      color: var(--gold-bright);
+      border: 1px solid rgba(200, 155, 60, 0.35);
+    }
+
+    /* Infinite Scroll Sentinel / Load More */
+    .load-more-container {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+    }
+
+    .load-more-btn {
+      padding: 10px 24px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-gold);
+      color: var(--gold-bright);
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .load-more-btn:hover {
+      background: var(--bg-surface-elevated);
+      color: #fff;
+      box-shadow: 0 0 12px rgba(200, 155, 60, 0.3);
+    }
+
+    /* Empty search state */
+    .empty-search-state {
+      background: var(--bg-surface);
+      border: 1px dashed var(--border-subtle);
+      border-radius: 8px;
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--text-muted);
+    }
+    .empty-search-state h3 {
+      font-family: var(--font-display);
+      color: var(--gold-bright);
+      margin-bottom: 8px;
+    }
+
+    /* ==========================================================================
+       7. VIEW 2: GUILD CRAFTERS GRID
+       ========================================================================== */
+    .crafters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 16px;
+    }
+
+    .crafter-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      transition: border-color 0.15s ease, transform 0.12s ease;
+    }
+
+    .crafter-card:hover {
+      border-color: rgba(200, 155, 60, 0.35);
+      transform: translateY(-2px);
+    }
+
+    .crafter-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    .crafter-avatar-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .crafter-crest-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: #161d2b;
+      border: 1px solid var(--border-gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-antique);
+    }
+    .crafter-crest-icon svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .crafter-info-names {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .crafter-card-name {
+      font-family: var(--font-display);
+      font-size: 17px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .crafter-card-realm {
+      font-size: 11.5px;
+      color: var(--text-muted);
+    }
+
+    .crafter-recipe-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: rgba(200, 155, 60, 0.15);
+      border: 1px solid rgba(200, 155, 60, 0.3);
+      color: var(--gold-bright);
+    }
+
+    .crafter-prof-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .crafter-prof-item {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      background: rgba(9, 12, 18, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      border-radius: 6px;
+      padding: 10px;
+    }
+
+    .crafter-prof-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+      color: #e2e8f0;
+    }
+
+    .crafter-prof-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .crafter-prof-title svg {
+      width: 17px;
+      height: 17px;
+      color: var(--gold-antique);
+    }
+
+    .crafter-prof-recipe-count {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    /* WOW SKILL PROGRESS BAR */
+    .wow-skill-bar-outer {
+      height: 18px;
+      background: #090c12;
+      border: 1px solid #283347;
+      border-radius: 4px;
+      position: relative;
+      overflow: hidden;
+      margin-top: 4px;
+    }
+
+    .wow-skill-bar-fill {
+      height: 100%;
+      border-radius: 3px;
+      transition: width 0.4s ease-out;
+    }
+
+    /* Rank themes */
+    .wow-skill-bar-fill.rank-apprentice {
+      background: linear-gradient(90deg, #9a5323 0%, #cd7f32 100%);
+    }
+    .wow-skill-bar-fill.rank-journeyman {
+      background: linear-gradient(90deg, #475569 0%, #94a3b8 100%);
+    }
+    .wow-skill-bar-fill.rank-expert {
+      background: linear-gradient(90deg, #b45309 0%, #f59e0b 100%);
+    }
+    .wow-skill-bar-fill.rank-artisan {
+      background: linear-gradient(90deg, #047857 0%, #10b981 100%);
+    }
+
+    .wow-skill-bar-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-size: 10px;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95);
+      letter-spacing: 0.5px;
+    }
+
+    .crafter-card-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 6px;
+    }
+
+    .view-crafter-recipes-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: transparent;
+      border: 1px solid rgba(200, 155, 60, 0.25);
+      border-radius: 4px;
+      padding: 5px 10px;
+      color: var(--gold-bright);
+      font-size: 11.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.12s ease;
+      text-decoration: none;
+    }
+    .view-crafter-recipes-btn:hover {
+      background: rgba(200, 155, 60, 0.15);
+      border-color: var(--border-gold);
+      color: #fff;
+    }
+
+    /* ==========================================================================
+       8. EMPTY STATE & DROPZONE
+       ========================================================================== */
+    .empty-grimoire-dropzone {
+      background: linear-gradient(180deg, rgba(22, 29, 43, 0.7) 0%, rgba(16, 21, 32, 0.7) 100%);
+      border: 2px dashed rgba(200, 155, 60, 0.35);
+      border-radius: 12px;
+      padding: 60px 30px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      max-width: 640px;
+      margin: 40px auto;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+    }
+
+    .empty-grimoire-icon {
+      width: 72px;
+      height: 72px;
+      color: var(--gold-bright);
+      filter: drop-shadow(0 4px 12px rgba(200, 155, 60, 0.4));
+    }
+
+    .empty-grimoire-title {
+      font-family: var(--font-display);
+      font-size: 24px;
+      color: #fff;
+    }
+
+    .empty-grimoire-desc {
+      color: var(--text-muted);
+      font-size: 14px;
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    .empty-instructions-box {
+      background: #090c12;
+      border: 1px solid var(--border-dark);
+      border-radius: 8px;
+      padding: 14px 20px;
+      text-align: left;
+      font-size: 13px;
+      color: #cbd5e1;
+      width: 100%;
+    }
+    .empty-instructions-box ol {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .empty-instructions-box code {
+      font-family: var(--font-mono);
+      background: #161d2b;
+      padding: 1px 5px;
+      border-radius: 3px;
+      color: var(--gold-bright);
+    }
+
+    /* FULL WINDOW DRAG AND DROP OVERLAY */
+    #grb-drop-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(9, 12, 18, 0.88);
+      backdrop-filter: blur(8px);
+      z-index: 100000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      pointer-events: none;
+    }
+
+    #grb-drop-overlay.drag-over {
+      display: flex;
+    }
+
+    .drop-box-pulse {
+      border: 3px dashed var(--gold-bright);
+      border-radius: 16px;
+      padding: 50px 70px;
+      background: rgba(22, 29, 43, 0.85);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 0 50px rgba(200, 155, 60, 0.4);
+      animation: pulseGlow 1.5s infinite alternate ease-in-out;
+    }
+
+    @keyframes pulseGlow {
+      from { box-shadow: 0 0 25px rgba(200, 155, 60, 0.2); }
+      to { box-shadow: 0 0 55px rgba(200, 155, 60, 0.6); }
+    }
+
+    /* ==========================================================================
+       9. TOAST NOTIFICATIONS
+       ========================================================================== */
+    #grb-toasts {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 100001;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      pointer-events: none;
+    }
+
+    .toast-item {
+      background: rgba(16, 21, 32, 0.96);
+      border: 1px solid var(--border-gold);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7), 0 0 12px rgba(200, 155, 60, 0.25);
+      border-radius: 6px;
+      padding: 10px 16px;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      pointer-events: auto;
+      animation: toastSlideIn 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .toast-item.toast-success svg { color: #10b981; }
+    .toast-item.toast-info svg { color: var(--gold-bright); }
+    .toast-item.toast-error svg { color: #ef4444; }
+
+    @keyframes toastSlideIn {
+      from { transform: translateX(40px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    /* ==========================================================================
+       10. RESPONSIVE BREAKPOINTS
+       ========================================================================== */
+    @media (max-width: 1024px) {
+      .tome-layout {
+        grid-template-columns: 1fr;
+      }
+      aside.professions-sidebar {
+        position: static;
+        max-height: none;
+      }
+      .prof-list {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        padding-bottom: 6px;
+      }
+      .prof-item-btn {
+        width: auto;
+        white-space: nowrap;
+      }
+      .recipe-row {
+        grid-template-columns: 40px 1fr;
+        gap: 10px;
+      }
+      .recipe-prof-column {
+        grid-column: 2;
+      }
+      .recipe-crafters-column {
+        grid-column: 1 / -1;
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .app-container {
+        padding: 12px 12px 40px 12px;
+      }
+      .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header-actions {
+        width: 100%;
+        justify-content: stretch;
+      }
+      .header-actions .btn {
+        flex: 1;
+        justify-content: center;
+      }
+      .toolbar-row-filters {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-group {
+        justify-content: space-between;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- FADED INNER SANCTUM WATERMARK BACKGROUND -->
+  <div class="watermark-bg bg-watermark" aria-hidden="true">
+    <svg viewBox="0 0 100 100" class="watermark-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <use href="#inner-sanctum-emblem"/>
+    </svg>
+  </div>
+
+  <!-- REUSABLE INNER SANCTUM EMBLEM SVG DEFINITION -->
+  <svg style="position:absolute; width:0; height:0; overflow:hidden;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="is-silver-cross" x1="15%" y1="0%" x2="85%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="20%" stop-color="#f1f5f9"/>
+        <stop offset="50%" stop-color="#cbd5e1"/>
+        <stop offset="75%" stop-color="#94a3b8"/>
+        <stop offset="100%" stop-color="#64748b"/>
+      </linearGradient>
+      <linearGradient id="is-cross-border" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+        <stop offset="50%" stop-color="#cbd5e1" stop-opacity="0.6"/>
+        <stop offset="100%" stop-color="#475569" stop-opacity="0.7"/>
+      </linearGradient>
+      <filter id="is-cross-shadow" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.65"/>
+      </filter>
+      <g id="inner-sanctum-emblem">
+        <path d="M 29.7 15.2 L 42.7 15.2 L 42.7 5.0 L 57.3 5.0 L 57.3 15.2 L 70.3 15.2 C 58.0 37.7, 62.3 42.0, 84.8 29.7 L 84.8 42.7 L 95.0 42.7 L 95.0 57.3 L 84.8 57.3 L 84.8 70.3 C 62.3 58.0, 58.0 62.3, 70.3 84.8 L 57.3 84.8 L 57.3 95.0 L 42.7 95.0 L 42.7 84.8 L 29.7 84.8 C 42.0 62.3, 37.7 58.0, 15.2 70.3 L 15.2 57.3 L 5.0 57.3 L 5.0 42.7 L 15.2 42.7 L 15.2 29.7 C 37.7 42.0, 42.0 37.7, 29.7 15.2 Z" fill="url(#is-silver-cross)" stroke="url(#is-cross-border)" stroke-width="1" stroke-linejoin="round" filter="url(#is-cross-shadow)"/>
+      </g>
+    </defs>
+  </svg>
+
+
+  <!-- FULL PAGE DRAG AND DROP OVERLAY -->
+  <div id="grb-drop-overlay">
+    <div class="drop-box-pulse">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--gold-bright);">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="17 8 12 3 7 8"></polyline>
+        <line x1="12" y1="3" x2="12" y2="15"></line>
+      </svg>
+      <div style="font-family:var(--font-display); font-size:22px; font-weight:700; color:#fff;">Drop GuildRecipeBook.lua here</div>
+      <div style="color:var(--text-muted); font-size:13.5px;">Update or load recipes instantly in your browser</div>
+    </div>
+  </div>
+
+  <!-- FLOATING WARCRAFTDB TOOLTIP -->
+  <div id="grb-tooltip" role="tooltip" aria-hidden="true"></div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="grb-toasts" aria-live="polite"></div>
+
+  <!-- HIDDEN LUA FILE INPUT -->
+  <input type="file" id="grb-file-input" accept=".lua" style="display:none" aria-hidden="true">
+
+  <!-- MAIN APPLICATION SHELL -->
+  <div class="app-container">
+
+    <!-- HEADER -->
+    <header class="grb-header">
+      <div class="header-top">
+        <div class="header-brand">
+          <div class="guild-crest-wrapper" aria-hidden="true">
+            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <use href="#inner-sanctum-emblem"/>
+            </svg>
+          </div>
+          <div class="guild-titles">
+            <div class="guild-title-row">
+              <h1 class="guild-name" id="guild-title-text">Inner Sanctum</h1>
+              <select id="guild-switcher-select" class="guild-select" style="display:none;" aria-label="Select Guild"></select>
+              
+            </div>
+            <div class="header-subtext">
+              <span id="guild-sync-text" title="Last sync timestamp">Synced recently</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button class="btn btn-gold" id="btn-import-lua" title="Import an updated GuildRecipeBook.lua">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+            Import .lua
+          </button>
+          <button class="btn btn-secondary" id="btn-export-html" title="Download this standalone HTML file with updated data">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            Export HTML
+          </button>
+        </div>
+      </div>
+
+      <!-- KPI STATS BAR -->
+      <div class="kpi-row" id="guild-kpi-bar">
+        <div class="kpi-card">
+          <div class="kpi-label">Total Recipes</div>
+          <div class="kpi-value" id="kpi-total-recipes">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Professions</div>
+          <div class="kpi-value" id="kpi-total-profs">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Active Crafters</div>
+          <div class="kpi-value" id="kpi-total-crafters">0</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Artisan Recipes (225+)</div>
+          <div class="kpi-value" id="kpi-artisan-recipes">0</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NAVIGATION TABS -->
+    <nav class="nav-tabs" role="tablist">
+      <button class="tab-btn active" id="tab-recipes" data-view="recipes" role="tab" aria-selected="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+        Recipes Tome
+        <span class="tab-badge" id="tab-recipes-badge">0</span>
+      </button>
+      <button class="tab-btn" id="tab-crafters" data-view="crafters" role="tab" aria-selected="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        Guild Crafters
+        <span class="tab-badge" id="tab-crafters-badge">0</span>
+      </button>
+    </nav>
+
+    <!-- EMPTY DATA STATE (SHOWN IF NO DATA LOADED) -->
+    <div id="empty-state-view" class="empty-grimoire-dropzone" style="display:none;">
+      <svg class="empty-grimoire-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+        <line x1="12" y1="6" x2="16" y2="6"></line>
+        <line x1="12" y1="10" x2="16" y2="10"></line>
+      </svg>
+      <h2 class="empty-grimoire-title">WoW: Forever Recipe Book</h2>
+      <p class="empty-grimoire-desc">No recipe data has been embedded into this grimoire yet. Load your guild's data right in your browser:</p>
+      <div class="empty-instructions-box">
+        <ol>
+          <li>Drag and drop your <code>GuildRecipeBook.lua</code> file anywhere onto this page.</li>
+          <li>Or click the <strong>Import .lua</strong> button above to browse for it.</li>
+          <li>Or run <code>Export-Recipes.bat</code> to pre-compile this standalone report.</li>
+        </ol>
+      </div>
+      <button class="btn btn-gold" id="btn-empty-browse">Browse GuildRecipeBook.lua</button>
+    </div>
+
+    <!-- VIEW 1: RECIPES TOME -->
+    <div id="view-recipes" class="view-content active">
+      <div class="tome-layout">
+        
+        <!-- SIDEBAR: PROFESSIONS -->
+        <aside class="professions-sidebar">
+          <div class="sidebar-header">
+            <span class="sidebar-title">Professions</span>
+          </div>
+
+          <button class="prof-item-btn active" data-prof-id="all">
+            <div class="prof-item-left">
+              <span class="prof-icon-wrap" data-icon="all"></span>
+              <span class="prof-name">All Professions</span>
+            </div>
+            <span class="prof-count" id="sidebar-all-count">0</span>
+          </button>
+
+          <div id="prof-groups-wrapper">
+            <!-- Rendered dynamically -->
+          </div>
+        </aside>
+
+        <!-- MAIN RECIPES AREA -->
+        <main class="recipes-main">
+          
+          <!-- SEARCH & FILTER TOOLBAR -->
+          <div class="toolbar-container">
+            <div class="toolbar-row-primary">
+              <div class="search-box-wrap">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="recipe-search-input" class="search-input" placeholder="Search recipes, reagents, slot, crafter, ID..." autocomplete="off" spellcheck="false">
+                <span class="search-shortcut-hint" id="search-shortcut-hint">/</span>
+                <button class="clear-search-btn" id="btn-clear-search" title="Clear search">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="toolbar-row-filters">
+              <div class="filter-group">
+                <span class="filter-label">Crafter</span>
+                <select id="filter-crafter-select" class="filter-select">
+                  <option value="all">All Crafters</option>
+                </select>
+              </div>
+
+              <div class="filter-group">
+                <span class="filter-label">Tradeskill Level</span>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <select id="filter-skill-preset-select" class="filter-select">
+                    <option value="all">All Skill Levels</option>
+                    <option value="1-75">Apprentice (1–75)</option>
+                    <option value="75-150">Journeyman (75–150)</option>
+                    <option value="150-225">Expert (150–225)</option>
+                    <option value="225-300">Artisan (225–300)</option>
+                    <option value="275-300">Endgame (275–300)</option>
+                    <option value="custom" disabled hidden>Custom Range</option>
+                  </select>
+                  <div class="skill-range-inputs">
+                    <input type="number" id="filter-min-skill-input" class="skill-range-input" min="1" max="300" placeholder="Min" aria-label="Minimum Skill Level">
+                    <span class="skill-range-sep">–</span>
+                    <input type="number" id="filter-max-skill-input" class="skill-range-input" min="1" max="300" placeholder="Max" aria-label="Maximum Skill Level">
+                  </div>
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <span class="filter-label">Rarity / Type</span>
+                <select id="filter-rarity-select" class="filter-select">
+                  <option value="all">All Items & Spells</option>
+                  <option value="uncommon-plus">Uncommon+ (Green+)</option>
+                  <option value="rare-plus">Rare+ (Blue+)</option>
+                  <option value="epic-plus">Epic+ (Purple+)</option>
+                  <option value="spells-enchants">Enchants & Spells</option>
+                </select>
+              </div>
+
+              <div class="filter-group">
+                <span class="filter-label">Sort By</span>
+                <select id="filter-sort-select" class="filter-select">
+                  <option value="name-asc">Name (A → Z)</option>
+                  <option value="name-desc">Name (Z → A)</option>
+                  <option value="profession">Profession</option>
+                  <option value="rarity-desc">Rarity (High → Low)</option>
+                  <option value="rarity-asc">Rarity (Low → High)</option>
+                  <option value="skill-desc">Skill Level (High → Low)</option>
+                  <option value="skill-asc">Skill Level (Low → High)</option>
+                  <option value="crafters-desc">Most Crafters</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="results-summary-bar">
+              <div>Showing <span class="results-count-bold" id="results-count-text">0</span> of <span id="results-total-text">0</span> recipes</div>
+              <button class="reset-filters-btn" id="btn-reset-filters">Reset filters</button>
+            </div>
+          </div>
+
+          <!-- RECIPES LIST CONTAINER -->
+          <div class="recipes-container" id="recipes-list-view">
+            <!-- Rendered dynamically -->
+          </div>
+
+          <!-- LOAD MORE BUTTON / SCROLL SENTINEL -->
+          <div class="load-more-container" id="load-more-container" style="display:none;">
+            <button class="load-more-btn" id="btn-load-more">Load more recipes</button>
+          </div>
+
+          <!-- EMPTY SEARCH RESULTS STATE -->
+          <div class="empty-search-state" id="empty-search-state" style="display:none;">
+            <h3>No recipes matched your search</h3>
+            <p>Try broadening your query, selecting "All Professions", or clearing filters.</p>
+          </div>
+
+        </main>
+      </div>
+    </div>
+
+    <!-- VIEW 2: GUILD CRAFTERS -->
+    <div id="view-crafters" class="view-content">
+      <div class="crafters-grid" id="crafters-grid-view">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+
+  </div>
+
+  <!-- EXACT BOOTSTRAP SCRIPT (CRITICAL CONTRACT: DO NOT ALTER TOKENS) -->
+  <script id="grb-bootstrap">
+/*__GRB_PARSER_SCRIPT__*/
+window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
+</script>
+
+  <!-- APPLICATION CORE LOGIC -->
+  <script>
+    (function () {
+      'use strict';
+
+      /* ==========================================================================
+         PROFESSION DEFINITIONS & INLINE SVGS
+         ========================================================================== */
+      const PROFESSIONS = {
+        171: { name: "Alchemy", isSecondary: false, icon: "alchemy" },
+        164: { name: "Blacksmithing", isSecondary: false, icon: "blacksmithing" },
+        333: { name: "Enchanting", isSecondary: false, icon: "enchanting" },
+        202: { name: "Engineering", isSecondary: false, icon: "engineering" },
+        182: { name: "Herbalism", isSecondary: false, icon: "herbalism" },
+        773: { name: "Inscription", isSecondary: false, icon: "inscription" },
+        755: { name: "Jewelcrafting", isSecondary: false, icon: "jewelcrafting" },
+        165: { name: "Leatherworking", isSecondary: false, icon: "leatherworking" },
+        186: { name: "Mining", isSecondary: false, icon: "mining" },
+        393: { name: "Skinning", isSecondary: false, icon: "skinning" },
+        197: { name: "Tailoring", isSecondary: false, icon: "tailoring" },
+        185: { name: "Cooking", isSecondary: true, icon: "cooking" },
+        129: { name: "First Aid", isSecondary: true, icon: "firstaid" },
+        356: { name: "Fishing", isSecondary: true, icon: "fishing" }
+      };
+
+      const ICONS_SVG = {
+        all: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>`,
+        alchemy: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v5L5.5 18a2.5 2.5 0 0 0 2.2 3.5h8.6a2.5 2.5 0 0 0 2.2-3.5L14 7V2"></path><line x1="8.5" y1="2" x2="15.5" y2="2"></line><line x1="7" y1="14" x2="17" y2="14"></line></svg>`,
+        blacksmithing: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h16M7 19v-4l2-4h6l2 4v4M10 7h4v4h-4zM7 3l4 4-2 2-4-4z"></path></svg>`,
+        enchanting: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 4l5.5 5.5-12 12-5.5-5.5zM12 2l1.5 2.5L16 6l-2.5 1.5L12 10l-1.5-2.5L8 6l2.5-1.5zM19 14l1 1.5 1.5 1-1.5 1-1 1.5-1-1.5-1.5-1 1.5-1z"></path></svg>`,
+        engineering: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>`,
+        herbalism: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22v-9M12 13a7 7 0 0 0 7-7c0-2-2-4-4-4a7 7 0 0 0-7 7M12 13a7 7 0 0 1-7-7c0-2 2-4 4-4a7 7 0 0 1 7 7"></path></svg>`,
+        inscription: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 2c-4 0-7 3-9 7L4 16v4h4l7-7c4-2 7-5 7-9zM15 7l2 2"></path></svg>`,
+        jewelcrafting: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 12L2 9zM2 9h20M10 3l-2 6 4 12 4-12-2-6"></path></svg>`,
+        leatherworking: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C8 2 7 5 5 7s-3 5-2 8 3 4 5 5h8c2-1 4-2 5-5s0-6-2-8-3-5-7-5zM9 10l6 4M15 10l-6 4"></path></svg>`,
+        mining: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 2.5l7 7-3.5 3.5-7-7zM8.5 8.5l7 7-5.5 5.5a2 2 0 0 1-2.8 0l-4.2-4.2a2 2 0 0 1 0-2.8z"></path></svg>`,
+        skinning: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l6-6M9 15c4-4 9-5 12-4-1 3-2 8-6 12l-6-8z"></path></svg>`,
+        tailoring: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 0-4 4v12a4 4 0 0 0 8 0V6a4 4 0 0 0-4-4zM10 8h4M10 12h4M10 16h4M18 4l4 4-2 2-4-4z"></path></svg>`,
+        cooking: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 12h12v4a6 6 0 0 1-12 0v-4zM4 12h16M9 4v4M12 3v5M15 4v4"></path></svg>`,
+        firstaid: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM9 12h6M12 9v6"></path></svg>`,
+        fishing: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 3v8a4 4 0 0 1-4 4H4M4 15l3-3M4 15l3 3M18 3c2 2 4 2 4 4s-2 2-4 4"></path></svg>`,
+        scroll: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>`,
+        hammer: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 12l-8.5 8.5a2.12 2.12 0 0 1-3-3L12 9M18 15l4-4-4-4-4 4 4 4z"></path></svg>`,
+        spell: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 2v20M2 12h20M12 7l5 5-5 5-5-5z"></path></svg>`
+      };
+
+      function getProfIconSvg(profId) {
+        const p = PROFESSIONS[profId];
+        if (p && ICONS_SVG[p.icon]) return ICONS_SVG[p.icon];
+        return ICONS_SVG.scroll;
+      }
+
+      /* ==========================================================================
+         QUALITY COLOR MAP
+         ========================================================================== */
+      const QUALITY_COLORS = {
+        0: '#9d9d9d',
+        1: '#ffffff',
+        2: '#1eff00',
+        3: '#0070dd',
+        4: '#a335ee',
+        5: '#ff8000',
+        null: '#ffd100'
+      };
+
+      function getQualityColor(quality) {
+        if (quality === undefined || quality === null) return QUALITY_COLORS.null;
+        return QUALITY_COLORS[quality] || QUALITY_COLORS.null;
+      }
+
+      /* ==========================================================================
+         APPLICATION STATE
+         ========================================================================== */
+      let currentGuildIndex = 0;
+      let currentGuild = null;
+      let currentView = 'recipes'; // 'recipes' | 'crafters'
+      let selectedProfession = 'all';
+      let selectedCrafter = 'all';
+      let selectedRarity = 'all';
+      let selectedSort = 'name-asc';
+      let searchQuery = '';
+      let selectedSkillPreset = 'all';
+      let minSkillFilter = null;
+      let maxSkillFilter = null;
+      let visibleRecipeLimit = 60;
+      const CHUNK_SIZE = 60;
+
+      // In-Memory WarcraftDB Client Cache & LocalStorage
+      const LOCAL_CACHE_KEY = 'grb_wcdb_v1';
+      let wcdbCache = {};
+
+      try {
+        const rawCache = localStorage.getItem(LOCAL_CACHE_KEY);
+        if (rawCache) {
+          wcdbCache = JSON.parse(rawCache);
+        }
+      } catch (e) {
+        console.warn('Could not read localStorage cache:', e);
+      }
+
+      function saveWcdbCache() {
+        try {
+          localStorage.setItem(LOCAL_CACHE_KEY, JSON.stringify(wcdbCache));
+        } catch (e) {
+          console.warn('Could not save to localStorage:', e);
+        }
+      }
+
+      /* ==========================================================================
+         DOM ELEMENTS CACHE
+         ========================================================================== */
+      const els = {
+        guildTitle: document.getElementById('guild-title-text'),
+        guildRealm: document.getElementById('guild-realm-text'),
+        guildSync: document.getElementById('guild-sync-text'),
+        guildSelect: document.getElementById('guild-switcher-select'),
+        kpiRecipes: document.getElementById('kpi-total-recipes'),
+        kpiProfs: document.getElementById('kpi-total-profs'),
+        kpiCrafters: document.getElementById('kpi-total-crafters'),
+        kpiArtisan: document.getElementById('kpi-artisan-recipes'),
+        filterSkillPreset: document.getElementById('filter-skill-preset-select'),
+        minSkillInput: document.getElementById('filter-min-skill-input'),
+        maxSkillInput: document.getElementById('filter-max-skill-input'),
+        tabRecipes: document.getElementById('tab-recipes'),
+        tabCrafters: document.getElementById('tab-crafters'),
+        tabRecipesBadge: document.getElementById('tab-recipes-badge'),
+        tabCraftersBadge: document.getElementById('tab-crafters-badge'),
+        viewRecipes: document.getElementById('view-recipes'),
+        viewCrafters: document.getElementById('view-crafters'),
+        emptyView: document.getElementById('empty-state-view'),
+        profGroups: document.getElementById('prof-groups-wrapper'),
+        sidebarAllCount: document.getElementById('sidebar-all-count'),
+        searchInput: document.getElementById('recipe-search-input'),
+        clearSearchBtn: document.getElementById('btn-clear-search'),
+        searchHint: document.getElementById('search-shortcut-hint'),
+        filterCrafter: document.getElementById('filter-crafter-select'),
+        filterRarity: document.getElementById('filter-rarity-select'),
+        filterSort: document.getElementById('filter-sort-select'),
+        resultsCount: document.getElementById('results-count-text'),
+        resultsTotal: document.getElementById('results-total-text'),
+        resetFiltersBtn: document.getElementById('btn-reset-filters'),
+        recipesList: document.getElementById('recipes-list-view'),
+        emptySearch: document.getElementById('empty-search-state'),
+        loadMoreContainer: document.getElementById('load-more-container'),
+        btnLoadMore: document.getElementById('btn-load-more'),
+        craftersGrid: document.getElementById('crafters-grid-view'),
+        tooltip: document.getElementById('grb-tooltip'),
+        toasts: document.getElementById('grb-toasts'),
+        fileInput: document.getElementById('grb-file-input'),
+        btnImportLua: document.getElementById('btn-import-lua'),
+        btnExportHtml: document.getElementById('btn-export-html'),
+        btnEmptyBrowse: document.getElementById('btn-empty-browse'),
+        dropOverlay: document.getElementById('grb-drop-overlay')
+      };
+
+      /* Set sidebar "all" icon */
+      const sidebarAllIcon = document.querySelector('.prof-icon-wrap[data-icon="all"]');
+      if (sidebarAllIcon) sidebarAllIcon.innerHTML = ICONS_SVG.all;
+
+      /* ==========================================================================
+         HELPER UTILITIES
+         ========================================================================== */
+      function escapeHtml(str) {
+        if (str === null || str === undefined) return '';
+        return String(str)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&#39;');
+      }
+
+      function formatRelativeTime(epochSeconds) {
+        if (!epochSeconds) return 'Unknown';
+        const now = Math.floor(Date.now() / 1000);
+        const diff = now - epochSeconds;
+        if (diff < 60 || diff < 0) return 'Just now';
+        if (diff < 3600) return `${Math.floor(diff / 60)}m ago`;
+        if (diff < 86400) return `${Math.floor(diff / 3600)}h ago`;
+        if (diff < 86400 * 30) return `${Math.floor(diff / 86400)}d ago`;
+        return new Date(epochSeconds * 1000).toLocaleDateString();
+      }
+
+      function formatFullDate(epochSeconds) {
+        if (!epochSeconds) return '';
+        return new Date(epochSeconds * 1000).toLocaleString();
+      }
+
+      function getSkillRank(skill, max) {
+        if (max <= 75) return { title: 'Apprentice', class: 'rank-apprentice' };
+        if (max <= 150) return { title: 'Journeyman', class: 'rank-journeyman' };
+        if (max <= 225) return { title: 'Expert', class: 'rank-expert' };
+        return { title: 'Artisan', class: 'rank-artisan' };
+      }
+
+      function showToast(message, type = 'info') {
+        const item = document.createElement('div');
+        item.className = `toast-item toast-${type}`;
+        
+        let iconSvg = ICONS_SVG.all;
+        if (type === 'success') {
+          iconSvg = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+        } else if (type === 'error') {
+          iconSvg = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>`;
+        } else {
+          iconSvg = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>`;
+        }
+
+        item.innerHTML = `${iconSvg}<span>${escapeHtml(message)}</span>`;
+        els.toasts.appendChild(item);
+
+        setTimeout(() => {
+          item.style.transition = 'opacity 0.25s ease, transform 0.25s ease';
+          item.style.opacity = '0';
+          item.style.transform = 'translateY(10px)';
+          setTimeout(() => item.remove(), 260);
+        }, 3200);
+      }
+
+      /* Copy to clipboard whisper */
+      function copyWhisper(charName, recipeName, displayName) {
+        const whisper = `/w ${charName} Hey! Could you craft [${recipeName}] when you have a chance?`;
+        const nameToDisplay = displayName || (charName ? charName.replace('-', ' ') : 'crafter');
+        navigator.clipboard.writeText(whisper).then(() => {
+          showToast(`Copied whisper to ${nameToDisplay}!`, 'success');
+        }).catch(() => {
+          // Fallback
+          const ta = document.createElement('textarea');
+          ta.value = whisper;
+          document.body.appendChild(ta);
+          ta.select();
+          document.execCommand('copy');
+          document.body.removeChild(ta);
+          showToast(`Copied whisper to ${nameToDisplay}!`, 'success');
+        });
+      }
+
+      /* ==========================================================================
+         WARCRAFTDB TOOLTIP HOVER & POSITIONING
+         ========================================================================== */
+      let activeHoveredSpellId = null;
+
+      function positionTooltip(e) {
+        const tt = els.tooltip;
+        if (!tt || tt.style.display !== 'block') return;
+
+        const pad = 14;
+        let x = e.clientX + 16;
+        let y = e.clientY + 16;
+
+        const rect = tt.getBoundingClientRect();
+        if (x + rect.width > window.innerWidth - pad) {
+          x = e.clientX - rect.width - 16;
+        }
+        if (y + rect.height > window.innerHeight - pad) {
+          y = e.clientY - rect.height - 16;
+        }
+        if (x < pad) x = pad;
+        if (y < pad) y = pad;
+
+        tt.style.left = `${x}px`;
+        tt.style.top = `${y}px`;
+      }
+
+      window.addEventListener('mousemove', positionTooltip);
+
+      function hideTooltip() {
+        activeHoveredSpellId = null;
+        if (els.tooltip) {
+          els.tooltip.style.display = 'none';
+          els.tooltip.innerHTML = '';
+        }
+      }
+
+      function showTooltipForRecipe(recipe, e) {
+        if (!recipe) return;
+        activeHoveredSpellId = recipe.spellId;
+
+        const meta = getMeta(recipe.spellId);
+        renderTooltipContent(recipe, meta);
+
+        els.tooltip.style.display = 'block';
+        positionTooltip(e);
+
+        // If tooltipHtml is missing, queue lazy fetch
+        if (!meta || !meta.tooltipHtml) {
+          lazyFetchWarcraftDb(recipe.spellId);
+        }
+      }
+
+      function renderTooltipContent(recipe, meta) {
+        const tt = els.tooltip;
+        if (!tt) return;
+
+        if (meta && meta.tooltipHtml) {
+          tt.innerHTML = meta.tooltipHtml;
+          // Apply tt-inline-color data-color
+          tt.querySelectorAll('tt-inline-color[data-color]').forEach(el => {
+            el.style.color = el.dataset.color;
+          });
+          // Also append guild crafters footer if embedded in tooltip
+          if (recipe.crafters && recipe.crafters.length > 0) {
+            const footer = document.createElement('div');
+            footer.className = 'tt-fallback-craft-info';
+            const crafterNames = recipe.crafters.map(c => escapeHtml(c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter')))).join(', ');
+            footer.innerHTML = `Known by: <span class="tt-fallback-crafter-names">${crafterNames}</span>`;
+            tt.appendChild(footer);
+          }
+          return;
+        }
+
+        // Authentic Fallback Tooltip
+        const quality = meta ? meta.quality : (recipe.isCustom ? 4 : null);
+        const qualityColor = getQualityColor(quality);
+        const reagents = (meta && meta.reagentsText) ? meta.reagentsText : '';
+        const crafterNames = recipe.crafters ? recipe.crafters.map(c => escapeHtml(c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter')))).join(', ') : '';
+
+        let slotSubType = '';
+        if (meta && (meta.slot || meta.subType)) {
+          slotSubType = `<tt-double-line><span>${escapeHtml(meta.slot || '')}</span><span>${escapeHtml(meta.subType || '')}</span></tt-double-line>`;
+        }
+
+        tt.innerHTML = `
+          <tt-title data-quality="${quality !== null ? quality : ''}" style="${quality === null ? 'color:#ffd100;' : ''}">${escapeHtml(recipe.name)}</tt-title>
+          ${recipe.isCustom ? '<tt-subtitle style="color:#c084fc;">WoW: Forever Custom Recipe</tt-subtitle>' : ''}
+          <tt-line data-line-type="required-skill">Requires ${escapeHtml(recipe.profName)}</tt-line>
+          ${reagents ? `<tt-line data-line-type="spell-reagents">Reagents:</tt-line><tt-indented-line>${escapeHtml(reagents)}</tt-indented-line>` : ''}
+          ${slotSubType}
+          <tt-spacer></tt-spacer>
+          ${crafterNames ? `<div class="tt-fallback-craft-info">Known by: <span class="tt-fallback-crafter-names">${crafterNames}</span></div>` : ''}
+        `;
+      }
+
+      /* ==========================================================================
+         LIVE BROWSER ENRICHMENT FALLBACK (WARCRAFTDB API)
+         ========================================================================== */
+      const pendingFetches = new Set();
+      const fetchQueue = [];
+      let isFetching = false;
+
+      function getMeta(spellId) {
+        const idStr = String(spellId);
+        if (window.__GRB_DATA__ && window.__GRB_DATA__.meta && window.__GRB_DATA__.meta[idStr]) {
+          return window.__GRB_DATA__.meta[idStr];
+        }
+        if (wcdbCache[idStr]) {
+          return wcdbCache[idStr];
+        }
+        return null;
+      }
+
+      function lazyFetchWarcraftDb(spellId) {
+        const idStr = String(spellId);
+        if (pendingFetches.has(idStr)) return;
+        if (getMeta(idStr) && getMeta(idStr).tooltipHtml) return;
+
+        pendingFetches.add(idStr);
+        fetchQueue.push(spellId);
+        processFetchQueue();
+      }
+
+      async function processFetchQueue() {
+        if (isFetching || fetchQueue.length === 0) return;
+        isFetching = true;
+
+        const spellId = fetchQueue.shift();
+        const idStr = String(spellId);
+
+        try {
+          const resp = await fetch(`https://forever.warcraftdb.com/api/v1/tooltip/spell/${spellId}`);
+          if (resp.ok) {
+            const data = await resp.json();
+            const parsedMeta = parseWarcraftDbResponse(spellId, data);
+            if (parsedMeta) {
+              if (!window.__GRB_DATA__.meta) window.__GRB_DATA__.meta = {};
+              window.__GRB_DATA__.meta[idStr] = parsedMeta;
+              wcdbCache[idStr] = parsedMeta;
+              saveWcdbCache();
+
+              // If currently hovered, update tooltip
+              if (activeHoveredSpellId === spellId) {
+                const recipe = currentGuild ? currentGuild.recipes.find(r => r.spellId === spellId) : null;
+                if (recipe) renderTooltipContent(recipe, parsedMeta);
+              }
+
+              // Update any rendered row on screen
+              updateRenderedRowMeta(spellId, parsedMeta);
+            }
+          }
+        } catch (err) {
+          console.warn(`Failed lazy fetch for spell ${spellId}:`, err);
+        } finally {
+          pendingFetches.delete(idStr);
+          isFetching = false;
+          if (fetchQueue.length > 0) {
+            setTimeout(processFetchQueue, 80); // gentle throttle
+          }
+        }
+      }
+
+      const parseWcdbTooltip = parseWarcraftDbResponse;
+      function parseWarcraftDbResponse(spellId, data) {
+        if (!data || !data.html) return null;
+        let quality = null;
+
+        // Parse embedded item quality
+        const matchQuality = data.html.match(/<tt-title[^>]*data-quality=["'](\d+)["']/i);
+        if (matchQuality) {
+          quality = parseInt(matchQuality[1], 10);
+        } else if (typeof data.quality === 'number' && data.quality > 0) {
+          quality = data.quality;
+        }
+
+        // Parse slot and subType
+        let slot = null;
+        let subType = null;
+        const doubleLineMatch = data.html.match(/<div class=["']wcdb-tooltip-embedded["'][\s\S]*?<tt-double-line><span>([\s\S]*?)<\/span><span>([\s\S]*?)<\/span><\/tt-double-line>/i);
+        if (doubleLineMatch) {
+          const cleanText = (s) => s.replace(/<[^>]+>/g, '').trim();
+          slot = cleanText(doubleLineMatch[1]) || null;
+          subType = cleanText(doubleLineMatch[2]) || null;
+        }
+
+        // Parse reagentsText
+        let reagentsText = '';
+        const reagentsMatch = data.html.match(/<tt-line data-line-type=["']spell-reagents["']>[\s\S]*?<\/tt-line>\s*<tt-indented-line>([\s\S]*?)<\/tt-indented-line>/i);
+        if (reagentsMatch) {
+          reagentsText = reagentsMatch[1].replace(/<[^>]+>/g, '').trim();
+        }
+
+        // Parse required tradeskill level
+        let reqSkill = null;
+        if (typeof data.reqSkill === 'number' && data.reqSkill > 0) {
+          reqSkill = data.reqSkill;
+        } else if (typeof data.requiredSkill === 'number' && data.requiredSkill > 0) {
+          reqSkill = data.requiredSkill;
+        } else if (data.html) {
+          const reqProfMatch = data.html.match(/Requires\s+(?:Alchemy|Blacksmithing|Enchanting|Engineering|Herbalism|Inscription|Jewelcrafting|Leatherworking|Mining|Skinning|Tailoring|Cooking|First\s+Aid|Fishing)\s*\(?(\d+)\)?/i)
+            || data.html.match(/Requires\s+[A-Za-z\s]+?\(?(\d{1,3})\)?(?:\s*<|$)/i);
+          if (reqProfMatch) {
+            reqSkill = parseInt(reqProfMatch[1], 10);
+          } else {
+            const reqLvlMatch = data.html.match(/Requires Level\s*(\d+)/i);
+            if (reqLvlMatch) {
+              const lvl = parseInt(reqLvlMatch[1], 10);
+              if (lvl > 0 && lvl <= 60) {
+                reqSkill = Math.min(300, lvl * 5);
+              }
+            }
+          }
+        }
+
+        return {
+          icon: data.icon || null,
+          quality: quality,
+          slot: slot,
+          subType: subType,
+          reagentsText: reagentsText,
+          reqSkill: reqSkill,
+          tooltipHtml: data.html
+        };
+      }
+
+      function updateRenderedRowMeta(spellId, meta) {
+        const row = document.querySelector(`.recipe-row[data-spell-id="${spellId}"]`);
+        if (!row) return;
+
+        const qualityColor = getQualityColor(meta.quality);
+
+        // Update icon frame
+        const iconWrapper = row.querySelector('.recipe-icon-wrapper');
+        if (iconWrapper) {
+          iconWrapper.setAttribute('data-quality', meta.quality !== null ? meta.quality : 'null');
+          iconWrapper.style.borderColor = qualityColor;
+        }
+
+        // Update icon image
+        if (meta.icon) {
+          const img = row.querySelector('.recipe-icon-img');
+          if (img) {
+            img.src = `https://forever.warcraftdb.com/api/v1/casc/blp/${meta.icon}.webp`;
+            img.style.display = 'block';
+          }
+        }
+
+        // Update title color
+        const titleLink = row.querySelector('.recipe-title-link');
+        if (titleLink) {
+          titleLink.style.color = qualityColor;
+          titleLink.setAttribute('data-quality', meta.quality !== null ? meta.quality : 'null');
+        }
+
+        // Update reagents line if present
+        if (meta.reagentsText) {
+          let reagentsEl = row.querySelector('.recipe-reagents-line');
+          if (!reagentsEl) {
+            reagentsEl = document.createElement('div');
+            reagentsEl.className = 'recipe-reagents-line';
+            reagentsEl.innerHTML = `${ICONS_SVG.hammer}<span>${escapeHtml(meta.reagentsText)}</span>`;
+            row.querySelector('.recipe-details').appendChild(reagentsEl);
+          } else {
+            reagentsEl.querySelector('span').textContent = meta.reagentsText;
+          }
+        }
+
+        // Update tradeskill requirement badge if present
+        if (meta.reqSkill != null) {
+          let skillBadge = row.querySelector('.badge-skill-req');
+          const s = Number(meta.reqSkill);
+          const rank = s >= 225 ? 'artisan' : (s >= 150 ? 'expert' : (s >= 75 ? 'journeyman' : 'apprentice'));
+          const headline = row.querySelector('.recipe-headline');
+          if (headline) {
+            if (!skillBadge) {
+              skillBadge = document.createElement('span');
+              skillBadge.className = `badge-skill-req rank-${rank}`;
+              skillBadge.textContent = `Skill ${s}`;
+              const secLink = headline.querySelector('.spell-secondary-link');
+              if (secLink) headline.insertBefore(skillBadge, secLink);
+              else headline.appendChild(skillBadge);
+            } else {
+              skillBadge.className = `badge-skill-req rank-${rank}`;
+              skillBadge.textContent = `Skill ${s}`;
+            }
+          }
+        }
+      }
+
+      /* ==========================================================================
+         RENDERERS: HEADER & KPI
+         ========================================================================== */
+      function renderHeader() {
+        if (!currentGuild) {
+          els.guildTitle.textContent = "Inner Sanctum";
+          if (els.guildRealm) els.guildRealm.textContent = "";
+          els.guildSync.textContent = "Awaiting data import";
+          els.kpiRecipes.textContent = "0";
+          els.kpiProfs.textContent = "0";
+          els.kpiCrafters.textContent = "0";
+          if (els.kpiArtisan) els.kpiArtisan.textContent = "0";
+          return;
+        }
+
+        els.guildTitle.textContent = currentGuild.name || "Inner Sanctum";
+        if (els.guildRealm) els.guildRealm.textContent = "";
+        
+        const relTime = formatRelativeTime(currentGuild.lastUpdated);
+        const fullTime = formatFullDate(currentGuild.lastUpdated);
+        els.guildSync.textContent = `Synced ${relTime}`;
+        els.guildSync.title = fullTime;
+
+        // Multi-guild switcher
+        const guilds = (window.__GRB_DATA__ && window.__GRB_DATA__.guilds) || [];
+        if (guilds.length > 1) {
+          els.guildSelect.style.display = 'inline-block';
+          els.guildTitle.style.display = 'none';
+          els.guildSelect.innerHTML = guilds.map((g, idx) => 
+            `<option value="${idx}" ${idx === currentGuildIndex ? 'selected' : ''}>${escapeHtml(g.name)}</option>`
+          ).join('');
+        } else {
+          els.guildSelect.style.display = 'none';
+          els.guildTitle.style.display = 'block';
+        }
+
+        // KPI
+        const totalRecipes = currentGuild.recipes ? currentGuild.recipes.length : 0;
+        const totalProfs = currentGuild.professions ? currentGuild.professions.length : 0;
+        const totalCrafters = currentGuild.crafters ? currentGuild.crafters.length : 0;
+        const artisanCount = currentGuild.recipes ? currentGuild.recipes.filter(r => {
+          const meta = getMeta(r.spellId);
+          return meta && meta.reqSkill >= 225;
+        }).length : 0;
+
+        els.kpiRecipes.textContent = totalRecipes.toLocaleString();
+        els.kpiProfs.textContent = totalProfs;
+        els.kpiCrafters.textContent = totalCrafters;
+        if (els.kpiArtisan) els.kpiArtisan.textContent = artisanCount.toLocaleString();
+
+        els.tabRecipesBadge.textContent = totalRecipes;
+        els.tabCraftersBadge.textContent = totalCrafters;
+        els.sidebarAllCount.textContent = totalRecipes;
+      }
+
+      /* ==========================================================================
+         RENDERERS: SIDEBAR PROFESSIONS
+         ========================================================================== */
+      function renderSidebarProfessions() {
+        if (!currentGuild || !currentGuild.professions) {
+          els.profGroups.innerHTML = '';
+          return;
+        }
+
+        const primaries = [];
+        const secondaries = [];
+
+        currentGuild.professions.forEach(prof => {
+          const def = PROFESSIONS[prof.id];
+          const isSec = (def && def.isSecondary) || prof.isSecondary;
+          if (isSec) secondaries.push(prof);
+          else primaries.push(prof);
+        });
+
+        primaries.sort((a, b) => a.name.localeCompare(b.name));
+        secondaries.sort((a, b) => a.name.localeCompare(b.name));
+
+        function renderGroup(title, list) {
+          if (list.length === 0) return '';
+          const items = list.map(p => {
+            const isActive = String(selectedProfession) === String(p.id);
+            const iconSvg = getProfIconSvg(p.id);
+            return `
+              <li>
+                <button class="prof-item-btn ${isActive ? 'active' : ''}" data-prof-id="${p.id}">
+                  <div class="prof-item-left">
+                    <span class="prof-icon-wrap">${iconSvg}</span>
+                    <span class="prof-name">${escapeHtml(p.name)}</span>
+                  </div>
+                  <span class="prof-count">${p.recipeCount || (p.recipes ? p.recipes.length : 0)}</span>
+                </button>
+              </li>
+            `;
+          }).join('');
+
+          return `
+            <div class="prof-group-title">${escapeHtml(title)}</div>
+            <ul class="prof-list">${items}</ul>
+          `;
+        }
+
+        els.profGroups.innerHTML = 
+          renderGroup('Primary Professions', primaries) +
+          renderGroup('Secondary Professions', secondaries);
+      }
+
+      /* ==========================================================================
+         RENDERERS: CRAFTER FILTER DROPDOWN
+         ========================================================================== */
+      function renderCrafterDropdown() {
+        if (!currentGuild || !currentGuild.crafters) {
+          els.filterCrafter.innerHTML = '<option value="all">All Crafters</option>';
+          return;
+        }
+
+        const crafters = [...currentGuild.crafters].sort((a, b) => {
+          const nameA = a.fullName || a.shortName || (a.char ? a.char.replace('-', ' ') : '');
+          const nameB = b.fullName || b.shortName || (b.char ? b.char.replace('-', ' ') : '');
+          return nameA.localeCompare(nameB);
+        });
+        const options = crafters.map(c => {
+          const isSelected = selectedCrafter === c.char;
+          const name = c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter'));
+          return `<option value="${escapeHtml(c.char)}" ${isSelected ? 'selected' : ''}>${escapeHtml(name)} (${c.totalRecipes || 0} recipes)</option>`;
+        }).join('');
+
+        els.filterCrafter.innerHTML = `<option value="all">All Crafters</option>${options}`;
+      }
+
+      /* ==========================================================================
+         FILTERING & SORTING LOGIC
+         ========================================================================== */
+      let filteredRecipesCache = [];
+
+      function getFilteredRecipes() {
+        if (!currentGuild || !currentGuild.recipes) return [];
+
+        const q = searchQuery.trim().toLowerCase();
+        const profFilter = selectedProfession;
+        const crafterFilter = selectedCrafter;
+        const rarityFilter = selectedRarity;
+        const sortMode = selectedSort;
+
+        const results = currentGuild.recipes.filter(recipe => {
+          // 1. Profession filter
+          if (profFilter !== 'all' && String(recipe.profId) !== String(profFilter)) {
+            return false;
+          }
+
+          // 2. Crafter filter
+          if (crafterFilter !== 'all') {
+            const hasCrafter = recipe.crafters && recipe.crafters.some(c => c.char === crafterFilter);
+            if (!hasCrafter) return false;
+          }
+
+          // 3. Tradeskill Level filter
+          const meta = getMeta(recipe.spellId);
+          if (minSkillFilter !== null || maxSkillFilter !== null) {
+            const reqSkill = meta?.reqSkill;
+            if (reqSkill === null || reqSkill === undefined) {
+              return false;
+            }
+            const s = Number(reqSkill);
+            if (minSkillFilter !== null && s < minSkillFilter) return false;
+            if (maxSkillFilter !== null && s > maxSkillFilter) return false;
+          }
+
+          // 4. Rarity filter
+          const qVal = meta ? meta.quality : (recipe.isCustom ? 4 : null);
+
+          if (rarityFilter === 'uncommon-plus') {
+            if (qVal === null || qVal < 2) return false;
+          } else if (rarityFilter === 'rare-plus') {
+            if (qVal === null || qVal < 3) return false;
+          } else if (rarityFilter === 'epic-plus') {
+            if (qVal === null || qVal < 4) return false;
+          } else if (rarityFilter === 'spells-enchants') {
+            if (qVal !== null && recipe.itemId) return false;
+          }
+
+          // 5. Search query
+          if (q) {
+            const matchName = recipe.name.toLowerCase().includes(q);
+            const matchProf = recipe.profName && recipe.profName.toLowerCase().includes(q);
+            const matchReagents = (meta && meta.reagentsText && meta.reagentsText.toLowerCase().includes(q)) || false;
+            const matchSlot = (meta && meta.slot && meta.slot.toLowerCase().includes(q)) || false;
+            const matchSubtype = (meta && meta.subType && meta.subType.toLowerCase().includes(q)) || false;
+            const matchId = String(recipe.spellId) === q || (recipe.itemId && String(recipe.itemId) === q);
+            const matchCrafter = recipe.crafters && recipe.crafters.some(c => 
+              (c.fullName && c.fullName.toLowerCase().includes(q)) || 
+              (c.shortName && c.shortName.toLowerCase().includes(q)) || 
+              (c.char && c.char.toLowerCase().includes(q)) ||
+              (c.lastName && c.lastName.toLowerCase().includes(q)) ||
+              (c.char && c.char.replace(/-/g, ' ').toLowerCase().includes(q))
+            );
+
+            if (!matchName && !matchProf && !matchReagents && !matchSlot && !matchSubtype && !matchId && !matchCrafter) {
+              return false;
+            }
+          }
+
+          return true;
+        });
+
+        // Sorting
+        results.sort((a, b) => {
+          if (sortMode === 'name-asc') {
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'name-desc') {
+            return b.name.localeCompare(a.name);
+          }
+          if (sortMode === 'profession') {
+            const cmp = (a.profName || '').localeCompare(b.profName || '');
+            if (cmp !== 0) return cmp;
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'rarity-desc') {
+            const qa = getMeta(a.spellId)?.quality ?? (a.isCustom ? 4 : -1);
+            const qb = getMeta(b.spellId)?.quality ?? (b.isCustom ? 4 : -1);
+            if (qb !== qa) return qb - qa;
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'rarity-asc') {
+            const qa = getMeta(a.spellId)?.quality ?? (a.isCustom ? 4 : -1);
+            const qb = getMeta(b.spellId)?.quality ?? (b.isCustom ? 4 : -1);
+            if (qa !== qb) return qa - qb;
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'skill-desc') {
+            const sa = getMeta(a.spellId)?.reqSkill ?? -1;
+            const sb = getMeta(b.spellId)?.reqSkill ?? -1;
+            if (sb !== sa) return sb - sa;
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'skill-asc') {
+            const sa = getMeta(a.spellId)?.reqSkill ?? 999;
+            const sb = getMeta(b.spellId)?.reqSkill ?? 999;
+            if (sa !== sb) return sa - sb;
+            return a.name.localeCompare(b.name);
+          }
+          if (sortMode === 'crafters-desc') {
+            const ca = a.crafters ? a.crafters.length : 0;
+            const cb = b.crafters ? b.crafters.length : 0;
+            if (cb !== ca) return cb - ca;
+            return a.name.localeCompare(b.name);
+          }
+          return 0;
+        });
+
+        return results;
+      }
+
+      /* ==========================================================================
+         RENDERERS: RECIPES LIST WITH CHUNKING
+         ========================================================================== */
+      function renderRecipesList(resetLimit = true) {
+        if (resetLimit) {
+          visibleRecipeLimit = CHUNK_SIZE;
+        }
+
+        filteredRecipesCache = getFilteredRecipes();
+        const total = filteredRecipesCache.length;
+        const totalInGuild = (currentGuild && currentGuild.recipes) ? currentGuild.recipes.length : 0;
+
+        els.resultsCount.textContent = total.toLocaleString();
+        els.resultsTotal.textContent = totalInGuild.toLocaleString();
+
+        const hasActiveFilters = (
+          selectedProfession !== 'all' || 
+          selectedCrafter !== 'all' || 
+          selectedRarity !== 'all' || 
+          minSkillFilter !== null || 
+          maxSkillFilter !== null || 
+          searchQuery.trim() !== ''
+        );
+        els.resetFiltersBtn.style.display = hasActiveFilters ? 'inline' : 'none';
+
+        if (total === 0) {
+          els.recipesList.innerHTML = '';
+          els.emptySearch.style.display = 'block';
+          els.loadMoreContainer.style.display = 'none';
+          return;
+        }
+
+        els.emptySearch.style.display = 'none';
+
+        const slice = filteredRecipesCache.slice(0, visibleRecipeLimit);
+        const rowsHtml = slice.map(recipe => createRecipeRowHtml(recipe)).join('');
+        els.recipesList.innerHTML = rowsHtml;
+
+        // Show/hide Load More button
+        if (visibleRecipeLimit < total) {
+          els.loadMoreContainer.style.display = 'flex';
+          els.btnLoadMore.textContent = `Load more (${total - visibleRecipeLimit} remaining)`;
+        } else {
+          els.loadMoreContainer.style.display = 'none';
+        }
+
+        // Attach listeners to newly rendered rows
+        attachRecipeRowListeners();
+      }
+
+      function loadMoreRecipes() {
+        const prevCount = visibleRecipeLimit;
+        visibleRecipeLimit += CHUNK_SIZE;
+        const nextSlice = filteredRecipesCache.slice(prevCount, visibleRecipeLimit);
+        
+        const fragment = document.createDocumentFragment();
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = nextSlice.map(recipe => createRecipeRowHtml(recipe)).join('');
+
+        while (tempDiv.firstChild) {
+          fragment.appendChild(tempDiv.firstChild);
+        }
+        els.recipesList.appendChild(fragment);
+
+        if (visibleRecipeLimit < filteredRecipesCache.length) {
+          els.loadMoreContainer.style.display = 'flex';
+          els.btnLoadMore.textContent = `Load more (${filteredRecipesCache.length - visibleRecipeLimit} remaining)`;
+        } else {
+          els.loadMoreContainer.style.display = 'none';
+        }
+
+        attachRecipeRowListeners();
+      }
+
+      function createRecipeRowHtml(recipe) {
+        const meta = getMeta(recipe.spellId);
+        const quality = meta ? meta.quality : (recipe.isCustom ? 4 : null);
+        const qualityColor = getQualityColor(quality);
+
+        const primaryLink = recipe.itemId 
+          ? `https://forever.warcraftdb.com/data/item/${recipe.itemId}`
+          : `https://forever.warcraftdb.com/data/spell/${recipe.spellId}`;
+        
+        const secondarySpellLink = recipe.itemId 
+          ? `<a href="https://forever.warcraftdb.com/data/spell/${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on WarcraftDB">${ICONS_SVG.spell}</a>`
+          : '';
+
+        const iconUrl = (meta && meta.icon) 
+          ? `https://forever.warcraftdb.com/api/v1/casc/blp/${meta.icon}.webp` 
+          : '';
+
+        let badgesHtml = '';
+        if (meta && meta.reqSkill != null) {
+          const s = Number(meta.reqSkill);
+          const rank = s >= 225 ? 'artisan' : (s >= 150 ? 'expert' : (s >= 75 ? 'journeyman' : 'apprentice'));
+          badgesHtml += `<span class="badge-skill-req rank-${rank}">Skill ${s}</span>`;
+        }
+        if (meta && (meta.slot || meta.subType || meta.tier)) {
+          const parts = [meta.tier, [meta.slot, meta.subType].filter(Boolean).join(' · ')].filter(Boolean);
+          badgesHtml += `<span class="badge-meta-tag">${escapeHtml(parts.join(' · '))}</span>`;
+        }
+
+        let reagentsHtml = '';
+        if (meta && meta.reagentsText) {
+          reagentsHtml = `<div class="recipe-reagents-line">${ICONS_SVG.hammer}<span>${escapeHtml(meta.reagentsText)}</span></div>`;
+        }
+
+        // Crafter pills
+        const craftersHtml = (recipe.crafters || []).map(c => {
+          const isMax = c.skill >= 300 || (c.max && c.skill >= c.max);
+          const displayName = c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter'));
+          return `
+            <button class="crafter-pill ${isMax ? 'is-max-skill' : ''}" data-char="${escapeHtml(c.char)}" data-full-name="${escapeHtml(displayName)}" data-recipe="${escapeHtml(recipe.name)}" title="Click to whisper ${escapeHtml(displayName)}">
+              <span class="crafter-short-name">${escapeHtml(displayName)}</span>
+              <span class="crafter-skill-tag">${c.skill}/${c.max || 300}</span>
+            </button>
+          `;
+        }).join('');
+
+        const profIcon = getProfIconSvg(recipe.profId);
+
+        return `
+          <div class="recipe-row" data-spell-id="${recipe.spellId}">
+            <div class="recipe-icon-wrapper" data-quality="${quality !== null ? quality : 'null'}" style="border-color:${qualityColor};">
+              ${iconUrl ? `<img src="${iconUrl}" class="recipe-icon-img" alt="" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">` : ''}
+              <div class="recipe-icon-fallback" style="${iconUrl ? 'display:none;' : 'display:flex;'}">
+                ${ICONS_SVG.scroll}
+              </div>
+            </div>
+
+            <div class="recipe-details">
+              <div class="recipe-headline">
+                <a href="${primaryLink}" target="_blank" rel="noopener" class="recipe-title-link" data-quality="${quality !== null ? quality : 'null'}" style="color:${qualityColor};">
+                  ${escapeHtml(recipe.name)}
+                </a>
+                ${badgesHtml}
+                ${secondarySpellLink}
+              </div>
+              ${reagentsHtml}
+            </div>
+
+            <div class="recipe-prof-column">
+              <span class="prof-micro-icon">${profIcon}</span>
+              <span>${escapeHtml(recipe.profName)}</span>
+            </div>
+
+            <div class="recipe-crafters-column">
+              ${craftersHtml}
+            </div>
+          </div>
+        `;
+      }
+
+      function attachRecipeRowListeners() {
+        const rows = els.recipesList.querySelectorAll('.recipe-row');
+        rows.forEach(row => {
+          const spellId = parseInt(row.getAttribute('data-spell-id'), 10);
+          const recipe = currentGuild ? currentGuild.recipes.find(r => r.spellId === spellId) : null;
+          if (!recipe) return;
+
+          // Tooltip on icon or title
+          const iconWrapper = row.querySelector('.recipe-icon-wrapper');
+          const titleLink = row.querySelector('.recipe-title-link');
+
+          [iconWrapper, titleLink].forEach(el => {
+            if (!el) return;
+            el.addEventListener('mouseenter', (e) => showTooltipForRecipe(recipe, e));
+            el.addEventListener('mouseleave', hideTooltip);
+          });
+
+          // Crafter whisper click
+          row.querySelectorAll('.crafter-pill').forEach(pill => {
+            pill.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const char = pill.getAttribute('data-char');
+              const rName = pill.getAttribute('data-recipe');
+              const dName = pill.getAttribute('data-full-name');
+              copyWhisper(char, rName, dName);
+            });
+          });
+        });
+      }
+
+      /* ==========================================================================
+         RENDERERS: CRAFTERS GRID VIEW
+         ========================================================================== */
+      function renderCraftersGrid() {
+        if (!currentGuild || !currentGuild.crafters || currentGuild.crafters.length === 0) {
+          els.craftersGrid.innerHTML = `
+            <div class="empty-search-state" style="grid-column: 1 / -1;">
+              <h3>No crafters recorded</h3>
+              <p>Import a GuildRecipeBook.lua file to see active guild crafters.</p>
+            </div>
+          `;
+          return;
+        }
+
+        const crafters = [...currentGuild.crafters].sort((a, b) => (b.totalRecipes || 0) - (a.totalRecipes || 0));
+
+        const cardsHtml = crafters.map(c => {
+          const relTime = formatRelativeTime(c.lastUpdated);
+          const fullName = c.fullName || (c.char ? c.char.replace('-', ' ') : (c.shortName || 'Crafter'));
+          const numProfs = (c.professions ? c.professions.length : 0);
+          const profSubtitle = `${numProfs} ${numProfs === 1 ? 'Profession' : 'Professions'} • Synced ${relTime}`;
+          const profsHtml = (c.professions || []).map(p => {
+            const rank = getSkillRank(p.skill, p.max);
+            const pct = Math.min(100, Math.round((p.skill / (p.max || 300)) * 100));
+            const pIcon = getProfIconSvg(p.id);
+
+            return `
+              <div class="crafter-prof-item">
+                <div class="crafter-prof-top">
+                  <div class="crafter-prof-title">
+                    ${pIcon}
+                    <span>${escapeHtml(p.name)}</span>
+                  </div>
+                  <span class="crafter-prof-recipe-count">${p.recipeCount || 0} recipes</span>
+                </div>
+                <div class="wow-skill-bar-outer" title="${rank.title} (${p.skill} / ${p.max})">
+                  <div class="wow-skill-bar-fill ${rank.class}" style="width: ${pct}%;"></div>
+                  <div class="wow-skill-bar-text">${rank.title} ${p.skill} / ${p.max}</div>
+                </div>
+                <div style="display:flex; justify-content:flex-end; margin-top:2px;">
+                  <button class="view-crafter-recipes-btn" data-char="${escapeHtml(c.char)}" data-prof-id="${p.id}">
+                    View Recipes →
+                  </button>
+                </div>
+              </div>
+            `;
+          }).join('');
+
+          return `
+            <div class="crafter-card">
+              <div class="crafter-card-header">
+                <div class="crafter-avatar-row">
+                  <div class="crafter-crest-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L3 7v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5z"></path></svg>
+                  </div>
+                  <div class="crafter-info-names">
+                    <span class="crafter-card-name">${escapeHtml(fullName)}</span>
+                    <span class="crafter-card-realm">${escapeHtml(profSubtitle)}</span>
+                  </div>
+                </div>
+                <span class="crafter-recipe-badge">${c.totalRecipes || 0} Recipes</span>
+              </div>
+
+              <div class="crafter-prof-list">
+                ${profsHtml}
+              </div>
+
+              <div class="crafter-card-actions">
+                <button class="btn btn-secondary view-crafter-all-btn" data-char="${escapeHtml(c.char)}" style="width:100%; justify-content:center;">
+                  View All Crafter Recipes (${c.totalRecipes || 0}) →
+                </button>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        els.craftersGrid.innerHTML = cardsHtml;
+
+        // Attach listeners for jumping to filtered tome
+        els.craftersGrid.querySelectorAll('.view-crafter-recipes-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const char = btn.getAttribute('data-char');
+            const profId = btn.getAttribute('data-prof-id');
+            switchToRecipesWithFilter(char, profId);
+          });
+        });
+
+        els.craftersGrid.querySelectorAll('.view-crafter-all-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const char = btn.getAttribute('data-char');
+            switchToRecipesWithFilter(char, 'all');
+          });
+        });
+      }
+
+      function switchToRecipesWithFilter(char, profId) {
+        selectedCrafter = char;
+        selectedProfession = profId;
+        currentView = 'recipes';
+        updateViewTabs();
+        
+        // Update filter controls
+        els.filterCrafter.value = char;
+        updateActiveSidebarProfession(profId);
+        
+        renderRecipesList(true);
+        syncUrlHash();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      /* ==========================================================================
+         VIEW SWITCHING & URL HASH STATE SYNC
+         ========================================================================== */
+      function updateViewTabs() {
+        if (currentView === 'recipes') {
+          els.tabRecipes.classList.add('active');
+          els.tabCrafters.classList.remove('active');
+          els.tabRecipes.setAttribute('aria-selected', 'true');
+          els.tabCrafters.setAttribute('aria-selected', 'false');
+          els.viewRecipes.classList.add('active');
+          els.viewCrafters.classList.remove('active');
+        } else {
+          els.tabCrafters.classList.add('active');
+          els.tabRecipes.classList.remove('active');
+          els.tabCrafters.setAttribute('aria-selected', 'true');
+          els.tabRecipes.setAttribute('aria-selected', 'false');
+          els.viewCrafters.classList.add('active');
+          els.viewRecipes.classList.remove('active');
+          renderCraftersGrid();
+        }
+      }
+
+      function updateActiveSidebarProfession(profId) {
+        document.querySelectorAll('.prof-item-btn').forEach(btn => {
+          if (btn.getAttribute('data-prof-id') === String(profId)) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+      }
+
+      function syncUrlHash() {
+        const params = new URLSearchParams();
+        if (currentView !== 'recipes') params.set('view', currentView);
+        if (currentGuild && window.__GRB_DATA__ && window.__GRB_DATA__.guilds && window.__GRB_DATA__.guilds.length > 1) {
+          params.set('guild', currentGuild.name);
+        }
+        if (selectedProfession !== 'all') params.set('prof', selectedProfession);
+        if (selectedCrafter !== 'all') params.set('crafter', selectedCrafter);
+        if (selectedRarity !== 'all') params.set('rarity', selectedRarity);
+        if (minSkillFilter !== null) params.set('minSkill', minSkillFilter);
+        if (maxSkillFilter !== null) params.set('maxSkill', maxSkillFilter);
+        if (selectedSort !== 'name-asc') params.set('sort', selectedSort);
+        if (searchQuery.trim()) params.set('q', searchQuery.trim());
+
+        const hash = params.toString();
+        history.replaceState(null, '', hash ? `#${hash}` : window.location.pathname + window.location.search);
+      }
+
+      function readUrlHash() {
+        if (!window.location.hash || window.location.hash.length <= 1) return;
+        const hash = window.location.hash.substring(1);
+        const params = new URLSearchParams(hash);
+
+        if (params.has('view')) {
+          currentView = params.get('view') === 'crafters' ? 'crafters' : 'recipes';
+        }
+        if (params.has('prof')) {
+          selectedProfession = params.get('prof');
+        }
+        if (params.has('crafter')) {
+          selectedCrafter = params.get('crafter');
+        }
+        if (params.has('rarity')) {
+          selectedRarity = params.get('rarity');
+          if (els.filterRarity) els.filterRarity.value = selectedRarity;
+        }
+        if (params.has('sort')) {
+          selectedSort = params.get('sort');
+          if (els.filterSort) els.filterSort.value = selectedSort;
+        }
+        if (params.has('q')) {
+          searchQuery = params.get('q');
+          if (els.searchInput) {
+            els.searchInput.value = searchQuery;
+            els.clearSearchBtn.style.display = searchQuery ? 'block' : 'none';
+            els.searchHint.style.display = searchQuery ? 'none' : 'block';
+          }
+        }
+      }
+
+      /* ==========================================================================
+         LUA PARSER & CLIENT-SIDE IMPORT
+         ========================================================================== */
+      function initGuildData() {
+        if (!window.__GRB_DATA__ || !window.__GRB_DATA__.guilds || window.__GRB_DATA__.guilds.length === 0) {
+          currentGuild = null;
+          els.emptyView.style.display = 'flex';
+          els.viewRecipes.style.display = 'none';
+          els.viewCrafters.style.display = 'none';
+          renderHeader();
+          return;
+        }
+
+        els.emptyView.style.display = 'none';
+        els.viewRecipes.style.display = currentView === 'recipes' ? 'block' : 'none';
+        els.viewCrafters.style.display = currentView === 'crafters' ? 'block' : 'none';
+
+        if (currentGuildIndex >= window.__GRB_DATA__.guilds.length) {
+          currentGuildIndex = 0;
+        }
+        currentGuild = window.__GRB_DATA__.guilds[currentGuildIndex];
+
+        // Merge meta from cache if not present
+        if (!window.__GRB_DATA__.meta) window.__GRB_DATA__.meta = {};
+        for (const k in wcdbCache) {
+          if (!window.__GRB_DATA__.meta[k]) {
+            window.__GRB_DATA__.meta[k] = wcdbCache[k];
+          }
+        }
+
+        renderHeader();
+        renderSidebarProfessions();
+        renderCrafterDropdown();
+        updateActiveSidebarProfession(selectedProfession);
+        renderRecipesList(true);
+        renderCraftersGrid();
+        updateViewTabs();
+      }
+
+      /* Resilient Native Fallback Lua Table Parser */
+      function parseFallbackLua(text) {
+        // Strip comments
+        const clean = text.replace(/--\[\[[\s\S]*?\]\]/g, '').replace(/--.*$/gm, '');
+        let pos = 0;
+
+        function skipWhitespace() {
+          while (pos < clean.length && /\s/.test(clean[pos])) pos++;
+        }
+
+        function parseValue() {
+          skipWhitespace();
+          if (pos >= clean.length) return null;
+
+          if (clean[pos] === '{') return parseTable();
+          if (clean[pos] === '"' || clean[pos] === "'") return parseString();
+          if (clean.substr(pos, 2) === '[[') return parseLongString();
+
+          // Identifiers / numbers / booleans
+          let start = pos;
+          while (pos < clean.length && !/[\s,;=\]\}]/.test(clean[pos])) pos++;
+          const token = clean.slice(start, pos);
+
+          if (token === 'true') return true;
+          if (token === 'false') return false;
+          if (token === 'nil') return null;
+          const num = Number(token);
+          if (!isNaN(num)) return num;
+          return token;
+        }
+
+        function parseString() {
+          const quote = clean[pos++];
+          let result = '';
+          while (pos < clean.length) {
+            const ch = clean[pos++];
+            if (ch === '\\') {
+              if (pos < clean.length) result += clean[pos++];
+            } else if (ch === quote) {
+              break;
+            } else {
+              result += ch;
+            }
+          }
+          return result;
+        }
+
+        function parseLongString() {
+          pos += 2; // skip [[
+          const end = clean.indexOf(']]', pos);
+          if (end === -1) {
+            const res = clean.slice(pos);
+            pos = clean.length;
+            return res;
+          }
+          const res = clean.slice(pos, end);
+          pos = end + 2;
+          return res;
+        }
+
+        function parseTable() {
+          pos++; // skip {
+          const obj = {};
+          let arrayIdx = 1;
+          let isArray = true;
+
+          while (pos < clean.length) {
+            skipWhitespace();
+            if (clean[pos] === '}') {
+              pos++;
+              break;
+            }
+
+            let key = null;
+            if (clean[pos] === '[') {
+              pos++; // skip [
+              skipWhitespace();
+              key = parseValue();
+              skipWhitespace();
+              if (clean[pos] === ']') pos++;
+              skipWhitespace();
+              if (clean[pos] === '=') pos++;
+            } else if (/^[a-zA-Z_]/.test(clean.substr(pos, 1))) {
+              let start = pos;
+              while (pos < clean.length && /[a-zA-Z0-9_]/.test(clean[pos])) pos++;
+              const ident = clean.slice(start, pos);
+              skipWhitespace();
+              if (clean[pos] === '=') {
+                pos++;
+                key = ident;
+              } else {
+                pos = start;
+              }
+            }
+
+            const val = parseValue();
+            if (key !== null) {
+              obj[key] = val;
+              isArray = false;
+            } else {
+              obj[arrayIdx++] = val;
+            }
+
+            skipWhitespace();
+            if (clean[pos] === ',' || clean[pos] === ';') pos++;
+          }
+
+          if (isArray && arrayIdx > 1) {
+            const arr = [];
+            for (let i = 1; i < arrayIdx; i++) arr.push(obj[i]);
+            return arr;
+          }
+          return obj;
+        }
+
+        // Search for GuildRecipeBookDB = { ... }
+        const match = clean.match(/GuildRecipeBookDB\s*=\s*/);
+        if (match) {
+          pos = match.index + match[0].length;
+          return parseTable();
+        }
+        return null;
+      }
+
+      function convertRawDbToGrbData(rawDb) {
+        if (!rawDb) return null;
+        if (rawDb.schema && rawDb.guilds) return rawDb; // Already formatted
+
+        const guilds = [];
+        const rawGuilds = rawDb.guilds || rawDb;
+
+        for (const gKey in rawGuilds) {
+          const g = rawGuilds[gKey];
+          if (!g || typeof g !== 'object') continue;
+
+          const parts = gKey.split('-');
+          const gName = g.name || parts[0] || 'Guild';
+          const realm = g.realm || parts.slice(1).join('-') || '';
+
+          const crafterMap = {};
+          const profMap = {};
+          const recipes = [];
+
+          // Parse recipes if present
+          if (g.recipes) {
+            for (const spellId in g.recipes) {
+              const r = g.recipes[spellId];
+              const sId = parseInt(spellId, 10);
+              const rObj = {
+                spellId: sId,
+                name: r.name || `Recipe ${sId}`,
+                profId: r.profId || 197,
+                profName: r.profName || (PROFESSIONS[r.profId] ? PROFESSIONS[r.profId].name : 'Profession'),
+                itemId: r.itemId || null,
+                isCustom: !!r.isCustom,
+                crafters: []
+              };
+
+              if (r.crafters) {
+                for (const cKey in r.crafters) {
+                  const cInfo = r.crafters[cKey];
+                  const cParts = cKey.split('-');
+                  const firstName = cParts[0] || cKey;
+                  const lastName = cParts.slice(1).join('-') || '';
+                  const fullName = lastName ? `${firstName} ${lastName}` : firstName;
+                  const crafterObj = {
+                    char: cKey,
+                    fullName: fullName,
+                    firstName: firstName,
+                    shortName: firstName,
+                    lastName: lastName,
+                    realm: lastName || realm,
+                    skill: cInfo.skill || 300,
+                    max: cInfo.max || 300,
+                    ts: cInfo.ts || g.lastUpdated || Math.floor(Date.now() / 1000)
+                  };
+                  rObj.crafters.push(crafterObj);
+
+                  if (!crafterMap[cKey]) {
+                    crafterMap[cKey] = {
+                      char: cKey,
+                      fullName: fullName,
+                      firstName: firstName,
+                      shortName: firstName,
+                      lastName: lastName,
+                      realm: crafterObj.realm,
+                      lastUpdated: crafterObj.ts,
+                      totalRecipes: 0,
+                      professions: {}
+                    };
+                  }
+                  crafterMap[cKey].totalRecipes++;
+                  if (!crafterMap[cKey].professions[rObj.profId]) {
+                    crafterMap[cKey].professions[rObj.profId] = {
+                      id: rObj.profId,
+                      name: rObj.profName,
+                      isSecondary: (PROFESSIONS[rObj.profId] && PROFESSIONS[rObj.profId].isSecondary) || false,
+                      skill: crafterObj.skill,
+                      max: crafterObj.max,
+                      recipeCount: 0,
+                      ts: crafterObj.ts
+                    };
+                  }
+                  crafterMap[cKey].professions[rObj.profId].recipeCount++;
+                }
+              }
+
+              recipes.push(rObj);
+
+              if (!profMap[rObj.profId]) {
+                profMap[rObj.profId] = {
+                  id: rObj.profId,
+                  name: rObj.profName,
+                  isSecondary: (PROFESSIONS[rObj.profId] && PROFESSIONS[rObj.profId].isSecondary) || false,
+                  recipeCount: 0,
+                  crafters: []
+                };
+              }
+              profMap[rObj.profId].recipeCount++;
+            }
+          }
+
+          // Format crafters array
+          const craftersArr = Object.values(crafterMap).map(c => ({
+            char: c.char,
+            fullName: c.fullName,
+            firstName: c.firstName,
+            shortName: c.shortName,
+            lastName: c.lastName,
+            realm: c.realm,
+            lastUpdated: c.lastUpdated,
+            totalRecipes: c.totalRecipes,
+            professions: Object.values(c.professions)
+          }));
+
+          guilds.push({
+            key: gKey,
+            name: gName,
+            realm: realm,
+            lastUpdated: g.lastUpdated || Math.floor(Date.now() / 1000),
+            professions: Object.values(profMap),
+            crafters: craftersArr,
+            recipes: recipes
+          });
+        }
+
+        return {
+          exportedAt: new Date().toISOString(),
+          schema: 1,
+          guilds: guilds,
+          meta: {}
+        };
+      }
+
+      async function handleLuaFileContent(text, fileName) {
+        showToast(`Parsing ${fileName}...`, 'info');
+        try {
+          let data = null;
+
+          if (window.GRBParser && typeof window.GRBParser.parseLuaSavedVariables === 'function') {
+            const raw = window.GRBParser.parseLuaSavedVariables(text);
+            if (window.GRBParser.transformGuildRecipeBook) {
+              data = window.GRBParser.transformGuildRecipeBook(raw);
+            } else {
+              data = convertRawDbToGrbData(raw);
+            }
+          } else {
+            const raw = parseFallbackLua(text);
+            data = convertRawDbToGrbData(raw);
+          }
+
+          if (data && data.guilds && data.guilds.length > 0) {
+            // Preserve existing meta
+            const existingMeta = (window.__GRB_DATA__ && window.__GRB_DATA__.meta) || {};
+            data.meta = Object.assign({}, existingMeta, data.meta || {});
+            window.__GRB_DATA__ = data;
+
+            currentGuildIndex = 0;
+            initGuildData();
+            showToast(`Loaded ${data.guilds[0].name} (${data.guilds[0].recipes.length} recipes)!`, 'success');
+          } else {
+            showToast('Could not find guild recipe data in this Lua file.', 'error');
+          }
+        } catch (err) {
+          console.error('Import error:', err);
+          showToast(`Import failed: ${err.message}`, 'error');
+        }
+      }
+
+      /* ==========================================================================
+         STANDALONE HTML EXPORT
+         ========================================================================== */
+      function exportStandaloneHtml() {
+        if (!window.__GRB_DATA__ || !window.__GRB_DATA__.guilds || window.__GRB_DATA__.guilds.length === 0) {
+          showToast('No recipe data to export.', 'error');
+          return;
+        }
+
+        try {
+          const html = document.documentElement.outerHTML;
+          const jsonStr = JSON.stringify(window.__GRB_DATA__);
+
+          // Extract existing parser code from the bootstrap script tag if present
+          let parserSection = '/*__GRB_' + 'PARSER_SCRIPT__*/';
+          const bsTag = document.getElementById('grb-bootstrap');
+          if (bsTag) {
+            const splitParts = bsTag.textContent.split(/window\.__GRB_DATA__\s*=/);
+            if (splitParts.length > 1 && splitParts[0].trim()) {
+              parserSection = splitParts[0].trim();
+            }
+          }
+
+          // Replace the bootstrap script with updated JSON while keeping the exact contract
+          const cleanHtml = '<!DOCTYPE html>\n' + html.replace(
+            /<script id="grb-bootstrap">[\s\S]*?<\/script>/,
+            `<script id="grb-bootstrap">\n${parserSection}\nwindow.__GRB_DATA__ = ${jsonStr};\n<\/script>`
+          );
+
+          const blob = new Blob([cleanHtml], { type: 'text/html;charset=utf-8' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          const safeName = currentGuild ? currentGuild.name.replace(/[^a-zA-Z0-9_-]/g, '_') : 'GuildRecipeBook';
+          a.download = `${safeName}_RecipeBook.html`;
+          a.href = url;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          URL.revokeObjectURL(url);
+
+          showToast('Standalone HTML downloaded! Ready for GitHub Pages or browser viewing.', 'success');
+        } catch (err) {
+          console.error('Export error:', err);
+          showToast(`Export failed: ${err.message}`, 'error');
+        }
+      }
+
+      /* ==========================================================================
+         EVENT HANDLERS & INITIALIZATION
+         ========================================================================== */
+      function setupEventListeners() {
+        // Nav tabs
+        els.tabRecipes.addEventListener('click', () => {
+          currentView = 'recipes';
+          updateViewTabs();
+          syncUrlHash();
+        });
+
+        els.tabCrafters.addEventListener('click', () => {
+          currentView = 'crafters';
+          updateViewTabs();
+          syncUrlHash();
+        });
+
+        // Guild switcher
+        els.guildSelect.addEventListener('change', (e) => {
+          currentGuildIndex = parseInt(e.target.value, 10);
+          initGuildData();
+          syncUrlHash();
+        });
+
+        // Sidebar professions
+        document.addEventListener('click', (e) => {
+          const btn = e.target.closest('.prof-item-btn');
+          if (btn) {
+            const profId = btn.getAttribute('data-prof-id');
+            selectedProfession = profId;
+            updateActiveSidebarProfession(profId);
+            renderRecipesList(true);
+            syncUrlHash();
+          }
+        });
+
+        // Search input
+        els.searchInput.addEventListener('input', (e) => {
+          searchQuery = e.target.value;
+          els.clearSearchBtn.style.display = searchQuery ? 'block' : 'none';
+          els.searchHint.style.display = searchQuery ? 'none' : 'block';
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        els.clearSearchBtn.addEventListener('click', () => {
+          searchQuery = '';
+          els.searchInput.value = '';
+          els.clearSearchBtn.style.display = 'none';
+          els.searchHint.style.display = 'block';
+          els.searchInput.focus();
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        // Filter dropdowns
+        els.filterCrafter.addEventListener('change', (e) => {
+          selectedCrafter = e.target.value;
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        // Tradeskill level filter preset
+        els.filterSkillPreset.addEventListener('change', (e) => {
+          selectedSkillPreset = e.target.value;
+          if (selectedSkillPreset === 'all') {
+            minSkillFilter = null;
+            maxSkillFilter = null;
+            els.minSkillInput.value = '';
+            els.maxSkillInput.value = '';
+          } else if (selectedSkillPreset === '1-75') {
+            minSkillFilter = 1;
+            maxSkillFilter = 75;
+            els.minSkillInput.value = '1';
+            els.maxSkillInput.value = '75';
+          } else if (selectedSkillPreset === '75-150') {
+            minSkillFilter = 75;
+            maxSkillFilter = 150;
+            els.minSkillInput.value = '75';
+            els.maxSkillInput.value = '150';
+          } else if (selectedSkillPreset === '150-225') {
+            minSkillFilter = 150;
+            maxSkillFilter = 225;
+            els.minSkillInput.value = '150';
+            els.maxSkillInput.value = '225';
+          } else if (selectedSkillPreset === '225-300') {
+            minSkillFilter = 225;
+            maxSkillFilter = 300;
+            els.minSkillInput.value = '225';
+            els.maxSkillInput.value = '300';
+          } else if (selectedSkillPreset === '275-300') {
+            minSkillFilter = 275;
+            maxSkillFilter = 300;
+            els.minSkillInput.value = '275';
+            els.maxSkillInput.value = '300';
+          }
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        function handleSkillRangeInputChange() {
+          const rawMin = els.minSkillInput.value.trim();
+          const rawMax = els.maxSkillInput.value.trim();
+          const vMin = rawMin !== '' ? parseInt(rawMin, 10) : null;
+          const vMax = rawMax !== '' ? parseInt(rawMax, 10) : null;
+          minSkillFilter = Number.isFinite(vMin) ? Math.max(1, Math.min(300, vMin)) : null;
+          maxSkillFilter = Number.isFinite(vMax) ? Math.max(1, Math.min(300, vMax)) : null;
+
+          let preset = 'all';
+          if (minSkillFilter === 1 && maxSkillFilter === 75) preset = '1-75';
+          else if (minSkillFilter === 75 && maxSkillFilter === 150) preset = '75-150';
+          else if (minSkillFilter === 150 && maxSkillFilter === 225) preset = '150-225';
+          else if (minSkillFilter === 225 && maxSkillFilter === 300) preset = '225-300';
+          else if (minSkillFilter === 275 && maxSkillFilter === 300) preset = '275-300';
+          else if (minSkillFilter !== null || maxSkillFilter !== null) preset = 'custom';
+
+          selectedSkillPreset = preset;
+          els.filterSkillPreset.value = preset;
+          renderRecipesList(true);
+          syncUrlHash();
+        }
+
+        els.minSkillInput.addEventListener('input', handleSkillRangeInputChange);
+        els.maxSkillInput.addEventListener('input', handleSkillRangeInputChange);
+
+        els.filterRarity.addEventListener('change', (e) => {
+          selectedRarity = e.target.value;
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        els.filterSort.addEventListener('change', (e) => {
+          selectedSort = e.target.value;
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        // Reset filters
+        els.resetFiltersBtn.addEventListener('click', () => {
+          selectedProfession = 'all';
+          selectedCrafter = 'all';
+          selectedRarity = 'all';
+          selectedSort = 'name-asc';
+          selectedSkillPreset = 'all';
+          minSkillFilter = null;
+          maxSkillFilter = null;
+          searchQuery = '';
+          els.searchInput.value = '';
+          els.clearSearchBtn.style.display = 'none';
+          els.searchHint.style.display = 'block';
+          els.filterCrafter.value = 'all';
+          els.filterRarity.value = 'all';
+          els.filterSort.value = 'name-asc';
+          els.filterSkillPreset.value = 'all';
+          els.minSkillInput.value = '';
+          els.maxSkillInput.value = '';
+          updateActiveSidebarProfession('all');
+          renderRecipesList(true);
+          syncUrlHash();
+        });
+
+        // Load More button
+        els.btnLoadMore.addEventListener('click', loadMoreRecipes);
+
+        // Infinite Scroll with IntersectionObserver
+        if ('IntersectionObserver' in window) {
+          const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && els.loadMoreContainer.style.display !== 'none') {
+              loadMoreRecipes();
+            }
+          }, { rootMargin: '200px' });
+          observer.observe(els.loadMoreContainer);
+        }
+
+        // Export button
+        els.btnExportHtml.addEventListener('click', exportStandaloneHtml);
+
+        // Import buttons & file input
+        function triggerFileBrowse() {
+          els.fileInput.value = '';
+          els.fileInput.click();
+        }
+
+        els.btnImportLua.addEventListener('click', triggerFileBrowse);
+        els.btnEmptyBrowse.addEventListener('click', triggerFileBrowse);
+
+        els.fileInput.addEventListener('change', (e) => {
+          const file = e.target.files && e.target.files[0];
+          if (!file) return;
+          const reader = new FileReader();
+          reader.onload = (evt) => handleLuaFileContent(evt.target.result, file.name);
+          reader.readAsText(file);
+        });
+
+        // Full Page Drag & Drop
+        window.addEventListener('dragenter', (e) => {
+          e.preventDefault();
+          els.dropOverlay.classList.add('drag-over');
+        });
+
+        window.addEventListener('dragover', (e) => {
+          e.preventDefault();
+        });
+
+        els.dropOverlay.addEventListener('dragleave', (e) => {
+          if (e.relatedTarget === null || e.clientX <= 0 || e.clientY <= 0) {
+            els.dropOverlay.classList.remove('drag-over');
+          }
+        });
+
+        window.addEventListener('drop', (e) => {
+          e.preventDefault();
+          els.dropOverlay.classList.remove('drag-over');
+          const file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+          if (file) {
+            const reader = new FileReader();
+            reader.onload = (evt) => handleLuaFileContent(evt.target.result, file.name);
+            reader.readAsText(file);
+          }
+        });
+
+        // Keyboard Shortcuts: "/" to focus search, "Esc" to clear
+        document.addEventListener('keydown', (e) => {
+          if (e.key === '/' && document.activeElement !== els.searchInput) {
+            e.preventDefault();
+            els.searchInput.focus();
+            els.searchInput.select();
+          } else if (e.key === 'Escape' && document.activeElement === els.searchInput) {
+            els.searchInput.value = '';
+            searchQuery = '';
+            els.clearSearchBtn.style.display = 'none';
+            els.searchHint.style.display = 'block';
+            els.searchInput.blur();
+            renderRecipesList(true);
+            syncUrlHash();
+          }
+        });
+
+        // Hash change navigation
+        window.addEventListener('hashchange', () => {
+          readUrlHash();
+          updateViewTabs();
+          updateActiveSidebarProfession(selectedProfession);
+          if (els.filterCrafter) els.filterCrafter.value = selectedCrafter;
+          renderRecipesList(true);
+        });
+      }
+
+      /* ==========================================================================
+         APPLICATION BOOTSTRAP
+         ========================================================================== */
+      function init() {
+        setupEventListeners();
+        readUrlHash();
+        initGuildData();
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+      } else {
+        init();
+      }
+
+    })();
+  </script>
+</body>
+</html>

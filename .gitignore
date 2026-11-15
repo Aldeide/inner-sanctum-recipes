@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.tmp/
+
+# NOTE: cache/warcraftdb.json and dist/ are intentionally tracked in Git!
+# Tracking cache/warcraftdb.json ensures GitHub Actions and zero-network builds
+# complete in 0.02s without hammering the WarcraftDB API.

@@ -1,0 +1,22 @@
+{
+  "name": "guild-recipe-book-web",
+  "version": "1.0.0",
+  "description": "Static web viewer, Lua SavedVariables exporter, and WarcraftDB enricher for WoW GuildRecipeBook addon",
+  "type": "module",
+  "scripts": {
+    "export": "node export.mjs",
+    "watch": "node export.mjs --watch",
+    "serve": "node export.mjs --serve"
+  },
+  "keywords": [
+    "world-of-warcraft",
+    "warcraft",
+    "addon",
+    "recipes",
+    "professions",
+    "lua-parser",
+    "warcraftdb"
+  ],
+  "author": "Anthony",
+  "license": "MIT"
+}

@@ -1,0 +1,58 @@
+name: Deploy Guild Recipe Book to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Export and Build Recipes
+        run: |
+          if [ -f "SavedVariables/GuildRecipeBook.lua" ]; then
+            echo "Found SavedVariables/GuildRecipeBook.lua - building fresh export..."
+            node export.mjs --input SavedVariables/GuildRecipeBook.lua --offline
+          elif [ -f "GuildRecipeBook.lua" ]; then
+            echo "Found GuildRecipeBook.lua - building fresh export..."
+            node export.mjs --input GuildRecipeBook.lua --offline
+          elif [ -f "dist/index.html" ]; then
+            echo "dist/index.html already built - using committed build artifacts."
+          else
+            echo "No SavedVariables found and dist/index.html missing. Running dry-run export with mock data..."
+            node export.mjs --offline || true
+          fi
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
