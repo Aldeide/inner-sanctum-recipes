@@ -1,13 +1,33 @@
 {
-  "exportedAt": "2026-11-16T06:51:34.286Z",
+  "exportedAt": "2026-11-16T10:35:19.982Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1794810570,
+      "lastUpdated": 1794824793,
       "professions": [
+        {
+          "id": 171,
+          "name": "Alchemy",
+          "isSecondary": false,
+          "recipeCount": 24,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "recipeCount": 24,
+              "ts": 1794823960
+            }
+          ]
+        },
         {
           "id": 164,
           "name": "Blacksmithing",
@@ -32,8 +52,32 @@
           "id": 185,
           "name": "Cooking",
           "isSecondary": true,
-          "recipeCount": 24,
+          "recipeCount": 39,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "recipeCount": 26,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "recipeCount": 24,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -84,7 +128,7 @@
           "id": 197,
           "name": "Tailoring",
           "isSecondary": false,
-          "recipeCount": 89,
+          "recipeCount": 90,
           "crafters": [
             {
               "char": "Maggie-Moo",
@@ -93,10 +137,10 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "recipeCount": 47,
-              "ts": 1794774854
+              "recipeCount": 48,
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -187,14 +231,44 @@
           ]
         },
         {
+          "char": "Elyin-Healz",
+          "fullName": "Elyin Healz",
+          "firstName": "Elyin",
+          "shortName": "Elyin",
+          "lastName": "Healz",
+          "realm": "Healz",
+          "lastUpdated": 1794824793,
+          "totalRecipes": 50,
+          "professions": [
+            {
+              "id": 171,
+              "name": "Alchemy",
+              "isSecondary": false,
+              "skill": 238,
+              "max": 300,
+              "recipeCount": 24,
+              "ts": 1794823960
+            },
+            {
+              "id": 185,
+              "name": "Cooking",
+              "isSecondary": true,
+              "skill": 225,
+              "max": 225,
+              "recipeCount": 26,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
           "char": "Maggie-Moo",
           "fullName": "Maggie Moo",
           "firstName": "Maggie",
           "shortName": "Maggie",
           "lastName": "Moo",
           "realm": "Moo",
-          "lastUpdated": 1794774857,
-          "totalRecipes": 109,
+          "lastUpdated": 1794785619,
+          "totalRecipes": 110,
           "professions": [
             {
               "id": 333,
@@ -209,15 +283,540 @@
               "id": 197,
               "name": "Tailoring",
               "isSecondary": false,
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "recipeCount": 47,
-              "ts": 1794774854
+              "recipeCount": 48,
+              "ts": 1794785619
+            }
+          ]
+        },
+        {
+          "char": "Shaid-Soulstealer",
+          "fullName": "Shaid Soulstealer",
+          "firstName": "Shaid",
+          "shortName": "Shaid",
+          "lastName": "Soulstealer",
+          "realm": "Soulstealer",
+          "lastUpdated": 1794818211,
+          "totalRecipes": 24,
+          "professions": [
+            {
+              "id": 185,
+              "name": "Cooking",
+              "isSecondary": true,
+              "skill": 225,
+              "max": 225,
+              "recipeCount": 24,
+              "ts": 1794818211
             }
           ]
         }
       ],
       "recipes": [
+        {
+          "spellId": 7836,
+          "name": "Blackmouth Oil",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 6370,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1249630,
+          "name": "Cerulean Dye",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 249409,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 7179,
+          "name": "Draught of Water Breathing",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 5996,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 11449,
+          "name": "Elixir of Agility",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 8949,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 11450,
+          "name": "Elixir of Defense",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 8951,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 7845,
+          "name": "Elixir of Fire Power",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 6373,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 3450,
+          "name": "Elixir of Lesser Fortitude",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 3825,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 3230,
+          "name": "Elixir of Minor Agility",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 2457,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 7183,
+          "name": "Elixir of Minor Defense",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 5997,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1245250,
+          "name": "Elixir of Minor Force",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 247755,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 2334,
+          "name": "Elixir of Minor Fortitude",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 2458,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 2329,
+          "name": "Elixir of Minor Strength",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 2454,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1263005,
+          "name": "Fermenter",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 279970,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 7837,
+          "name": "Fire Oil",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 6371,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 6624,
+          "name": "Free Action Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 5634,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 11448,
+          "name": "Greater Mana Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 6149,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 3448,
+          "name": "Lesser Invisibility Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 3823,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 3173,
+          "name": "Lesser Mana Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 3385,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1249631,
+          "name": "Magenta Dye",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 249430,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 3452,
+          "name": "Mana Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 3827,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1230564,
+          "name": "Mana Well",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 279956,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 1245246,
+          "name": "Minor Arcane Elixir",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 247754,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 2331,
+          "name": "Minor Mana Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 2455,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
+        {
+          "spellId": 7259,
+          "name": "Nature Protection Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 6052,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 238,
+              "max": 300,
+              "ts": 1794823960
+            }
+          ]
+        },
         {
           "spellId": 3491,
           "name": "Big Bronze Knife",
@@ -1319,6 +1918,28 @@
           "isCustom": true,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1332,6 +1953,27 @@
           ]
         },
         {
+          "spellId": 2795,
+          "name": "Beer Basted Boar Ribs",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 2888,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
           "spellId": 3371,
           "name": "Blood Sausage",
           "profId": 185,
@@ -1339,6 +1981,17 @@
           "itemId": 3220,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1361,6 +2014,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1381,6 +2045,17 @@
           "itemId": 6290,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1403,6 +2078,28 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1423,6 +2120,28 @@
           "itemId": 2679,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1445,6 +2164,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1466,26 +2196,16 @@
           "isCustom": false,
           "crafters": [
             {
-              "char": "Aldeide-Valesong",
-              "fullName": "Aldeide Valesong",
-              "firstName": "Aldeide",
-              "shortName": "Aldeide",
-              "lastName": "Valesong",
-              "realm": "Valesong",
-              "skill": 175,
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
               "max": 225,
-              "ts": 1794809414
-            }
-          ]
-        },
-        {
-          "spellId": 2546,
-          "name": "Dry Pork Ribs",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 2687,
-          "isCustom": false,
-          "crafters": [
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1500,6 +2220,144 @@
           ]
         },
         {
+          "spellId": 3373,
+          "name": "Crocolisk Gumbo",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 3664,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 3376,
+          "name": "Curiously Tasty Omelet",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 3665,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 2546,
+          "name": "Dry Pork Ribs",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 2687,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 175,
+              "max": 225,
+              "ts": 1794809414
+            }
+          ]
+        },
+        {
+          "spellId": 1250155,
+          "name": "Giant Scrambled Eggs",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 250078,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
+          "spellId": 6500,
+          "name": "Goblin Deviled Clams",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 5527,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
           "spellId": 3377,
           "name": "Gooey Spider Cake",
           "profId": 185,
@@ -1507,6 +2365,28 @@
           "itemId": 3666,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1529,6 +2409,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1549,6 +2440,28 @@
           "itemId": 6888,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1571,6 +2484,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1591,6 +2515,17 @@
           "itemId": 8364,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1613,6 +2548,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1626,6 +2572,27 @@
           ]
         },
         {
+          "spellId": 15865,
+          "name": "Mystery Stew",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 12214,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
           "spellId": 7827,
           "name": "Rainbow Fin Albacore",
           "profId": 185,
@@ -1633,6 +2600,28 @@
           "itemId": 5095,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1676,6 +2665,28 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -1689,6 +2700,133 @@
           ]
         },
         {
+          "spellId": 7828,
+          "name": "Rockscale Cod",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 4594,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
+          "spellId": 1249959,
+          "name": "Root Tea",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 249867,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 25954,
+          "name": "Sagefish Delight",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 21217,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 8238,
+          "name": "Savory Deviate Delight",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 6657,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
+          "spellId": 1252566,
+          "name": "Savory Whimsyfin Delight",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 251525,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
           "spellId": 2549,
           "name": "Seasoned Wolf Kabob",
           "profId": 185,
@@ -1696,6 +2834,28 @@
           "itemId": 1017,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1731,6 +2891,48 @@
           ]
         },
         {
+          "spellId": 7752,
+          "name": "Slitherskin Mackerel",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 787,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 8607,
+          "name": "Smoked Bear Meat",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 6890,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
           "spellId": 25704,
           "name": "Smoked Sagefish",
           "profId": 185,
@@ -1738,6 +2940,28 @@
           "itemId": 21072,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1760,26 +2984,16 @@
           "isCustom": false,
           "crafters": [
             {
-              "char": "Aldeide-Valesong",
-              "fullName": "Aldeide Valesong",
-              "firstName": "Aldeide",
-              "shortName": "Aldeide",
-              "lastName": "Valesong",
-              "realm": "Valesong",
-              "skill": 175,
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
               "max": 225,
-              "ts": 1794809414
-            }
-          ]
-        },
-        {
-          "spellId": 6416,
-          "name": "Strider Stew",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 5477,
-          "isCustom": false,
-          "crafters": [
+              "ts": 1794818211
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -1794,6 +3008,80 @@
           ]
         },
         {
+          "spellId": 21175,
+          "name": "Spider Sausage",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 17222,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794818211
+            }
+          ]
+        },
+        {
+          "spellId": 6416,
+          "name": "Strider Stew",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 5477,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 175,
+              "max": 225,
+              "ts": 1794809414
+            }
+          ]
+        },
+        {
+          "spellId": 3399,
+          "name": "Tasty Lion Steak",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 3728,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            }
+          ]
+        },
+        {
           "spellId": 2543,
           "name": "Westfall Stew",
           "profId": 185,
@@ -1801,6 +3089,17 @@
           "itemId": 733,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794824793
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -4329,9 +5628,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4361,9 +5660,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4435,9 +5734,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4509,9 +5808,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4541,9 +5840,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4573,9 +5872,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4605,9 +5904,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4637,9 +5936,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4669,9 +5968,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -4753,9 +6052,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4827,9 +6126,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -4869,9 +6168,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -4890,9 +6189,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4922,9 +6221,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -4954,9 +6253,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -4975,9 +6274,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -4996,9 +6295,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5028,9 +6327,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5049,9 +6348,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5070,9 +6369,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5091,9 +6390,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5112,9 +6411,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5175,9 +6474,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5270,9 +6569,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5386,9 +6685,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5449,9 +6748,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5491,9 +6790,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5523,9 +6822,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5576,9 +6875,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5650,9 +6949,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5682,9 +6981,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5703,9 +7002,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5724,9 +7023,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5808,9 +7107,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5840,9 +7139,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -5956,9 +7255,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -5998,9 +7297,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6030,9 +7329,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -6051,9 +7350,30 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
+            }
+          ]
+        },
+        {
+          "spellId": 1257465,
+          "name": "Runecloth Reagent Bag",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254079,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Maggie-Moo",
+              "fullName": "Maggie Moo",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Moo",
+              "realm": "Moo",
+              "skill": 293,
+              "max": 300,
+              "ts": 1794785619
             }
           ]
         },
@@ -6072,9 +7392,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -6093,9 +7413,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6125,9 +7445,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6178,9 +7498,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6210,9 +7530,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6284,9 +7604,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             }
           ]
         },
@@ -6410,9 +7730,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6442,9 +7762,9 @@
               "shortName": "Maggie",
               "lastName": "Moo",
               "realm": "Moo",
-              "skill": 290,
+              "skill": 293,
               "max": 300,
-              "ts": 1794774854
+              "ts": 1794785619
             },
             {
               "char": "Callum-Magic",
@@ -6463,6 +7783,96 @@
     }
   ],
   "meta": {
+    "2329": {
+      "spellId": 2329,
+      "name": "Elixir of Minor Strength",
+      "itemId": 2454,
+      "icon": 134836,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2449,
+          "name": "Earthroot",
+          "count": 1
+        },
+        {
+          "itemId": 765,
+          "name": "Silverleaf",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Earthroot, Silverleaf, Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Elixir of Minor Strength</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2449\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2449\">Earthroot</a>, <a href=\"https://www.wowhead.com/forever/item=765\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:765\">Silverleaf</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Strength</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=2367\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:2367\">Use: Increases Strength by 4 for 1 hour.</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">20</span></tt-line></div></div>"
+    },
+    "2331": {
+      "spellId": 2331,
+      "name": "Minor Mana Potion",
+      "itemId": 2455,
+      "icon": 134850,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 785,
+          "name": "Mageroyal",
+          "count": 1
+        },
+        {
+          "itemId": 2447,
+          "name": "Peacebloom",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Mageroyal, Peacebloom, Empty Vial",
+      "reqSkill": 25,
+      "tooltipHtml": "<tt-title>Minor Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a>, <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Minor Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 140 to 180 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
+    },
+    "2334": {
+      "spellId": 2334,
+      "name": "Elixir of Minor Fortitude",
+      "itemId": 2458,
+      "icon": 134822,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2449,
+          "name": "Earthroot",
+          "count": 2
+        },
+        {
+          "itemId": 2447,
+          "name": "Peacebloom",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Earthroot (2), Peacebloom, Empty Vial",
+      "reqSkill": 50,
+      "tooltipHtml": "<tt-title>Elixir of Minor Fortitude</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy (50)</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2449\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2449\">Earthroot</a> (2), <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Fortitude</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases the player's maximum health by 27 for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 2</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">15</span></tt-line></div></div>"
+    },
     "2385": {
       "spellId": 2385,
       "name": "Brown Linen Vest",
@@ -7423,6 +8833,31 @@
       "tooltipHtml": "<tt-title>Bronze Shortsword</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing (95)</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2841\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2841\">Bronze Bar</a> (5), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a> (4), <a href=\"https://www.wowhead.com/forever/item=2319\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2319\">Medium Leather</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Bronze Shortsword</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">One-Hand</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Sword</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">21 - 40 Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 2.50</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(12.2 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+3 Agility</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 19</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">14</span><span class=\"price-copper\">39</span></tt-line></div></div>",
       "reqSkill": 95
     },
+    "2795": {
+      "spellId": 2795,
+      "name": "Beer Basted Boar Ribs",
+      "itemId": 2888,
+      "icon": 134004,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2886,
+          "name": "Crag Boar Rib",
+          "count": 1
+        },
+        {
+          "itemId": 2894,
+          "name": "Rhapsody Malt",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Crag Boar Rib, Rhapsody Malt",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Beer Basted Boar Ribs</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2886\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2886\">Crag Boar Rib</a>, <a href=\"https://www.wowhead.com/forever/item=2894\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2894\">Rhapsody Malt</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Beer Basted Boar Ribs</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248380\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248380\">Use: Restores 61 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Strength for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
+    },
     "2963": {
       "spellId": 2963,
       "name": "Bolt of Linen Cloth",
@@ -7522,6 +8957,66 @@
       "reagentsText": "Heavy Stone",
       "tooltipHtml": "<tt-title>Heavy Weightstone</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2838\">Heavy Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Heavy Weightstone</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increase the damage of a blunt weapon by 4 for 30 minutes. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>",
       "reqSkill": 125
+    },
+    "3173": {
+      "spellId": 3173,
+      "name": "Lesser Mana Potion",
+      "itemId": 3385,
+      "icon": 134851,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 785,
+          "name": "Mageroyal",
+          "count": 1
+        },
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Mageroyal, Stranglekelp, Empty Vial",
+      "reqSkill": 70,
+      "tooltipHtml": "<tt-title>Lesser Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a>, <a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Lesser Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 280 to 360 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 14</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">30</span></tt-line></div></div>"
+    },
+    "3230": {
+      "spellId": 3230,
+      "name": "Elixir of Minor Agility",
+      "itemId": 2457,
+      "icon": 134871,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2452,
+          "name": "Swiftthistle",
+          "count": 1
+        },
+        {
+          "itemId": 765,
+          "name": "Silverleaf",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Swiftthistle, Silverleaf, Empty Vial",
+      "reqSkill": 10,
+      "tooltipHtml": "<tt-title>Elixir of Minor Agility</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2452\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2452\">Swiftthistle</a>, <a href=\"https://www.wowhead.com/forever/item=765\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:765\">Silverleaf</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Agility</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases Agility by 4 for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 2</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">15</span></tt-line></div></div>"
     },
     "3292": {
       "spellId": 3292,
@@ -7963,6 +9458,56 @@
       "tooltipHtml": "<tt-title>Murloc Fin Soup</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=1468\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:1468\">Murloc Fin</a> (2), <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Murloc Fin Soup</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">25</span></tt-line></div></div>",
       "reqSkill": 90
     },
+    "3373": {
+      "spellId": 3373,
+      "name": "Crocolisk Gumbo",
+      "itemId": 3664,
+      "icon": 133748,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3667,
+          "name": "Tender Crocolisk Meat",
+          "count": 1
+        },
+        {
+          "itemId": 2692,
+          "name": "Hot Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Tender Crocolisk Meat, Hot Spices",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Crocolisk Gumbo</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3667\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3667\">Tender Crocolisk Meat</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Crocolisk Gumbo</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Agility for 15 min. Additionally, experience gained from kills is increased by 5%.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
+    },
+    "3376": {
+      "spellId": 3376,
+      "name": "Curiously Tasty Omelet",
+      "itemId": 3665,
+      "icon": 132835,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3685,
+          "name": "Raptor Egg",
+          "count": 1
+        },
+        {
+          "itemId": 2692,
+          "name": "Hot Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Raptor Egg, Hot Spices",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Curiously Tasty Omelet</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3685\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3685\">Raptor Egg</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Curiously Tasty Omelet</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+    },
     "3377": {
       "spellId": 3377,
       "name": "Gooey Spider Cake",
@@ -7987,6 +9532,121 @@
       "reagentsText": "Gooey Spider Leg (2), Hot Spices",
       "tooltipHtml": "<tt-title>Gooey Spider Cake</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2251\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2251\">Gooey Spider Leg</a> (2), <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Gooey Spider Cake</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>",
       "reqSkill": 110
+    },
+    "3399": {
+      "spellId": 3399,
+      "name": "Tasty Lion Steak",
+      "itemId": 3728,
+      "icon": 133970,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3731,
+          "name": "Lion Meat",
+          "count": 2
+        },
+        {
+          "itemId": 3713,
+          "name": "Soothing Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lion Meat (2), Soothing Spices",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Tasty Lion Steak</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3731\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3731\">Lion Meat</a> (2), <a href=\"https://www.wowhead.com/forever/item=3713\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3713\">Soothing Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Tasty Lion Steak</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248391\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248391\">Use: Restores 874 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 10 Agility for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 25</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+    },
+    "3448": {
+      "spellId": 3448,
+      "name": "Lesser Invisibility Potion",
+      "itemId": 3823,
+      "icon": 134798,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3818,
+          "name": "Fadeleaf",
+          "count": 1
+        },
+        {
+          "itemId": 3355,
+          "name": "Wild Steelbloom",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Fadeleaf, Wild Steelbloom, Leaded Vial",
+      "reqSkill": 115,
+      "tooltipHtml": "<tt-title>Lesser Invisibility Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3818\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3818\">Fadeleaf</a>, <a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Lesser Invisibility Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=3680\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:3680\">Use: Gives the imbiber lesser invisibility for 15 sec. (10 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 23</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
+    },
+    "3450": {
+      "spellId": 3450,
+      "name": "Elixir of Lesser Fortitude",
+      "itemId": 3825,
+      "icon": 134823,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3355,
+          "name": "Wild Steelbloom",
+          "count": 1
+        },
+        {
+          "itemId": 3821,
+          "name": "Goldthorn",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Wild Steelbloom, Goldthorn, Leaded Vial",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Elixir of Lesser Fortitude</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Lesser Fortitude</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=3593\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:3593\">Use: Increases the player's maximum health by 120 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 25</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">10</span></tt-line></div></div>"
+    },
+    "3452": {
+      "spellId": 3452,
+      "name": "Mana Potion",
+      "itemId": 3827,
+      "icon": 134852,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 3356,
+          "name": "Kingsblood",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Stranglekelp, Kingsblood, Leaded Vial",
+      "reqSkill": 110,
+      "tooltipHtml": "<tt-title>Mana Potion</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3356\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3356\">Kingsblood</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 455 to 585 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 22</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">20</span></tt-line></div></div>"
     },
     "3491": {
       "spellId": 3491,
@@ -8648,6 +10308,31 @@
       "tooltipHtml": "<tt-title>Boiled Clams</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=5503\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:5503\">Clam Meat</a>, <a href=\"https://www.wowhead.com/forever/item=159\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:159\">Refreshing Spring Water</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Boiled Clams</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">20</span></tt-line></div></div>",
       "reqSkill": 50
     },
+    "6500": {
+      "spellId": 6500,
+      "name": "Goblin Deviled Clams",
+      "itemId": 5527,
+      "icon": 134431,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 5504,
+          "name": "Tangy Clam Meat",
+          "count": 1
+        },
+        {
+          "itemId": 2692,
+          "name": "Hot Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Tangy Clam Meat, Hot Spices",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Goblin Deviled Clams</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=5504\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:5504\">Tangy Clam Meat</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Goblin Deviled Clams</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating.  If you spend at least 10 seconds eating you will become well fed and gain 6 Stamina and Spirit for 15 min. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">95</span></tt-line></div></div>"
+    },
     "6517": {
       "spellId": 6517,
       "name": "Pearl-handled Dagger",
@@ -8712,6 +10397,36 @@
       "reagentsText": "Bolt of Woolen Cloth (3), Fine Thread (2), Small Lustrous Pearl",
       "tooltipHtml": "<tt-title>Pearl-clasped Cloak</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2997\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2997\">Bolt of Woolen Cloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a> (2), <a href=\"https://www.wowhead.com/forever/item=5498\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:5498\">Small Lustrous Pearl</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Pearl-clasped Cloak</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-line data-line-type=\"captured-equip-slot\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Back</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">16 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+3 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 2.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 14</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span><span class=\"price-copper\">70</span></tt-line></div></div>",
       "reqSkill": 90
+    },
+    "6624": {
+      "spellId": 6624,
+      "name": "Free Action Potion",
+      "itemId": 5634,
+      "icon": 134715,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6370,
+          "name": "Blackmouth Oil",
+          "count": 2
+        },
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Blackmouth Oil (2), Stranglekelp, Leaded Vial",
+      "reqSkill": 100,
+      "tooltipHtml": "<tt-title>Free Action Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6370\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6370\">Blackmouth Oil</a> (2), <a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Free Action Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Makes you immune to Stun and Movement Impairing effects for the next 30 sec.   Does not remove effects already on the imbiber.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 20</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
     },
     "6686": {
       "spellId": 6686,
@@ -8807,6 +10522,96 @@
       "reagentsText": "Bolt of Silk Cloth (5), Heavy Leather (3), Fine Thread (3), Green Dye",
       "tooltipHtml": "<tt-title>Green Silk Pack</tt-title><tt-double-line><span>45 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4305\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4305\">Bolt of Silk Cloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=4234\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4234\">Heavy Leather</a> (3), <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a> (3), <a href=\"https://www.wowhead.com/forever/item=2605\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2605\">Green Dye</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Green Silk Pack</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">12 Slot Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">30</span></tt-line></div></div>",
       "reqSkill": 175
+    },
+    "7179": {
+      "spellId": 7179,
+      "name": "Draught of Water Breathing",
+      "itemId": 5996,
+      "icon": 134797,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 6370,
+          "name": "Blackmouth Oil",
+          "count": 2
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Stranglekelp, Blackmouth Oil (2), Empty Vial",
+      "reqSkill": 40,
+      "tooltipHtml": "<tt-title>Draught of Water Breathing</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=6370\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6370\">Blackmouth Oil</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Draught of Water Breathing</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Allows the Imbiber to breathe water for 30 min.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 8</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">95</span></tt-line></div></div>"
+    },
+    "7183": {
+      "spellId": 7183,
+      "name": "Elixir of Minor Defense",
+      "itemId": 5997,
+      "icon": 134843,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 765,
+          "name": "Silverleaf",
+          "count": 1
+        },
+        {
+          "itemId": 2447,
+          "name": "Peacebloom",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Silverleaf, Peacebloom, Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Elixir of Minor Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=765\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:765\">Silverleaf</a>, <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Defense</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=673\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:673\">Use: Increases armor by 50 for 1 hour.</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
+    },
+    "7259": {
+      "spellId": 7259,
+      "name": "Nature Protection Potion",
+      "itemId": 6052,
+      "icon": 134717,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3357,
+          "name": "Liferoot",
+          "count": 1
+        },
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Liferoot, Stranglekelp, Leaded Vial",
+      "reqSkill": 140,
+      "tooltipHtml": "<tt-title>Nature Protection Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3357\">Liferoot</a>, <a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Nature Protection Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=7254\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:7254\">Use: Absorbs 1350 to 2250 nature damage.  Lasts 2 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 28</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
     },
     "7408": {
       "spellId": 7408,
@@ -9133,6 +10938,26 @@
       "tooltipHtml": "<tt-title>Brilliant Smallfish</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6291\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6291\">Raw Brilliant Smallfish</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Brilliant Smallfish</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 2 Attack Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">1</span></tt-line></div></div>",
       "reqSkill": 1
     },
+    "7752": {
+      "spellId": 7752,
+      "name": "Slitherskin Mackerel",
+      "itemId": 787,
+      "icon": 133910,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6303,
+          "name": "Raw Slitherskin Mackerel",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Raw Slitherskin Mackerel",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Slitherskin Mackerel</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6303\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6303\">Raw Slitherskin Mackerel</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Slitherskin Mackerel</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 234 health over 21 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 6 Attack Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">1</span></tt-line></div></div>"
+    },
     "7753": {
       "spellId": 7753,
       "name": "Longjaw Mud Snapper",
@@ -9373,6 +11198,106 @@
       "tooltipHtml": "<tt-title>Rainbow Fin Albacore</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6361\">Raw Rainbow Fin Albacore</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rainbow Fin Albacore</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">3</span></tt-line></div></div>",
       "reqSkill": 50
     },
+    "7828": {
+      "spellId": 7828,
+      "name": "Rockscale Cod",
+      "itemId": 4594,
+      "icon": 133890,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6362,
+          "name": "Raw Rockscale Cod",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Raw Rockscale Cod",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Rockscale Cod</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6362\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6362\">Raw Rockscale Cod</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rockscale Cod</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 841 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 12 Fishing Skill for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">6</span></tt-line></div></div>"
+    },
+    "7836": {
+      "spellId": 7836,
+      "name": "Blackmouth Oil",
+      "itemId": 6370,
+      "icon": 132799,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6358,
+          "name": "Oily Blackmouth",
+          "count": 2
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Oily Blackmouth (2), Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Blackmouth Oil</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6358\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6358\">Oily Blackmouth</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Blackmouth Oil</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
+    },
+    "7837": {
+      "spellId": 7837,
+      "name": "Fire Oil",
+      "itemId": 6371,
+      "icon": 134818,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6359,
+          "name": "Firefin Snapper",
+          "count": 2
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Firefin Snapper (2), Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Fire Oil</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6359\">Firefin Snapper</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Fire Oil</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">12</span></tt-line></div></div>"
+    },
+    "7845": {
+      "spellId": 7845,
+      "name": "Elixir of Fire Power",
+      "itemId": 6373,
+      "icon": 134835,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6371,
+          "name": "Fire Oil",
+          "count": 2
+        },
+        {
+          "itemId": 3356,
+          "name": "Kingsblood",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Fire Oil (2), Kingsblood, Leaded Vial",
+      "reqSkill": 90,
+      "tooltipHtml": "<tt-title>Elixir of Fire Power</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6371\">Fire Oil</a> (2), <a href=\"https://www.wowhead.com/forever/item=3356\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3356\">Kingsblood</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Fire Power</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases spell fire damage by up to 10 for 30 min.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 18</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">35</span></tt-line></div></div>"
+    },
     "7857": {
       "spellId": 7857,
       "name": "Enchant Chest - Stamina",
@@ -9443,6 +11368,31 @@
       "tooltipHtml": "<tt-title>Enchant Boots - Minor Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a> (4)</tt-indented-line>Permanently enchant a pair of boots so they increase the wearer's Stamina by 3.",
       "reqSkill": 125
     },
+    "8238": {
+      "spellId": 8238,
+      "name": "Savory Deviate Delight",
+      "itemId": 6657,
+      "icon": 134302,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6522,
+          "name": "Deviate Fish",
+          "count": 1
+        },
+        {
+          "itemId": 2678,
+          "name": "Mild Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Deviate Fish, Mild Spices",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Savory Deviate Delight</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6522\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6522\">Deviate Fish</a>, <a href=\"https://www.wowhead.com/forever/item=2678\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2678\">Mild Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Savory Deviate Delight</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=8213\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:8213\">Use: Eat me. (10 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
+    },
     "8489": {
       "spellId": 8489,
       "name": "Red Swashbuckler's Shirt",
@@ -9497,6 +11447,26 @@
       "reagentsText": "Small Egg, Mild Spices",
       "tooltipHtml": "<tt-title>Herb Baked Egg</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6889\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6889\">Small Egg</a>, <a href=\"https://www.wowhead.com/forever/item=2678\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2678\">Mild Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Herb Baked Egg</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%.</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>",
       "reqSkill": 1
+    },
+    "8607": {
+      "spellId": 8607,
+      "name": "Smoked Bear Meat",
+      "itemId": 6890,
+      "icon": 133969,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3173,
+          "name": "Bear Meat",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Bear Meat",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Smoked Bear Meat</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3173\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3173\">Bear Meat</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Smoked Bear Meat</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Strength for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">6</span></tt-line></div></div>"
     },
     "8758": {
       "spellId": 8758,
@@ -9947,6 +11917,96 @@
       "reagentsText": "Bronze Bar (14), Strong Flux, Medium Leather (2)",
       "tooltipHtml": "<tt-title>Bronze Battle Axe</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2841\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2841\">Bronze Bar</a> (14), <a href=\"https://www.wowhead.com/forever/item=3466\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3466\">Strong Flux</a>, <a href=\"https://www.wowhead.com/forever/item=2319\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2319\">Medium Leather</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Bronze Battle Axe</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Two-Hand</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Axe</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">48 - 73 Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 3.30</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(18.3 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+10 Strength</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 22</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">24</span><span class=\"price-copper\">35</span></tt-line></div></div>",
       "reqSkill": 80
+    },
+    "11448": {
+      "spellId": 11448,
+      "name": "Greater Mana Potion",
+      "itemId": 6149,
+      "icon": 134853,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3358,
+          "name": "Khadgar's Whisker",
+          "count": 1
+        },
+        {
+          "itemId": 3821,
+          "name": "Goldthorn",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Khadgar's Whisker, Goldthorn, Leaded Vial",
+      "reqSkill": 155,
+      "tooltipHtml": "<tt-title>Greater Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3358\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3358\">Khadgar's Whisker</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Greater Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 700 to 900 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 31</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">20</span></tt-line></div></div>"
+    },
+    "11449": {
+      "spellId": 11449,
+      "name": "Elixir of Agility",
+      "itemId": 8949,
+      "icon": 134873,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3820,
+          "name": "Stranglekelp",
+          "count": 1
+        },
+        {
+          "itemId": 3821,
+          "name": "Goldthorn",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Stranglekelp, Goldthorn, Leaded Vial",
+      "reqSkill": 135,
+      "tooltipHtml": "<tt-title>Elixir of Agility</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Agility</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases Agility by 15 for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 27</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+    },
+    "11450": {
+      "spellId": 11450,
+      "name": "Elixir of Defense",
+      "itemId": 8951,
+      "icon": 134845,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3355,
+          "name": "Wild Steelbloom",
+          "count": 1
+        },
+        {
+          "itemId": 3821,
+          "name": "Goldthorn",
+          "count": 1
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Wild Steelbloom, Goldthorn, Leaded Vial",
+      "reqSkill": 145,
+      "tooltipHtml": "<tt-title>Elixir of Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Defense</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11349\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11349\">Use: Increases armor by 250 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 29</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
     },
     "12044": {
       "spellId": 12044,
@@ -11578,6 +13638,31 @@
       "reqSkill": 250,
       "tooltipHtml": "<tt-title>Smoking Heart of the Mountain</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"required-focus\">Requires Black Forge</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11382\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11382\">Blood of the Mountain</a>, <a href=\"https://www.wowhead.com/forever/item=7078\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7078\">Essence of Fire</a>, <a href=\"https://www.wowhead.com/forever/item=14343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14343\">Small Brilliant Shard</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Smoking Heart of the Mountain</tt-title><tt-line data-line-type=\"item-level\">Item Level 55</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"slot\">Trinket</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1300752\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1300752\">Use: Increases armor by 520 for 20 sec. (6 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 50</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">51</span><span class=\"price-copper\">52</span></tt-line></div></div>"
     },
+    "15865": {
+      "spellId": 15865,
+      "name": "Mystery Stew",
+      "itemId": 12214,
+      "icon": 132806,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12037,
+          "name": "Mystery Meat",
+          "count": 1
+        },
+        {
+          "itemId": 2596,
+          "name": "Skin of Dwarven Stout",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Mystery Meat, Skin of Dwarven Stout",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Mystery Stew</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12037\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12037\">Mystery Meat</a>, <a href=\"https://www.wowhead.com/forever/item=2596\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2596\">Skin of Dwarven Stout</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mystery Stew</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+    },
     "17180": {
       "spellId": 17180,
       "name": "Enchanted Thorium",
@@ -12308,6 +14393,26 @@
       "reqSkill": 125,
       "tooltipHtml": "<tt-title>Mithril Headed Trout</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8365\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8365\">Raw Mithril Head Trout</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mithril Head Trout</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 841 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 20 Attack Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">6</span></tt-line></div></div>"
     },
+    "21175": {
+      "spellId": 21175,
+      "name": "Spider Sausage",
+      "itemId": 17222,
+      "icon": 134022,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12205,
+          "name": "White Spider Meat",
+          "count": 2
+        }
+      ],
+      "reagentsText": "White Spider Meat (2)",
+      "reqSkill": 175,
+      "tooltipHtml": "<tt-title>Spider Sausage</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12205\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12205\">White Spider Meat</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Spider Sausage</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248394\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248394\">Use: Restores 1392 health over 30 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 15 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 35</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+    },
     "23801": {
       "spellId": 23801,
       "name": "Enchant Bracer - Mana Regeneration",
@@ -12513,6 +14618,31 @@
       "tooltipHtml": "<tt-title>Smoked Sagefish</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=21071\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:21071\">Raw Sagefish</a>, <a href=\"https://www.wowhead.com/forever/item=2678\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2678\">Mild Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Smoked Sagefish</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 234 health over 21 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 4 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 10</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>",
       "reqSkill": 80
     },
+    "25954": {
+      "spellId": 25954,
+      "name": "Sagefish Delight",
+      "itemId": 21217,
+      "icon": 133907,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 21153,
+          "name": "Raw Greater Sagefish",
+          "count": 1
+        },
+        {
+          "itemId": 2692,
+          "name": "Hot Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Raw Greater Sagefish, Hot Spices",
+      "reqSkill": 150,
+      "tooltipHtml": "<tt-title>Sagefish Delight</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=21153\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:21153\">Raw Greater Sagefish</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Sagefish Delight</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249507\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249507\">Use: Restores 552 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 7 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 30</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">25</span></tt-line></div></div>"
+    },
     "27658": {
       "spellId": 27658,
       "name": "Enchanted Mageweave Pouch",
@@ -12623,6 +14753,31 @@
       "tooltipHtml": "<tt-double-line><tt-title>Sharpening Wheel</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2835\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2835\">Rough Stone</a>, <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a></tt-indented-line>Craft a Sharpening Wheel.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Sharpening Wheel</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1307392\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1307392\">Use: Constructs a sharpening wheel that grants you and others sitting nearby </a></tt-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing (20)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line></div></div>",
       "reqSkill": 20
     },
+    "1230564": {
+      "spellId": 1230564,
+      "name": "Mana Well",
+      "itemId": 279956,
+      "icon": 135738,
+      "quality": 1,
+      "tier": "Tier 1",
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2447,
+          "name": "Peacebloom",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Peacebloom, Empty Vial",
+      "reqSkill": 20,
+      "tooltipHtml": "<tt-double-line><tt-title>Mana Well</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line>Craft a Mana Well.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mana Well</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Constructs a mana well that allows you and others sitting nearby to regenerate 15 Mana every 5 sec, mutually exclusive with Blessing of Wisdom.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Alchemy (20)</tt-inline-color></tt-line></div></div>"
+    },
     "1230643": {
       "spellId": 1230643,
       "name": "Enchanted Lute",
@@ -12647,6 +14802,56 @@
       "reagentsText": "Simple Wood, Strange Dust",
       "tooltipHtml": "<tt-double-line><tt-title>Enchanted Lute</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4470\">Simple Wood</a>, <a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a></tt-indented-line>Craft an Enchanted Lute.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Enchanted Lute</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Summons an enchanted lute that allows you and others sitting nearby to gain 163 Armor, 7 increase to all stats, and 6 increase to all resistances, mutually exclusive with Mark of the Wild.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Enchanting (20)</tt-inline-color></tt-line></div></div>",
       "reqSkill": 20
+    },
+    "1245246": {
+      "spellId": 1245246,
+      "name": "Minor Arcane Elixir",
+      "itemId": 247754,
+      "icon": 134728,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2447,
+          "name": "Peacebloom",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Peacebloom, Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Minor Arcane Elixir</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Minor Arcane Elixir</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1245244\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1245244\">Use: Increases spell damage by up to 5 for 30 min.</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
+    },
+    "1245250": {
+      "spellId": 1245250,
+      "name": "Elixir of Minor Force",
+      "itemId": 247755,
+      "icon": 134857,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 765,
+          "name": "Silverleaf",
+          "count": 1
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Silverleaf, Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Elixir of Minor Force</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=765\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:765\">Silverleaf</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Force</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1245249\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1245249\">Use: Increases Physical damage by 1 for 30 min.</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">25</span></tt-line></div></div>"
     },
     "1245287": {
       "spellId": 1245287,
@@ -12898,6 +15103,106 @@
       "tooltipHtml": "<tt-title>Enchant Necklace - Spell Power</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11175\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11175\">Greater Nether Essence</a> (5), <a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a> (3), <a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (8), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249430\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249430\">Magenta Dye</a> (4)</tt-indented-line>Permanently enchant a necklace to increase spell damage and healing by up to 6.",
       "reqSkill": 250
     },
+    "1249630": {
+      "spellId": 1249630,
+      "name": "Cerulean Dye",
+      "itemId": 249409,
+      "icon": 1021860,
+      "quality": 2,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 249399,
+          "name": "Frilled Lichen",
+          "count": 2
+        },
+        {
+          "itemId": 3371,
+          "name": "Empty Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Frilled Lichen (2), Empty Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Cerulean Dye</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=249399\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249399\">Frilled Lichen</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Cerulean Dye</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Crafted by alchemists.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
+    },
+    "1249631": {
+      "spellId": 1249631,
+      "name": "Magenta Dye",
+      "itemId": 249430,
+      "icon": 237071,
+      "quality": 2,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 249424,
+          "name": "Rosecap",
+          "count": 2
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Rosecap (2), Leaded Vial",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Magenta Dye</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=249424\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249424\">Rosecap</a> (2), <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Magenta Dye</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Crafted by alchemists.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+    },
+    "1249959": {
+      "spellId": 1249959,
+      "name": "Root Tea",
+      "itemId": 249867,
+      "icon": 132802,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 1205,
+          "name": "Melon Juice",
+          "count": 1
+        },
+        {
+          "itemId": 3357,
+          "name": "Liferoot",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Melon Juice, Liferoot (2)",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Root Tea</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=1205\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:1205\">Melon Juice</a>, <a href=\"https://www.wowhead.com/forever/item=3357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3357\">Liferoot</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Root Tea</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249922\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249922\">Use: Restores 835 mana over 24 sec.  Must remain seated while drinking. If you spend at least 10 sec eating, you will become well fed and gain 11 Healing Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 15</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">1</span></tt-line></div></div>"
+    },
+    "1250155": {
+      "spellId": 1250155,
+      "name": "Giant Scrambled Eggs",
+      "itemId": 250078,
+      "icon": 133748,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12207,
+          "name": "Giant Egg",
+          "count": 2
+        },
+        {
+          "itemId": 2692,
+          "name": "Hot Spices",
+          "count": 4
+        }
+      ],
+      "reagentsText": "Giant Egg (2), Hot Spices (4)",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Giant Scrambled Eggs</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12207\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12207\">Giant Egg</a> (2), <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Giant Scrambled Eggs</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248390\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248390\">Use: Restores 874 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 10 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 25</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">18</span></tt-line></div></div>"
+    },
     "1252229": {
       "spellId": 1252229,
       "name": "Gemmed Copper Boots",
@@ -13052,6 +15357,31 @@
       "reagentsText": "Bronze Bar (8), Weak Flux (4), Medium Leather",
       "tooltipHtml": "<tt-title>Bronze Dory</tt-title><tt-double-line><span>25 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2841\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2841\">Bronze Bar</a> (8), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a> (4), <a href=\"https://www.wowhead.com/forever/item=2319\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2319\">Medium Leather</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Bronze Dory</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Two-Hand</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Polearm</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">45 - 69 Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 3.40</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(16.8 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+8 Agility</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: +6 Attack Power.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 20</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span><span class=\"price-copper\">88</span></tt-line></div></div>",
       "reqSkill": 100
+    },
+    "1252566": {
+      "spellId": 1252566,
+      "name": "Savory Whimsyfin Delight",
+      "itemId": 251525,
+      "icon": 237320,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 251524,
+          "name": "Whimsyfin",
+          "count": 1
+        },
+        {
+          "itemId": 2678,
+          "name": "Mild Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Whimsyfin, Mild Spices",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Savory Whimsyfin Delight</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=251524\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:251524\">Whimsyfin</a>, <a href=\"https://www.wowhead.com/forever/item=2678\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2678\">Mild Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Savory Whimsyfin Delight</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1252576\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1252576\">Use: Eat me. (10 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
     },
     "1257013": {
       "spellId": 1257013,
@@ -13312,6 +15642,71 @@
       "reagentsText": "Bolt of Runecloth (6), Essence of Earth, Rune Thread",
       "tooltipHtml": "<tt-title>Earthenweave Gloves</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (6), <a href=\"https://www.wowhead.com/forever/item=7076\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7076\">Essence of Earth</a>, <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Earthenweave Gloves</tt-title><tt-line data-line-type=\"item-level\">Item Level 52</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Hands</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">42 Armor</tt-line><tt-line data-line-type=\"item-stat\">+11 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases healing done by magical spells and effects by up to 26.</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases damage done by magical spells and effects by up to 9.</tt-line><tt-line data-line-type=\"durability\">Durability 40 / 40</tt-line><tt-line data-line-type=\"required-level\">Requires Level 47</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">53</span><span class=\"price-copper\">98</span></tt-line></div></div>",
       "reqSkill": 235
+    },
+    "1257465": {
+      "spellId": 1257465,
+      "name": "Runecloth Reagent Bag",
+      "itemId": 254079,
+      "icon": 133622,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 14048,
+          "name": "Bolt of Runecloth",
+          "count": 5
+        },
+        {
+          "itemId": 8170,
+          "name": "Rugged Leather",
+          "count": 2
+        },
+        {
+          "itemId": 14341,
+          "name": "Rune Thread",
+          "count": 1
+        },
+        {
+          "itemId": 249431,
+          "name": "Viridian Dye",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Bolt of Runecloth (5), Rugged Leather (2), Rune Thread, Viridian Dye",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Runecloth Reagent Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a>, <a href=\"https://www.wowhead.com/forever/item=249431\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249431\">Viridian Dye</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runecloth Reagent Bag</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">14 Slot Reagent Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+    },
+    "1263005": {
+      "spellId": 1263005,
+      "name": "Fermenter",
+      "itemId": 279970,
+      "icon": 3566827,
+      "quality": 1,
+      "tier": "Tier 2",
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        },
+        {
+          "itemId": 3356,
+          "name": "Kingsblood",
+          "count": 1
+        },
+        {
+          "itemId": 2452,
+          "name": "Swiftthistle",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Leaded Vial, Kingsblood, Swiftthistle",
+      "reqSkill": 140,
+      "tooltipHtml": "<tt-double-line><tt-title>Fermenter</tt-title><tt-subtitle>Tier 2</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a>, <a href=\"https://www.wowhead.com/forever/item=3356\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3356\">Kingsblood</a>, <a href=\"https://www.wowhead.com/forever/item=2452\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2452\">Swiftthistle</a></tt-indented-line>Craft a Fermenter.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Fermenter</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1307242\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1307242\">Use: Places a fermenter that allows the creation of certain reagents, and provides all of the benefits of a Mana Well. Requires a Campfire nearby.\n\nMay be placed over a Mana Well to replace it. All camping features share a cooldown of 1 hour.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Alchemy (140)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line></div></div>"
     },
     "1263032": {
       "spellId": 1263032,
