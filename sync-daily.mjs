@@ -127,7 +127,8 @@ async function main() {
   try {
     const pullOutput = execFileSync('git', ['pull', '--rebase', 'origin', 'main'], {
       cwd: ROOT,
-      encoding: 'utf8'
+      encoding: 'utf8',
+      windowsHide: true
     });
     if (pullOutput.trim()) {
       console.log(`[Sync] git pull: ${pullOutput.trim()}`);
@@ -158,10 +159,14 @@ async function main() {
   // 3. Run node export.mjs
   console.log('[Sync] Step 3/5: Running export.mjs...');
   try {
-    execFileSync(process.execPath, [path.join(ROOT, 'export.mjs')], {
+    const exportOutput = execFileSync(process.execPath, [path.join(ROOT, 'export.mjs')], {
       cwd: ROOT,
-      stdio: 'inherit'
+      encoding: 'utf8',
+      windowsHide: true
     });
+    if (exportOutput.trim()) {
+      console.log(exportOutput.trim());
+    }
   } catch (err) {
     console.error(`[Sync] Export execution failed: ${err.message}`);
     process.exit(1);
@@ -199,7 +204,7 @@ async function main() {
 
   if (isIdentical && !force) {
     console.log('[Sync] Content identical. Reverting timestamp-only churn in dist/...');
-    execFileSync('git', ['checkout', '--', 'dist/'], { cwd: ROOT });
+    execFileSync('git', ['checkout', '--', 'dist/'], { cwd: ROOT, encoding: 'utf8', windowsHide: true });
     console.log(`[Sync] STATUS: NO_CHANGES — All ${recipeCount} recipes across ${profCount} professions and ${crafterCount} crafters are already up to date on GitHub Pages.`);
     process.exit(0);
   }
@@ -215,11 +220,12 @@ async function main() {
   }
 
   console.log(`[Sync] Staging files: ${filesToStage.join(', ')}...`);
-  execFileSync('git', ['add', ...filesToStage], { cwd: ROOT });
+  execFileSync('git', ['add', ...filesToStage], { cwd: ROOT, encoding: 'utf8', windowsHide: true });
 
   const stagedDiff = execFileSync('git', ['diff', '--cached', '--name-only'], {
     cwd: ROOT,
-    encoding: 'utf8'
+    encoding: 'utf8',
+    windowsHide: true
   }).trim();
 
   if (!stagedDiff) {
@@ -230,21 +236,30 @@ async function main() {
 
   const commitMsg = 'chore(data): daily GuildRecipeBook recipe sync';
   console.log(`[Sync] Committing changes: "${commitMsg}"...`);
-  execFileSync('git', ['commit', '-m', commitMsg], {
+  const commitOutput = execFileSync('git', ['commit', '-m', commitMsg], {
     cwd: ROOT,
-    stdio: 'inherit'
+    encoding: 'utf8',
+    windowsHide: true
   });
+  if (commitOutput.trim()) {
+    console.log(commitOutput.trim());
+  }
 
   const commitSha = execFileSync('git', ['rev-parse', '--short', 'HEAD'], {
     cwd: ROOT,
-    encoding: 'utf8'
+    encoding: 'utf8',
+    windowsHide: true
   }).trim();
 
   console.log('[Sync] Pushing to origin main...');
-  execFileSync('git', ['push', 'origin', 'main'], {
+  const pushOutput = execFileSync('git', ['push', 'origin', 'main'], {
     cwd: ROOT,
-    stdio: 'inherit'
+    encoding: 'utf8',
+    windowsHide: true
   });
+  if (pushOutput.trim()) {
+    console.log(pushOutput.trim());
+  }
 
   console.log(`[Sync] STATUS: UPDATED_AND_PUSHED — ${commitSha} — ${diffSummary}`);
   process.exit(0);

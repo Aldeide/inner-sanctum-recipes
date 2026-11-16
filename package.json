@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "export": "node export.mjs",
-    "watch": "node export.mjs --watch",
+    "watch": "node watch-sync.mjs",
+    "watch:export": "node export.mjs --watch",
     "serve": "node export.mjs --serve",
     "sync": "node sync-daily.mjs"
   },
