@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-16T06:10:03.325Z",
+  "exportedAt": "2026-11-16T06:45:40.751Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1794776779,
+      "lastUpdated": 1794810570,
       "professions": [
         {
           "id": 164,
@@ -32,7 +32,7 @@
           "id": 185,
           "name": "Cooking",
           "isSecondary": true,
-          "recipeCount": 23,
+          "recipeCount": 24,
           "crafters": [
             {
               "char": "Aldeide-Valesong",
@@ -43,8 +43,8 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "recipeCount": 23,
-              "ts": 1794776746
+              "recipeCount": 24,
+              "ts": 1794809414
             }
           ]
         },
@@ -52,7 +52,7 @@
           "id": 333,
           "name": "Enchanting",
           "isSecondary": false,
-          "recipeCount": 62,
+          "recipeCount": 95,
           "crafters": [
             {
               "char": "Maggie-Moo",
@@ -65,6 +65,18 @@
               "max": 300,
               "recipeCount": 62,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "recipeCount": 77,
+              "ts": 1794810570
             }
           ]
         },
@@ -109,8 +121,8 @@
           "shortName": "Aldeide",
           "lastName": "Valesong",
           "realm": "Valesong",
-          "lastUpdated": 1794776779,
-          "totalRecipes": 75,
+          "lastUpdated": 1794809414,
+          "totalRecipes": 76,
           "professions": [
             {
               "id": 164,
@@ -127,8 +139,29 @@
               "isSecondary": true,
               "skill": 175,
               "max": 225,
-              "recipeCount": 23,
-              "ts": 1794776746
+              "recipeCount": 24,
+              "ts": 1794809414
+            }
+          ]
+        },
+        {
+          "char": "Bob-One",
+          "fullName": "Bob One",
+          "firstName": "Bob",
+          "shortName": "Bob",
+          "lastName": "One",
+          "realm": "One",
+          "lastUpdated": 1794810570,
+          "totalRecipes": 77,
+          "professions": [
+            {
+              "id": 333,
+              "name": "Enchanting",
+              "isSecondary": false,
+              "skill": 277,
+              "max": 300,
+              "recipeCount": 77,
+              "ts": 1794810570
             }
           ]
         },
@@ -1294,7 +1327,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1315,7 +1348,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1336,7 +1369,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1357,7 +1390,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1378,7 +1411,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1399,7 +1432,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1420,7 +1453,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1441,7 +1474,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1462,7 +1495,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1483,7 +1516,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1504,7 +1537,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1525,7 +1558,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1546,7 +1579,28 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
+            }
+          ]
+        },
+        {
+          "spellId": 20916,
+          "name": "Mithril Headed Trout",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 8364,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 175,
+              "max": 225,
+              "ts": 1794809414
             }
           ]
         },
@@ -1567,7 +1621,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1588,7 +1642,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1609,7 +1663,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1630,7 +1684,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1651,7 +1705,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1672,7 +1726,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1693,7 +1747,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1714,7 +1768,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1735,7 +1789,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1756,7 +1810,7 @@
               "realm": "Valesong",
               "skill": 175,
               "max": 225,
-              "ts": 1794776746
+              "ts": 1794809414
             }
           ]
         },
@@ -1799,6 +1853,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1820,6 +1885,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1841,6 +1917,59 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13529,
+          "name": "Enchant 2H Weapon - Lesser Impact",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 7793,
+          "name": "Enchant 2H Weapon - Lesser Intellect",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1866,6 +1995,27 @@
           ]
         },
         {
+          "spellId": 7745,
+          "name": "Enchant 2H Weapon - Minor Impact",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 13935,
           "name": "Enchant Boots - Agility",
           "profId": 333,
@@ -1883,6 +2033,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 20020,
+          "name": "Enchant Boots - Greater Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1904,6 +2086,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13644,
+          "name": "Enchant Boots - Lesser Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1925,6 +2139,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1946,6 +2171,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -1967,6 +2203,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2030,6 +2277,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2051,6 +2309,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13822,
+          "name": "Enchant Bracer - Intellect",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2076,6 +2366,27 @@
           ]
         },
         {
+          "spellId": 13622,
+          "name": "Enchant Bracer - Lesser Intellect",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 13501,
           "name": "Enchant Bracer - Lesser Stamina",
           "profId": 333,
@@ -2093,6 +2404,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2118,6 +2440,27 @@
           ]
         },
         {
+          "spellId": 7779,
+          "name": "Enchant Bracer - Minor Agility",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 7428,
           "name": "Enchant Bracer - Minor Deflect",
           "profId": 333,
@@ -2135,6 +2478,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2156,6 +2510,80 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13642,
+          "name": "Enchant Bracer - Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13648,
+          "name": "Enchant Bracer - Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13661,
+          "name": "Enchant Bracer - Strength",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2177,6 +2605,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13640,
+          "name": "Enchant Chest - Greater Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2198,6 +2658,80 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13607,
+          "name": "Enchant Chest - Intellect",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13538,
+          "name": "Enchant Chest - Lesser Absorption",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 7748,
+          "name": "Enchant Chest - Lesser Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2219,6 +2753,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2244,6 +2789,27 @@
           ]
         },
         {
+          "spellId": 7426,
+          "name": "Enchant Chest - Minor Absorption",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 7443,
           "name": "Enchant Chest - Minor Intellect",
           "profId": 333,
@@ -2261,6 +2827,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2282,6 +2859,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 7857,
+          "name": "Enchant Chest - Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2303,6 +2912,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2324,6 +2944,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2345,6 +2976,59 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13635,
+          "name": "Enchant Cloak - Defense",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13657,
+          "name": "Enchant Cloak - Fire Resistance",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2366,6 +3050,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2391,6 +3086,48 @@
           ]
         },
         {
+          "spellId": 7861,
+          "name": "Enchant Cloak - Lesser Fire Resistance",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13421,
+          "name": "Enchant Cloak - Lesser Protection",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 7771,
           "name": "Enchant Cloak - Minor Protection",
           "profId": 333,
@@ -2408,6 +3145,59 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 7454,
+          "name": "Enchant Cloak - Minor Resistance",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13794,
+          "name": "Enchant Cloak - Resistance",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2450,6 +3240,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2513,6 +3314,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2555,6 +3367,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2597,6 +3420,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2618,6 +3452,90 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            }
+          ]
+        },
+        {
+          "spellId": 13485,
+          "name": "Enchant Shield - Lesser Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13631,
+          "name": "Enchant Shield - Lesser Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13378,
+          "name": "Enchant Shield - Minor Stamina",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 13659,
+          "name": "Enchant Shield - Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2660,6 +3578,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2685,6 +3614,48 @@
           ]
         },
         {
+          "spellId": 13503,
+          "name": "Enchant Weapon - Lesser Striking",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 7788,
+          "name": "Enchant Weapon - Minor Striking",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
           "spellId": 1248760,
           "name": "Enchant Weapon - Recovery",
           "profId": 333,
@@ -2702,6 +3673,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2723,6 +3705,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2744,6 +3737,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2765,6 +3769,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2786,6 +3801,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2807,6 +3833,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2828,6 +3865,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 14810,
+          "name": "Greater Mystic Wand",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": 217287,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2849,6 +3918,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2870,6 +3950,38 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 14809,
+          "name": "Lesser Mystic Wand",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": 11289,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2891,6 +4003,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2912,6 +4035,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2954,6 +4088,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -2996,6 +4141,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -3017,6 +4173,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -3038,6 +4205,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -3059,6 +4237,59 @@
               "skill": 300,
               "max": 300,
               "ts": 1794774857
+            },
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 15596,
+          "name": "Smoking Heart of the Mountain",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": 11811,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
+            }
+          ]
+        },
+        {
+          "spellId": 25128,
+          "name": "Wizard Oil",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": 20750,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 277,
+              "max": 300,
+              "ts": 1794810570
             }
           ]
         },
@@ -7672,6 +8903,26 @@
       "tooltipHtml": "<tt-title>Runed Copper Rod</tt-title><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6217\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6217\">Copper Rod</a>, <a href=\"https://www.wowhead.com/forever/item=247786\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:247786\">Mote of Magic</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runed Copper Rod</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when picked up</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">24</span></tt-line></div></div>",
       "reqSkill": 1
     },
+    "7426": {
+      "spellId": 7426,
+      "name": "Enchant Chest - Minor Absorption",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Magic Essence",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Chest - Minor Absorption</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Enchant a piece of chest armor so it has a 2% chance per hit of giving you 10 points of damage absorption. Cannot occur more often than once every 5 sec."
+    },
     "7428": {
       "spellId": 7428,
       "name": "Enchant Bracer - Minor Deflect",
@@ -7711,6 +8962,31 @@
       "reagentsText": "Lesser Magic Essence",
       "tooltipHtml": "<tt-title>Enchant Chest - Minor Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Permanently enchant a piece of chest armor so that it increases the Intellect of the wearer by 2.",
       "reqSkill": 10
+    },
+    "7454": {
+      "spellId": 7454,
+      "name": "Enchant Cloak - Minor Resistance",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust, Lesser Magic Essence",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Minor Resistance</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Permanently enchant a cloak so that it increases the resistance to all schools of magic by 2."
     },
     "7457": {
       "spellId": 7457,
@@ -7786,6 +9062,56 @@
       "reagentsText": "Bolt of Linen Cloth (3), Coarse Thread, Bleach",
       "tooltipHtml": "<tt-title>White Linen Robe</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2996\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2996\">Bolt of Linen Cloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a>, <a href=\"https://www.wowhead.com/forever/item=2324\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2324\">Bleach</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">White Linen Robe</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Chest</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">19 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+1 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">99</span></tt-line></div></div>",
       "reqSkill": 30
+    },
+    "7745": {
+      "spellId": 7745,
+      "name": "Enchant 2H Weapon - Minor Impact",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10978,
+          "name": "Small Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust, Small Glimmering Shard",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant 2H Weapon - Minor Impact</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10978\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10978\">Small Glimmering Shard</a></tt-indented-line>Permanently enchant a Two-Handed Melee Weapon to do 4 additional points of damage."
+    },
+    "7748": {
+      "spellId": 7748,
+      "name": "Enchant Chest - Lesser Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust, Lesser Magic Essence",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Chest - Lesser Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Permanently enchant a piece of chest armor so that it increases the Stamina of the wearer by 3."
     },
     "7751": {
       "spellId": 7751,
@@ -7866,6 +9192,81 @@
       "reagentsText": "Strange Dust (2)",
       "tooltipHtml": "<tt-title>Enchant Cloak - Minor Protection</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a> (2)</tt-indented-line>Permanently enchant a cloak to increase armor by 10.",
       "reqSkill": 70
+    },
+    "7779": {
+      "spellId": 7779,
+      "name": "Enchant Bracer - Minor Agility",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Strange Dust, Lesser Magic Essence (2)",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Minor Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a> (2)</tt-indented-line>Permanently enchant bracers so they increase the wearer's Agility by 3."
+    },
+    "7788": {
+      "spellId": 7788,
+      "name": "Enchant Weapon - Minor Striking",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 1
+        },
+        {
+          "itemId": 10978,
+          "name": "Small Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust, Lesser Magic Essence, Small Glimmering Shard",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Weapon - Minor Striking</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires One-Handed Axes, Two-Handed Axes, One-Handed Maces, Two-Handed Maces, Polearms, One-Handed Swords, Two-Handed Swords, Staves, Fist Weapons, Miscellaneous, Daggers, Spears</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a>, <a href=\"https://www.wowhead.com/forever/item=10978\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10978\">Small Glimmering Shard</a></tt-indented-line>Permanently enchant a Melee Weapon to do 1 additional point of damage."
+    },
+    "7793": {
+      "spellId": 7793,
+      "name": "Enchant 2H Weapon - Lesser Intellect",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10938,
+          "name": "Lesser Magic Essence",
+          "count": 4
+        }
+      ],
+      "reagentsText": "Lesser Magic Essence (4)",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant 2H Weapon - Lesser Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a> (4)</tt-indented-line>Permanently enchant a Two-Handed Melee Weapon to add 5 to Intellect."
     },
     "7795": {
       "spellId": 7795,
@@ -7971,6 +9372,56 @@
       "reagentsText": "Raw Rainbow Fin Albacore",
       "tooltipHtml": "<tt-title>Rainbow Fin Albacore</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6361\">Raw Rainbow Fin Albacore</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rainbow Fin Albacore</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">3</span></tt-line></div></div>",
       "reqSkill": 50
+    },
+    "7857": {
+      "spellId": 7857,
+      "name": "Enchant Chest - Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 2
+        },
+        {
+          "itemId": 10998,
+          "name": "Lesser Astral Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust (2), Lesser Astral Essence",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Chest - Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a> (2), <a href=\"https://www.wowhead.com/forever/item=10998\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10998\">Lesser Astral Essence</a></tt-indented-line>Permanently enchant a piece of chest armor to increase the Stamina of the wearer by 4."
+    },
+    "7861": {
+      "spellId": 7861,
+      "name": "Enchant Cloak - Lesser Fire Resistance",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 6371,
+          "name": "Fire Oil",
+          "count": 1
+        },
+        {
+          "itemId": 10998,
+          "name": "Lesser Astral Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Fire Oil, Lesser Astral Essence",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Lesser Fire Resistance</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6371\">Fire Oil</a>, <a href=\"https://www.wowhead.com/forever/item=10998\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10998\">Lesser Astral Essence</a></tt-indented-line>Permanently enchant a cloak so that it increases resistance to fire by 10."
     },
     "7863": {
       "spellId": 7863,
@@ -8817,6 +10268,81 @@
       "tooltipHtml": "<tt-title>Rough Copper Vest</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Rough Copper Vest</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Chest</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Mail</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">108 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+1 Stamina</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 2</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">32</span></tt-line></div></div>",
       "reqSkill": 1
     },
+    "13378": {
+      "spellId": 13378,
+      "name": "Enchant Shield - Minor Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10998,
+          "name": "Lesser Astral Essence",
+          "count": 1
+        },
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Astral Essence, Strange Dust",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Shield - Minor Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Shields</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10998\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10998\">Lesser Astral Essence</a>, <a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a></tt-indented-line>Permanently enchant a shield so that it increases the Stamina of the bearer by 3."
+    },
+    "13421": {
+      "spellId": 13421,
+      "name": "Enchant Cloak - Lesser Protection",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 3
+        },
+        {
+          "itemId": 10978,
+          "name": "Small Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust (3), Small Glimmering Shard",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Lesser Protection</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a> (3), <a href=\"https://www.wowhead.com/forever/item=10978\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10978\">Small Glimmering Shard</a></tt-indented-line>Permanently enchant a cloak to increase armor by 20."
+    },
+    "13485": {
+      "spellId": 13485,
+      "name": "Enchant Shield - Lesser Spirit",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10998,
+          "name": "Lesser Astral Essence",
+          "count": 1
+        },
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Lesser Astral Essence, Strange Dust (2)",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Shield - Lesser Spirit</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10998\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10998\">Lesser Astral Essence</a>, <a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a> (2)</tt-indented-line>Permanently enchant a shield to give 3 spirit."
+    },
     "13501": {
       "spellId": 13501,
       "name": "Enchant Bracer - Lesser Stamina",
@@ -8836,6 +10362,106 @@
       "reagentsText": "Soul Dust",
       "tooltipHtml": "<tt-title>Enchant Bracer - Lesser Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a></tt-indented-line>Permanently enchant a bracer so it increases the wearer's Stamina by 4.",
       "reqSkill": 130
+    },
+    "13503": {
+      "spellId": 13503,
+      "name": "Enchant Weapon - Lesser Striking",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 1
+        },
+        {
+          "itemId": 11084,
+          "name": "Large Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Soul Dust, Large Glimmering Shard",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Weapon - Lesser Striking</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires One-Handed Axes, Two-Handed Axes, One-Handed Maces, Two-Handed Maces, Polearms, One-Handed Swords, Two-Handed Swords, Staves, Fist Weapons, Miscellaneous, Daggers, Spears</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a>, <a href=\"https://www.wowhead.com/forever/item=11084\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11084\">Large Glimmering Shard</a></tt-indented-line>Permanently enchant a Melee Weapon to do 2 additional points of damage."
+    },
+    "13529": {
+      "spellId": 13529,
+      "name": "Enchant 2H Weapon - Lesser Impact",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 1
+        },
+        {
+          "itemId": 11084,
+          "name": "Large Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Soul Dust, Large Glimmering Shard",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant 2H Weapon - Lesser Impact</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a>, <a href=\"https://www.wowhead.com/forever/item=11084\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11084\">Large Glimmering Shard</a></tt-indented-line>Permanently enchant a Two-handed Melee Weapon to do 5 additional points of damage."
+    },
+    "13538": {
+      "spellId": 13538,
+      "name": "Enchant Chest - Lesser Absorption",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 10940,
+          "name": "Strange Dust",
+          "count": 1
+        },
+        {
+          "itemId": 10998,
+          "name": "Lesser Astral Essence",
+          "count": 1
+        },
+        {
+          "itemId": 11084,
+          "name": "Large Glimmering Shard",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Strange Dust, Lesser Astral Essence, Large Glimmering Shard",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Chest - Lesser Absorption</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a>, <a href=\"https://www.wowhead.com/forever/item=10998\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10998\">Lesser Astral Essence</a>, <a href=\"https://www.wowhead.com/forever/item=11084\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11084\">Large Glimmering Shard</a></tt-indented-line>Enchant a piece of chest armor so it has a 5% chance per hit of giving you 25 points of damage absorption. Cannot occur more often than once every 5 sec."
+    },
+    "13607": {
+      "spellId": 13607,
+      "name": "Enchant Chest - Intellect",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11082,
+          "name": "Greater Astral Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Greater Astral Essence",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Chest - Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11082\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11082\">Greater Astral Essence</a></tt-indented-line>Permanently enchant a piece of chest armor to increase the Intellect of the wearer by 4."
     },
     "13620": {
       "spellId": 13620,
@@ -8861,6 +10487,26 @@
       "reagentsText": "Soul Dust, Blackmouth Oil",
       "tooltipHtml": "<tt-title>Enchant Gloves - Fishing</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a>, <a href=\"https://www.wowhead.com/forever/item=6370\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6370\">Blackmouth Oil</a></tt-indented-line>Permanently enchant gloves to grant +2 fishing skill.",
       "reqSkill": 145
+    },
+    "13622": {
+      "spellId": 13622,
+      "name": "Enchant Bracer - Lesser Intellect",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11082,
+          "name": "Greater Astral Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Greater Astral Essence",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Lesser Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11082\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11082\">Greater Astral Essence</a></tt-indented-line>Permanently enchant a bracer so it increases the wearer's Intellect by 3."
     },
     "13626": {
       "spellId": 13626,
@@ -8927,6 +10573,51 @@
       "tooltipHtml": "<tt-title>Runed Golden Rod</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11128\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11128\">Golden Rod</a>, <a href=\"https://www.wowhead.com/forever/item=5500\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:5500\">Iridescent Pearl</a>, <a href=\"https://www.wowhead.com/forever/item=11082\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11082\">Greater Astral Essence</a>, <a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runed Golden Rod</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when picked up</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>",
       "reqSkill": 150
     },
+    "13631": {
+      "spellId": 13631,
+      "name": "Enchant Shield - Lesser Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Mystic Essence",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Shield - Lesser Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Shields</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a></tt-indented-line>Permanently enchant a shield to give 5 Stamina."
+    },
+    "13635": {
+      "spellId": 13635,
+      "name": "Enchant Cloak - Defense",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11138,
+          "name": "Small Glowing Shard",
+          "count": 1
+        },
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Small Glowing Shard, Soul Dust",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Defense</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11138\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11138\">Small Glowing Shard</a>, <a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a></tt-indented-line>Permanently enchant a cloak to give 30 additional armor."
+    },
     "13637": {
       "spellId": 13637,
       "name": "Enchant Boots - Lesser Agility",
@@ -8946,6 +10637,66 @@
       "reagentsText": "Soul Dust",
       "tooltipHtml": "<tt-title>Enchant Boots - Lesser Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a></tt-indented-line>Permanently enchant boots to give +4 Agility.",
       "reqSkill": 160
+    },
+    "13640": {
+      "spellId": 13640,
+      "name": "Enchant Chest - Greater Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Soul Dust (2)",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Chest - Greater Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a> (2)</tt-indented-line>Permanently enchant a piece of chest armor to give +6 Stamina."
+    },
+    "13642": {
+      "spellId": 13642,
+      "name": "Enchant Bracer - Spirit",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Mystic Essence",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Spirit</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a></tt-indented-line>Permanently enchant bracers to give +5 Spirit."
+    },
+    "13644": {
+      "spellId": 13644,
+      "name": "Enchant Boots - Lesser Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Soul Dust (2)",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Boots - Lesser Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a> (2)</tt-indented-line>Permanently enchant boots to give +4 Stamina."
     },
     "13646": {
       "spellId": 13646,
@@ -8971,6 +10722,96 @@
       "reagentsText": "Lesser Mystic Essence, Soul Dust",
       "tooltipHtml": "<tt-title>Enchant Bracer - Lesser Deflection</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a>, <a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a></tt-indented-line>Permanently enchant bracers to give +5 Defense.",
       "reqSkill": 170
+    },
+    "13648": {
+      "spellId": 13648,
+      "name": "Enchant Bracer - Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11083,
+          "name": "Soul Dust",
+          "count": 3
+        }
+      ],
+      "reagentsText": "Soul Dust (3)",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a> (3)</tt-indented-line>Permanently enchant bracers to give +5 Stamina."
+    },
+    "13657": {
+      "spellId": 13657,
+      "name": "Enchant Cloak - Fire Resistance",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        },
+        {
+          "itemId": 7068,
+          "name": "Elemental Fire",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Mystic Essence, Elemental Fire",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Fire Resistance</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a>, <a href=\"https://www.wowhead.com/forever/item=7068\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7068\">Elemental Fire</a></tt-indented-line>Permanently enchant a cloak to give 12 Fire Resistance."
+    },
+    "13659": {
+      "spellId": 13659,
+      "name": "Enchant Shield - Spirit",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        },
+        {
+          "itemId": 11137,
+          "name": "Vision Dust",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Mystic Essence, Vision Dust",
+      "reqSkill": 200,
+      "tooltipHtml": "<tt-title>Enchant Shield - Spirit</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Shields</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a>, <a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a></tt-indented-line>Permanently enchant a shield to give 5 Spirit."
+    },
+    "13661": {
+      "spellId": 13661,
+      "name": "Enchant Bracer - Strength",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11137,
+          "name": "Vision Dust",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Vision Dust",
+      "reqSkill": 200,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Strength</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a></tt-indented-line>Permanently enchant bracers to give +5 Strength."
     },
     "13663": {
       "spellId": 13663,
@@ -9152,6 +10993,26 @@
       "tooltipHtml": "<tt-title>Enchant Cloak - Greater Defense</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a></tt-indented-line>Permanently enchant a cloak to give 60 additional armor.",
       "reqSkill": 205
     },
+    "13794": {
+      "spellId": 13794,
+      "name": "Enchant Cloak - Resistance",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11174,
+          "name": "Lesser Nether Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Nether Essence",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Enchant Cloak - Resistance</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11174\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11174\">Lesser Nether Essence</a></tt-indented-line>Permanently enchant a cloak to give 3 to all resistances."
+    },
     "13815": {
       "spellId": 13815,
       "name": "Enchant Gloves - Agility",
@@ -9171,6 +11032,26 @@
       "reagentsText": "Vision Dust",
       "tooltipHtml": "<tt-title>Enchant Gloves - Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a></tt-indented-line>Permanently enchant gloves to grant +7 Agility.",
       "reqSkill": 210
+    },
+    "13822": {
+      "spellId": 13822,
+      "name": "Enchant Bracer - Intellect",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11174,
+          "name": "Lesser Nether Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Lesser Nether Essence",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Enchant Bracer - Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11174\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11174\">Lesser Nether Essence</a></tt-indented-line>Permanently enchant bracers to give +5 Intellect."
     },
     "13836": {
       "spellId": 13836,
@@ -9611,6 +11492,91 @@
       "reagentsText": "Simple Wood, Lesser Magic Essence (2)",
       "tooltipHtml": "<tt-title>Greater Magic Wand</tt-title><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4470\">Simple Wood</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a> (2)</tt-indented-line>Creates a greater magic wand.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Greater Magic Wand</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Ranged</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Wand</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">22 - 41 Arcane Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 1.80</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(17.5 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 2.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 13</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>",
       "reqSkill": 70
+    },
+    "14809": {
+      "spellId": 14809,
+      "name": "Lesser Mystic Wand",
+      "itemId": 11289,
+      "icon": 135139,
+      "quality": 2,
+      "tier": null,
+      "slot": "Ranged",
+      "subType": "Wand",
+      "reagents": [
+        {
+          "itemId": 11291,
+          "name": "Star Wood",
+          "count": 1
+        },
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Star Wood, Lesser Mystic Essence",
+      "reqSkill": 130,
+      "tooltipHtml": "<tt-title>Lesser Mystic Wand</tt-title><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11291\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11291\">Star Wood</a>, <a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a></tt-indented-line>Creates a lesser mystic wand.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Lesser Mystic Wand</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Ranged</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Wand</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">23 - 43 Arcane Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 1.30</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(25.4 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+4 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 26</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+    },
+    "14810": {
+      "spellId": 14810,
+      "name": "Greater Mystic Wand",
+      "itemId": 217287,
+      "icon": 135469,
+      "quality": 2,
+      "tier": null,
+      "slot": "Ranged",
+      "subType": "Wand",
+      "reagents": [
+        {
+          "itemId": 11291,
+          "name": "Star Wood",
+          "count": 1
+        },
+        {
+          "itemId": 11134,
+          "name": "Lesser Mystic Essence",
+          "count": 1
+        },
+        {
+          "itemId": 11137,
+          "name": "Vision Dust",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Star Wood, Lesser Mystic Essence, Vision Dust",
+      "reqSkill": 150,
+      "tooltipHtml": "<tt-title>Greater Mystic Wand</tt-title><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11291\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11291\">Star Wood</a>, <a href=\"https://www.wowhead.com/forever/item=11134\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11134\">Lesser Mystic Essence</a>, <a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a></tt-indented-line>Creates a greater mystic wand.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Greater Mystic Wand</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Ranged</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Wand</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">40 - 76 Arcane Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 2.00</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(29.0 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 5.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 30</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">6</span></tt-line></div></div>"
+    },
+    "15596": {
+      "spellId": 15596,
+      "name": "Smoking Heart of the Mountain",
+      "itemId": 11811,
+      "icon": 134084,
+      "quality": 3,
+      "tier": null,
+      "slot": "Trinket",
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11382,
+          "name": "Blood of the Mountain",
+          "count": 1
+        },
+        {
+          "itemId": 7078,
+          "name": "Essence of Fire",
+          "count": 1
+        },
+        {
+          "itemId": 14343,
+          "name": "Small Brilliant Shard",
+          "count": 3
+        }
+      ],
+      "reagentsText": "Blood of the Mountain, Essence of Fire, Small Brilliant Shard (3)",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Smoking Heart of the Mountain</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"required-focus\">Requires Black Forge</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11382\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11382\">Blood of the Mountain</a>, <a href=\"https://www.wowhead.com/forever/item=7078\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7078\">Essence of Fire</a>, <a href=\"https://www.wowhead.com/forever/item=14343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14343\">Small Brilliant Shard</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Smoking Heart of the Mountain</tt-title><tt-line data-line-type=\"item-level\">Item Level 55</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"slot\">Trinket</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1300752\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1300752\">Use: Increases armor by 520 for 20 sec. (6 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 50</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">51</span><span class=\"price-copper\">52</span></tt-line></div></div>"
     },
     "17180": {
       "spellId": 17180,
@@ -10207,6 +12173,26 @@
       "tooltipHtml": "<tt-title>Enchant Shield - Greater Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Shields</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (6)</tt-indented-line>Permanently enchant a shield to give +9 Stamina.",
       "reqSkill": 265
     },
+    "20020": {
+      "spellId": 20020,
+      "name": "Enchant Boots - Greater Stamina",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11176,
+          "name": "Dream Dust",
+          "count": 6
+        }
+      ],
+      "reagentsText": "Dream Dust (6)",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Enchant Boots - Greater Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (6)</tt-indented-line>Permanently enchant boots to give +7 Stamina."
+    },
     "20026": {
       "spellId": 20026,
       "name": "Enchant Chest - Major Stamina",
@@ -10301,6 +12287,26 @@
       "reagentsText": "Arcanite Rod, Golden Pearl, Illusion Dust (10), Greater Eternal Essence (4), Small Brilliant Shard (4), Large Brilliant Shard (2)",
       "tooltipHtml": "<tt-title>Runed Arcanite Rod</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16206\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16206\">Arcanite Rod</a>, <a href=\"https://www.wowhead.com/forever/item=13926\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:13926\">Golden Pearl</a>, <a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (10), <a href=\"https://www.wowhead.com/forever/item=16203\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16203\">Greater Eternal Essence</a> (4), <a href=\"https://www.wowhead.com/forever/item=14343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14343\">Small Brilliant Shard</a> (4), <a href=\"https://www.wowhead.com/forever/item=14344\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14344\">Large Brilliant Shard</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runed Arcanite Rod</tt-title><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">12</span><span class=\"price-copper\">50</span></tt-line></div></div>",
       "reqSkill": 290
+    },
+    "20916": {
+      "spellId": 20916,
+      "name": "Mithril Headed Trout",
+      "itemId": 8364,
+      "icon": 133888,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 8365,
+          "name": "Raw Mithril Head Trout",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Raw Mithril Head Trout",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Mithril Headed Trout</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8365\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8365\">Raw Mithril Head Trout</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mithril Head Trout</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 841 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 20 Attack Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">6</span></tt-line></div></div>"
     },
     "23801": {
       "spellId": 23801,
@@ -10451,6 +12457,36 @@
       "reagentsText": "Dream Dust, Purple Lotus, Crystal Vial",
       "tooltipHtml": "<tt-title>Lesser Mana Oil</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line>Creates Lesser Mana Oil.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Lesser Mana Oil</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=25120\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:25120\">Use: While applied to target weapon it restores 10 mana to the caster every 5 seconds and increases healing by up to 20. Lasts for 30 minutes. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"item-effect\">5 Charges</tt-line><tt-line data-line-type=\"required-level\">Requires Level 40</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">10</span></tt-line></div></div>",
       "reqSkill": 250
+    },
+    "25128": {
+      "spellId": 25128,
+      "name": "Wizard Oil",
+      "itemId": 20750,
+      "icon": 134726,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 16204,
+          "name": "Illusion Dust",
+          "count": 3
+        },
+        {
+          "itemId": 4625,
+          "name": "Firebloom",
+          "count": 2
+        },
+        {
+          "itemId": 8925,
+          "name": "Crystal Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Illusion Dust (3), Firebloom (2), Crystal Vial",
+      "reqSkill": 200,
+      "tooltipHtml": "<tt-title>Wizard Oil</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (3), <a href=\"https://www.wowhead.com/forever/item=4625\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4625\">Firebloom</a> (2), <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line>Creates Wizard Oil.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Wizard Oil</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=25121\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:25121\">Use: While applied to target weapon it increases spell damage and healing by up to 24. Lasts for 30 minutes. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"item-effect\">5 Charges</tt-line><tt-line data-line-type=\"required-level\">Requires Level 40</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">10</span></tt-line></div></div>"
     },
     "25704": {
       "spellId": 25704,
