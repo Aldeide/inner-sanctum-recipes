@@ -3714,6 +3714,36 @@
     "reqSkill": 1,
     "tooltipHtml": "<tt-title>Fire Oil</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6359\">Firefin Snapper</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Fire Oil</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">12</span></tt-line></div></div>"
   },
+  "7841": {
+    "spellId": 7841,
+    "name": "Swim Speed Potion",
+    "itemId": 6372,
+    "icon": 134754,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 2452,
+        "name": "Swiftthistle",
+        "count": 1
+      },
+      {
+        "itemId": 6370,
+        "name": "Blackmouth Oil",
+        "count": 1
+      },
+      {
+        "itemId": 3371,
+        "name": "Empty Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Swiftthistle, Blackmouth Oil, Empty Vial",
+    "reqSkill": 50,
+    "tooltipHtml": "<tt-title>Swim Speed Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2452\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2452\">Swiftthistle</a>, <a href=\"https://www.wowhead.com/forever/item=6370\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6370\">Blackmouth Oil</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Swim Speed Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases swim speed by 100% for 20 sec.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 10</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">35</span></tt-line></div></div>"
+  },
   "7845": {
     "spellId": 7845,
     "name": "Elixir of Fire Power",
@@ -4563,6 +4593,36 @@
     "reagentsText": "Khadgar's Whisker, Purple Lotus, Crystal Vial",
     "reqSkill": 160,
     "tooltipHtml": "<tt-title>Magic Resistance Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3358\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3358\">Khadgar's Whisker</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Magic Resistance Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11364\">Use: Increases your resistance to all schools of magic by 50 for 3 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 32</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">20</span></tt-line></div></div>"
+  },
+  "11461": {
+    "spellId": 11461,
+    "name": "Arcane Elixir",
+    "itemId": 9155,
+    "icon": 134810,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 8839,
+        "name": "Blindweed",
+        "count": 1
+      },
+      {
+        "itemId": 3821,
+        "name": "Goldthorn",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Blindweed, Goldthorn, Crystal Vial",
+    "reqSkill": 185,
+    "tooltipHtml": "<tt-title>Arcane Elixir</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8839\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8839\">Blindweed</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Arcane Elixir</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11390\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11390\">Use: Increases spell damage by up to 20 for 30 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 37</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span></tt-line></div></div>"
   },
   "12044": {
     "spellId": 12044,
@@ -7154,6 +7214,36 @@
     "reqSkill": 175,
     "tooltipHtml": "<tt-title>Spider Sausage</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12205\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12205\">White Spider Meat</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Spider Sausage</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248394\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248394\">Use: Restores 1392 health over 30 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 15 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 35</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
   },
+  "22808": {
+    "spellId": 22808,
+    "name": "Draught of Greater Water Breathing",
+    "itemId": 18294,
+    "icon": 134716,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 7972,
+        "name": "Ichor of Undeath",
+        "count": 1
+      },
+      {
+        "itemId": 8831,
+        "name": "Purple Lotus",
+        "count": 2
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Ichor of Undeath, Purple Lotus (2), Crystal Vial",
+    "reqSkill": 175,
+    "tooltipHtml": "<tt-title>Draught of Greater Water Breathing</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=7972\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7972\">Ichor of Undeath</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a> (2), <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Draught of Greater Water Breathing</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=22807\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:22807\">Use: Allows the Imbiber to breathe water for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 35</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+  },
   "23801": {
     "spellId": 23801,
     "name": "Enchant Bracer - Mana Regeneration",
@@ -8103,6 +8193,56 @@
     "reagentsText": "Rosecap (2), Leaded Vial",
     "reqSkill": 1,
     "tooltipHtml": "<tt-title>Magenta Dye</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=249424\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249424\">Rosecap</a> (2), <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Magenta Dye</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Crafted by alchemists.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+  },
+  "1249632": {
+    "spellId": 1249632,
+    "name": "Viridian Dye",
+    "itemId": 249431,
+    "icon": 237062,
+    "quality": 2,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 249274,
+        "name": "Stranglevine",
+        "count": 2
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Stranglevine (2), Crystal Vial",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Viridian Dye</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"required-focus\">Requires Fermenter</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=249274\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249274\">Stranglevine</a> (2), <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Viridian Dye</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"description\">\"Crafted by alchemists.\"</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span><span class=\"price-copper\">75</span></tt-line></div></div>"
+  },
+  "1249633": {
+    "spellId": 1249633,
+    "name": "Sulfuric Acid",
+    "itemId": 249410,
+    "icon": 136240,
+    "quality": 2,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 249391,
+        "name": "Pyrite",
+        "count": 2
+      },
+      {
+        "itemId": 3371,
+        "name": "Empty Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Pyrite (2), Empty Vial",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Sulfuric Acid</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=249391\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249391\">Pyrite</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Sulfuric Acid</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Crafted by alchemists.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">25</span></tt-line></div></div>"
   },
   "1249959": {
     "spellId": 1249959,
