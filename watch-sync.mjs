@@ -16,12 +16,18 @@ const LOGS_DIR = path.join(ROOT, 'logs');
 const LOG_FILE = path.join(LOGS_DIR, 'watcher.log');
 const PID_FILE = path.join(LOGS_DIR, 'watcher.pid');
 
+const CANDIDATE_ACCOUNT_ROOTS = [
+  'C:\\Program Files (x86)\\World of Warcraft\\_forever_\\WTF\\Account',
+  'C:\\World of Warcraft\\_forever_\\WTF\\Account',
+  'D:\\World of Warcraft\\_forever_\\WTF\\Account'
+];
+
 /**
  * Parses CLI arguments.
  */
 function parseArgs(args) {
   const options = {
-    accountRoot: 'C:\\Program Files (x86)\\World of Warcraft\\_forever_\\WTF\\Account',
+    accountRoots: [],
     debounceMs: 3000,
     onceOnChange: false
   };
@@ -29,15 +35,22 @@ function parseArgs(args) {
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
     if (arg === '--account-root' && i + 1 < args.length) {
-      options.accountRoot = path.resolve(args[++i]);
+      options.accountRoots.push(path.resolve(args[++i]));
     } else if (arg.startsWith('--account-root=')) {
-      options.accountRoot = path.resolve(arg.slice('--account-root='.length));
+      options.accountRoots.push(path.resolve(arg.slice('--account-root='.length)));
     } else if (arg === '--debounce-ms' && i + 1 < args.length) {
       options.debounceMs = parseInt(args[++i], 10) || 3000;
     } else if (arg.startsWith('--debounce-ms=')) {
       options.debounceMs = parseInt(arg.slice('--debounce-ms='.length), 10) || 3000;
     } else if (arg === '--once-on-change') {
       options.onceOnChange = true;
+    }
+  }
+
+  if (options.accountRoots.length === 0) {
+    options.accountRoots = CANDIDATE_ACCOUNT_ROOTS.filter(r => fs.existsSync(r));
+    if (options.accountRoots.length === 0) {
+      options.accountRoots = [CANDIDATE_ACCOUNT_ROOTS[0]];
     }
   }
 
@@ -140,40 +153,42 @@ process.on('exit', () => {
 });
 
 /**
- * Discovers SavedVariables directories under accountRoot.
+ * Discovers SavedVariables directories under candidate account roots.
  */
-function discoverSavedVariablesDirs(accountRoot) {
+function discoverSavedVariablesDirs(roots) {
+  const rootList = Array.isArray(roots) ? roots : [roots];
   const dirs = [];
-  if (!fs.existsSync(accountRoot)) {
-    return dirs;
-  }
 
-  // <accountRoot>/SavedVariables
-  const directSV = path.join(accountRoot, 'SavedVariables');
-  if (fs.existsSync(directSV)) {
+  for (const accountRoot of rootList) {
+    if (!fs.existsSync(accountRoot)) continue;
+
+    // <accountRoot>/SavedVariables
+    const directSV = path.join(accountRoot, 'SavedVariables');
+    if (fs.existsSync(directSV)) {
+      try {
+        if (fs.statSync(directSV).isDirectory()) dirs.push(directSV);
+      } catch {}
+    }
+
+    // <accountRoot>/*/SavedVariables
     try {
-      if (fs.statSync(directSV).isDirectory()) dirs.push(directSV);
-    } catch {}
-  }
-
-  // <accountRoot>/*/SavedVariables
-  try {
-    const entries = fs.readdirSync(accountRoot, { withFileTypes: true });
-    for (const entry of entries) {
-      if (entry.isDirectory() && entry.name !== 'SavedVariables') {
-        const subSV = path.join(accountRoot, entry.name, 'SavedVariables');
-        if (fs.existsSync(subSV)) {
-          try {
-            if (fs.statSync(subSV).isDirectory()) dirs.push(subSV);
-          } catch {}
+      const entries = fs.readdirSync(accountRoot, { withFileTypes: true });
+      for (const entry of entries) {
+        if (entry.isDirectory() && entry.name !== 'SavedVariables') {
+          const subSV = path.join(accountRoot, entry.name, 'SavedVariables');
+          if (fs.existsSync(subSV)) {
+            try {
+              if (fs.statSync(subSV).isDirectory()) dirs.push(subSV);
+            } catch {}
+          }
         }
       }
+    } catch (err) {
+      log(`Warning discovering SavedVariables in ${accountRoot}: ${err.message}`);
     }
-  } catch (err) {
-    log(`Warning discovering SavedVariables in ${accountRoot}: ${err.message}`);
   }
 
-  return dirs;
+  return [...new Set(dirs)];
 }
 
 /**
@@ -363,8 +378,8 @@ function handleDebouncedEvent(reason) {
 /**
  * Updates directory watchers.
  */
-function updateWatchers(accountRoot) {
-  const currentDirs = discoverSavedVariablesDirs(accountRoot);
+function updateWatchers(accountRoots) {
+  const currentDirs = discoverSavedVariablesDirs(accountRoots);
   const currentDirSet = new Set(currentDirs);
 
   // Close watchers for removed dirs
@@ -383,7 +398,7 @@ function updateWatchers(accountRoot) {
         const watcher = fs.watch(dir, (eventType, filename) => {
           // WoW writes GuildRecipeBook.lua.new and renames it to GuildRecipeBook.lua!
           if (!filename || /^GuildRecipeBook\.lua/i.test(filename)) {
-            triggerDebouncedCheck(`fs.watch ${eventType} on ${filename || 'SavedVariables'}`);
+            triggerDebouncedCheck(`fs.watch ${eventType} on ${filename || 'SavedVariables'} (${dir})`);
           }
         });
         watcher.on('error', err => {
@@ -430,17 +445,17 @@ function main() {
   acquireLock();
 
   log(`GuildRecipeBook watcher started (PID: ${process.pid})`);
-  log(`Account root: "${options.accountRoot}"`);
+  log(`Account roots (${options.accountRoots.length}): ${options.accountRoots.map(r => `"${r}"`).join(', ')}`);
   log(`Debounce duration: ${options.debounceMs}ms`);
 
-  activeDirs = updateWatchers(options.accountRoot);
+  activeDirs = updateWatchers(options.accountRoots);
   if (activeDirs.length === 0) {
-    log(`Notice: No SavedVariables directories discovered yet under "${options.accountRoot}". Will re-scan every 60s.`);
+    log(`Notice: No SavedVariables directories discovered yet under candidate roots. Will re-scan every 60s.`);
   }
 
   // Periodic directory discovery (every 60s)
   setInterval(() => {
-    activeDirs = updateWatchers(options.accountRoot);
+    activeDirs = updateWatchers(options.accountRoots);
   }, 60000);
 
   // Periodic stat fallback check (every 15s)
