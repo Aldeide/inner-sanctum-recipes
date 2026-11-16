@@ -4534,6 +4534,36 @@
     "reqSkill": 145,
     "tooltipHtml": "<tt-title>Elixir of Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Defense</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11349\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11349\">Use: Increases armor by 250 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 29</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
   },
+  "11453": {
+    "spellId": 11453,
+    "name": "Magic Resistance Potion",
+    "itemId": 9036,
+    "icon": 134744,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3358,
+        "name": "Khadgar's Whisker",
+        "count": 1
+      },
+      {
+        "itemId": 8831,
+        "name": "Purple Lotus",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Khadgar's Whisker, Purple Lotus, Crystal Vial",
+    "reqSkill": 160,
+    "tooltipHtml": "<tt-title>Magic Resistance Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3358\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3358\">Khadgar's Whisker</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Magic Resistance Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11364\">Use: Increases your resistance to all schools of magic by 50 for 3 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 32</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">20</span></tt-line></div></div>"
+  },
   "12044": {
     "spellId": 12044,
     "name": "Simple Linen Pants",
@@ -6164,6 +6194,61 @@
     "reqSkill": 250,
     "tooltipHtml": "<tt-title>Smoking Heart of the Mountain</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"required-focus\">Requires Black Forge</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11382\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11382\">Blood of the Mountain</a>, <a href=\"https://www.wowhead.com/forever/item=7078\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7078\">Essence of Fire</a>, <a href=\"https://www.wowhead.com/forever/item=14343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14343\">Small Brilliant Shard</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Smoking Heart of the Mountain</tt-title><tt-line data-line-type=\"item-level\">Item Level 55</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"slot\">Trinket</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1300752\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1300752\">Use: Increases armor by 520 for 20 sec. (6 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 50</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">51</span><span class=\"price-copper\">52</span></tt-line></div></div>"
   },
+  "15855": {
+    "spellId": 15855,
+    "name": "Roast Raptor",
+    "itemId": 12210,
+    "icon": 134006,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 12184,
+        "name": "Raptor Flesh",
+        "count": 1
+      },
+      {
+        "itemId": 2692,
+        "name": "Hot Spices",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Raptor Flesh, Hot Spices",
+    "reqSkill": 75,
+    "tooltipHtml": "<tt-title>Roast Raptor</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12184\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12184\">Raptor Flesh</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Roast Raptor</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Intellect for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+  },
+  "15861": {
+    "spellId": 15861,
+    "name": "Jungle Stew",
+    "itemId": 12212,
+    "icon": 132804,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 12202,
+        "name": "Tiger Meat",
+        "count": 1
+      },
+      {
+        "itemId": 159,
+        "name": "Refreshing Spring Water",
+        "count": 1
+      },
+      {
+        "itemId": 4536,
+        "name": "Shiny Red Apple",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Tiger Meat, Refreshing Spring Water, Shiny Red Apple (2)",
+    "reqSkill": 175,
+    "tooltipHtml": "<tt-title>Jungle Stew</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12202\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12202\">Tiger Meat</a>, <a href=\"https://www.wowhead.com/forever/item=159\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:159\">Refreshing Spring Water</a>, <a href=\"https://www.wowhead.com/forever/item=4536\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4536\">Shiny Red Apple</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Jungle Stew</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 1,338 health over 30 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 15 Agility for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 35</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+  },
   "15865": {
     "spellId": 15865,
     "name": "Mystery Stew",
@@ -6239,6 +6324,26 @@
     "tooltipHtml": "<tt-title>Enchanted Leather</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a>, <a href=\"https://www.wowhead.com/forever/item=16202\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16202\">Lesser Eternal Essence</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Enchanted Leather</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>",
     "reqSkill": 250
   },
+  "18238": {
+    "spellId": 18238,
+    "name": "Spotted Yellowtail",
+    "itemId": 6887,
+    "icon": 133887,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 4603,
+        "name": "Raw Spotted Yellowtail",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Raw Spotted Yellowtail",
+    "reqSkill": 175,
+    "tooltipHtml": "<tt-title>Spotted Yellowtail</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4603\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4603\">Raw Spotted Yellowtail</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Spotted Yellowtail</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 1,338 health over 30 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 22 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 35</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
+  },
   "18401": {
     "spellId": 18401,
     "name": "Bolt of Runecloth",
@@ -6283,6 +6388,46 @@
     "reagentsText": "Bolt of Runecloth (3), Rune Thread",
     "tooltipHtml": "<tt-title>Runecloth Belt</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Runecloth Belt</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Waist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">37 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 8.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 46</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">51</span><span class=\"price-copper\">12</span></tt-line></div></div>",
     "reqSkill": 255
+  },
+  "18405": {
+    "spellId": 18405,
+    "name": "Runecloth Bag",
+    "itemId": 14046,
+    "icon": 133652,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 5
+      },
+      {
+        "itemId": 8170,
+        "name": "Rugged Leather",
+        "count": 2
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 1
+      },
+      {
+        "itemId": 249430,
+        "name": "Magenta Dye",
+        "count": 4
+      },
+      {
+        "itemId": 249409,
+        "name": "Cerulean Dye",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (5), Rugged Leather (2), Rune Thread, Magenta Dye (4), Cerulean Dye (2)",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Runecloth Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a>, <a href=\"https://www.wowhead.com/forever/item=249430\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249430\">Magenta Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runecloth Bag</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">14 Slot Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">50</span></tt-line></div></div>"
   },
   "18407": {
     "spellId": 18407,
@@ -6694,6 +6839,56 @@
     "tooltipHtml": "<tt-title>Felcloth Shoulders</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (7), <a href=\"https://www.wowhead.com/forever/item=14256\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14256\">Felcloth</a> (6), <a href=\"https://www.wowhead.com/forever/item=12662\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12662\">Demonic Rune</a> (4), <a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a> (4), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Felcloth Shoulders</tt-title><tt-line data-line-type=\"item-level\">Item Level 62</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Shoulder</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">60 Armor</tt-line><tt-line data-line-type=\"item-stat\">+5 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases shadow damage done by up to 26.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 57</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">35</span><span class=\"price-copper\">9</span></tt-line></div></div>",
     "reqSkill": 300
   },
+  "18457": {
+    "spellId": 18457,
+    "name": "Robe of the Archmage",
+    "itemId": 14152,
+    "icon": 132679,
+    "quality": 4,
+    "tier": null,
+    "slot": "Chest",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 12
+      },
+      {
+        "itemId": 7078,
+        "name": "Essence of Fire",
+        "count": 8
+      },
+      {
+        "itemId": 7082,
+        "name": "Essence of Air",
+        "count": 8
+      },
+      {
+        "itemId": 7076,
+        "name": "Essence of Earth",
+        "count": 8
+      },
+      {
+        "itemId": 7080,
+        "name": "Essence of Water",
+        "count": 8
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 2
+      },
+      {
+        "itemId": 249431,
+        "name": "Viridian Dye",
+        "count": 10
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (12), Essence of Fire (8), Essence of Air (8), Essence of Earth (8), Essence of Water (8), Rune Thread (2), Viridian Dye (10)",
+    "reqSkill": 285,
+    "tooltipHtml": "<tt-title>Robe of the Archmage</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"required-focus\">Requires Loom</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (12), <a href=\"https://www.wowhead.com/forever/item=7078\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7078\">Essence of Fire</a> (8), <a href=\"https://www.wowhead.com/forever/item=7082\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7082\">Essence of Air</a> (8), <a href=\"https://www.wowhead.com/forever/item=7076\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7076\">Essence of Earth</a> (8), <a href=\"https://www.wowhead.com/forever/item=7080\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7080\">Essence of Water</a> (8), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a> (2), <a href=\"https://www.wowhead.com/forever/item=249431\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249431\">Viridian Dye</a> (10)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"4\">Robe of the Archmage</tt-title><tt-line data-line-type=\"item-level\">Item Level 62</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-double-line><span>Chest</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"classes\">Classes: <span class=\"class-color-8\">Mage</span></tt-line><tt-line data-line-type=\"armor\">96 Armor</tt-line><tt-line data-line-type=\"item-stat\">+12 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 40.</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases your critical strike by 14.</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=18385\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:18385\">Use: Restores 375 to 625 mana. (5 Min Cooldown)</a></tt-line><tt-line data-line-type=\"durability\">Durability 165 / 165</tt-line><tt-line data-line-type=\"required-level\">Requires Level 57</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">2</span><span class=\"price-silver\">88</span><span class=\"price-copper\">15</span></tt-line></div></div>"
+  },
   "18560": {
     "spellId": 18560,
     "name": "Mooncloth",
@@ -6738,6 +6933,26 @@
     "reagentsText": "Silver Bar, Rough Grinding Stone",
     "tooltipHtml": "<tt-title>Silver Skeleton Key</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2842\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2842\">Silver Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3470\">Rough Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Silver Skeleton Key</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=19646\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:19646\">Use: Allows opening of simple locks.  The skeleton key is consumed in the process.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing (75)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">50</span></tt-line></div></div>",
     "reqSkill": 75
+  },
+  "20011": {
+    "spellId": 20011,
+    "name": "Enchant Bracer - Superior Stamina",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 16204,
+        "name": "Illusion Dust",
+        "count": 15
+      }
+    ],
+    "reagentsText": "Illusion Dust (15)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Enchant Bracer - Superior Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (15)</tt-indented-line>Permanently enchant bracers to give +9 Stamina."
   },
   "20013": {
     "spellId": 20013,
@@ -7609,6 +7824,36 @@
     "tooltipHtml": "<tt-title>Enchant Bracer - Greater Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (3), <a href=\"https://www.wowhead.com/forever/item=11174\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11174\">Lesser Nether Essence</a></tt-indented-line>Permanently enchant bracers to give +7 Agility.",
     "reqSkill": 240
   },
+  "1248599": {
+    "spellId": 1248599,
+    "name": "Enchant Bracer - Superior Agility",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 16204,
+        "name": "Illusion Dust",
+        "count": 3
+      },
+      {
+        "itemId": 16203,
+        "name": "Greater Eternal Essence",
+        "count": 3
+      },
+      {
+        "itemId": 14344,
+        "name": "Large Brilliant Shard",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Illusion Dust (3), Greater Eternal Essence (3), Large Brilliant Shard",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Enchant Bracer - Superior Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (3), <a href=\"https://www.wowhead.com/forever/item=16203\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16203\">Greater Eternal Essence</a> (3), <a href=\"https://www.wowhead.com/forever/item=14344\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14344\">Large Brilliant Shard</a></tt-indented-line>Permanently enchant bracers to give +9 Agility."
+  },
   "1248757": {
     "spellId": 1248757,
     "name": "Enchant Weapon - Insight",
@@ -7728,6 +7973,46 @@
     "reagentsText": "Soul Dust (8), Large Glimmering Shard (6), Greater Astral Essence (2), Cerulean Dye (4), Sulfuric Acid (4)",
     "tooltipHtml": "<tt-title>Enchant Weapon - Revelation</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires One-Handed Axes, Two-Handed Axes, One-Handed Maces, Two-Handed Maces, Polearms, One-Handed Swords, Two-Handed Swords, Staves, Fist Weapons, Miscellaneous, Daggers, Spears</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Silver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11083\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11083\">Soul Dust</a> (8), <a href=\"https://www.wowhead.com/forever/item=11084\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11084\">Large Glimmering Shard</a> (6), <a href=\"https://www.wowhead.com/forever/item=11082\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11082\">Greater Astral Essence</a> (2), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249410\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249410\">Sulfuric Acid</a> (4)</tt-indented-line>Permanently enchant a Melee Weapon to have a chance to trigger Revelation when a non-periodic spell fails to critically strike. Revelation grants 100% increased critical strike chance to the next non-periodic spell cast. Revelation's chance to trigger is diminished as your critical strike chance increases.",
     "reqSkill": 120
+  },
+  "1249019": {
+    "spellId": 1249019,
+    "name": "Enchant Necklace - Strength",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 11175,
+        "name": "Greater Nether Essence",
+        "count": 4
+      },
+      {
+        "itemId": 11178,
+        "name": "Large Radiant Shard",
+        "count": 4
+      },
+      {
+        "itemId": 11176,
+        "name": "Dream Dust",
+        "count": 10
+      },
+      {
+        "itemId": 249410,
+        "name": "Sulfuric Acid",
+        "count": 4
+      },
+      {
+        "itemId": 249425,
+        "name": "Bauxite",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Greater Nether Essence (4), Large Radiant Shard (4), Dream Dust (10), Sulfuric Acid (4), Bauxite (4)",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Enchant Necklace - Strength</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11175\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11175\">Greater Nether Essence</a> (4), <a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a> (4), <a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (10), <a href=\"https://www.wowhead.com/forever/item=249410\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249410\">Sulfuric Acid</a> (4), <a href=\"https://www.wowhead.com/forever/item=249425\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249425\">Bauxite</a> (4)</tt-indented-line>Permanently enchant a necklace to increase Strength by 5."
   },
   "1249057": {
     "spellId": 1249057,
@@ -8483,6 +8768,36 @@
     "reagentsText": "Vision Dust (2), Lesser Nether Essence",
     "tooltipHtml": "<tt-double-line><tt-title>Arcane Salvager</tt-title><tt-subtitle>Tier 2</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Golden Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a> (2), <a href=\"https://www.wowhead.com/forever/item=11174\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11174\">Lesser Nether Essence</a></tt-indented-line>Craft an Arcane Salvager.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Arcane Salvager</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1307223\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1307223\">Use: Places an Arcane Salvager that enables more efficient disenchanting, and provides all the benefits of an Enchanted Lute. Requires a Campfire nearby. \n\nMay be placed over an Enchanted Lute to replace it.\r\n All camping features share a cooldown of 1 hour.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting (140)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line></div></div>",
     "reqSkill": 140
+  },
+  "1263080": {
+    "spellId": 1263080,
+    "name": "Loom",
+    "itemId": 279959,
+    "icon": 2067081,
+    "quality": 1,
+    "tier": "Tier 4",
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 273131,
+        "name": "Bottled Screams",
+        "count": 1
+      },
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 4
+      },
+      {
+        "itemId": 4470,
+        "name": "Simple Wood",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Bottled Screams, Bolt of Runecloth (4), Simple Wood (4)",
+    "reqSkill": 300,
+    "tooltipHtml": "<tt-double-line><tt-title>Loom</tt-title><tt-subtitle>Tier 4</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=273131\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:273131\">Bottled Screams</a>, <a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (4), <a href=\"https://www.wowhead.com/forever/item=4470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4470\">Simple Wood</a> (4)</tt-indented-line>Craft a Loom.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Loom</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1307255\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1307255\">Use: Places a Loom usable for recipes that require it, and provides all the benefits of a Faction Banner. Requires a Campfire nearby. \n\nMay be placed over a Faction Banner to replace it. All camping features share a cooldown of 1 hour.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Tailoring (300)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line></div></div>"
   },
   "1263425": {
     "spellId": 1263425,
