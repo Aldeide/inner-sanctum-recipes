@@ -368,6 +368,10 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+    .header-actions:empty,
+    .header-actions.is-hidden {
+      display: none !important;
+    }
 
     /* Primary & Secondary Buttons */
     .btn {
@@ -1048,21 +1052,6 @@
       border: 1px solid rgba(255, 255, 255, 0.05);
     }
 
-    .spell-secondary-link {
-      color: var(--text-faint);
-      display: inline-flex;
-      align-items: center;
-      padding: 2px;
-      border-radius: 3px;
-      transition: color 0.12s ease;
-    }
-    .spell-secondary-link:hover {
-      color: var(--gold-bright);
-    }
-    .spell-secondary-link svg {
-      width: 13px;
-      height: 13px;
-    }
 
     .recipe-reagents-line {
       display: flex;
@@ -1773,15 +1762,11 @@
       aside.professions-sidebar {
         position: static;
         max-height: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        scrollbar-width: none;
-        white-space: nowrap;
-        gap: 8px;
-        padding: 8px 10px;
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 8px !important;
+        overflow: visible !important;
+        padding: 10px !important;
         width: 100%;
         box-sizing: border-box;
         border-radius: 8px;
@@ -1796,33 +1781,21 @@
       #sidebar-crafters-box {
         display: none !important;
       }
-      #prof-groups-wrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
-        flex-shrink: 0;
-      }
-      .prof-list {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 8px;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        flex-shrink: 0;
-      }
+      #prof-groups-wrapper,
+      .prof-group,
+      .prof-list,
       .prof-list li {
-        display: inline-flex;
-        flex-shrink: 0;
+        display: contents !important;
+      }
+      aside.professions-sidebar > .prof-item-btn[data-prof-id="all"] {
+        grid-column: 1 / -1 !important;
       }
       .prof-item-btn {
-        width: auto;
-        flex-shrink: 0;
-        white-space: nowrap;
-        padding: 6px 12px;
-        border-radius: 20px;
+        width: 100% !important;
+        min-width: 0 !important;
+        justify-content: space-between !important;
+        padding: 8px 12px !important;
+        border-radius: 8px !important;
         background: rgba(16, 21, 32, 0.7);
         border: 1px solid var(--border-dark);
       }
@@ -1879,12 +1852,13 @@
       }
       .header-actions {
         width: 100% !important;
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
+        display: flex !important;
+        flex-direction: column !important;
         gap: 8px !important;
       }
       #btn-install-app {
-        grid-column: 1 / -1 !important;
+        width: 100% !important;
+        justify-content: center !important;
       }
       .header-actions .btn {
         width: 100% !important;
@@ -2453,14 +2427,6 @@
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line><polyline points="9 9 12 12 15 9"></polyline><line x1="12" y1="5" x2="12" y2="12"></line></svg>
             Install App
           </button>
-          <button class="btn btn-gold" id="btn-import-lua" title="Import an updated GuildRecipeBook.lua">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
-            Import .lua
-          </button>
-          <button class="btn btn-secondary" id="btn-export-html" title="Download this standalone HTML file with updated data">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-            Export HTML
-          </button>
         </div>
       </div>
 
@@ -2884,6 +2850,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         toasts: document.getElementById('grb-toasts'),
         fileInput: document.getElementById('grb-file-input'),
         btnInstallApp: document.getElementById('btn-install-app'),
+        headerActions: document.querySelector('.header-actions'),
         btnImportLua: document.getElementById('btn-import-lua'),
         btnExportHtml: document.getElementById('btn-export-html'),
         btnEmptyBrowse: document.getElementById('btn-empty-browse'),
@@ -3350,9 +3317,7 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
               skillBadge = document.createElement('span');
               skillBadge.className = `badge-skill-req rank-${rank}`;
               skillBadge.textContent = `Skill ${s}`;
-              const secLink = headline.querySelector('.spell-secondary-link');
-              if (secLink) headline.insertBefore(skillBadge, secLink);
-              else headline.appendChild(skillBadge);
+              headline.appendChild(skillBadge);
             } else {
               skillBadge.className = `badge-skill-req rank-${rank}`;
               skillBadge.textContent = `Skill ${s}`;
@@ -3771,10 +3736,6 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         const primaryLink = recipe.itemId 
           ? `https://www.wowhead.com/forever/item=${recipe.itemId}`
           : `https://www.wowhead.com/forever/spell=${recipe.spellId}`;
-        
-        const secondarySpellLink = recipe.itemId 
-          ? `<a href="https://www.wowhead.com/forever/spell=${recipe.spellId}" target="_blank" rel="noopener" class="spell-secondary-link" title="View Spell on Wowhead">${ICONS_SVG.spell}</a>`
-          : '';
 
         const iconUrl = (meta && meta.icon) 
           ? `https://forever.warcraftdb.com/api/v1/casc/blp/${meta.icon}.webp` 
@@ -3846,7 +3807,6 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
                 </a>
                 <span class="recipe-prof-inline"><span class="prof-micro-icon">${profIcon}</span>${escapeHtml(recipe.profName)}</span>
                 ${badgesHtml}
-                ${secondarySpellLink}
               </div>
               ${reagentsHtml}
             </div>
@@ -4950,44 +4910,56 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         }
 
         // Export button
-        els.btnExportHtml.addEventListener('click', exportStandaloneHtml);
+        if (els.btnExportHtml) {
+          els.btnExportHtml.addEventListener('click', exportStandaloneHtml);
+        }
 
         // Import buttons & file input
         function triggerFileBrowse() {
-          els.fileInput.value = '';
-          els.fileInput.click();
+          if (els.fileInput) {
+            els.fileInput.value = '';
+            els.fileInput.click();
+          }
         }
 
-        els.btnImportLua.addEventListener('click', triggerFileBrowse);
-        els.btnEmptyBrowse.addEventListener('click', triggerFileBrowse);
+        if (els.btnImportLua) {
+          els.btnImportLua.addEventListener('click', triggerFileBrowse);
+        }
+        if (els.btnEmptyBrowse) {
+          els.btnEmptyBrowse.addEventListener('click', triggerFileBrowse);
+        }
 
-        els.fileInput.addEventListener('change', (e) => {
-          const file = e.target.files && e.target.files[0];
-          if (!file) return;
-          const reader = new FileReader();
-          reader.onload = (evt) => handleLuaFileContent(evt.target.result, file.name);
-          reader.readAsText(file);
-        });
+        if (els.fileInput) {
+          els.fileInput.addEventListener('change', (e) => {
+            const file = e.target.files && e.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = (evt) => handleLuaFileContent(evt.target.result, file.name);
+            reader.readAsText(file);
+          });
+        }
 
         // Full Page Drag & Drop
         window.addEventListener('dragenter', (e) => {
           e.preventDefault();
-          els.dropOverlay.classList.add('drag-over');
+          if (els.dropOverlay) els.dropOverlay.classList.add('drag-over');
         });
 
         window.addEventListener('dragover', (e) => {
           e.preventDefault();
         });
 
-        els.dropOverlay.addEventListener('dragleave', (e) => {
-          if (e.relatedTarget === null || e.clientX <= 0 || e.clientY <= 0) {
-            els.dropOverlay.classList.remove('drag-over');
-          }
-        });
+        if (els.dropOverlay) {
+          els.dropOverlay.addEventListener('dragleave', (e) => {
+            if (e.relatedTarget === null || e.clientX <= 0 || e.clientY <= 0) {
+              els.dropOverlay.classList.remove('drag-over');
+            }
+          });
+        }
 
         window.addEventListener('drop', (e) => {
           e.preventDefault();
-          els.dropOverlay.classList.remove('drag-over');
+          if (els.dropOverlay) els.dropOverlay.classList.remove('drag-over');
           const file = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
           if (file) {
             const reader = new FileReader();
@@ -5094,33 +5066,42 @@ window.__GRB_DATA__ = /*__GRB_DATA_JSON__*/null;
         els.installModal.style.display = 'none';
       }
 
+      function setStandaloneUi(isStandalone) {
+        if (els.btnInstallApp) {
+          els.btnInstallApp.style.display = isStandalone ? 'none' : '';
+        }
+        if (els.headerActions) {
+          els.headerActions.style.display = isStandalone ? 'none' : '';
+          els.headerActions.classList.toggle('is-hidden', isStandalone);
+        }
+      }
+
       // Expose for external controls / verification
       window.openInstallModal = openInstallModal;
       window.closeInstallModal = closeInstallModal;
       window.__clearDeferredInstallPrompt = () => { deferredInstallPrompt = null; };
       window.__hasDeferredInstallPrompt = () => !!deferredInstallPrompt;
+      window.setStandaloneMode = (val) => setStandaloneUi(!!val);
 
       function initPwa() {
-        // Hide install button immediately if already standalone
-        if (isRunningStandalone() && els.btnInstallApp) {
-          els.btnInstallApp.style.display = 'none';
+        // Hide install button & header-actions immediately if already standalone
+        if (isRunningStandalone()) {
+          setStandaloneUi(true);
         }
 
         // Capture beforeinstallprompt
         window.addEventListener('beforeinstallprompt', (e) => {
           e.preventDefault();
           deferredInstallPrompt = e;
-          if (!isRunningStandalone() && els.btnInstallApp) {
-            els.btnInstallApp.style.display = '';
+          if (!isRunningStandalone()) {
+            setStandaloneUi(false);
           }
         });
 
         // App successfully installed
         window.addEventListener('appinstalled', () => {
           deferredInstallPrompt = null;
-          if (els.btnInstallApp) {
-            els.btnInstallApp.style.display = 'none';
-          }
+          setStandaloneUi(true);
           closeInstallModal();
           showToast('Inner Sanctum installed!', 'success');
         });
