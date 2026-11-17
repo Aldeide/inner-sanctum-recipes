@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-17T16:55:55.759Z",
+  "exportedAt": "2026-11-17T21:27:45.213Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1794933861,
+      "lastUpdated": 1794936829,
       "professions": [
         {
           "id": 171,
@@ -99,8 +99,8 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "recipeCount": 25,
-              "ts": 1794846296
+              "recipeCount": 26,
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -354,8 +354,8 @@
           "shortName": "Shaid",
           "lastName": "Soulstealer",
           "realm": "Soulstealer",
-          "lastUpdated": 1794846296,
-          "totalRecipes": 25,
+          "lastUpdated": 1794936829,
+          "totalRecipes": 26,
           "professions": [
             {
               "id": 185,
@@ -363,8 +363,8 @@
               "isSecondary": true,
               "skill": 225,
               "max": 225,
-              "recipeCount": 25,
-              "ts": 1794846296
+              "recipeCount": 26,
+              "ts": 1794936829
             }
           ]
         },
@@ -2213,7 +2213,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2256,7 +2256,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -2288,7 +2288,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2331,7 +2331,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2439,7 +2439,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2504,7 +2504,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2558,7 +2558,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2601,7 +2601,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2644,7 +2644,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -2687,7 +2687,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2730,7 +2730,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2794,7 +2794,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -2837,7 +2837,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2945,7 +2945,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -2968,6 +2968,17 @@
           "itemId": 12212,
           "isCustom": false,
           "crafters": [
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 225,
+              "max": 225,
+              "ts": 1794936829
+            },
             {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
@@ -3181,7 +3192,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -3540,7 +3551,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -3605,7 +3616,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -3702,7 +3713,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -3745,7 +3756,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -3830,7 +3841,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -3894,7 +3905,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -3915,7 +3926,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
@@ -3958,7 +3969,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -4001,7 +4012,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             },
             {
               "char": "Aldeide-Valesong",
@@ -4044,7 +4055,7 @@
               "realm": "Soulstealer",
               "skill": 225,
               "max": 225,
-              "ts": 1794846296
+              "ts": 1794936829
             }
           ]
         },
