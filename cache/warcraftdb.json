@@ -9944,6 +9944,36 @@
     "tooltipHtml": "<tt-title>Enchant Necklace - Spell Power</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11175\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11175\">Greater Nether Essence</a> (5), <a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a> (3), <a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (8), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249430\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249430\">Magenta Dye</a> (4)</tt-indented-line>Permanently enchant a necklace to increase spell damage and healing by up to 6.",
     "reqSkill": 250
   },
+  "1249114": {
+    "spellId": 1249114,
+    "name": "Dormant Heart of the Mountain",
+    "itemId": 249473,
+    "icon": 134094,
+    "quality": 3,
+    "tier": null,
+    "slot": "Trinket",
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 11382,
+        "name": "Blood of the Mountain",
+        "count": 1
+      },
+      {
+        "itemId": 7080,
+        "name": "Essence of Water",
+        "count": 1
+      },
+      {
+        "itemId": 14343,
+        "name": "Small Brilliant Shard",
+        "count": 3
+      }
+    ],
+    "reagentsText": "Blood of the Mountain, Essence of Water, Small Brilliant Shard (3)",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Dormant Heart of the Mountain</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"required-focus\">Requires Black Forge</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11382\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11382\">Blood of the Mountain</a>, <a href=\"https://www.wowhead.com/forever/item=7080\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7080\">Essence of Water</a>, <a href=\"https://www.wowhead.com/forever/item=14343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14343\">Small Brilliant Shard</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Dormant Heart of the Mountain</tt-title><tt-line data-line-type=\"item-level\">Item Level 55</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"unique\">Unique-Equipped</tt-line><tt-line data-line-type=\"slot\">Trinket</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249118\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249118\">Equip: Your casts of Greater Heal, Healing Touch, Healing Wave, or Holy Light in combat grant up to 40 increased healing and up to 13 increased damage for 15 sec.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 50</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">15</span></tt-line></div></div>"
+  },
   "1249630": {
     "spellId": 1249630,
     "name": "Cerulean Dye",
