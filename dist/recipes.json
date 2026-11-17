@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-17T10:55:55.292Z",
+  "exportedAt": "2026-11-17T13:17:18.795Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1794912093,
+      "lastUpdated": 1794916192,
       "professions": [
         {
           "id": 171,
@@ -164,7 +164,7 @@
           "id": 197,
           "name": "Tailoring",
           "isSecondary": false,
-          "recipeCount": 147,
+          "recipeCount": 148,
           "crafters": [
             {
               "char": "Maggie-Moo",
@@ -199,8 +199,8 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "recipeCount": 116,
-              "ts": 1794910575
+              "recipeCount": 117,
+              "ts": 1794916192
             }
           ]
         }
@@ -375,8 +375,8 @@
           "shortName": "Stara",
           "lastName": "Sabla",
           "realm": "Sabla",
-          "lastUpdated": 1794910575,
-          "totalRecipes": 246,
+          "lastUpdated": 1794916192,
+          "totalRecipes": 247,
           "professions": [
             {
               "id": 185,
@@ -402,8 +402,8 @@
               "isSecondary": false,
               "skill": 227,
               "max": 300,
-              "recipeCount": 116,
-              "ts": 1794910575
+              "recipeCount": 117,
+              "ts": 1794916192
             }
           ]
         }
@@ -7825,7 +7825,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -7868,7 +7868,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -7911,7 +7911,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -7943,7 +7943,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -7975,7 +7975,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8018,7 +8018,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8050,7 +8050,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8082,7 +8082,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8125,7 +8125,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8168,7 +8168,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8243,7 +8243,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8286,7 +8286,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8360,7 +8360,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8392,7 +8392,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8435,7 +8435,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8467,7 +8467,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8541,7 +8541,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8573,7 +8573,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8616,7 +8616,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8659,7 +8659,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8744,7 +8744,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8881,7 +8881,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8945,7 +8945,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -8977,7 +8977,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9009,7 +9009,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9073,7 +9073,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9105,7 +9105,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9137,7 +9137,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9169,7 +9169,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9201,7 +9201,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9254,7 +9254,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9286,7 +9286,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9339,7 +9339,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9382,7 +9382,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9425,7 +9425,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9457,7 +9457,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9500,7 +9500,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9532,7 +9532,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9564,7 +9564,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9628,7 +9628,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9734,7 +9734,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9766,7 +9766,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9798,7 +9798,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9851,7 +9851,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9872,7 +9872,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9893,7 +9893,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9914,7 +9914,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9935,7 +9935,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9956,7 +9956,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9977,7 +9977,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -9998,7 +9998,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10019,7 +10019,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10040,7 +10040,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10061,7 +10061,28 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
+            }
+          ]
+        },
+        {
+          "spellId": 12086,
+          "name": "Recipe #12086",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10025,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 227,
+              "max": 300,
+              "ts": 1794916192
             }
           ]
         },
@@ -10082,7 +10103,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10103,7 +10124,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10124,7 +10145,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10145,7 +10166,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10166,7 +10187,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10187,7 +10208,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10208,7 +10229,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10229,7 +10250,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10250,7 +10271,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10271,7 +10292,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10292,7 +10313,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10313,7 +10334,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10334,7 +10355,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10355,7 +10376,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10376,7 +10397,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10397,7 +10418,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10418,7 +10439,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10439,7 +10460,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10460,7 +10481,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10481,7 +10502,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10502,7 +10523,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10523,7 +10544,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10544,7 +10565,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10565,7 +10586,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10586,7 +10607,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10607,7 +10628,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10628,7 +10649,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10649,7 +10670,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10670,7 +10691,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10691,7 +10712,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10712,7 +10733,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10733,7 +10754,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10754,7 +10775,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10775,7 +10796,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10796,7 +10817,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10817,7 +10838,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10838,7 +10859,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10859,7 +10880,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10880,7 +10901,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10901,7 +10922,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10922,7 +10943,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10943,7 +10964,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -10964,7 +10985,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11007,7 +11028,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11039,7 +11060,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11082,7 +11103,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11114,7 +11135,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11167,7 +11188,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11199,7 +11220,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11443,7 +11464,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11475,7 +11496,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11518,7 +11539,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11561,7 +11582,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11593,7 +11614,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11625,7 +11646,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11678,7 +11699,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11710,7 +11731,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11742,7 +11763,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11774,7 +11795,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11806,7 +11827,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11849,7 +11870,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         },
@@ -11892,7 +11913,7 @@
               "realm": "Sabla",
               "skill": 227,
               "max": 300,
-              "ts": 1794910575
+              "ts": 1794916192
             }
           ]
         }
@@ -18004,6 +18025,36 @@
       "reagentsText": "Bolt of Mageweave (4), Red Dye (2), Heavy Silken Thread (2)",
       "tooltipHtml": "<tt-title>Red Mageweave Headband</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (4), <a href=\"https://www.wowhead.com/forever/item=2604\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2604\">Red Dye</a> (2), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Red Mageweave Headband</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Head</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">51 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+20 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 19.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 43</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">60</span><span class=\"price-copper\">75</span></tt-line></div></div>",
       "reqSkill": 240
+    },
+    "12086": {
+      "spellId": 12086,
+      "name": "Shadoweave Mask",
+      "itemId": 10025,
+      "icon": 133129,
+      "quality": 2,
+      "tier": null,
+      "slot": "Head",
+      "subType": "Cloth",
+      "reagents": [
+        {
+          "itemId": 4339,
+          "name": "Bolt of Mageweave",
+          "count": 2
+        },
+        {
+          "itemId": 10285,
+          "name": "Shadow Silk",
+          "count": 8
+        },
+        {
+          "itemId": 8343,
+          "name": "Heavy Silken Thread",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Bolt of Mageweave (2), Shadow Silk (8), Heavy Silken Thread (2)",
+      "reqSkill": 220,
+      "tooltipHtml": "<tt-title>Shadoweave Mask</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (2), <a href=\"https://www.wowhead.com/forever/item=10285\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10285\">Shadow Silk</a> (8), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Shadoweave Mask</tt-title><tt-line data-line-type=\"item-level\">Item Level 49</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Head</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">52 Armor</tt-line><tt-line data-line-type=\"item-stat\">+10 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases shadow damage done by up to 24.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 44</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">67</span><span class=\"price-copper\">90</span></tt-line></div></div>"
     },
     "12087": {
       "spellId": 12087,
