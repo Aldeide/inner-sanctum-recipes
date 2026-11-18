@@ -10299,6 +10299,31 @@
     "reqSkill": 175,
     "tooltipHtml": "<tt-title>Sunny Tea</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=1645\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:1645\">Moonberry Juice</a>, <a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Sunny Tea</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249924\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249924\">Use: Restores 1992 mana over 30 sec.  Must remain seated while drinking. If you spend at least 10 sec eating, you will become well fed and gain 33 Healing Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 35</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">1</span></tt-line></div></div>"
   },
+  "1249962": {
+    "spellId": 1249962,
+    "name": "Sage's Tea",
+    "itemId": 249870,
+    "icon": 132802,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 8766,
+        "name": "Morning Glory Dew",
+        "count": 1
+      },
+      {
+        "itemId": 13465,
+        "name": "Mountain Silversage",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Morning Glory Dew, Mountain Silversage (2)",
+    "reqSkill": 225,
+    "tooltipHtml": "<tt-title>Sage's Tea</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8766\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8766\">Morning Glory Dew</a>, <a href=\"https://www.wowhead.com/forever/item=13465\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:13465\">Mountain Silversage</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Sage's Tea</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249925\">Use: Restores 2934 mana over 30 sec.  Must remain seated while drinking. If you spend at least 10 sec eating, you will become well fed and gain 44 Healing Power for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 45</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">1</span></tt-line></div></div>"
+  },
   "1250144": {
     "spellId": 1250144,
     "name": "Bat Hachee",
