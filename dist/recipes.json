@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-18T21:46:32.261Z",
+  "exportedAt": "2026-11-19T04:03:07.258Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1795038410,
+      "lastUpdated": 1795061061,
       "professions": [
         {
           "id": 171,
@@ -133,10 +133,10 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 5,
+              "skill": 6,
               "max": 75,
               "recipeCount": 4,
-              "ts": 1794966863
+              "ts": 1795061061
             }
           ]
         },
@@ -297,17 +297,17 @@
           "shortName": "Callum",
           "lastName": "Magic",
           "realm": "Magic",
-          "lastUpdated": 1794966863,
+          "lastUpdated": 1795061061,
           "totalRecipes": 76,
           "professions": [
             {
               "id": 185,
               "name": "Cooking",
               "isSecondary": true,
-              "skill": 5,
+              "skill": 6,
               "max": 75,
               "recipeCount": 4,
-              "ts": 1794966863
+              "ts": 1795061061
             },
             {
               "id": 197,
@@ -2606,9 +2606,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 5,
+              "skill": 6,
               "max": 75,
-              "ts": 1794966863
+              "ts": 1795061061
             }
           ]
         },
@@ -2908,9 +2908,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 5,
+              "skill": 6,
               "max": 75,
-              "ts": 1794966863
+              "ts": 1795061061
             }
           ]
         },
@@ -3360,9 +3360,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 5,
+              "skill": 6,
               "max": 75,
-              "ts": 1794966863
+              "ts": 1795061061
             }
           ]
         },
@@ -4063,9 +4063,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 5,
+              "skill": 6,
               "max": 75,
-              "ts": 1794966863
+              "ts": 1795061061
             }
           ]
         },
