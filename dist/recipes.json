@@ -1,18 +1,18 @@
 {
-  "exportedAt": "2026-11-19T15:38:52.563Z",
+  "exportedAt": "2026-11-19T18:46:19.169Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-CAMWOWEU4Realm3PvE",
       "name": "Inner Sanctum",
       "realm": "CAMWOWEU4Realm3PvE",
-      "lastUpdated": 1795102463,
+      "lastUpdated": 1795111885,
       "professions": [
         {
           "id": 171,
           "name": "Alchemy",
           "isSecondary": false,
-          "recipeCount": 30,
+          "recipeCount": 31,
           "crafters": [
             {
               "char": "Elyin-Healz",
@@ -21,10 +21,10 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "recipeCount": 30,
-              "ts": 1794869224
+              "recipeCount": 31,
+              "ts": 1795111885
             }
           ]
         },
@@ -144,7 +144,7 @@
           "id": 333,
           "name": "Enchanting",
           "isSecondary": false,
-          "recipeCount": 113,
+          "recipeCount": 114,
           "crafters": [
             {
               "char": "Bob-One",
@@ -167,8 +167,8 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "recipeCount": 66,
-              "ts": 1794871272
+              "recipeCount": 67,
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -327,17 +327,17 @@
           "shortName": "Elyin",
           "lastName": "Healz",
           "realm": "Healz",
-          "lastUpdated": 1795102463,
-          "totalRecipes": 59,
+          "lastUpdated": 1795111885,
+          "totalRecipes": 60,
           "professions": [
             {
               "id": 171,
               "name": "Alchemy",
               "isSecondary": false,
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "recipeCount": 30,
-              "ts": 1794869224
+              "recipeCount": 31,
+              "ts": 1795111885
             },
             {
               "id": 185,
@@ -357,8 +357,8 @@
           "shortName": "Maggie",
           "lastName": "Moo",
           "realm": "Moo",
-          "lastUpdated": 1795051074,
-          "totalRecipes": 118,
+          "lastUpdated": 1795107900,
+          "totalRecipes": 119,
           "professions": [
             {
               "id": 333,
@@ -366,8 +366,8 @@
               "isSecondary": false,
               "skill": 300,
               "max": 300,
-              "recipeCount": 66,
-              "ts": 1794871272
+              "recipeCount": 67,
+              "ts": 1795107900
             },
             {
               "id": 197,
@@ -478,9 +478,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -499,9 +499,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -520,9 +520,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -541,9 +541,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -562,9 +562,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -583,9 +583,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -604,9 +604,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -625,9 +625,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -646,9 +646,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -667,9 +667,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -688,9 +688,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -709,9 +709,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -730,9 +730,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -751,9 +751,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -772,9 +772,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -793,9 +793,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -814,9 +814,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -835,9 +835,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -856,9 +856,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -877,9 +877,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -898,9 +898,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -919,9 +919,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -940,9 +940,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -961,9 +961,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -982,9 +982,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -1003,9 +1003,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -1024,9 +1024,30 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
+            }
+          ]
+        },
+        {
+          "spellId": 17553,
+          "name": "Recipe #17553",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 13443,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 272,
+              "max": 300,
+              "ts": 1795111885
             }
           ]
         },
@@ -1045,9 +1066,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -1066,9 +1087,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -1087,9 +1108,9 @@
               "shortName": "Elyin",
               "lastName": "Healz",
               "realm": "Healz",
-              "skill": 257,
+              "skill": 272,
               "max": 300,
-              "ts": 1794869224
+              "ts": 1795111885
             }
           ]
         },
@@ -4707,7 +4728,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -4750,7 +4771,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -4793,7 +4814,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -4836,7 +4857,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -4932,7 +4953,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -4996,7 +5017,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5060,7 +5081,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5135,7 +5156,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5178,7 +5199,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5221,7 +5242,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5253,7 +5274,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5274,7 +5295,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5306,7 +5327,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5349,7 +5370,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5413,7 +5434,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5477,7 +5498,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5509,7 +5530,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5573,7 +5594,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5616,7 +5637,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5744,7 +5765,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5765,7 +5786,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -5797,7 +5818,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -5872,7 +5893,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6011,7 +6032,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6043,7 +6064,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6107,7 +6128,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6150,7 +6171,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6225,7 +6246,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6268,7 +6289,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6311,7 +6332,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6418,7 +6439,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6450,7 +6471,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6546,7 +6567,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6642,7 +6663,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6674,7 +6695,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6706,7 +6727,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6738,7 +6759,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6770,7 +6791,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6802,7 +6823,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6845,7 +6866,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6888,7 +6909,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6920,7 +6941,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -6952,7 +6973,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -6984,7 +7005,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -7133,7 +7154,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -7165,7 +7186,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7208,7 +7229,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7315,7 +7336,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7358,7 +7379,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7401,7 +7422,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7444,7 +7465,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7487,7 +7508,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7530,7 +7551,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7573,7 +7594,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7648,7 +7669,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7691,7 +7712,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -7755,7 +7776,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7798,7 +7819,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7830,7 +7851,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -7873,7 +7894,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -8078,6 +8099,27 @@
           ]
         },
         {
+          "spellId": 13947,
+          "name": "Recipe #13947",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Moo",
+              "fullName": "Maggie Moo",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Moo",
+              "realm": "Moo",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795107900
+            }
+          ]
+        },
+        {
           "spellId": 23802,
           "name": "Recipe #23802",
           "profId": 333,
@@ -8094,7 +8136,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -8220,7 +8262,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             }
           ]
         },
@@ -8252,7 +8294,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -8295,7 +8337,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -8338,7 +8380,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -8381,7 +8423,7 @@
               "realm": "Moo",
               "skill": 300,
               "max": 300,
-              "ts": 1794871272
+              "ts": 1795107900
             },
             {
               "char": "Stara-Sabla",
@@ -20100,6 +20142,31 @@
       "tooltipHtml": "<tt-title>Enchant Weapon - Greater Striking</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires One-Handed Axes, Two-Handed Axes, One-Handed Maces, Two-Handed Maces, Polearms, One-Handed Swords, Two-Handed Swords, Staves, Fist Weapons, Miscellaneous, Daggers, Spears</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a>, <a href=\"https://www.wowhead.com/forever/item=11175\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11175\">Greater Nether Essence</a></tt-indented-line>Permanently enchant a Melee Weapon to do 4 additional points of damage.",
       "reqSkill": 245
     },
+    "13947": {
+      "spellId": 13947,
+      "name": "Enchant Gloves - Riding Skill",
+      "itemId": null,
+      "icon": 135913,
+      "quality": null,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 11178,
+          "name": "Large Radiant Shard",
+          "count": 1
+        },
+        {
+          "itemId": 11176,
+          "name": "Dream Dust",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Large Radiant Shard, Dream Dust (2)",
+      "reqSkill": 250,
+      "tooltipHtml": "<tt-title>Enchant Gloves - Riding Skill</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a>, <a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (2)</tt-indented-line>Permanently enchant gloves to grant a minor movement bonus while mounted."
+    },
     "13948": {
       "spellId": 13948,
       "name": "Enchant Gloves - Minor Haste",
@@ -20389,6 +20456,36 @@
       "reagentsText": "Rugged Leather, Lesser Eternal Essence",
       "tooltipHtml": "<tt-title>Enchanted Leather</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a>, <a href=\"https://www.wowhead.com/forever/item=16202\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16202\">Lesser Eternal Essence</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Enchanted Leather</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>",
       "reqSkill": 250
+    },
+    "17553": {
+      "spellId": 17553,
+      "name": "Superior Mana Potion",
+      "itemId": 13443,
+      "icon": 134854,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 8838,
+          "name": "Sungrass",
+          "count": 2
+        },
+        {
+          "itemId": 8839,
+          "name": "Blindweed",
+          "count": 2
+        },
+        {
+          "itemId": 8925,
+          "name": "Crystal Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Sungrass (2), Blindweed (2), Crystal Vial",
+      "reqSkill": 205,
+      "tooltipHtml": "<tt-title>Superior Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a> (2), <a href=\"https://www.wowhead.com/forever/item=8839\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8839\">Blindweed</a> (2), <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Superior Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 900 to 1,500 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 41</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span></tt-line></div></div>"
     },
     "18238": {
       "spellId": 18238,
