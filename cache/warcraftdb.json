@@ -9299,6 +9299,41 @@
     "reqSkill": 150,
     "tooltipHtml": "<tt-title>Sagefish Delight</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=21153\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:21153\">Raw Greater Sagefish</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Sagefish Delight</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1249507\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1249507\">Use: Restores 552 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 7 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 30</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">25</span></tt-line></div></div>"
   },
+  "26086": {
+    "spellId": 26086,
+    "name": "Felcloth Bag",
+    "itemId": 21341,
+    "icon": 133667,
+    "quality": 3,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 14256,
+        "name": "Felcloth",
+        "count": 12
+      },
+      {
+        "itemId": 12810,
+        "name": "Enchanted Leather",
+        "count": 6
+      },
+      {
+        "itemId": 20520,
+        "name": "Dark Rune",
+        "count": 2
+      },
+      {
+        "itemId": 14227,
+        "name": "Ironweb Spider Silk",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Felcloth (12), Enchanted Leather (6), Dark Rune (2), Ironweb Spider Silk (4)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Felcloth Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"required-focus\">Requires Spinning Wheel</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14256\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14256\">Felcloth</a> (12), <a href=\"https://www.wowhead.com/forever/item=12810\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12810\">Enchanted Leather</a> (6), <a href=\"https://www.wowhead.com/forever/item=20520\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:20520\">Dark Rune</a> (2), <a href=\"https://www.wowhead.com/forever/item=14227\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14227\">Ironweb Spider Silk</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Felcloth Bag</tt-title><tt-line data-line-type=\"item-level\">Item Level 57</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-line data-line-type=\"container\">32 Slot Soul Bag</tt-line><tt-line data-line-type=\"classes\">Classes: <span class=\"class-color-9\">Warlock</span></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">2</span></tt-line></div></div>"
+  },
   "27658": {
     "spellId": 27658,
     "name": "Enchanted Mageweave Pouch",
@@ -11423,6 +11458,36 @@
     "reagentsText": "Bolt of Runecloth (6), Essence of Earth, Rune Thread",
     "tooltipHtml": "<tt-title>Earthenweave Gloves</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (6), <a href=\"https://www.wowhead.com/forever/item=7076\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7076\">Essence of Earth</a>, <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Earthenweave Gloves</tt-title><tt-line data-line-type=\"item-level\">Item Level 52</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Hands</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">42 Armor</tt-line><tt-line data-line-type=\"item-stat\">+11 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases healing done by magical spells and effects by up to 26.</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases damage done by magical spells and effects by up to 9.</tt-line><tt-line data-line-type=\"durability\">Durability 40 / 40</tt-line><tt-line data-line-type=\"required-level\">Requires Level 47</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">53</span><span class=\"price-copper\">98</span></tt-line></div></div>",
     "reqSkill": 235
+  },
+  "1257464": {
+    "spellId": 1257464,
+    "name": "Earthenweave Cord",
+    "itemId": 254077,
+    "icon": 236905,
+    "quality": 2,
+    "tier": null,
+    "slot": "Waist",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 4
+      },
+      {
+        "itemId": 7076,
+        "name": "Essence of Earth",
+        "count": 2
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (4), Essence of Earth (2), Rune Thread",
+    "reqSkill": 235,
+    "tooltipHtml": "<tt-title>Earthenweave Cord</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (4), <a href=\"https://www.wowhead.com/forever/item=7076\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7076\">Essence of Earth</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Earthenweave Cord</tt-title><tt-line data-line-type=\"item-level\">Item Level 52</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Waist</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">38 Armor</tt-line><tt-line data-line-type=\"item-stat\">+11 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases healing done by magical spells and effects by up to 26.</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases damage done by magical spells and effects by up to 9.</tt-line><tt-line data-line-type=\"durability\">Durability 40 / 40</tt-line><tt-line data-line-type=\"required-level\">Requires Level 47</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">54</span><span class=\"price-copper\">37</span></tt-line></div></div>"
   },
   "1257465": {
     "spellId": 1257465,
