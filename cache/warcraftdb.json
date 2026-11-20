@@ -4999,6 +4999,26 @@
     "reqSkill": 150,
     "tooltipHtml": "<tt-title>Azure Silk Belt</tt-title><tt-double-line><span>45 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4305\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4305\">Bolt of Silk Cloth</a> (4), <a href=\"https://www.wowhead.com/forever/item=7070\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7070\">Elemental Water</a>, <a href=\"https://www.wowhead.com/forever/item=6260\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6260\">Blue Dye</a> (2), <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a> (2), <a href=\"https://www.wowhead.com/forever/item=7071\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7071\">Iron Buckle</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Azure Silk Belt</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Waist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">26 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+5 Stamina</tt-inline-color></tt-line><tt-line data-line-type=\"captured-item-spell-trigger-on-equip\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases swim speed by 15%.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 30</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">14</span><span class=\"price-copper\">88</span></tt-line></div></div>"
   },
+  "8768": {
+    "spellId": 8768,
+    "name": "Iron Buckle",
+    "itemId": 7071,
+    "icon": 133607,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3575,
+        "name": "Iron Bar",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Iron Bar",
+    "reqSkill": 125,
+    "tooltipHtml": "<tt-title>Iron Buckle</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3575\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3575\">Iron Bar</a></tt-indented-line>Creates two Iron Buckles that are used by other trade skills.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Iron Buckle</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
+  },
   "8770": {
     "spellId": 8770,
     "name": "Robe of Power",
@@ -7859,6 +7879,31 @@
     "tooltipHtml": "<tt-title>Lesser Magic Wand</tt-title><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4470\">Simple Wood</a>, <a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Creates a lesser magic wand.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Lesser Magic Wand</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Ranged</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Wand</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">12 - 22 Arcane Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 1.50</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(11.3 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 1.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">10</span></tt-line></div></div>",
     "reqSkill": 10
   },
+  "14379": {
+    "spellId": 14379,
+    "name": "Golden Rod",
+    "itemId": 11128,
+    "icon": 135147,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3577,
+        "name": "Gold Bar",
+        "count": 1
+      },
+      {
+        "itemId": 3478,
+        "name": "Coarse Grinding Stone",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Gold Bar, Coarse Grinding Stone (2)",
+    "reqSkill": 125,
+    "tooltipHtml": "<tt-title>Golden Rod</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3577\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3577\">Gold Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3478\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3478\">Coarse Grinding Stone</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Golden Rod</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Needed by Enchanters.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>"
+  },
   "14807": {
     "spellId": 14807,
     "name": "Greater Magic Wand",
@@ -8279,6 +8324,36 @@
     "reqSkill": 250,
     "tooltipHtml": "<tt-title>Runecloth Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a>, <a href=\"https://www.wowhead.com/forever/item=249430\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249430\">Magenta Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runecloth Bag</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">14 Slot Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">50</span></tt-line></div></div>"
   },
+  "18406": {
+    "spellId": 18406,
+    "name": "Runecloth Robe",
+    "itemId": 13858,
+    "icon": 132645,
+    "quality": 2,
+    "tier": null,
+    "slot": "Chest",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 5
+      },
+      {
+        "itemId": 14227,
+        "name": "Ironweb Spider Silk",
+        "count": 1
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (5), Ironweb Spider Silk, Rune Thread",
+    "reqSkill": 235,
+    "tooltipHtml": "<tt-title>Runecloth Robe</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=14227\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14227\">Ironweb Spider Silk</a>, <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Runecloth Robe</tt-title><tt-line data-line-type=\"item-level\">Item Level 52</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Chest</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">68 Armor</tt-line><tt-line data-line-type=\"item-stat\">+17 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 11.</tt-line><tt-line data-line-type=\"durability\">Durability 115 / 115</tt-line><tt-line data-line-type=\"required-level\">Requires Level 47</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">9</span><span class=\"price-copper\">17</span></tt-line></div></div>"
+  },
   "18407": {
     "spellId": 18407,
     "name": "Runecloth Tunic",
@@ -8308,6 +8383,36 @@
     "reagentsText": "Bolt of Runecloth (5), Ironweb Spider Silk, Rune Thread",
     "tooltipHtml": "<tt-title>Runecloth Tunic</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=14227\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14227\">Ironweb Spider Silk</a>, <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Runecloth Tunic</tt-title><tt-line data-line-type=\"item-level\">Item Level 52</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Chest</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">68 Armor</tt-line><tt-line data-line-type=\"item-stat\">+11 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 17.</tt-line><tt-line data-line-type=\"durability\">Durability 115 / 115</tt-line><tt-line data-line-type=\"required-level\">Requires Level 47</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">1</span><span class=\"price-silver\">8</span><span class=\"price-copper\">78</span></tt-line></div></div>",
     "reqSkill": 260
+  },
+  "18409": {
+    "spellId": 18409,
+    "name": "Runecloth Cloak",
+    "itemId": 13860,
+    "icon": 133762,
+    "quality": 2,
+    "tier": null,
+    "slot": "Back",
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 4
+      },
+      {
+        "itemId": 14227,
+        "name": "Ironweb Spider Silk",
+        "count": 1
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (4), Ironweb Spider Silk, Rune Thread",
+    "reqSkill": 240,
+    "tooltipHtml": "<tt-title>Runecloth Cloak</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (4), <a href=\"https://www.wowhead.com/forever/item=14227\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14227\">Ironweb Spider Silk</a>, <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Runecloth Cloak</tt-title><tt-line data-line-type=\"item-level\">Item Level 53</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-line data-line-type=\"slot\">Back</tt-line><tt-line data-line-type=\"armor\">34 Armor</tt-line><tt-line data-line-type=\"item-stat\">+8 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 9.</tt-line><tt-line data-line-type=\"required-level\">Requires Level 48</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">87</span><span class=\"price-copper\">41</span></tt-line></div></div>"
   },
   "18412": {
     "spellId": 18412,
@@ -8783,6 +8888,31 @@
     "reagentsText": "Silver Bar, Rough Grinding Stone",
     "tooltipHtml": "<tt-title>Silver Skeleton Key</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2842\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2842\">Silver Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3470\">Rough Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Silver Skeleton Key</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=19646\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:19646\">Use: Allows opening of simple locks.  The skeleton key is consumed in the process.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing (75)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">50</span></tt-line></div></div>",
     "reqSkill": 75
+  },
+  "19667": {
+    "spellId": 19667,
+    "name": "Golden Skeleton Key",
+    "itemId": 15870,
+    "icon": 134247,
+    "quality": 2,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3577,
+        "name": "Gold Bar",
+        "count": 1
+      },
+      {
+        "itemId": 3486,
+        "name": "Heavy Grinding Stone",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Gold Bar, Heavy Grinding Stone",
+    "reqSkill": 125,
+    "tooltipHtml": "<tt-title>Golden Skeleton Key</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3577\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3577\">Gold Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3486\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3486\">Heavy Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Golden Skeleton Key</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=19649\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:19649\">Use: Allows opening of standard locks.  The skeleton key is consumed in the process.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing (125)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
   },
   "20011": {
     "spellId": 20011,
