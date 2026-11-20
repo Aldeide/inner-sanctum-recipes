@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-11-20T15:38:27.143Z",
+  "exportedAt": "2026-11-20T16:23:33.959Z",
   "schema": 1,
   "guilds": [
     {
@@ -1032,31 +1032,10 @@
         },
         {
           "spellId": 17551,
-          "name": "Recipe #17551",
+          "name": "Stonescale Oil",
           "profId": 171,
           "profName": "Alchemy",
           "itemId": 13423,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Elyin-Healz",
-              "fullName": "Elyin Healz",
-              "firstName": "Elyin",
-              "shortName": "Elyin",
-              "lastName": "Healz",
-              "realm": "Healz",
-              "skill": 272,
-              "max": 300,
-              "ts": 1795173473
-            }
-          ]
-        },
-        {
-          "spellId": 17553,
-          "name": "Recipe #17553",
-          "profId": 171,
-          "profName": "Alchemy",
-          "itemId": 13443,
           "isCustom": false,
           "crafters": [
             {
@@ -1079,6 +1058,27 @@
           "profName": "Alchemy",
           "itemId": 249410,
           "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 272,
+              "max": 300,
+              "ts": 1795173473
+            }
+          ]
+        },
+        {
+          "spellId": 17553,
+          "name": "Superior Mana Potion",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 13443,
+          "isCustom": false,
           "crafters": [
             {
               "char": "Elyin-Healz",
@@ -1869,6 +1869,48 @@
           ]
         },
         {
+          "spellId": 3501,
+          "name": "Green Iron Bracers",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3835,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 163,
+              "max": 225,
+              "ts": 1795173036
+            }
+          ]
+        },
+        {
+          "spellId": 3492,
+          "name": "Hardened Iron Shortsword",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3849,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 163,
+              "max": 225,
+              "ts": 1795173036
+            }
+          ]
+        },
+        {
           "spellId": 3296,
           "name": "Heavy Bronze Mace",
           "profId": 164,
@@ -2109,48 +2151,6 @@
               "skill": 150,
               "max": 150,
               "ts": 1795142741
-            }
-          ]
-        },
-        {
-          "spellId": 3492,
-          "name": "Recipe #3492",
-          "profId": 164,
-          "profName": "Blacksmithing",
-          "itemId": 3849,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Pala",
-              "fullName": "Maggie Pala",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Pala",
-              "realm": "Pala",
-              "skill": 163,
-              "max": 225,
-              "ts": 1795173036
-            }
-          ]
-        },
-        {
-          "spellId": 3501,
-          "name": "Recipe #3501",
-          "profId": 164,
-          "profName": "Blacksmithing",
-          "itemId": 3835,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Pala",
-              "fullName": "Maggie Pala",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Pala",
-              "realm": "Pala",
-              "skill": 163,
-              "max": 225,
-              "ts": 1795173036
             }
           ]
         },
@@ -2815,6 +2815,27 @@
           ]
         },
         {
+          "spellId": 1250144,
+          "name": "Bat Hachee",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 250067,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
+            }
+          ]
+        },
+        {
           "spellId": 2795,
           "name": "Beer Basted Boar Ribs",
           "profId": 185,
@@ -2843,6 +2864,27 @@
               "skill": 225,
               "max": 225,
               "ts": 1794936829
+            }
+          ]
+        },
+        {
+          "spellId": 3397,
+          "name": "Big Bear Steak",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 3726,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
             }
           ]
         },
@@ -2972,6 +3014,38 @@
               "skill": 188,
               "max": 225,
               "ts": 1794933861
+            }
+          ]
+        },
+        {
+          "spellId": 1295805,
+          "name": "Briny Seafood Stew",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 274971,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795102463
+            },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
             }
           ]
         },
@@ -3343,6 +3417,48 @@
           ]
         },
         {
+          "spellId": 18241,
+          "name": "Filet of Redgill",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 13930,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
+            }
+          ]
+        },
+        {
+          "spellId": 6415,
+          "name": "Fillet of Frenzy",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 5476,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
           "spellId": 1250155,
           "name": "Giant Scrambled Eggs",
           "profId": 185,
@@ -3601,6 +3717,48 @@
           ]
         },
         {
+          "spellId": 6419,
+          "name": "Lean Venison",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 5480,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
+          "spellId": 7754,
+          "name": "Loch Frenzy Delight",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 6316,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
           "spellId": 7753,
           "name": "Longjaw Mud Snapper",
           "profId": 185,
@@ -3751,6 +3909,48 @@
           ]
         },
         {
+          "spellId": 18243,
+          "name": "Nightfin Soup",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 13931,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
+            }
+          ]
+        },
+        {
+          "spellId": 1249957,
+          "name": "Peace Tea",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 249865,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
           "spellId": 7827,
           "name": "Rainbow Fin Albacore",
           "profId": 185,
@@ -3812,343 +4012,6 @@
               "skill": 188,
               "max": 225,
               "ts": 1794933861
-            }
-          ]
-        },
-        {
-          "spellId": 1249957,
-          "name": "Recipe #1249957",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 249865,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 1249961,
-          "name": "Recipe #1249961",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 249869,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            }
-          ]
-        },
-        {
-          "spellId": 1249962,
-          "name": "Recipe #1249962",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 249870,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            }
-          ]
-        },
-        {
-          "spellId": 1250144,
-          "name": "Recipe #1250144",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 250067,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            }
-          ]
-        },
-        {
-          "spellId": 1250156,
-          "name": "Recipe #1250156",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 250079,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            },
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 1295805,
-          "name": "Recipe #1295805",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 274971,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Elyin-Healz",
-              "fullName": "Elyin Healz",
-              "firstName": "Elyin",
-              "shortName": "Elyin",
-              "lastName": "Healz",
-              "realm": "Healz",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795102463
-            },
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 18241,
-          "name": "Recipe #18241",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 13930,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            }
-          ]
-        },
-        {
-          "spellId": 18243,
-          "name": "Recipe #18243",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 13931,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795035057
-            }
-          ]
-        },
-        {
-          "spellId": 20626,
-          "name": "Recipe #20626",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 16766,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 22480,
-          "name": "Recipe #22480",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 18045,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 3397,
-          "name": "Recipe #3397",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 3726,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 3400,
-          "name": "Recipe #3400",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 3729,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 6415,
-          "name": "Recipe #6415",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 5476,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 6419,
-          "name": "Recipe #6419",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 5480,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
-            }
-          ]
-        },
-        {
-          "spellId": 7754,
-          "name": "Recipe #7754",
-          "profId": 185,
-          "profName": "Cooking",
-          "itemId": 6316,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795068471
             }
           ]
         },
@@ -4386,6 +4249,27 @@
               "skill": 225,
               "max": 225,
               "ts": 1794936829
+            }
+          ]
+        },
+        {
+          "spellId": 1249962,
+          "name": "Sage's Tea",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 249870,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
             }
           ]
         },
@@ -4657,6 +4541,27 @@
           ]
         },
         {
+          "spellId": 3400,
+          "name": "Soothing Turtle Bisque",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 3729,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
           "spellId": 2539,
           "name": "Spiced Wolf Meat",
           "profId": 185,
@@ -4807,6 +4712,27 @@
           ]
         },
         {
+          "spellId": 1249961,
+          "name": "Sunny Tea",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 249869,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
+            }
+          ]
+        },
+        {
           "spellId": 3399,
           "name": "Tasty Lion Steak",
           "profId": 185,
@@ -4846,6 +4772,80 @@
               "skill": 188,
               "max": 225,
               "ts": 1794933861
+            }
+          ]
+        },
+        {
+          "spellId": 1250156,
+          "name": "Tasty Raptor Bites",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 250079,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795035057
+            },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
+          "spellId": 22480,
+          "name": "Tender Wolf Steak",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 18045,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
+            }
+          ]
+        },
+        {
+          "spellId": 20626,
+          "name": "Undermine Clam Chowder",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 16766,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795068471
             }
           ]
         },
@@ -4921,6 +4921,27 @@
               "skill": 259,
               "max": 300,
               "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 1249114,
+          "name": "Dormant Heart of the Mountain",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": 249473,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
             }
           ]
         },
@@ -5118,6 +5139,27 @@
           ]
         },
         {
+          "spellId": 13380,
+          "name": "Enchant 2H Weapon - Lesser Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
           "spellId": 20035,
           "name": "Enchant 2H Weapon - Major Spirit",
           "profId": 333,
@@ -5214,6 +5256,27 @@
           ]
         },
         {
+          "spellId": 20023,
+          "name": "Enchant Boots - Greater Agility",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
+            }
+          ]
+        },
+        {
           "spellId": 20020,
           "name": "Enchant Boots - Greater Stamina",
           "profId": 333,
@@ -5296,6 +5359,27 @@
               "max": 300,
               "ts": 1795180913
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 7867,
+          "name": "Enchant Boots - Minor Agility",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -5524,6 +5608,27 @@
           ]
         },
         {
+          "spellId": 23802,
+          "name": "Enchant Bracer - Healing Power",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Moo",
+              "fullName": "Maggie Moo",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Moo",
+              "realm": "Moo",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795107900
+            }
+          ]
+        },
+        {
           "spellId": 7418,
           "name": "Enchant Bracer - Inferior Stamina",
           "profId": 333,
@@ -5638,6 +5743,27 @@
               "max": 300,
               "ts": 1795180913
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 7859,
+          "name": "Enchant Bracer - Lesser Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -5791,6 +5917,27 @@
           ]
         },
         {
+          "spellId": 7766,
+          "name": "Enchant Bracer - Minor Spirit",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
           "spellId": 7457,
           "name": "Enchant Bracer - Minor Stamina",
           "profId": 333,
@@ -5820,6 +5967,27 @@
               "max": 300,
               "ts": 1795107900
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 7782,
+          "name": "Enchant Bracer - Minor Strength",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -5968,6 +6136,27 @@
               "skill": 300,
               "max": 300,
               "ts": 1795107900
+            }
+          ]
+        },
+        {
+          "spellId": 1249071,
+          "name": "Enchant Chest - Absorption",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
             }
           ]
         },
@@ -6721,6 +6910,27 @@
           ]
         },
         {
+          "spellId": 13419,
+          "name": "Enchant Cloak - Minor Agility",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
           "spellId": 7771,
           "name": "Enchant Cloak - Minor Protection",
           "profId": 333,
@@ -6945,6 +7155,27 @@
           ]
         },
         {
+          "spellId": 13612,
+          "name": "Enchant Gloves - Mining",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
           "spellId": 13948,
           "name": "Enchant Gloves - Minor Haste",
           "profId": 333,
@@ -6984,6 +7215,27 @@
               "skill": 259,
               "max": 300,
               "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 13947,
+          "name": "Enchant Gloves - Riding Skill",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Moo",
+              "fullName": "Maggie Moo",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Moo",
+              "realm": "Moo",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795107900
             }
           ]
         },
@@ -7059,6 +7311,69 @@
               "skill": 259,
               "max": 300,
               "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 1249059,
+          "name": "Enchant Necklace - Agility",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
+            }
+          ]
+        },
+        {
+          "spellId": 1249060,
+          "name": "Enchant Necklace - Deflection",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
+            }
+          ]
+        },
+        {
+          "spellId": 1249058,
+          "name": "Enchant Necklace - Healing Power",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
             }
           ]
         },
@@ -7187,6 +7502,27 @@
               "skill": 300,
               "max": 300,
               "ts": 1795107900
+            }
+          ]
+        },
+        {
+          "spellId": 13464,
+          "name": "Enchant Shield - Lesser Protection",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
             }
           ]
         },
@@ -7458,6 +7794,27 @@
           ]
         },
         {
+          "spellId": 7786,
+          "name": "Enchant Weapon - Minor Beastslayer",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 259,
+              "max": 300,
+              "ts": 1795038410
+            }
+          ]
+        },
+        {
           "spellId": 7788,
           "name": "Enchant Weapon - Minor Striking",
           "profId": 333,
@@ -7615,6 +7972,27 @@
               "skill": 259,
               "max": 300,
               "ts": 1795038410
+            }
+          ]
+        },
+        {
+          "spellId": 20031,
+          "name": "Enchant Weapon - Superior Striking",
+          "profId": 333,
+          "profName": "Enchanting",
+          "itemId": null,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Bob-One",
+              "fullName": "Bob One",
+              "firstName": "Bob",
+              "shortName": "Bob",
+              "lastName": "One",
+              "realm": "One",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795180913
             }
           ]
         },
@@ -8091,384 +8469,6 @@
           ]
         },
         {
-          "spellId": 1249058,
-          "name": "Recipe #1249058",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 1249059,
-          "name": "Recipe #1249059",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 1249060,
-          "name": "Recipe #1249060",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 1249071,
-          "name": "Recipe #1249071",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 1249114,
-          "name": "Recipe #1249114",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": 249473,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 13380,
-          "name": "Recipe #13380",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 13419,
-          "name": "Recipe #13419",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 13464,
-          "name": "Recipe #13464",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 13612,
-          "name": "Recipe #13612",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 13947,
-          "name": "Recipe #13947",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Moo",
-              "fullName": "Maggie Moo",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Moo",
-              "realm": "Moo",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795107900
-            }
-          ]
-        },
-        {
-          "spellId": 20023,
-          "name": "Recipe #20023",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 20031,
-          "name": "Recipe #20031",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Bob-One",
-              "fullName": "Bob One",
-              "firstName": "Bob",
-              "shortName": "Bob",
-              "lastName": "One",
-              "realm": "One",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795180913
-            }
-          ]
-        },
-        {
-          "spellId": 23802,
-          "name": "Recipe #23802",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Moo",
-              "fullName": "Maggie Moo",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Moo",
-              "realm": "Moo",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795107900
-            }
-          ]
-        },
-        {
-          "spellId": 7766,
-          "name": "Recipe #7766",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 7782,
-          "name": "Recipe #7782",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 7786,
-          "name": "Recipe #7786",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 7859,
-          "name": "Recipe #7859",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
-          "spellId": 7867,
-          "name": "Recipe #7867",
-          "profId": 333,
-          "profName": "Enchanting",
-          "itemId": null,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 259,
-              "max": 300,
-              "ts": 1795038410
-            }
-          ]
-        },
-        {
           "spellId": 20051,
           "name": "Runed Arcanite Rod",
           "profId": 333,
@@ -8704,6 +8704,27 @@
           ]
         },
         {
+          "spellId": 8766,
+          "name": "Azure Silk Belt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7052,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 8786,
           "name": "Azure Silk Cloak",
           "profId": 197,
@@ -8886,6 +8907,27 @@
           ]
         },
         {
+          "spellId": 1257447,
+          "name": "Black Cord",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254043,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 12053,
           "name": "Black Mageweave Gloves",
           "profId": 197,
@@ -8961,6 +9003,27 @@
           ]
         },
         {
+          "spellId": 12050,
+          "name": "Black Mageweave Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10001,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 12048,
           "name": "Black Mageweave Vest",
           "profId": 197,
@@ -8979,6 +9042,132 @@
               "max": 300,
               "ts": 1795143257
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 6695,
+          "name": "Black Silk Pack",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 5765,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257429,
+          "name": "Black Slippers",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254007,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 7633,
+          "name": "Blue Linen Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6242,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 2394,
+          "name": "Blue Linen Shirt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 2577,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 7630,
+          "name": "Blue Linen Vest",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6240,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 7639,
+          "name": "Blue Overalls",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6263,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -9399,6 +9588,27 @@
           ]
         },
         {
+          "spellId": 12069,
+          "name": "Cindercloth Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10042,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 18422,
           "name": "Cloak of Fire",
           "profId": 197,
@@ -9416,6 +9626,27 @@
               "skill": 300,
               "max": 300,
               "ts": 1795051074
+            }
+          ]
+        },
+        {
+          "spellId": 12047,
+          "name": "Colorful Kilt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10048,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
             }
           ]
         },
@@ -9452,6 +9683,48 @@
           ]
         },
         {
+          "spellId": 8789,
+          "name": "Crimson Silk Cloak",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7056,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8804,
+          "name": "Crimson Silk Gloves",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7064,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 8799,
           "name": "Crimson Silk Pantaloons",
           "profId": 197,
@@ -9470,6 +9743,27 @@
               "max": 300,
               "ts": 1795051074
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8802,
+          "name": "Crimson Silk Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7063,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -9570,6 +9864,153 @@
           ]
         },
         {
+          "spellId": 12092,
+          "name": "Dreamweave Circlet",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10041,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12067,
+          "name": "Dreamweave Gloves",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10019,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12070,
+          "name": "Dreamweave Vest",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10021,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8797,
+          "name": "Earthen Silk Belt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7061,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257433,
+          "name": "Earthen Silk Hood",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254015,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8764,
+          "name": "Earthen Vest",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7051,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257464,
+          "name": "Earthenweave Cord",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254077,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 1257463,
           "name": "Earthenweave Gloves",
           "profId": 197,
@@ -9655,6 +10096,27 @@
           ]
         },
         {
+          "spellId": 26086,
+          "name": "Felcloth Bag",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 21341,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Moo",
+              "fullName": "Maggie Moo",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Moo",
+              "realm": "Moo",
+              "skill": 300,
+              "max": 300,
+              "ts": 1795051074
+            }
+          ]
+        },
+        {
           "spellId": 18437,
           "name": "Felcloth Boots",
           "profId": 197,
@@ -9718,6 +10180,48 @@
           ]
         },
         {
+          "spellId": 1257446,
+          "name": "Fiery Cord",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254041,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257428,
+          "name": "Fiery Slippers",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254005,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 1257380,
           "name": "Filigreed Pearly Gown",
           "profId": 197,
@@ -9739,6 +10243,48 @@
           ]
         },
         {
+          "spellId": 1257398,
+          "name": "Filigreed Pearly Leggings",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253945,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257376,
+          "name": "Filigreed Pristine Gown",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253901,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 1257394,
           "name": "Filigreed Pristine Leggings",
           "profId": 197,
@@ -9756,6 +10302,48 @@
               "skill": 300,
               "max": 300,
               "ts": 1795051074
+            }
+          ]
+        },
+        {
+          "spellId": 1257379,
+          "name": "Filigreed Shadow Gown",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253907,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257397,
+          "name": "Filigreed Shadow Leggings",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253943,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
             }
           ]
         },
@@ -9792,6 +10380,27 @@
           ]
         },
         {
+          "spellId": 1257427,
+          "name": "Frothing Slippers",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254003,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 1257462,
           "name": "Ghostweave Cord",
           "profId": 197,
@@ -9809,6 +10418,27 @@
               "skill": 258,
               "max": 300,
               "ts": 1795143257
+            }
+          ]
+        },
+        {
+          "spellId": 1257426,
+          "name": "Gilded Slippers",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 254001,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
             }
           ]
         },
@@ -9874,6 +10504,90 @@
               "max": 300,
               "ts": 1795143257
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 2403,
+          "name": "Gray Woolen Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 2585,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 2406,
+          "name": "Gray Woolen Shirt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 2587,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 7643,
+          "name": "Greater Adept's Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6264,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 3841,
+          "name": "Green Linen Bracers",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 4308,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -10656,6 +11370,27 @@
           ]
         },
         {
+          "spellId": 1257369,
+          "name": "Novice Ardent's Sash",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253887,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 12061,
           "name": "Orange Mageweave Shirt",
           "profId": 197,
@@ -10752,1272 +11487,12 @@
           ]
         },
         {
-          "spellId": 12045,
-          "name": "Recipe #12045",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10046,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12047,
-          "name": "Recipe #12047",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10048,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12050,
-          "name": "Recipe #12050",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10001,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12052,
-          "name": "Recipe #12052",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10002,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12055,
-          "name": "Recipe #12055",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10004,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12067,
-          "name": "Recipe #12067",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10019,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12069,
-          "name": "Recipe #12069",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10042,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12070,
-          "name": "Recipe #12070",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10021,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12071,
-          "name": "Recipe #12071",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10023,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12076,
-          "name": "Recipe #12076",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10028,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12082,
-          "name": "Recipe #12082",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10031,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12086,
-          "name": "Recipe #12086",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10025,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12087,
-          "name": "Recipe #12087",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10038,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 12092,
-          "name": "Recipe #12092",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 10041,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257369,
-          "name": "Recipe #1257369",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253887,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257376,
-          "name": "Recipe #1257376",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253901,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257379,
-          "name": "Recipe #1257379",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253907,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257385,
-          "name": "Recipe #1257385",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253919,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257397,
-          "name": "Recipe #1257397",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253943,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257398,
-          "name": "Recipe #1257398",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253945,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257403,
-          "name": "Recipe #1257403",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 253955,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257426,
-          "name": "Recipe #1257426",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254001,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257427,
-          "name": "Recipe #1257427",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254003,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257428,
-          "name": "Recipe #1257428",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254005,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257429,
-          "name": "Recipe #1257429",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254007,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
           "spellId": 1257431,
-          "name": "Recipe #1257431",
+          "name": "Radiant Slippers",
           "profId": 197,
           "profName": "Tailoring",
           "itemId": 254011,
           "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257433,
-          "name": "Recipe #1257433",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254015,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257446,
-          "name": "Recipe #1257446",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254041,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257447,
-          "name": "Recipe #1257447",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254043,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 1257464,
-          "name": "Recipe #1257464",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 254077,
-          "isCustom": true,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 18406,
-          "name": "Recipe #18406",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 13858,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Callum-Magic",
-              "fullName": "Callum Magic",
-              "firstName": "Callum",
-              "shortName": "Callum",
-              "lastName": "Magic",
-              "realm": "Magic",
-              "skill": 258,
-              "max": 300,
-              "ts": 1795143257
-            }
-          ]
-        },
-        {
-          "spellId": 18409,
-          "name": "Recipe #18409",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 13860,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Callum-Magic",
-              "fullName": "Callum Magic",
-              "firstName": "Callum",
-              "shortName": "Callum",
-              "lastName": "Magic",
-              "realm": "Magic",
-              "skill": 258,
-              "max": 300,
-              "ts": 1795143257
-            }
-          ]
-        },
-        {
-          "spellId": 18423,
-          "name": "Recipe #18423",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 13864,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Callum-Magic",
-              "fullName": "Callum Magic",
-              "firstName": "Callum",
-              "shortName": "Callum",
-              "lastName": "Magic",
-              "realm": "Magic",
-              "skill": 258,
-              "max": 300,
-              "ts": 1795143257
-            }
-          ]
-        },
-        {
-          "spellId": 2389,
-          "name": "Recipe #2389",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 2572,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 2394,
-          "name": "Recipe #2394",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 2577,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 2403,
-          "name": "Recipe #2403",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 2585,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 2406,
-          "name": "Recipe #2406",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 2587,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 26086,
-          "name": "Recipe #26086",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 21341,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Moo",
-              "fullName": "Maggie Moo",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Moo",
-              "realm": "Moo",
-              "skill": 300,
-              "max": 300,
-              "ts": 1795051074
-            }
-          ]
-        },
-        {
-          "spellId": 3841,
-          "name": "Recipe #3841",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 4308,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 3847,
-          "name": "Recipe #3847",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 4313,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 3849,
-          "name": "Recipe #3849",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 4315,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 3866,
-          "name": "Recipe #3866",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 4330,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 6688,
-          "name": "Recipe #6688",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 5763,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 6692,
-          "name": "Recipe #6692",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 5770,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 6695,
-          "name": "Recipe #6695",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 5765,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 7629,
-          "name": "Recipe #7629",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6239,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 7630,
-          "name": "Recipe #7630",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6240,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 7633,
-          "name": "Recipe #7633",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6242,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 7639,
-          "name": "Recipe #7639",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6263,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 7643,
-          "name": "Recipe #7643",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6264,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8465,
-          "name": "Recipe #8465",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6786,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8467,
-          "name": "Recipe #8467",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6787,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8483,
-          "name": "Recipe #8483",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 6795,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8764,
-          "name": "Recipe #8764",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7051,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8766,
-          "name": "Recipe #8766",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7052,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8770,
-          "name": "Recipe #8770",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7054,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8782,
-          "name": "Recipe #8782",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7049,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8789,
-          "name": "Recipe #8789",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7056,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8797,
-          "name": "Recipe #8797",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7061,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8802,
-          "name": "Recipe #8802",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7063,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Stara-Sabla",
-              "fullName": "Stara Sabla",
-              "firstName": "Stara",
-              "shortName": "Stara",
-              "lastName": "Sabla",
-              "realm": "Sabla",
-              "skill": 228,
-              "max": 300,
-              "ts": 1795076298
-            }
-          ]
-        },
-        {
-          "spellId": 8804,
-          "name": "Recipe #8804",
-          "profId": 197,
-          "profName": "Tailoring",
-          "itemId": 7064,
-          "isCustom": false,
           "crafters": [
             {
               "char": "Stara-Sabla",
@@ -12076,6 +11551,27 @@
           ]
         },
         {
+          "spellId": 2389,
+          "name": "Red Linen Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 2572,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 2392,
           "name": "Red Linen Shirt",
           "profId": 197,
@@ -12094,6 +11590,27 @@
               "max": 300,
               "ts": 1795143257
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 7629,
+          "name": "Red Linen Vest",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6239,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -12236,6 +11753,48 @@
           ]
         },
         {
+          "spellId": 6688,
+          "name": "Red Woolen Bag",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 5763,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 3847,
+          "name": "Red Woolen Boots",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 4313,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 2397,
           "name": "Reinforced Linen Cape",
           "profId": 197,
@@ -12268,6 +11827,48 @@
           ]
         },
         {
+          "spellId": 3849,
+          "name": "Reinforced Woolen Shoulders",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 4315,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8770,
+          "name": "Robe of Power",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7054,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 18457,
           "name": "Robe of the Archmage",
           "profId": 197,
@@ -12285,6 +11886,27 @@
               "skill": 300,
               "max": 300,
               "ts": 1795051074
+            }
+          ]
+        },
+        {
+          "spellId": 6692,
+          "name": "Robes of Arcana",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 5770,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
             }
           ]
         },
@@ -12328,6 +11950,48 @@
               "max": 300,
               "ts": 1795051074
             },
+            {
+              "char": "Callum-Magic",
+              "fullName": "Callum Magic",
+              "firstName": "Callum",
+              "shortName": "Callum",
+              "lastName": "Magic",
+              "realm": "Magic",
+              "skill": 258,
+              "max": 300,
+              "ts": 1795143257
+            }
+          ]
+        },
+        {
+          "spellId": 18423,
+          "name": "Runecloth Boots",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 13864,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Callum-Magic",
+              "fullName": "Callum Magic",
+              "firstName": "Callum",
+              "shortName": "Callum",
+              "lastName": "Magic",
+              "realm": "Magic",
+              "skill": 258,
+              "max": 300,
+              "ts": 1795143257
+            }
+          ]
+        },
+        {
+          "spellId": 18409,
+          "name": "Runecloth Cloak",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 13860,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Callum-Magic",
               "fullName": "Callum Magic",
@@ -12416,6 +12080,27 @@
           ]
         },
         {
+          "spellId": 18406,
+          "name": "Runecloth Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 13858,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Callum-Magic",
+              "fullName": "Callum Magic",
+              "firstName": "Callum",
+              "shortName": "Callum",
+              "lastName": "Magic",
+              "realm": "Magic",
+              "skill": 258,
+              "max": 300,
+              "ts": 1795143257
+            }
+          ]
+        },
+        {
           "spellId": 18449,
           "name": "Runecloth Shoulders",
           "profId": 197,
@@ -12469,6 +12154,174 @@
           ]
         },
         {
+          "spellId": 1257403,
+          "name": "Shadow Circlet",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253955,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 1257385,
+          "name": "Shadow Gloves",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 253919,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12082,
+          "name": "Shadoweave Boots",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10031,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12071,
+          "name": "Shadoweave Gloves",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10023,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12086,
+          "name": "Shadoweave Mask",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10025,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12052,
+          "name": "Shadoweave Pants",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10002,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12055,
+          "name": "Shadoweave Robe",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10004,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12076,
+          "name": "Shadoweave Shoulders",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10028,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 8762,
           "name": "Silk Headband",
           "profId": 197,
@@ -12512,6 +12365,27 @@
           ]
         },
         {
+          "spellId": 8465,
+          "name": "Simple Dress",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6786,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 12046,
           "name": "Simple Kilt",
           "profId": 197,
@@ -12530,6 +12404,27 @@
               "max": 300,
               "ts": 1795143257
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 12045,
+          "name": "Simple Linen Boots",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10046,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
@@ -12715,6 +12610,69 @@
           ]
         },
         {
+          "spellId": 12087,
+          "name": "Stormcloth Shoulders",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 10038,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 3866,
+          "name": "Stylish Red Shirt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 4330,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8782,
+          "name": "Truefaith Gloves",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 7049,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
           "spellId": 12059,
           "name": "White Bandit Mask",
           "profId": 197,
@@ -12797,6 +12755,48 @@
               "max": 300,
               "ts": 1795143257
             },
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8483,
+          "name": "White Swashbuckler's Shirt",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6795,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Stara-Sabla",
+              "fullName": "Stara Sabla",
+              "firstName": "Stara",
+              "shortName": "Stara",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 228,
+              "max": 300,
+              "ts": 1795076298
+            }
+          ]
+        },
+        {
+          "spellId": 8467,
+          "name": "White Woolen Dress",
+          "profId": 197,
+          "profName": "Tailoring",
+          "itemId": 6787,
+          "isCustom": false,
+          "crafters": [
             {
               "char": "Stara-Sabla",
               "fullName": "Stara Sabla",
