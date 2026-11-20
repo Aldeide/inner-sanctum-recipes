@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-11-20T19:05:40.983Z",
+  "exportedAt": "2026-11-20T19:52:14.707Z",
   "schema": 1,
   "guilds": [
     {
@@ -12966,7 +12966,7 @@
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795199391,
+      "lastUpdated": 1795201824,
       "professions": [
         {
           "id": 171,
@@ -13004,7 +13004,7 @@
           "id": 164,
           "name": "Blacksmithing",
           "isSecondary": false,
-          "recipeCount": 35,
+          "recipeCount": 57,
           "crafters": [
             {
               "char": "Maggie-Pala",
@@ -13017,6 +13017,18 @@
               "max": 225,
               "recipeCount": 35,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "recipeCount": 55,
+              "ts": 1795201824
             }
           ]
         },
@@ -13178,6 +13190,27 @@
         }
       ],
       "crafters": [
+        {
+          "char": "Aldeide-Valesong",
+          "fullName": "Aldeide Valesong",
+          "firstName": "Aldeide",
+          "shortName": "Aldeide",
+          "lastName": "Valesong",
+          "realm": "Valesong",
+          "lastUpdated": 1795201824,
+          "totalRecipes": 55,
+          "professions": [
+            {
+              "id": 164,
+              "name": "Blacksmithing",
+              "isSecondary": false,
+              "skill": 150,
+              "max": 225,
+              "recipeCount": 55,
+              "ts": 1795201824
+            }
+          ]
+        },
         {
           "char": "Bob-One",
           "fullName": "Bob One",
@@ -14119,6 +14152,153 @@
           ]
         },
         {
+          "spellId": 3491,
+          "name": "Big Bronze Knife",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3848,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 2741,
+          "name": "Bronze Axe",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 2849,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 9987,
+          "name": "Bronze Battle Axe",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7958,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 1252352,
+          "name": "Bronze Dory",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 250603,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 9986,
+          "name": "Bronze Greatsword",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7957,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 2740,
+          "name": "Bronze Mace",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 2848,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 2742,
+          "name": "Bronze Shortsword",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 2850,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
           "spellId": 9985,
           "name": "Bronze Warhammer",
           "profId": 164,
@@ -14136,6 +14316,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14157,6 +14348,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14178,6 +14380,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14199,6 +14412,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14220,6 +14444,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14241,6 +14476,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14262,6 +14508,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14283,6 +14540,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14304,6 +14572,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14325,6 +14604,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14346,6 +14636,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14367,6 +14668,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14388,6 +14700,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14409,6 +14732,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14430,6 +14764,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14451,6 +14796,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14472,6 +14828,59 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 14379,
+          "name": "Golden Rod",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 11128,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 19667,
+          "name": "Golden Skeleton Key",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 15870,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14518,6 +14927,69 @@
           ]
         },
         {
+          "spellId": 3296,
+          "name": "Heavy Bronze Mace",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3491,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 3292,
+          "name": "Heavy Copper Broadsword",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3487,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 7408,
+          "name": "Heavy Copper Maul",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 6214,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
           "spellId": 3337,
           "name": "Heavy Grinding Stone",
           "profId": 164,
@@ -14535,6 +15007,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14556,6 +15039,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14577,6 +15071,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14598,6 +15103,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14619,6 +15135,80 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 6517,
+          "name": "Pearl-handled Dagger",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 5540,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 7817,
+          "name": "Rough Bronze Boots",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 6350,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 2670,
+          "name": "Rough Bronze Cuirass",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 2866,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14640,6 +15230,38 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 3328,
+          "name": "Rough Bronze Shoulders",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3480,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14661,6 +15283,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14682,6 +15315,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14703,6 +15347,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14724,6 +15379,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14745,6 +15411,38 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 2664,
+          "name": "Runed Copper Bracers",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 2854,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14766,6 +15464,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14787,6 +15496,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14808,6 +15528,17 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14829,6 +15560,101 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 19666,
+          "name": "Silver Skeleton Key",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 15869,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 3331,
+          "name": "Silvered Bronze Boots",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3482,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 3333,
+          "name": "Silvered Bronze Gauntlets",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3483,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 1252233,
+          "name": "Sterling Silver Leggings",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 250484,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
@@ -14850,6 +15676,38 @@
               "skill": 163,
               "max": 225,
               "ts": 1795173036
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
+            }
+          ]
+        },
+        {
+          "spellId": 3294,
+          "name": "Thick War Axe",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 3489,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 150,
+              "max": 225,
+              "ts": 1795201824
             }
           ]
         },
