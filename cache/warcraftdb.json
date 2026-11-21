@@ -5859,6 +5859,36 @@
     "reqSkill": 185,
     "tooltipHtml": "<tt-title>Arcane Elixir</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8839\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8839\">Blindweed</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Arcane Elixir</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11390\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11390\">Use: Increases spell damage by up to 20 for 30 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 37</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span></tt-line></div></div>"
   },
+  "11472": {
+    "spellId": 11472,
+    "name": "Elixir of Greater Strength",
+    "itemId": 9206,
+    "icon": 134839,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 8838,
+        "name": "Sungrass",
+        "count": 1
+      },
+      {
+        "itemId": 8846,
+        "name": "Gromsblood",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Sungrass, Gromsblood, Crystal Vial",
+    "reqSkill": 240,
+    "tooltipHtml": "<tt-title>Elixir of Greater Strength</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a>, <a href=\"https://www.wowhead.com/forever/item=8846\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8846\">Gromsblood</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Greater Strength</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11405\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11405\">Use: Increases your Strength by 25 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 48</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">7</span></tt-line></div></div>"
+  },
   "12044": {
     "spellId": 12044,
     "name": "Simple Linen Pants",
