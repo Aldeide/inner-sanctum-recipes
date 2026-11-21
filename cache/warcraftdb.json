@@ -6374,6 +6374,86 @@
     "reqSkill": 200,
     "tooltipHtml": "<tt-title>Shadoweave Gloves</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (5), <a href=\"https://www.wowhead.com/forever/item=10285\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10285\">Shadow Silk</a> (5), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Shadoweave Gloves</tt-title><tt-line data-line-type=\"item-level\">Item Level 45</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Hands</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">37 Armor</tt-line><tt-line data-line-type=\"item-stat\">+5 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases shadow damage done by up to 17.</tt-line><tt-line data-line-type=\"durability\">Durability 40 / 40</tt-line><tt-line data-line-type=\"required-level\">Requires Level 40</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">33</span><span class=\"price-copper\">34</span></tt-line></div></div>"
   },
+  "12072": {
+    "spellId": 12072,
+    "name": "Black Mageweave Headband",
+    "itemId": 10024,
+    "icon": 133693,
+    "quality": 2,
+    "tier": null,
+    "slot": "Head",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 4339,
+        "name": "Bolt of Mageweave",
+        "count": 3
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Bolt of Mageweave (3), Heavy Silken Thread (2)",
+    "reqSkill": 205,
+    "tooltipHtml": "<tt-title>Black Mageweave Headband</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (3), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Black Mageweave Headband</tt-title><tt-line data-line-type=\"item-level\">Item Level 46</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Head</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">49 Armor</tt-line><tt-line data-line-type=\"item-stat\">+12 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 13.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 41</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">54</span><span class=\"price-copper\">21</span></tt-line></div></div>"
+  },
+  "12073": {
+    "spellId": 12073,
+    "name": "Black Mageweave Boots",
+    "itemId": 10026,
+    "icon": 132539,
+    "quality": 2,
+    "tier": null,
+    "slot": "Feet",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 4339,
+        "name": "Bolt of Mageweave",
+        "count": 3
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 2
+      },
+      {
+        "itemId": 4304,
+        "name": "Thick Leather",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Bolt of Mageweave (3), Heavy Silken Thread (2), Thick Leather (2)",
+    "reqSkill": 205,
+    "tooltipHtml": "<tt-title>Black Mageweave Boots</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (3), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2), <a href=\"https://www.wowhead.com/forever/item=4304\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4304\">Thick Leather</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Black Mageweave Boots</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Feet</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">41 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+7 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 11.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 41</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">54</span><span class=\"price-copper\">59</span></tt-line></div></div>"
+  },
+  "12074": {
+    "spellId": 12074,
+    "name": "Black Mageweave Shoulders",
+    "itemId": 10027,
+    "icon": 135056,
+    "quality": 2,
+    "tier": null,
+    "slot": "Shoulder",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 4339,
+        "name": "Bolt of Mageweave",
+        "count": 3
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Bolt of Mageweave (3), Heavy Silken Thread (2)",
+    "reqSkill": 205,
+    "tooltipHtml": "<tt-title>Black Mageweave Shoulders</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (3), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Black Mageweave Shoulders</tt-title><tt-line data-line-type=\"item-level\">Item Level 46</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Shoulder</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">45 Armor</tt-line><tt-line data-line-type=\"item-stat\">+9 Intellect</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases spell power by 10.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 41</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">54</span><span class=\"price-copper\">79</span></tt-line></div></div>"
+  },
   "12076": {
     "spellId": 12076,
     "name": "Shadoweave Shoulders",
@@ -6403,6 +6483,41 @@
     "reagentsText": "Bolt of Mageweave (5), Shadow Silk (4), Heavy Silken Thread (2)",
     "reqSkill": 210,
     "tooltipHtml": "<tt-title>Shadoweave Shoulders</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (5), <a href=\"https://www.wowhead.com/forever/item=10285\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10285\">Shadow Silk</a> (4), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Shadoweave Shoulders</tt-title><tt-line data-line-type=\"item-level\">Item Level 47</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Shoulder</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">46 Armor</tt-line><tt-line data-line-type=\"item-stat\">+7 Stamina</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases shadow damage done by up to 17.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 42</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">59</span><span class=\"price-copper\">38</span></tt-line></div></div>"
+  },
+  "12077": {
+    "spellId": 12077,
+    "name": "Simple Black Dress",
+    "itemId": 10053,
+    "icon": 132662,
+    "quality": 1,
+    "tier": null,
+    "slot": "Chest",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 4339,
+        "name": "Bolt of Mageweave",
+        "count": 3
+      },
+      {
+        "itemId": 2325,
+        "name": "Black Dye",
+        "count": 1
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 1
+      },
+      {
+        "itemId": 2324,
+        "name": "Bleach",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Bolt of Mageweave (3), Black Dye, Heavy Silken Thread, Bleach",
+    "reqSkill": 200,
+    "tooltipHtml": "<tt-title>Simple Black Dress</tt-title><tt-double-line><span>25 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (3), <a href=\"https://www.wowhead.com/forever/item=2325\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2325\">Black Dye</a>, <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a>, <a href=\"https://www.wowhead.com/forever/item=2324\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2324\">Bleach</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Simple Black Dress</tt-title><tt-line data-line-type=\"item-level\">Item Level 47</tt-line><tt-double-line><span>Chest</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">58 Armor</tt-line><tt-line data-line-type=\"durability\">Durability 115 / 115</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">44</span><span class=\"price-copper\">99</span></tt-line></div></div>"
   },
   "12078": {
     "spellId": 12078,
@@ -6588,6 +6703,41 @@
     "reagentsText": "Bolt of Mageweave (5), Globe of Water (6), Heavy Silken Thread (3)",
     "reqSkill": 220,
     "tooltipHtml": "<tt-title>Stormcloth Shoulders</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (5), <a href=\"https://www.wowhead.com/forever/item=7079\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7079\">Globe of Water</a> (6), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Stormcloth Shoulders</tt-title><tt-line data-line-type=\"item-level\">Item Level 49</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Shoulder</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">48 Armor</tt-line><tt-line data-line-type=\"item-stat\">+10 Stamina</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases healing done by magical spells and effects by up to 22.</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases damage done by magical spells and effects by up to 7.</tt-line><tt-line data-line-type=\"durability\">Durability 70 / 70</tt-line><tt-line data-line-type=\"required-level\">Requires Level 44</tt-line><tt-spacer></tt-spacer><tt-line data-line-type=\"set-name\">Stormcloth Regalia (0/6)</tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10010\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10010\">Stormcloth Pants</a></tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10011\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10011\">Stormcloth Gloves</a></tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10020\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10020\">Stormcloth Vest</a></tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10032\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10032\">Stormcloth Headband</a></tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10038\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10038\">Stormcloth Shoulders</a></tt-line><tt-line data-line-type=\"set-piece\"> <a href=\"https://www.wowhead.com/forever/item=10039\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10039\">Stormcloth Boots</a></tt-line><tt-spacer></tt-spacer><tt-line data-line-type=\"set-effect\">(3) Set: <a href=\"https://www.wowhead.com/forever/spell=1258496\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1258496\">+10 Spirit.</a></tt-line><tt-line data-line-type=\"set-effect\">(6) Set: <a href=\"https://www.wowhead.com/forever/spell=1258494\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1258494\">Increases healing done by spells and effects by up to 22 and damage done by spells and effects by up to 8.</a></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">66</span><span class=\"price-copper\">20</span></tt-line></div></div>"
+  },
+  "12088": {
+    "spellId": 12088,
+    "name": "Cindercloth Boots",
+    "itemId": 10044,
+    "icon": 132539,
+    "quality": 2,
+    "tier": null,
+    "slot": "Feet",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 4339,
+        "name": "Bolt of Mageweave",
+        "count": 5
+      },
+      {
+        "itemId": 7077,
+        "name": "Heart of Fire",
+        "count": 1
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 3
+      },
+      {
+        "itemId": 4304,
+        "name": "Thick Leather",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Bolt of Mageweave (5), Heart of Fire, Heavy Silken Thread (3), Thick Leather (2)",
+    "reqSkill": 220,
+    "tooltipHtml": "<tt-title>Cindercloth Boots</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4339\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4339\">Bolt of Mageweave</a> (5), <a href=\"https://www.wowhead.com/forever/item=7077\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7077\">Heart of Fire</a>, <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (3), <a href=\"https://www.wowhead.com/forever/item=4304\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4304\">Thick Leather</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Cindercloth Boots</tt-title><tt-line data-line-type=\"item-level\">Item Level 49</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Feet</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">44 Armor</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases fire damage done by up to 21.</tt-line><tt-line data-line-type=\"durability\">Durability 55 / 55</tt-line><tt-line data-line-type=\"required-level\">Requires Level 44</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">67</span><span class=\"price-copper\">65</span></tt-line></div></div>"
   },
   "12092": {
     "spellId": 12092,
