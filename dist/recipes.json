@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-22T03:51:46.641Z",
+  "exportedAt": "2026-11-22T12:31:58.682Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795313439,
+      "lastUpdated": 1795350095,
       "professions": [
         {
           "id": 171,
@@ -115,6 +115,18 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "recipeCount": 30,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -125,18 +137,6 @@
               "max": 300,
               "recipeCount": 33,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "recipeCount": 26,
-              "ts": 1794936829
             },
             {
               "char": "Callum-Magic",
@@ -441,17 +441,17 @@
           "shortName": "Shaid",
           "lastName": "Soulstealer",
           "realm": "Soulstealer",
-          "lastUpdated": 1794936829,
-          "totalRecipes": 26,
+          "lastUpdated": 1795350095,
+          "totalRecipes": 30,
           "professions": [
             {
               "id": 185,
               "name": "Cooking",
               "isSecondary": true,
-              "skill": 225,
-              "max": 225,
-              "recipeCount": 26,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "recipeCount": 30,
+              "ts": 1795350095
             }
           ]
         },
@@ -2984,6 +2984,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -2993,17 +3004,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             },
             {
               "char": "Callum-Magic",
@@ -3065,9 +3065,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -3112,6 +3112,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3121,17 +3132,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3155,6 +3155,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3164,17 +3175,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3250,6 +3250,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1795287973
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -3295,6 +3306,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3304,17 +3326,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3360,6 +3371,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3369,17 +3391,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             },
             {
               "char": "Callum-Magic",
@@ -3425,6 +3436,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3434,17 +3456,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3468,6 +3479,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3477,17 +3499,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3511,6 +3522,17 @@
               "ts": 1795258087
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3520,17 +3542,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3565,6 +3576,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3574,17 +3596,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3608,6 +3619,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3617,17 +3639,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3731,9 +3742,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -3768,6 +3779,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3777,17 +3799,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -3876,6 +3887,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3885,17 +3907,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             },
             {
               "char": "Callum-Magic",
@@ -3919,6 +3930,17 @@
           "isCustom": false,
           "crafters": [
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -3928,17 +3950,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4218,6 +4229,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4227,17 +4249,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4293,6 +4304,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4302,17 +4324,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4358,6 +4369,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4367,17 +4389,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             },
             {
               "char": "Callum-Magic",
@@ -4472,9 +4483,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -4536,9 +4547,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -4626,6 +4637,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4635,17 +4657,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4696,9 +4707,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -4717,9 +4728,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -4754,6 +4765,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4763,17 +4785,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4829,6 +4840,17 @@
               "ts": 1795287973
             },
             {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
+            },
+            {
               "char": "Aldeide-Valesong",
               "fullName": "Aldeide Valesong",
               "firstName": "Aldeide",
@@ -4838,17 +4860,6 @@
               "skill": 225,
               "max": 300,
               "ts": 1795313439
-            },
-            {
-              "char": "Shaid-Soulstealer",
-              "fullName": "Shaid Soulstealer",
-              "firstName": "Shaid",
-              "shortName": "Shaid",
-              "lastName": "Soulstealer",
-              "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
             }
           ]
         },
@@ -4878,9 +4889,9 @@
               "shortName": "Shaid",
               "lastName": "Soulstealer",
               "realm": "Soulstealer",
-              "skill": 225,
-              "max": 225,
-              "ts": 1794936829
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -4913,6 +4924,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1795287973
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -5073,6 +5095,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1795287973
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
@@ -5094,6 +5127,17 @@
               "skill": 300,
               "max": 300,
               "ts": 1795287973
+            },
+            {
+              "char": "Shaid-Soulstealer",
+              "fullName": "Shaid Soulstealer",
+              "firstName": "Shaid",
+              "shortName": "Shaid",
+              "lastName": "Soulstealer",
+              "realm": "Soulstealer",
+              "skill": 265,
+              "max": 300,
+              "ts": 1795350095
             }
           ]
         },
