@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-22T02:04:17.715Z",
+  "exportedAt": "2026-11-22T03:51:46.641Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795312920,
+      "lastUpdated": 1795313439,
       "professions": [
         {
           "id": 171,
@@ -122,9 +122,9 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
+              "max": 300,
               "recipeCount": 33,
-              "ts": 1795312920
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -249,7 +249,7 @@
           "shortName": "Aldeide",
           "lastName": "Valesong",
           "realm": "Valesong",
-          "lastUpdated": 1795312920,
+          "lastUpdated": 1795313439,
           "totalRecipes": 89,
           "professions": [
             {
@@ -266,9 +266,9 @@
               "name": "Cooking",
               "isSecondary": true,
               "skill": 225,
-              "max": 225,
+              "max": 300,
               "recipeCount": 33,
-              "ts": 1795312920
+              "ts": 1795313439
             }
           ]
         },
@@ -2937,8 +2937,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -2991,8 +2991,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3119,8 +3119,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3162,8 +3162,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3216,8 +3216,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -3302,8 +3302,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3367,8 +3367,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3432,8 +3432,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3475,8 +3475,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3518,8 +3518,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3572,8 +3572,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3615,8 +3615,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3658,8 +3658,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -3775,8 +3775,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3829,8 +3829,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -3883,8 +3883,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -3926,8 +3926,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4022,8 +4022,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4065,8 +4065,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4108,8 +4108,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4225,8 +4225,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4268,8 +4268,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4300,8 +4300,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4365,8 +4365,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4590,8 +4590,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4633,8 +4633,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4665,8 +4665,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4761,8 +4761,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4804,8 +4804,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -4836,8 +4836,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             },
             {
               "char": "Shaid-Soulstealer",
@@ -4954,8 +4954,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -5018,8 +5018,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
@@ -5135,8 +5135,8 @@
               "lastName": "Valesong",
               "realm": "Valesong",
               "skill": 225,
-              "max": 225,
-              "ts": 1795312920
+              "max": 300,
+              "ts": 1795313439
             }
           ]
         },
