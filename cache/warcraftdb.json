@@ -3554,6 +3554,31 @@
     "reqSkill": 1,
     "tooltipHtml": "<tt-title>Elixir of Minor Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=765\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:765\">Silverleaf</a>, <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Minor Defense</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=673\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:673\">Use: Increases armor by 50 for 1 hour.</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">5</span></tt-line></div></div>"
   },
+  "7223": {
+    "spellId": 7223,
+    "name": "Golden Scale Bracers",
+    "itemId": 6040,
+    "icon": 132609,
+    "quality": 2,
+    "tier": null,
+    "slot": "Wrist",
+    "subType": "Mail",
+    "reagents": [
+      {
+        "itemId": 3859,
+        "name": "Steel Bar",
+        "count": 5
+      },
+      {
+        "itemId": 3486,
+        "name": "Heavy Grinding Stone",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Steel Bar (5), Heavy Grinding Stone (2)",
+    "reqSkill": 160,
+    "tooltipHtml": "<tt-title>Golden Scale Bracers</tt-title><tt-double-line><span>25 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3859\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3859\">Steel Bar</a> (5), <a href=\"https://www.wowhead.com/forever/item=3486\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3486\">Heavy Grinding Stone</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Golden Scale Bracers</tt-title><tt-line data-line-type=\"item-level\">Item Level 37</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Wrist</span><span>Mail</span></tt-double-line><tt-line data-line-type=\"armor\">96 Armor</tt-line><tt-line data-line-type=\"item-stat\">+6 Strength</tt-line><tt-line data-line-type=\"item-stat\">+5 Stamina</tt-line><tt-line data-line-type=\"durability\">Durability 40 / 40</tt-line><tt-line data-line-type=\"required-level\">Requires Level 32</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">13</span><span class=\"price-copper\">15</span></tt-line></div></div>"
+  },
   "7259": {
     "spellId": 7259,
     "name": "Nature Protection Potion",
@@ -5563,6 +5588,51 @@
     "reagentsText": "Copper Bar (6), Weak Flux, Rough Grinding Stone, Light Leather",
     "tooltipHtml": "<tt-title>Copper Dagger</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (6), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a>, <a href=\"https://www.wowhead.com/forever/item=3470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3470\">Rough Grinding Stone</a>, <a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Copper Dagger</tt-title><tt-line data-line-type=\"item-level\">Item Level 11</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>One-Hand</span><span>Dagger</span></tt-double-line><tt-double-line><span>7 - 13 Damage</span><span>Speed 1.70</span></tt-double-line><tt-line data-line-type=\"dps\">(5.9 damage per second)</tt-line><tt-line data-line-type=\"item-stat\">+1 Agility</tt-line><tt-line data-line-type=\"durability\">Durability 55 / 55</tt-line><tt-line data-line-type=\"required-level\">Requires Level 6</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">94</span></tt-line></div></div>",
     "reqSkill": 30
+  },
+  "9920": {
+    "spellId": 9920,
+    "name": "Solid Grinding Stone",
+    "itemId": 7966,
+    "icon": 135246,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 7912,
+        "name": "Solid Stone",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Solid Stone (4)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Solid Grinding Stone</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=7912\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7912\">Solid Stone</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Solid Grinding Stone</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+  },
+  "9935": {
+    "spellId": 9935,
+    "name": "Steel Plate Helm",
+    "itemId": 7922,
+    "icon": 133071,
+    "quality": 2,
+    "tier": null,
+    "slot": "Head",
+    "subType": "Plate",
+    "reagents": [
+      {
+        "itemId": 3859,
+        "name": "Steel Bar",
+        "count": 14
+      },
+      {
+        "itemId": 7966,
+        "name": "Solid Grinding Stone",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Steel Bar (14), Solid Grinding Stone",
+    "reqSkill": 200,
+    "tooltipHtml": "<tt-title>Steel Plate Helm</tt-title><tt-double-line><span>45 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3859\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3859\">Steel Bar</a> (14), <a href=\"https://www.wowhead.com/forever/item=7966\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7966\">Solid Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Steel Plate Helm</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Head</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Plate</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">310 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Strength</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Stamina</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 40</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">19</span><span class=\"price-copper\">44</span></tt-line></div></div>"
   },
   "9983": {
     "spellId": 9983,
@@ -8148,6 +8218,31 @@
     "reagentsText": "Gold Bar, Coarse Grinding Stone (2)",
     "reqSkill": 125,
     "tooltipHtml": "<tt-title>Golden Rod</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3577\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3577\">Gold Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3478\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3478\">Coarse Grinding Stone</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Golden Rod</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Needed by Enchanters.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>"
+  },
+  "14380": {
+    "spellId": 14380,
+    "name": "Truesilver Rod",
+    "itemId": 11144,
+    "icon": 135148,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 6037,
+        "name": "Truesilver Bar",
+        "count": 1
+      },
+      {
+        "itemId": 3486,
+        "name": "Heavy Grinding Stone",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Truesilver Bar, Heavy Grinding Stone",
+    "reqSkill": 200,
+    "tooltipHtml": "<tt-title>Truesilver Rod</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6037\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6037\">Truesilver Bar</a>, <a href=\"https://www.wowhead.com/forever/item=3486\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3486\">Heavy Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Truesilver Rod</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"captured-flavor-text\"><tt-inline-color data-color=\"#ffd200\" style=\"color:#ffd200\">&quot;Needed by Enchanters.&quot;</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">10</span></tt-line></div></div>"
   },
   "14807": {
     "spellId": 14807,
