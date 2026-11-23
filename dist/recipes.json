@@ -1,18 +1,18 @@
 {
-  "exportedAt": "2026-11-23T13:09:36.399Z",
+  "exportedAt": "2026-11-23T20:22:23.126Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795439136,
+      "lastUpdated": 1795462289,
       "professions": [
         {
           "id": 171,
           "name": "Alchemy",
           "isSecondary": false,
-          "recipeCount": 36,
+          "recipeCount": 37,
           "crafters": [
             {
               "char": "Elyin-Healz",
@@ -23,8 +23,8 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "recipeCount": 36,
-              "ts": 1795439136
+              "recipeCount": 37,
+              "ts": 1795453823
             },
             {
               "char": "Maggie-Shamoo",
@@ -44,7 +44,7 @@
           "id": 164,
           "name": "Blacksmithing",
           "isSecondary": false,
-          "recipeCount": 66,
+          "recipeCount": 69,
           "crafters": [
             {
               "char": "Maggie-Pala",
@@ -53,10 +53,10 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "recipeCount": 43,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "recipeCount": 46,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -88,7 +88,7 @@
               "skill": 300,
               "max": 300,
               "recipeCount": 15,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -291,7 +291,7 @@
           "shortName": "Bob",
           "lastName": "One",
           "realm": "One",
-          "lastUpdated": 1795285261,
+          "lastUpdated": 1795446158,
           "totalRecipes": 102,
           "professions": [
             {
@@ -301,7 +301,7 @@
               "skill": 300,
               "max": 300,
               "recipeCount": 15,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "id": 333,
@@ -351,8 +351,8 @@
           "shortName": "Elyin",
           "lastName": "Healz",
           "realm": "Healz",
-          "lastUpdated": 1795439136,
-          "totalRecipes": 65,
+          "lastUpdated": 1795453823,
+          "totalRecipes": 66,
           "professions": [
             {
               "id": 171,
@@ -360,8 +360,8 @@
               "isSecondary": false,
               "skill": 296,
               "max": 300,
-              "recipeCount": 36,
-              "ts": 1795439136
+              "recipeCount": 37,
+              "ts": 1795453823
             },
             {
               "id": 185,
@@ -420,17 +420,17 @@
           "shortName": "Maggie",
           "lastName": "Pala",
           "realm": "Pala",
-          "lastUpdated": 1795437629,
-          "totalRecipes": 43,
+          "lastUpdated": 1795462289,
+          "totalRecipes": 46,
           "professions": [
             {
               "id": 164,
               "name": "Blacksmithing",
               "isSecondary": false,
-              "skill": 225,
-              "max": 225,
-              "recipeCount": 43,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "recipeCount": 46,
+              "ts": 1795462289
             }
           ]
         },
@@ -534,7 +534,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -555,7 +555,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -576,7 +576,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -597,7 +597,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -618,7 +618,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -639,7 +639,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -660,7 +660,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -681,7 +681,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -702,7 +702,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -723,7 +723,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -744,7 +744,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             },
             {
               "char": "Maggie-Shamoo",
@@ -776,7 +776,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             },
             {
               "char": "Maggie-Shamoo",
@@ -808,7 +808,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -829,7 +829,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -850,7 +850,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -871,7 +871,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -892,7 +892,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -913,7 +913,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -934,7 +934,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -955,7 +955,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -976,7 +976,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -997,7 +997,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1018,7 +1018,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1039,7 +1039,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             },
             {
               "char": "Maggie-Shamoo",
@@ -1071,7 +1071,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             },
             {
               "char": "Maggie-Shamoo",
@@ -1103,7 +1103,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1124,7 +1124,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1145,7 +1145,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1166,7 +1166,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1187,7 +1187,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1208,7 +1208,28 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
+            }
+          ]
+        },
+        {
+          "spellId": 3449,
+          "name": "Recipe #3449",
+          "profId": 171,
+          "profName": "Alchemy",
+          "itemId": 3824,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Elyin-Healz",
+              "fullName": "Elyin Healz",
+              "firstName": "Elyin",
+              "shortName": "Elyin",
+              "lastName": "Healz",
+              "realm": "Healz",
+              "skill": 296,
+              "max": 300,
+              "ts": 1795453823
             }
           ]
         },
@@ -1229,7 +1250,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1250,7 +1271,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1271,7 +1292,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1292,7 +1313,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1313,7 +1334,7 @@
               "realm": "Healz",
               "skill": 296,
               "max": 300,
-              "ts": 1795439136
+              "ts": 1795453823
             }
           ]
         },
@@ -1479,9 +1500,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1511,9 +1532,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1543,9 +1564,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1575,9 +1596,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1607,9 +1628,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1639,9 +1660,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1671,9 +1692,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1703,9 +1724,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1735,9 +1756,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1767,9 +1788,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1799,9 +1820,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1831,9 +1852,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1863,9 +1884,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1895,9 +1916,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1927,9 +1948,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1959,9 +1980,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -1991,9 +2012,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2023,9 +2044,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2076,9 +2097,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2108,9 +2129,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2192,9 +2213,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2224,9 +2245,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2256,9 +2277,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2288,9 +2309,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2320,9 +2341,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2373,9 +2394,72 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
+            }
+          ]
+        },
+        {
+          "spellId": 16639,
+          "name": "Recipe #16639",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 12644,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
+            }
+          ]
+        },
+        {
+          "spellId": 16640,
+          "name": "Recipe #16640",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 12643,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
+            }
+          ]
+        },
+        {
+          "spellId": 16641,
+          "name": "Recipe #16641",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 12404,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2394,9 +2478,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2415,9 +2499,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2436,9 +2520,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2457,9 +2541,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2478,9 +2562,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             }
           ]
         },
@@ -2541,9 +2625,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2594,9 +2678,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2626,9 +2710,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2658,9 +2742,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2690,9 +2774,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2722,9 +2806,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2775,9 +2859,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2807,9 +2891,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2839,9 +2923,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2871,9 +2955,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -2966,9 +3050,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -3061,9 +3145,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 225,
-              "max": 225,
-              "ts": 1795437629
+              "skill": 235,
+              "max": 300,
+              "ts": 1795462289
             },
             {
               "char": "Aldeide-Valesong",
@@ -3159,7 +3243,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -3246,7 +3330,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             }
           ]
         },
@@ -3503,7 +3587,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -3568,7 +3652,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -3655,7 +3739,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Stara-Sabla",
@@ -3947,7 +4031,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Aldeide-Valesong",
@@ -4150,7 +4234,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -4461,7 +4545,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             }
           ]
         },
@@ -4503,7 +4587,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -4664,7 +4748,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -4751,7 +4835,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -4794,7 +4878,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Elyin-Healz",
@@ -4837,7 +4921,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             }
           ]
         },
@@ -5362,7 +5446,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             }
           ]
         },
@@ -5426,7 +5510,7 @@
               "realm": "One",
               "skill": 300,
               "max": 300,
-              "ts": 1795035057
+              "ts": 1795446158
             },
             {
               "char": "Stara-Sabla",
@@ -28728,6 +28812,36 @@
       "reqSkill": 115,
       "tooltipHtml": "<tt-title>Lesser Invisibility Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3818\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3818\">Fadeleaf</a>, <a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Lesser Invisibility Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=3680\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:3680\">Use: Gives the imbiber lesser invisibility for 15 sec. (10 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 23</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
     },
+    "3449": {
+      "spellId": 3449,
+      "name": "Shadow Oil",
+      "itemId": 3824,
+      "icon": 134803,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3818,
+          "name": "Fadeleaf",
+          "count": 4
+        },
+        {
+          "itemId": 3369,
+          "name": "Grave Moss",
+          "count": 4
+        },
+        {
+          "itemId": 3372,
+          "name": "Leaded Vial",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Fadeleaf (4), Grave Moss (4), Leaded Vial",
+      "reqSkill": 120,
+      "tooltipHtml": "<tt-title>Shadow Oil</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"required-focus\">Requires Fermenter</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3818\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3818\">Fadeleaf</a> (4), <a href=\"https://www.wowhead.com/forever/item=3369\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3369\">Grave Moss</a> (4), <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Shadow Oil</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: When applied to a melee weapon it gives a 15% chance of casting Shadowbolt III at the opponent when it hits.  Lasts 30 minutes. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 24</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+    },
     "3450": {
       "spellId": 3450,
       "name": "Elixir of Lesser Fortitude",
@@ -35062,6 +35176,66 @@
       "reagentsText": "Mystery Meat, Skin of Dwarven Stout",
       "reqSkill": 75,
       "tooltipHtml": "<tt-title>Mystery Stew</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12037\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12037\">Mystery Meat</a>, <a href=\"https://www.wowhead.com/forever/item=2596\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2596\">Skin of Dwarven Stout</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Mystery Stew</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 530 health over 24 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 5 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">3</span></tt-line></div></div>"
+    },
+    "16639": {
+      "spellId": 16639,
+      "name": "Dense Grinding Stone",
+      "itemId": 12644,
+      "icon": 135247,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12365,
+          "name": "Dense Stone",
+          "count": 4
+        }
+      ],
+      "reagentsText": "Dense Stone (4)",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Dense Grinding Stone</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12365\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12365\">Dense Stone</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Dense Grinding Stone</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+    },
+    "16640": {
+      "spellId": 16640,
+      "name": "Dense Weightstone",
+      "itemId": 12643,
+      "icon": 135259,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12365,
+          "name": "Dense Stone",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Dense Stone",
+      "reqSkill": 175,
+      "tooltipHtml": "<tt-title>Dense Weightstone</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12365\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12365\">Dense Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Dense Weightstone</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=16622\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:16622\">Use: Increase the damage of a blunt weapon by 8 for 30 minutes. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 35</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
+    },
+    "16641": {
+      "spellId": 16641,
+      "name": "Dense Sharpening Stone",
+      "itemId": 12404,
+      "icon": 135252,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 12365,
+          "name": "Dense Stone",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Dense Stone",
+      "reqSkill": 175,
+      "tooltipHtml": "<tt-title>Dense Sharpening Stone</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12365\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12365\">Dense Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Dense Sharpening Stone</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increase sharp weapon damage by 8 for 30 minutes. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 35</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
     },
     "17180": {
       "spellId": 17180,
