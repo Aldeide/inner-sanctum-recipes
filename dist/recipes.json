@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-23T01:07:34.728Z",
+  "exportedAt": "2026-11-23T09:27:10.801Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795395748,
+      "lastUpdated": 1795426123,
       "professions": [
         {
           "id": 171,
@@ -44,7 +44,7 @@
           "id": 164,
           "name": "Blacksmithing",
           "isSecondary": false,
-          "recipeCount": 63,
+          "recipeCount": 66,
           "crafters": [
             {
               "char": "Maggie-Pala",
@@ -53,10 +53,10 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "recipeCount": 42,
-              "ts": 1795394705
+              "recipeCount": 43,
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -65,10 +65,10 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "recipeCount": 56,
-              "ts": 1795376406
+              "recipeCount": 59,
+              "ts": 1795426123
             }
           ]
         },
@@ -261,17 +261,17 @@
           "shortName": "Aldeide",
           "lastName": "Valesong",
           "realm": "Valesong",
-          "lastUpdated": 1795378461,
-          "totalRecipes": 90,
+          "lastUpdated": 1795426123,
+          "totalRecipes": 93,
           "professions": [
             {
               "id": 164,
               "name": "Blacksmithing",
               "isSecondary": false,
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "recipeCount": 56,
-              "ts": 1795376406
+              "recipeCount": 59,
+              "ts": 1795426123
             },
             {
               "id": 185,
@@ -420,17 +420,17 @@
           "shortName": "Maggie",
           "lastName": "Pala",
           "realm": "Pala",
-          "lastUpdated": 1795394705,
-          "totalRecipes": 42,
+          "lastUpdated": 1795397242,
+          "totalRecipes": 43,
           "professions": [
             {
               "id": 164,
               "name": "Blacksmithing",
               "isSecondary": false,
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "recipeCount": 42,
-              "ts": 1795394705
+              "recipeCount": 43,
+              "ts": 1795397242
             }
           ]
         },
@@ -1269,9 +1269,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1290,9 +1290,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1311,9 +1311,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1332,9 +1332,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1353,9 +1353,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1374,9 +1374,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1395,9 +1395,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1416,9 +1416,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1427,9 +1427,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1448,9 +1448,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1459,9 +1459,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1480,9 +1480,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1491,9 +1491,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1512,9 +1512,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1523,9 +1523,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1544,9 +1544,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1555,9 +1555,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1576,9 +1576,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1587,9 +1587,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1608,9 +1608,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1619,9 +1619,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1640,9 +1640,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1651,9 +1651,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1672,9 +1672,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1683,9 +1683,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1704,9 +1704,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1715,9 +1715,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1736,9 +1736,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1747,9 +1747,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1768,9 +1768,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1779,9 +1779,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1800,9 +1800,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1811,9 +1811,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1832,9 +1832,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1843,9 +1843,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1864,9 +1864,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1875,9 +1875,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1896,9 +1896,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1907,9 +1907,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1928,9 +1928,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1939,9 +1939,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1960,9 +1960,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -1971,9 +1971,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -1992,9 +1992,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2013,9 +2013,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2024,9 +2024,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2045,9 +2045,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             }
           ]
         },
@@ -2066,9 +2066,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2087,9 +2087,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2108,9 +2108,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2129,9 +2129,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2140,9 +2140,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2161,9 +2161,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2172,9 +2172,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2193,9 +2193,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2204,9 +2204,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2225,9 +2225,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2236,9 +2236,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2257,9 +2257,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2268,9 +2268,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2289,9 +2289,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2310,9 +2310,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             }
           ]
         },
@@ -2331,30 +2331,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
-            }
-          ]
-        },
-        {
-          "spellId": 9920,
-          "name": "Recipe #9920",
-          "profId": 164,
-          "profName": "Blacksmithing",
-          "itemId": 7966,
-          "isCustom": false,
-          "crafters": [
-            {
-              "char": "Maggie-Pala",
-              "fullName": "Maggie Pala",
-              "firstName": "Maggie",
-              "shortName": "Maggie",
-              "lastName": "Pala",
-              "realm": "Pala",
-              "skill": 212,
-              "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             }
           ]
         },
@@ -2373,9 +2352,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             }
           ]
         },
@@ -2394,9 +2373,30 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
+            }
+          ]
+        },
+        {
+          "spellId": 9964,
+          "name": "Recipe #9964",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7969,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 220,
+              "max": 225,
+              "ts": 1795397242
             }
           ]
         },
@@ -2415,9 +2415,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             }
           ]
         },
@@ -2436,9 +2436,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2457,9 +2457,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2478,9 +2478,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2489,9 +2489,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2510,9 +2510,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2531,9 +2531,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2542,9 +2542,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2563,9 +2563,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2574,9 +2574,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2595,9 +2595,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2606,9 +2606,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2627,9 +2627,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2638,9 +2638,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2659,9 +2659,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2670,9 +2670,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2691,9 +2691,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2712,9 +2712,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2723,9 +2723,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2744,9 +2744,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2755,9 +2755,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2776,9 +2776,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2787,9 +2787,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2808,9 +2808,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2819,9 +2819,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2840,9 +2840,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2861,9 +2861,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2882,9 +2882,83 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
+            }
+          ]
+        },
+        {
+          "spellId": 9920,
+          "name": "Solid Grinding Stone",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7966,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Maggie-Pala",
+              "fullName": "Maggie Pala",
+              "firstName": "Maggie",
+              "shortName": "Maggie",
+              "lastName": "Pala",
+              "realm": "Pala",
+              "skill": 220,
+              "max": 225,
+              "ts": 1795397242
+            },
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 182,
+              "max": 225,
+              "ts": 1795426123
+            }
+          ]
+        },
+        {
+          "spellId": 9918,
+          "name": "Solid Sharpening Stone",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7964,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 182,
+              "max": 225,
+              "ts": 1795426123
+            }
+          ]
+        },
+        {
+          "spellId": 9921,
+          "name": "Solid Weightstone",
+          "profId": 164,
+          "profName": "Blacksmithing",
+          "itemId": 7965,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Valesong",
+              "fullName": "Aldeide Valesong",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Valesong",
+              "realm": "Valesong",
+              "skill": 182,
+              "max": 225,
+              "ts": 1795426123
             }
           ]
         },
@@ -2903,9 +2977,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2924,9 +2998,9 @@
               "shortName": "Maggie",
               "lastName": "Pala",
               "realm": "Pala",
-              "skill": 212,
+              "skill": 220,
               "max": 225,
-              "ts": 1795394705
+              "ts": 1795397242
             },
             {
               "char": "Aldeide-Valesong",
@@ -2935,9 +3009,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -2956,9 +3030,9 @@
               "shortName": "Aldeide",
               "lastName": "Valesong",
               "realm": "Valesong",
-              "skill": 171,
+              "skill": 182,
               "max": 225,
-              "ts": 1795376406
+              "ts": 1795426123
             }
           ]
         },
@@ -31946,6 +32020,26 @@
       "tooltipHtml": "<tt-title>Copper Dagger</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (6), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a>, <a href=\"https://www.wowhead.com/forever/item=3470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3470\">Rough Grinding Stone</a>, <a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Copper Dagger</tt-title><tt-line data-line-type=\"item-level\">Item Level 11</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>One-Hand</span><span>Dagger</span></tt-double-line><tt-double-line><span>7 - 13 Damage</span><span>Speed 1.70</span></tt-double-line><tt-line data-line-type=\"dps\">(5.9 damage per second)</tt-line><tt-line data-line-type=\"item-stat\">+1 Agility</tt-line><tt-line data-line-type=\"durability\">Durability 55 / 55</tt-line><tt-line data-line-type=\"required-level\">Requires Level 6</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">94</span></tt-line></div></div>",
       "reqSkill": 30
     },
+    "9918": {
+      "spellId": 9918,
+      "name": "Solid Sharpening Stone",
+      "itemId": 7964,
+      "icon": 135251,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 7912,
+          "name": "Solid Stone",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Solid Stone",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Solid Sharpening Stone</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=7912\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7912\">Solid Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Solid Sharpening Stone</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increase sharp weapon damage by 6 for 30 minutes. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>"
+    },
     "9920": {
       "spellId": 9920,
       "name": "Solid Grinding Stone",
@@ -31965,6 +32059,26 @@
       "reagentsText": "Solid Stone (4)",
       "reqSkill": 1,
       "tooltipHtml": "<tt-title>Solid Grinding Stone</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=7912\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7912\">Solid Stone</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Solid Grinding Stone</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+    },
+    "9921": {
+      "spellId": 9921,
+      "name": "Solid Weightstone",
+      "itemId": 7965,
+      "icon": 135258,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 7912,
+          "name": "Solid Stone",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Solid Stone",
+      "reqSkill": 125,
+      "tooltipHtml": "<tt-title>Solid Weightstone</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=7912\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7912\">Solid Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Solid Weightstone</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=9903\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:9903\">Use: Increase the damage of a blunt weapon by 6 for 30 minutes. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 25</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>"
     },
     "9931": {
       "spellId": 9931,
@@ -32010,6 +32124,31 @@
       "reagentsText": "Steel Bar (14), Solid Grinding Stone",
       "reqSkill": 200,
       "tooltipHtml": "<tt-title>Steel Plate Helm</tt-title><tt-double-line><span>45 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3859\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3859\">Steel Bar</a> (14), <a href=\"https://www.wowhead.com/forever/item=7966\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7966\">Solid Grinding Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Steel Plate Helm</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Head</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Plate</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">310 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Strength</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Stamina</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 40</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">19</span><span class=\"price-copper\">44</span></tt-line></div></div>"
+    },
+    "9964": {
+      "spellId": 9964,
+      "name": "Mithril Spurs",
+      "itemId": 7969,
+      "icon": 132307,
+      "quality": 2,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 3860,
+          "name": "Mithril Bar",
+          "count": 4
+        },
+        {
+          "itemId": 7966,
+          "name": "Solid Grinding Stone",
+          "count": 3
+        }
+      ],
+      "reagentsText": "Mithril Bar (4), Solid Grinding Stone (3)",
+      "reqSkill": 215,
+      "tooltipHtml": "<tt-title>Mithril Spurs</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3860\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3860\">Mithril Bar</a> (4), <a href=\"https://www.wowhead.com/forever/item=7966\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7966\">Solid Grinding Stone</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Mithril Spurs</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Attaches spurs to your boots that increase your mounted movement speed slightly.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Blacksmithing (215)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span><span class=\"price-copper\">50</span></tt-line></div></div>"
     },
     "9983": {
       "spellId": 9983,
