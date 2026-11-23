@@ -6074,6 +6074,41 @@
     "reqSkill": 160,
     "tooltipHtml": "<tt-title>Magic Resistance Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3358\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3358\">Khadgar's Whisker</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Magic Resistance Potion</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11364\">Use: Increases your resistance to all schools of magic by 50 for 3 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 32</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">20</span></tt-line></div></div>"
   },
+  "11459": {
+    "spellId": 11459,
+    "name": "Philosopher's Stone",
+    "itemId": 9149,
+    "icon": 134333,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3575,
+        "name": "Iron Bar",
+        "count": 4
+      },
+      {
+        "itemId": 9262,
+        "name": "Black Vitriol",
+        "count": 1
+      },
+      {
+        "itemId": 8831,
+        "name": "Purple Lotus",
+        "count": 4
+      },
+      {
+        "itemId": 4625,
+        "name": "Firebloom",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Iron Bar (4), Black Vitriol, Purple Lotus (4), Firebloom (4)",
+    "reqSkill": 125,
+    "tooltipHtml": "<tt-title>Philosopher's Stone</tt-title><tt-double-line><span>30 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3575\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3575\">Iron Bar</a> (4), <a href=\"https://www.wowhead.com/forever/item=9262\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:9262\">Black Vitriol</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a> (4), <a href=\"https://www.wowhead.com/forever/item=4625\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4625\">Firebloom</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Philosopher's Stone</tt-title><tt-line data-line-type=\"item-level\">Item Level 45</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"description\">\"Required for Alchemical Transmutation.\"</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span><span class=\"price-copper\">50</span></tt-line></div></div>"
+  },
   "11461": {
     "spellId": 11461,
     "name": "Arcane Elixir",
@@ -8659,6 +8694,31 @@
     "tooltipHtml": "<tt-title>Enchanted Leather</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a>, <a href=\"https://www.wowhead.com/forever/item=16202\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16202\">Lesser Eternal Essence</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Enchanted Leather</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">5</span></tt-line></div></div>",
     "reqSkill": 250
   },
+  "17187": {
+    "spellId": 17187,
+    "name": "Transmute: Arcanite",
+    "itemId": 12360,
+    "icon": 134459,
+    "quality": 2,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 12359,
+        "name": "Thorium Bar",
+        "count": 1
+      },
+      {
+        "itemId": 12363,
+        "name": "Arcane Crystal",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Thorium Bar, Arcane Crystal",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Transmute: Arcanite</tt-title><tt-double-line><span>25 sec cast</span><span>1.9583333333333333 day cooldown</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Philosopher's Stone</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=12359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12359\">Thorium Bar</a>, <a href=\"https://www.wowhead.com/forever/item=12363\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12363\">Arcane Crystal</a></tt-indented-line>Transmutes a bar of Thorium and an Arcane Crystal into an Arcanite Bar.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Arcanite Bar</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">50</span></tt-line></div></div>"
+  },
   "17551": {
     "spellId": 17551,
     "name": "Stonescale Oil",
@@ -10138,6 +10198,36 @@
     "reagentsText": "Felcloth (12), Enchanted Leather (6), Dark Rune (2), Ironweb Spider Silk (4)",
     "reqSkill": 1,
     "tooltipHtml": "<tt-title>Felcloth Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"required-focus\">Requires Spinning Wheel</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14256\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14256\">Felcloth</a> (12), <a href=\"https://www.wowhead.com/forever/item=12810\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12810\">Enchanted Leather</a> (6), <a href=\"https://www.wowhead.com/forever/item=20520\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:20520\">Dark Rune</a> (2), <a href=\"https://www.wowhead.com/forever/item=14227\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14227\">Ironweb Spider Silk</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Felcloth Bag</tt-title><tt-line data-line-type=\"item-level\">Item Level 57</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-line data-line-type=\"container\">32 Slot Soul Bag</tt-line><tt-line data-line-type=\"classes\">Classes: <span class=\"class-color-9\">Warlock</span></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-gold\">2</span></tt-line></div></div>"
+  },
+  "26277": {
+    "spellId": 26277,
+    "name": "Elixir of Holy Power",
+    "itemId": 21546,
+    "icon": 134842,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 6371,
+        "name": "Fire Oil",
+        "count": 3
+      },
+      {
+        "itemId": 4625,
+        "name": "Firebloom",
+        "count": 3
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Fire Oil (3), Firebloom (3), Crystal Vial",
+    "reqSkill": 200,
+    "tooltipHtml": "<tt-title>Elixir of Holy Power</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6371\">Fire Oil</a> (3), <a href=\"https://www.wowhead.com/forever/item=4625\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4625\">Firebloom</a> (3), <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Holy Power</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1310077\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1310077\">Use: Increases spell Holy damage by up to 40 for 30 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 40</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">35</span></tt-line></div></div>"
   },
   "27658": {
     "spellId": 27658,
