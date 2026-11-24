@@ -9659,6 +9659,31 @@
     "reqSkill": 1,
     "tooltipHtml": "<tt-title>Enchant Bracer - Superior Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (15)</tt-indented-line>Permanently enchant bracers to give +9 Stamina."
   },
+  "20012": {
+    "spellId": 20012,
+    "name": "Enchant Gloves - Greater Agility",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 16202,
+        "name": "Lesser Eternal Essence",
+        "count": 2
+      },
+      {
+        "itemId": 16204,
+        "name": "Illusion Dust",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Lesser Eternal Essence (2), Illusion Dust (2)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Enchant Gloves - Greater Agility</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16202\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16202\">Lesser Eternal Essence</a> (2), <a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (2)</tt-indented-line>Permanently enchant gloves to grant +10 Agility."
+  },
   "20013": {
     "spellId": 20013,
     "name": "Enchant Gloves - Greater Strength",
