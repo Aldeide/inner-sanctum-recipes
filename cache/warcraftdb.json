@@ -59,6 +59,36 @@
     "reqSkill": 25,
     "tooltipHtml": "<tt-title>Minor Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a>, <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Minor Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 140 to 180 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
   },
+  "2332": {
+    "spellId": 2332,
+    "name": "Minor Rejuvenation Potion",
+    "itemId": 2456,
+    "icon": 134713,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 785,
+        "name": "Mageroyal",
+        "count": 2
+      },
+      {
+        "itemId": 2447,
+        "name": "Peacebloom",
+        "count": 1
+      },
+      {
+        "itemId": 3371,
+        "name": "Empty Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Mageroyal (2), Peacebloom, Empty Vial",
+    "reqSkill": 40,
+    "tooltipHtml": "<tt-title>Minor Rejuvenation Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy (40)</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a> (2), <a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Minor Rejuvenation Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 90 to 150 mana and 90 to 150 health.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">15</span></tt-line></div></div>"
+  },
   "2334": {
     "spellId": 2334,
     "name": "Elixir of Minor Fortitude",
@@ -1384,6 +1414,66 @@
     "tooltipHtml": "<tt-title>Heavy Weightstone</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2838\">Heavy Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Heavy Weightstone</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increase the damage of a blunt weapon by 4 for 30 minutes. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 15</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>",
     "reqSkill": 125
   },
+  "3170": {
+    "spellId": 3170,
+    "name": "Minor Troll's Blood Elixir",
+    "itemId": 3382,
+    "icon": 134858,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 2447,
+        "name": "Peacebloom",
+        "count": 1
+      },
+      {
+        "itemId": 2449,
+        "name": "Earthroot",
+        "count": 2
+      },
+      {
+        "itemId": 3371,
+        "name": "Empty Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Peacebloom, Earthroot (2), Empty Vial",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Minor Troll's Blood Elixir</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2447\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2447\">Peacebloom</a>, <a href=\"https://www.wowhead.com/forever/item=2449\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2449\">Earthroot</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Minor Troll's Blood Elixir</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Regenerate 2 health every 5 sec for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
+  },
+  "3171": {
+    "spellId": 3171,
+    "name": "Elixir of Wisdom",
+    "itemId": 3383,
+    "icon": 134717,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 785,
+        "name": "Mageroyal",
+        "count": 1
+      },
+      {
+        "itemId": 2450,
+        "name": "Briarthorn",
+        "count": 2
+      },
+      {
+        "itemId": 3371,
+        "name": "Empty Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Mageroyal, Briarthorn (2), Empty Vial",
+    "reqSkill": 50,
+    "tooltipHtml": "<tt-title>Elixir of Wisdom</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a>, <a href=\"https://www.wowhead.com/forever/item=2450\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2450\">Briarthorn</a> (2), <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Wisdom</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases Intellect by 3 for 30 min.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 10</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
+  },
   "3173": {
     "spellId": 3173,
     "name": "Lesser Mana Potion",
@@ -1413,6 +1503,36 @@
     "reagentsText": "Mageroyal, Stranglekelp, Empty Vial",
     "reqSkill": 70,
     "tooltipHtml": "<tt-title>Lesser Mana Potion</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=785\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:785\">Mageroyal</a>, <a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3371\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3371\">Empty Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Lesser Mana Potion</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 280 to 360 mana.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 14</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">30</span></tt-line></div></div>"
+  },
+  "3177": {
+    "spellId": 3177,
+    "name": "Elixir of Lesser Defense",
+    "itemId": 3389,
+    "icon": 134844,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 3355,
+        "name": "Wild Steelbloom",
+        "count": 1
+      },
+      {
+        "itemId": 3820,
+        "name": "Stranglekelp",
+        "count": 1
+      },
+      {
+        "itemId": 3372,
+        "name": "Leaded Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Wild Steelbloom, Stranglekelp, Leaded Vial",
+    "reqSkill": 80,
+    "tooltipHtml": "<tt-title>Elixir of Lesser Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3820\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3820\">Stranglekelp</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Lesser Defense</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases armor by 150 for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 16</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>"
   },
   "3230": {
     "spellId": 3230,
@@ -3148,6 +3268,76 @@
     "reagentsText": "Bolt of Linen Cloth, Coarse Thread",
     "tooltipHtml": "<tt-title>Brown Linen Shirt</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2996\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2996\">Bolt of Linen Cloth</a>, <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Brown Linen Shirt</tt-title><tt-line data-line-type=\"captured-equip-slot\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Shirt</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">11</span></tt-line></div></div>",
     "reqSkill": 1
+  },
+  "3918": {
+    "spellId": 3918,
+    "name": "Rough Blasting Powder",
+    "itemId": 4357,
+    "icon": 133848,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 2835,
+        "name": "Rough Stone",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Rough Stone",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Rough Blasting Powder</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2835\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2835\">Rough Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rough Blasting Powder</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">4</span></tt-line></div></div>"
+  },
+  "3919": {
+    "spellId": 3919,
+    "name": "Rough Dynamite",
+    "itemId": 4358,
+    "icon": 133714,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 4357,
+        "name": "Rough Blasting Powder",
+        "count": 1
+      },
+      {
+        "itemId": 2589,
+        "name": "Linen Cloth",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Rough Blasting Powder, Linen Cloth",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Rough Dynamite</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4357\">Rough Blasting Powder</a>, <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rough Dynamite</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=4054\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:4054\">Use: Inflicts 26 to 34 Fire damage in a 5 yard radius.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Engineering (1)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">30</span></tt-line></div></div>"
+  },
+  "3920": {
+    "spellId": 3920,
+    "name": "Crafted Light Shot",
+    "itemId": 8067,
+    "icon": 132384,
+    "quality": 1,
+    "tier": null,
+    "slot": "Projectile",
+    "subType": "Bullet",
+    "reagents": [
+      {
+        "itemId": 4357,
+        "name": "Rough Blasting Powder",
+        "count": 1
+      },
+      {
+        "itemId": 2840,
+        "name": "Copper Bar",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Rough Blasting Powder, Copper Bar",
+    "reqSkill": 25,
+    "tooltipHtml": "<tt-title>Crafted Light Shot</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4357\">Rough Blasting Powder</a>, <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Crafted Light Shot</tt-title><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Projectile</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Bullet</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Adds 2 damage per second</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\"></tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line></div></div>"
   },
   "4094": {
     "spellId": 4094,
@@ -6074,6 +6264,36 @@
     "reqSkill": 145,
     "tooltipHtml": "<tt-title>Elixir of Defense</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=3355\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3355\">Wild Steelbloom</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=3372\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3372\">Leaded Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Defense</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11349\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11349\">Use: Increases armor by 250 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 29</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
   },
+  "11451": {
+    "spellId": 11451,
+    "name": "Oil of Immolation",
+    "itemId": 8956,
+    "icon": 134732,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 4625,
+        "name": "Firebloom",
+        "count": 1
+      },
+      {
+        "itemId": 3821,
+        "name": "Goldthorn",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Firebloom, Goldthorn, Crystal Vial",
+    "reqSkill": 155,
+    "tooltipHtml": "<tt-title>Oil of Immolation</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4625\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4625\">Firebloom</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Oil of Immolation</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Does 60 fire damage to any enemies within a 5 yard radius around the caster every 3 seconds for 15 sec</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 31</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+  },
   "11453": {
     "spellId": 11453,
     "name": "Magic Resistance Potion",
@@ -6169,6 +6389,36 @@
     "reqSkill": 185,
     "tooltipHtml": "<tt-title>Arcane Elixir</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8839\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8839\">Blindweed</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Arcane Elixir</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11390\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11390\">Use: Increases spell damage by up to 20 for 30 min.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 37</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">4</span></tt-line></div></div>"
   },
+  "11467": {
+    "spellId": 11467,
+    "name": "Elixir of Greater Agility",
+    "itemId": 9187,
+    "icon": 134874,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 8838,
+        "name": "Sungrass",
+        "count": 1
+      },
+      {
+        "itemId": 3821,
+        "name": "Goldthorn",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Sungrass, Goldthorn, Crystal Vial",
+    "reqSkill": 190,
+    "tooltipHtml": "<tt-title>Elixir of Greater Agility</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a>, <a href=\"https://www.wowhead.com/forever/item=3821\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3821\">Goldthorn</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Greater Agility</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Increases Agility by 25 for 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 38</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">6</span></tt-line></div></div>"
+  },
   "11472": {
     "spellId": 11472,
     "name": "Elixir of Greater Strength",
@@ -6198,6 +6448,36 @@
     "reagentsText": "Sungrass, Gromsblood, Crystal Vial",
     "reqSkill": 240,
     "tooltipHtml": "<tt-title>Elixir of Greater Strength</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a>, <a href=\"https://www.wowhead.com/forever/item=8846\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8846\">Gromsblood</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Elixir of Greater Strength</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=11405\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:11405\">Use: Increases your Strength by 25 for 1 hour.</a></tt-line><tt-line data-line-type=\"required-level\">Requires Level 48</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">7</span></tt-line></div></div>"
+  },
+  "11473": {
+    "spellId": 11473,
+    "name": "Ghost Dye",
+    "itemId": 9210,
+    "icon": 134711,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 8845,
+        "name": "Ghost Mushroom",
+        "count": 2
+      },
+      {
+        "itemId": 4342,
+        "name": "Purple Dye",
+        "count": 1
+      },
+      {
+        "itemId": 8925,
+        "name": "Crystal Vial",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Ghost Mushroom (2), Purple Dye, Crystal Vial",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Ghost Dye</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Alchemy</tt-line><tt-line data-line-type=\"required-focus\">Requires Fermenter</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=8845\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8845\">Ghost Mushroom</a> (2), <a href=\"https://www.wowhead.com/forever/item=4342\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4342\">Purple Dye</a>, <a href=\"https://www.wowhead.com/forever/item=8925\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8925\">Crystal Vial</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Ghost Dye</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">7</span><span class=\"price-copper\">50</span></tt-line></div></div>"
   },
   "12044": {
     "spellId": 12044,
@@ -10628,6 +10908,31 @@
     "reagentsText": "Simple Wood, Strange Dust",
     "tooltipHtml": "<tt-double-line><tt-title>Enchanted Lute</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4470\">Simple Wood</a>, <a href=\"https://www.wowhead.com/forever/item=10940\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10940\">Strange Dust</a></tt-indented-line>Craft an Enchanted Lute.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Enchanted Lute</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Summons an enchanted lute that allows you and others sitting nearby to gain 163 Armor, 7 increase to all stats, and 6 increase to all resistances, mutually exclusive with Mark of the Wild.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Enchanting (20)</tt-inline-color></tt-line></div></div>",
     "reqSkill": 20
+  },
+  "1230656": {
+    "spellId": 1230656,
+    "name": "Reagent Bot",
+    "itemId": 279950,
+    "icon": 133871,
+    "quality": 1,
+    "tier": "Tier 1",
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 4359,
+        "name": "Handful of Copper Bolts",
+        "count": 1
+      },
+      {
+        "itemId": 4361,
+        "name": "Copper Tube",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Handful of Copper Bolts, Copper Tube",
+    "reqSkill": 20,
+    "tooltipHtml": "<tt-double-line><tt-title>Reagent Bot</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a>, <a href=\"https://www.wowhead.com/forever/item=4361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4361\">Copper Tube</a></tt-indented-line>Craft a Reagent Bot.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Reagent Bot</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Summons a Reagent Bot that allows you and others nearby to purchase reagents.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Engineering (20)</tt-inline-color></tt-line></div></div>"
   },
   "1244431": {
     "spellId": 1244431,
