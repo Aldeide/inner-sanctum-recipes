@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-26T19:39:33.153Z",
+  "exportedAt": "2026-11-26T22:21:29.295Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795721032,
+      "lastUpdated": 1795730855,
       "professions": [
         {
           "id": 171,
@@ -76,7 +76,7 @@
           "id": 185,
           "name": "Cooking",
           "isSecondary": true,
-          "recipeCount": 62,
+          "recipeCount": 63,
           "crafters": [
             {
               "char": "Bob-One",
@@ -159,8 +159,8 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "recipeCount": 7,
-              "ts": 1795721032
+              "recipeCount": 8,
+              "ts": 1795730812
             },
             {
               "char": "Callum-Magic",
@@ -169,10 +169,10 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 6,
+              "skill": 7,
               "max": 75,
               "recipeCount": 4,
-              "ts": 1795061061
+              "ts": 1795723864
             }
           ]
         },
@@ -213,10 +213,10 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
               "recipeCount": 88,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -224,7 +224,7 @@
           "id": 202,
           "name": "Engineering",
           "isSecondary": false,
-          "recipeCount": 11,
+          "recipeCount": 14,
           "crafters": [
             {
               "char": "Lyin-Sabla",
@@ -233,10 +233,10 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "recipeCount": 11,
-              "ts": 1795717166
+              "recipeCount": 14,
+              "ts": 1795730855
             }
           ]
         },
@@ -353,17 +353,17 @@
           "shortName": "Callum",
           "lastName": "Magic",
           "realm": "Magic",
-          "lastUpdated": 1795561454,
+          "lastUpdated": 1795723864,
           "totalRecipes": 80,
           "professions": [
             {
               "id": 185,
               "name": "Cooking",
               "isSecondary": true,
-              "skill": 6,
+              "skill": 7,
               "max": 75,
               "recipeCount": 4,
-              "ts": 1795061061
+              "ts": 1795723864
             },
             {
               "id": 197,
@@ -413,8 +413,8 @@
           "shortName": "Lyin",
           "lastName": "Sabla",
           "realm": "Sabla",
-          "lastUpdated": 1795721032,
-          "totalRecipes": 18,
+          "lastUpdated": 1795730855,
+          "totalRecipes": 22,
           "professions": [
             {
               "id": 185,
@@ -422,17 +422,17 @@
               "isSecondary": true,
               "skill": 41,
               "max": 75,
-              "recipeCount": 7,
-              "ts": 1795721032
+              "recipeCount": 8,
+              "ts": 1795730812
             },
             {
               "id": 202,
               "name": "Engineering",
               "isSecondary": false,
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "recipeCount": 11,
-              "ts": 1795717166
+              "recipeCount": 14,
+              "ts": 1795730855
             }
           ]
         },
@@ -545,7 +545,7 @@
           "shortName": "Stara",
           "lastName": "Sabla",
           "realm": "Sabla",
-          "lastUpdated": 1795552459,
+          "lastUpdated": 1795729277,
           "totalRecipes": 260,
           "professions": [
             {
@@ -561,10 +561,10 @@
               "id": 333,
               "name": "Enchanting",
               "isSecondary": false,
-              "skill": 261,
+              "skill": 263,
               "max": 300,
               "recipeCount": 88,
-              "ts": 1795552459
+              "ts": 1795729277
             },
             {
               "id": 197,
@@ -3539,7 +3539,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             },
             {
               "char": "Callum-Magic",
@@ -3548,9 +3548,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 6,
+              "skill": 7,
               "max": 75,
-              "ts": 1795061061
+              "ts": 1795723864
             }
           ]
         },
@@ -3775,7 +3775,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             }
           ]
         },
@@ -3970,7 +3970,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             },
             {
               "char": "Callum-Magic",
@@ -3979,9 +3979,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 6,
+              "skill": 7,
               "max": 75,
-              "ts": 1795061061
+              "ts": 1795723864
             }
           ]
         },
@@ -4563,7 +4563,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             },
             {
               "char": "Callum-Magic",
@@ -4572,9 +4572,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 6,
+              "skill": 7,
               "max": 75,
-              "ts": 1795061061
+              "ts": 1795723864
             }
           ]
         },
@@ -4932,6 +4932,27 @@
           ]
         },
         {
+          "spellId": 1270635,
+          "name": "Recipe #1270635",
+          "profId": 185,
+          "profName": "Cooking",
+          "itemId": 263512,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 41,
+              "max": 75,
+              "ts": 1795730812
+            }
+          ]
+        },
+        {
           "spellId": 15910,
           "name": "Recipe #15910",
           "profId": 185,
@@ -5173,7 +5194,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             },
             {
               "char": "Callum-Magic",
@@ -5182,9 +5203,9 @@
               "shortName": "Callum",
               "lastName": "Magic",
               "realm": "Magic",
-              "skill": 6,
+              "skill": 7,
               "max": 75,
-              "ts": 1795061061
+              "ts": 1795723864
             }
           ]
         },
@@ -5495,7 +5516,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             }
           ]
         },
@@ -5699,7 +5720,7 @@
               "realm": "Sabla",
               "skill": 41,
               "max": 75,
-              "ts": 1795721032
+              "ts": 1795730812
             }
           ]
         },
@@ -6050,9 +6071,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6114,9 +6135,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6157,9 +6178,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6200,9 +6221,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6232,9 +6253,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6264,9 +6285,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6285,9 +6306,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6338,9 +6359,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6381,9 +6402,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6477,9 +6498,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6509,9 +6530,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6530,9 +6551,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6573,9 +6594,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6616,9 +6637,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6659,9 +6680,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6744,9 +6765,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6808,9 +6829,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6840,9 +6861,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6893,9 +6914,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6914,9 +6935,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -6957,9 +6978,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7010,9 +7031,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7053,9 +7074,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7074,9 +7095,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7117,9 +7138,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7138,9 +7159,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7170,9 +7191,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7202,9 +7223,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7234,9 +7255,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7340,9 +7361,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7372,9 +7393,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7415,9 +7436,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7447,9 +7468,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7479,9 +7500,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7511,9 +7532,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7554,9 +7575,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7607,9 +7628,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7650,9 +7671,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7693,9 +7714,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7725,9 +7746,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7768,9 +7789,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7811,9 +7832,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7854,9 +7875,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7886,9 +7907,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7918,9 +7939,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7961,9 +7982,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -7993,9 +8014,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8025,9 +8046,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8057,9 +8078,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8078,9 +8099,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8121,9 +8142,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8153,9 +8174,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8185,9 +8206,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8249,9 +8270,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8281,9 +8302,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8323,9 +8344,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8366,9 +8387,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8419,9 +8440,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8462,9 +8483,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8643,9 +8664,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8685,9 +8706,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8717,9 +8738,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8749,9 +8770,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8781,9 +8802,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8813,9 +8834,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8877,9 +8898,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8920,9 +8941,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8952,9 +8973,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -8973,9 +8994,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9005,9 +9026,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9048,9 +9069,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9091,9 +9112,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9134,9 +9155,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9198,9 +9219,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9241,9 +9262,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9284,9 +9305,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9327,9 +9348,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9359,9 +9380,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9402,9 +9423,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9466,9 +9487,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9509,9 +9530,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9552,9 +9573,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9584,9 +9605,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9627,9 +9648,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9712,9 +9733,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9755,9 +9776,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9798,9 +9819,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9841,9 +9862,9 @@
               "shortName": "Stara",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 261,
+              "skill": 263,
               "max": 300,
-              "ts": 1795552459
+              "ts": 1795729277
             }
           ]
         },
@@ -9915,9 +9936,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -9936,9 +9957,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -9957,9 +9978,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -9978,9 +9999,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -9999,9 +10020,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -10020,9 +10041,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -10041,9 +10062,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -10062,9 +10083,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -10083,9 +10104,72 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
+            }
+          ]
+        },
+        {
+          "spellId": 3929,
+          "name": "Recipe #3929",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4364,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 95,
+              "max": 150,
+              "ts": 1795730855
+            }
+          ]
+        },
+        {
+          "spellId": 3930,
+          "name": "Recipe #3930",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 8068,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 95,
+              "max": 150,
+              "ts": 1795730855
+            }
+          ]
+        },
+        {
+          "spellId": 3931,
+          "name": "Recipe #3931",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4365,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 95,
+              "max": 150,
+              "ts": 1795730855
             }
           ]
         },
@@ -10104,9 +10188,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -10125,9 +10209,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 70,
+              "skill": 95,
               "max": 150,
-              "ts": 1795717166
+              "ts": 1795730855
             }
           ]
         },
@@ -30761,6 +30845,76 @@
       "reqSkill": 1,
       "tooltipHtml": "<tt-title>Copper Modulator</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer, Arclight Spanner</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a> (2), <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a>, <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Copper Modulator</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">50</span></tt-line></div></div>"
     },
+    "3929": {
+      "spellId": 3929,
+      "name": "Coarse Blasting Powder",
+      "itemId": 4364,
+      "icon": 133849,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2836,
+          "name": "Coarse Stone",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Coarse Stone",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Coarse Blasting Powder</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2836\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2836\">Coarse Stone</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Coarse Blasting Powder</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">12</span></tt-line></div></div>"
+    },
+    "3930": {
+      "spellId": 3930,
+      "name": "Crafted Heavy Shot",
+      "itemId": 8068,
+      "icon": 132384,
+      "quality": 1,
+      "tier": null,
+      "slot": "Projectile",
+      "subType": "Bullet",
+      "reagents": [
+        {
+          "itemId": 4364,
+          "name": "Coarse Blasting Powder",
+          "count": 1
+        },
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Coarse Blasting Powder, Copper Bar",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Crafted Heavy Shot</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4364\">Coarse Blasting Powder</a>, <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Crafted Heavy Shot</tt-title><tt-line data-line-type=\"item-level\">Item Level 20</tt-line><tt-double-line><span>Projectile</span><span>Bullet</span></tt-double-line><tt-line data-line-type=\"required-level\">Requires Level 15</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 200</tt-line></div></div>"
+    },
+    "3931": {
+      "spellId": 3931,
+      "name": "Coarse Dynamite",
+      "itemId": 4365,
+      "icon": 133714,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 4364,
+          "name": "Coarse Blasting Powder",
+          "count": 3
+        },
+        {
+          "itemId": 2589,
+          "name": "Linen Cloth",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Coarse Blasting Powder (3), Linen Cloth",
+      "reqSkill": 75,
+      "tooltipHtml": "<tt-title>Coarse Dynamite</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4364\">Coarse Blasting Powder</a> (3), <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Coarse Dynamite</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=4061\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:4061\">Use: Inflicts 51 to 69 Fire damage in a 5 yard radius.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Engineering (75)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
+    },
     "3977": {
       "spellId": 3977,
       "name": "Crude Scope",
@@ -40360,6 +40514,31 @@
       "reagentsText": "Small Egg (2), Simple Flour",
       "tooltipHtml": "<tt-title>Skywall Souffle</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=6889\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:6889\">Small Egg</a> (2), <a href=\"https://www.wowhead.com/forever/item=10284\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10284\">Simple Flour</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Skywall Souffle</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Stamina for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>",
       "reqSkill": 25
+    },
+    "1270635": {
+      "spellId": 1270635,
+      "name": "Pincer Bites",
+      "itemId": 263512,
+      "icon": 1508493,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2675,
+          "name": "Crawler Claw",
+          "count": 1
+        },
+        {
+          "itemId": 2678,
+          "name": "Mild Spices",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Crawler Claw, Mild Spices",
+      "reqSkill": 25,
+      "tooltipHtml": "<tt-title>Pincer Bites</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2675\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2675\">Crawler Claw</a>, <a href=\"https://www.wowhead.com/forever/item=2678\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2678\">Mild Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Pincer Bites</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 58 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Intellect for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span></tt-line></div></div>"
     },
     "1295805": {
       "spellId": 1295805,
