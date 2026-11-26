@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-26T17:41:36.697Z",
+  "exportedAt": "2026-11-26T19:39:33.153Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795710670,
+      "lastUpdated": 1795721032,
       "professions": [
         {
           "id": 171,
@@ -157,10 +157,10 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "recipeCount": 4,
-              "ts": 1795641584
+              "recipeCount": 7,
+              "ts": 1795721032
             },
             {
               "char": "Callum-Magic",
@@ -224,7 +224,7 @@
           "id": 202,
           "name": "Engineering",
           "isSecondary": false,
-          "recipeCount": 4,
+          "recipeCount": 11,
           "crafters": [
             {
               "char": "Lyin-Sabla",
@@ -233,10 +233,10 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 20,
-              "max": 75,
-              "recipeCount": 4,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "recipeCount": 11,
+              "ts": 1795717166
             }
           ]
         },
@@ -413,26 +413,26 @@
           "shortName": "Lyin",
           "lastName": "Sabla",
           "realm": "Sabla",
-          "lastUpdated": 1795644629,
-          "totalRecipes": 8,
+          "lastUpdated": 1795721032,
+          "totalRecipes": 18,
           "professions": [
             {
               "id": 185,
               "name": "Cooking",
               "isSecondary": true,
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "recipeCount": 4,
-              "ts": 1795641584
+              "recipeCount": 7,
+              "ts": 1795721032
             },
             {
               "id": 202,
               "name": "Engineering",
               "isSecondary": false,
-              "skill": 20,
-              "max": 75,
-              "recipeCount": 4,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "recipeCount": 11,
+              "ts": 1795717166
             }
           ]
         },
@@ -3537,9 +3537,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "ts": 1795641584
+              "ts": 1795721032
             },
             {
               "char": "Callum-Magic",
@@ -3765,6 +3765,17 @@
               "skill": 227,
               "max": 300,
               "ts": 1795378461
+            },
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 41,
+              "max": 75,
+              "ts": 1795721032
             }
           ]
         },
@@ -3957,9 +3968,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "ts": 1795641584
+              "ts": 1795721032
             },
             {
               "char": "Callum-Magic",
@@ -4550,9 +4561,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "ts": 1795641584
+              "ts": 1795721032
             },
             {
               "char": "Callum-Magic",
@@ -5160,9 +5171,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 9,
+              "skill": 41,
               "max": 75,
-              "ts": 1795641584
+              "ts": 1795721032
             },
             {
               "char": "Callum-Magic",
@@ -5474,6 +5485,17 @@
               "skill": 227,
               "max": 300,
               "ts": 1795378461
+            },
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 41,
+              "max": 75,
+              "ts": 1795721032
             }
           ]
         },
@@ -5667,6 +5689,17 @@
               "skill": 156,
               "max": 225,
               "ts": 1795395748
+            },
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 41,
+              "max": 75,
+              "ts": 1795721032
             }
           ]
         },
@@ -9882,9 +9915,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 20,
-              "max": 75,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
             }
           ]
         },
@@ -9903,9 +9936,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 20,
-              "max": 75,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
             }
           ]
         },
@@ -9924,9 +9957,9 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 20,
-              "max": 75,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
             }
           ]
         },
@@ -9945,9 +9978,156 @@
               "shortName": "Lyin",
               "lastName": "Sabla",
               "realm": "Sabla",
-              "skill": 20,
-              "max": 75,
-              "ts": 1795644629
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3922,
+          "name": "Recipe #3922",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4359,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3923,
+          "name": "Recipe #3923",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4360,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3924,
+          "name": "Recipe #3924",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4361,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3925,
+          "name": "Recipe #3925",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4362,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3926,
+          "name": "Recipe #3926",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4363,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 3977,
+          "name": "Recipe #3977",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 4405,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
+            }
+          ]
+        },
+        {
+          "spellId": 7430,
+          "name": "Recipe #7430",
+          "profId": 202,
+          "profName": "Engineering",
+          "itemId": 6219,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Lyin-Sabla",
+              "fullName": "Lyin Sabla",
+              "firstName": "Lyin",
+              "shortName": "Lyin",
+              "lastName": "Sabla",
+              "realm": "Sabla",
+              "skill": 70,
+              "max": 150,
+              "ts": 1795717166
             }
           ]
         },
@@ -30441,6 +30621,176 @@
       "reqSkill": 25,
       "tooltipHtml": "<tt-title>Crafted Light Shot</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4357\">Rough Blasting Powder</a>, <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Crafted Light Shot</tt-title><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Projectile</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Bullet</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Adds 2 damage per second</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\"></tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line></div></div>"
     },
+    "3922": {
+      "spellId": 3922,
+      "name": "Handful of Copper Bolts",
+      "itemId": 4359,
+      "icon": 134068,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Copper Bar",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Handful of Copper Bolts</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Handful of Copper Bolts</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">12</span></tt-line></div></div>"
+    },
+    "3923": {
+      "spellId": 3923,
+      "name": "Rough Copper Bomb",
+      "itemId": 4360,
+      "icon": 133717,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 1
+        },
+        {
+          "itemId": 4359,
+          "name": "Handful of Copper Bolts",
+          "count": 1
+        },
+        {
+          "itemId": 4357,
+          "name": "Rough Blasting Powder",
+          "count": 2
+        },
+        {
+          "itemId": 2589,
+          "name": "Linen Cloth",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Copper Bar, Handful of Copper Bolts, Rough Blasting Powder (2), Linen Cloth",
+      "reqSkill": 30,
+      "tooltipHtml": "<tt-title>Rough Copper Bomb</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a>, <a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a>, <a href=\"https://www.wowhead.com/forever/item=4357\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4357\">Rough Blasting Powder</a> (2), <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Rough Copper Bomb</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=4064\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:4064\">Use: Inflicts 22 to 28 Fire damage and stuns targets in a 3 yard radius for 1 sec. Any damage will break the effect.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Engineering (30)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 10</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">60</span></tt-line></div></div>"
+    },
+    "3924": {
+      "spellId": 3924,
+      "name": "Copper Tube",
+      "itemId": 4361,
+      "icon": 133025,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 2
+        },
+        {
+          "itemId": 2880,
+          "name": "Weak Flux",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Copper Bar (2), Weak Flux",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Copper Tube</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (2), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Copper Tube</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">20</span></tt-line></div></div>"
+    },
+    "3925": {
+      "spellId": 3925,
+      "name": "Rough Boomstick",
+      "itemId": 4362,
+      "icon": 135612,
+      "quality": 2,
+      "tier": null,
+      "slot": "Ranged",
+      "subType": "Gun",
+      "reagents": [
+        {
+          "itemId": 4361,
+          "name": "Copper Tube",
+          "count": 1
+        },
+        {
+          "itemId": 4359,
+          "name": "Handful of Copper Bolts",
+          "count": 1
+        },
+        {
+          "itemId": 4399,
+          "name": "Wooden Stock",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Copper Tube, Handful of Copper Bolts, Wooden Stock",
+      "reqSkill": 25,
+      "tooltipHtml": "<tt-title>Rough Boomstick</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4361\">Copper Tube</a>, <a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a>, <a href=\"https://www.wowhead.com/forever/item=4399\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4399\">Wooden Stock</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Rough Boomstick</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Ranged</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Gun</tt-inline-color></span></tt-double-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">6 - 13 Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 2.30</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(4.1 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+1 Stamina</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">87</span></tt-line></div></div>"
+    },
+    "3926": {
+      "spellId": 3926,
+      "name": "Copper Modulator",
+      "itemId": 4363,
+      "icon": 132997,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 4359,
+          "name": "Handful of Copper Bolts",
+          "count": 2
+        },
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 1
+        },
+        {
+          "itemId": 2589,
+          "name": "Linen Cloth",
+          "count": 2
+        }
+      ],
+      "reagentsText": "Handful of Copper Bolts (2), Copper Bar, Linen Cloth (2)",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Copper Modulator</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer, Arclight Spanner</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a> (2), <a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a>, <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a> (2)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Copper Modulator</tt-title><tt-line data-line-type=\"item-tag\">Crafting Reagent</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">50</span></tt-line></div></div>"
+    },
+    "3977": {
+      "spellId": 3977,
+      "name": "Crude Scope",
+      "itemId": 4405,
+      "icon": 134441,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 4361,
+          "name": "Copper Tube",
+          "count": 1
+        },
+        {
+          "itemId": 774,
+          "name": "Malachite",
+          "count": 1
+        },
+        {
+          "itemId": 4359,
+          "name": "Handful of Copper Bolts",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Copper Tube, Malachite, Handful of Copper Bolts",
+      "reqSkill": 25,
+      "tooltipHtml": "<tt-title>Crude Scope</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Arclight Spanner</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4361\">Copper Tube</a>, <a href=\"https://www.wowhead.com/forever/item=774\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:774\">Malachite</a>, <a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Crude Scope</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Attaches a permanent scope to a bow or gun that increases its damage by 1.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 5</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">25</span></tt-line></div></div>"
+    },
     "4094": {
       "spellId": 4094,
       "name": "Barbecued Buzzard Wing",
@@ -31120,6 +31470,26 @@
       "reagentsText": "Lesser Magic Essence",
       "tooltipHtml": "<tt-title>Enchant Bracer - Minor Deflect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Copper Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=10938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:10938\">Lesser Magic Essence</a></tt-indented-line>Permanently enchant bracers so that the defense skill of the wearer is increased by 3.",
       "reqSkill": 10
+    },
+    "7430": {
+      "spellId": 7430,
+      "name": "Arclight Spanner",
+      "itemId": 6219,
+      "icon": 134520,
+      "quality": 1,
+      "tier": null,
+      "slot": "Main Hand",
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2840,
+          "name": "Copper Bar",
+          "count": 6
+        }
+      ],
+      "reagentsText": "Copper Bar (6)",
+      "reqSkill": 50,
+      "tooltipHtml": "<tt-title>Arclight Spanner</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (6)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Arclight Spanner</tt-title><tt-line data-line-type=\"captured-equip-slot\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Main Hand</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">7 - 14 Damage</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Speed 2.40</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">(4.4 damage per second)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Engineering (50)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">44</span></tt-line></div></div>"
     },
     "7443": {
       "spellId": 7443,
