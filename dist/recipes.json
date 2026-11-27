@@ -1,12 +1,12 @@
 {
-  "exportedAt": "2026-11-27T01:50:51.284Z",
+  "exportedAt": "2026-11-27T07:38:19.740Z",
   "schema": 1,
   "guilds": [
     {
       "guildKey": "Inner Sanctum-",
       "name": "Inner Sanctum",
       "realm": "",
-      "lastUpdated": 1795744359,
+      "lastUpdated": 1795764963,
       "professions": [
         {
           "id": 171,
@@ -151,6 +151,18 @@
               "ts": 1795395748
             },
             {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "recipeCount": 7,
+              "ts": 1795764933
+            },
+            {
               "char": "Lyin-Sabla",
               "fullName": "Lyin Sabla",
               "firstName": "Lyin",
@@ -241,6 +253,26 @@
           ]
         },
         {
+          "id": 165,
+          "name": "Leatherworking",
+          "isSecondary": false,
+          "recipeCount": 7,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "recipeCount": 7,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
           "id": 197,
           "name": "Tailoring",
           "isSecondary": false,
@@ -313,6 +345,36 @@
               "max": 300,
               "recipeCount": 34,
               "ts": 1795378461
+            }
+          ]
+        },
+        {
+          "char": "Aldeide-Vaneweave",
+          "fullName": "Aldeide Vaneweave",
+          "firstName": "Aldeide",
+          "shortName": "Aldeide",
+          "lastName": "Vaneweave",
+          "realm": "Vaneweave",
+          "lastUpdated": 1795764963,
+          "totalRecipes": 14,
+          "professions": [
+            {
+              "id": 185,
+              "name": "Cooking",
+              "isSecondary": true,
+              "skill": 58,
+              "max": 75,
+              "recipeCount": 7,
+              "ts": 1795764933
+            },
+            {
+              "id": 165,
+              "name": "Leatherworking",
+              "isSecondary": false,
+              "skill": 24,
+              "max": 75,
+              "recipeCount": 7,
+              "ts": 1795764963
             }
           ]
         },
@@ -3531,6 +3593,17 @@
               "ts": 1795395748
             },
             {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
+            },
+            {
               "char": "Lyin-Sabla",
               "fullName": "Lyin Sabla",
               "firstName": "Lyin",
@@ -3604,6 +3677,17 @@
               "skill": 288,
               "max": 300,
               "ts": 1795516823
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             }
           ]
         },
@@ -3960,6 +4044,17 @@
               "skill": 156,
               "max": 225,
               "ts": 1795395748
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             },
             {
               "char": "Lyin-Sabla",
@@ -4477,6 +4572,17 @@
               "skill": 227,
               "max": 300,
               "ts": 1795378461
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             }
           ]
         },
@@ -4553,6 +4659,17 @@
               "skill": 156,
               "max": 225,
               "ts": 1795395748
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             },
             {
               "char": "Lyin-Sabla",
@@ -5184,6 +5301,17 @@
               "skill": 156,
               "max": 225,
               "ts": 1795395748
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             },
             {
               "char": "Lyin-Sabla",
@@ -5839,6 +5967,17 @@
               "skill": 227,
               "max": 300,
               "ts": 1795378461
+            },
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 58,
+              "max": 75,
+              "ts": 1795764933
             }
           ]
         },
@@ -10212,6 +10351,153 @@
               "skill": 95,
               "max": 150,
               "ts": 1795730855
+            }
+          ]
+        },
+        {
+          "spellId": 1229432,
+          "name": "Camp Tent",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 279978,
+          "isCustom": true,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 2149,
+          "name": "Handstitched Leather Boots",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 2302,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 9059,
+          "name": "Handstitched Leather Bracers",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 7277,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 9058,
+          "name": "Handstitched Leather Cloak",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 7276,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 7126,
+          "name": "Handstitched Leather Vest",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 5957,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 2152,
+          "name": "Light Armor Kit",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 2304,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
+            }
+          ]
+        },
+        {
+          "spellId": 2881,
+          "name": "Light Leather",
+          "profId": 165,
+          "profName": "Leatherworking",
+          "itemId": 2318,
+          "isCustom": false,
+          "crafters": [
+            {
+              "char": "Aldeide-Vaneweave",
+              "fullName": "Aldeide Vaneweave",
+              "firstName": "Aldeide",
+              "shortName": "Aldeide",
+              "lastName": "Vaneweave",
+              "realm": "Vaneweave",
+              "skill": 24,
+              "max": 75,
+              "ts": 1795764963
             }
           ]
         },
@@ -27616,6 +27902,51 @@
     }
   ],
   "meta": {
+    "2149": {
+      "spellId": 2149,
+      "name": "Handstitched Leather Boots",
+      "itemId": 2302,
+      "icon": 132538,
+      "quality": 1,
+      "tier": null,
+      "slot": "Feet",
+      "subType": "Leather",
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 2
+        },
+        {
+          "itemId": 2320,
+          "name": "Coarse Thread",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Light Leather (2), Coarse Thread",
+      "reqSkill": 15,
+      "tooltipHtml": "<tt-title>Handstitched Leather Boots</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Handstitched Leather Boots</tt-title><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Feet</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Leather</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">31 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 3</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">29</span></tt-line></div></div>"
+    },
+    "2152": {
+      "spellId": 2152,
+      "name": "Light Armor Kit",
+      "itemId": 2304,
+      "icon": 133611,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Light Leather",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Light Armor Kit</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Light Armor Kit</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Permanently increase the Stamina value by 1 and the Armor value by 8 of an item worn on the chest, legs, hands or feet. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">15</span></tt-line></div></div>"
+    },
     "2329": {
       "spellId": 2329,
       "name": "Elixir of Minor Strength",
@@ -28865,6 +29196,26 @@
       "reagentsText": "Crag Boar Rib, Rhapsody Malt",
       "reqSkill": 1,
       "tooltipHtml": "<tt-title>Beer Basted Boar Ribs</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2886\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2886\">Crag Boar Rib</a>, <a href=\"https://www.wowhead.com/forever/item=2894\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2894\">Rhapsody Malt</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Beer Basted Boar Ribs</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1248380\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1248380\">Use: Restores 61 health over 18 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 1 Strength for 15 min. Additionally, experience gained from kills is increased by 5%. (1 Sec Cooldown)</a></tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">10</span></tt-line></div></div>"
+    },
+    "2881": {
+      "spellId": 2881,
+      "name": "Light Leather",
+      "itemId": 2318,
+      "icon": 134252,
+      "quality": 1,
+      "tier": null,
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2934,
+          "name": "Ruined Leather Scraps",
+          "count": 3
+        }
+      ],
+      "reagentsText": "Ruined Leather Scraps (3)",
+      "reqSkill": 1,
+      "tooltipHtml": "<tt-title>Light Leather</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2934\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2934\">Ruined Leather Scraps</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Light Leather</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">15</span></tt-line></div></div>"
     },
     "2963": {
       "spellId": 2963,
@@ -31396,6 +31747,31 @@
       "reqSkill": 125,
       "tooltipHtml": "<tt-title>Black Silk Pack</tt-title><tt-double-line><span>45 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4305\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4305\">Bolt of Silk Cloth</a> (6), <a href=\"https://www.wowhead.com/forever/item=2325\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2325\">Black Dye</a>, <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Black Silk Pack</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">12 Slot Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">40</span></tt-line></div></div>"
     },
+    "7126": {
+      "spellId": 7126,
+      "name": "Handstitched Leather Vest",
+      "itemId": 5957,
+      "icon": 132760,
+      "quality": 2,
+      "tier": null,
+      "slot": "Chest",
+      "subType": "Leather",
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 3
+        },
+        {
+          "itemId": 2320,
+          "name": "Coarse Thread",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Light Leather (3), Coarse Thread",
+      "reqSkill": 15,
+      "tooltipHtml": "<tt-title>Handstitched Leather Vest</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a> (3), <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Handstitched Leather Vest</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Chest</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Leather</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">55 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+1 Agility</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 3</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">40</span></tt-line></div></div>"
+    },
     "7179": {
       "spellId": 7179,
       "name": "Draught of Water Breathing",
@@ -33450,6 +33826,56 @@
       "reagentsText": "Copper Bar (6), Weak Flux, Rough Grinding Stone, Light Leather",
       "tooltipHtml": "<tt-title>Copper Dagger</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Blacksmithing</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2840\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2840\">Copper Bar</a> (6), <a href=\"https://www.wowhead.com/forever/item=2880\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2880\">Weak Flux</a>, <a href=\"https://www.wowhead.com/forever/item=3470\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:3470\">Rough Grinding Stone</a>, <a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Copper Dagger</tt-title><tt-line data-line-type=\"item-level\">Item Level 11</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>One-Hand</span><span>Dagger</span></tt-double-line><tt-double-line><span>7 - 13 Damage</span><span>Speed 1.70</span></tt-double-line><tt-line data-line-type=\"dps\">(5.9 damage per second)</tt-line><tt-line data-line-type=\"item-stat\">+1 Agility</tt-line><tt-line data-line-type=\"durability\">Durability 55 / 55</tt-line><tt-line data-line-type=\"required-level\">Requires Level 6</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">1</span><span class=\"price-copper\">94</span></tt-line></div></div>",
       "reqSkill": 30
+    },
+    "9058": {
+      "spellId": 9058,
+      "name": "Handstitched Leather Cloak",
+      "itemId": 7276,
+      "icon": 133150,
+      "quality": 1,
+      "tier": null,
+      "slot": "Back",
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 2
+        },
+        {
+          "itemId": 2320,
+          "name": "Coarse Thread",
+          "count": 1
+        }
+      ],
+      "reagentsText": "Light Leather (2), Coarse Thread",
+      "reqSkill": 20,
+      "tooltipHtml": "<tt-title>Handstitched Leather Cloak</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Handstitched Leather Cloak</tt-title><tt-line data-line-type=\"captured-equip-slot\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Back</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">8 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 4</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">34</span></tt-line></div></div>"
+    },
+    "9059": {
+      "spellId": 9059,
+      "name": "Handstitched Leather Bracers",
+      "itemId": 7277,
+      "icon": 132607,
+      "quality": 1,
+      "tier": null,
+      "slot": "Wrist",
+      "subType": "Leather",
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 2
+        },
+        {
+          "itemId": 2320,
+          "name": "Coarse Thread",
+          "count": 3
+        }
+      ],
+      "reagentsText": "Light Leather (2), Coarse Thread (3)",
+      "reqSkill": 20,
+      "tooltipHtml": "<tt-title>Handstitched Leather Bracers</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=2320\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2320\">Coarse Thread</a> (3)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Handstitched Leather Bracers</tt-title><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Wrist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Leather</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">21 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 4</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">28</span></tt-line></div></div>"
     },
     "9918": {
       "spellId": 9918,
@@ -38330,6 +38756,26 @@
       "reagentsText": "Bolt of Silk Cloth (3), Shadowgem, Fine Thread, Gray Dye",
       "tooltipHtml": "<tt-title>Invoker's Cord</tt-title><tt-double-line><span>25 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4305\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4305\">Bolt of Silk Cloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=1210\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:1210\">Shadowgem</a>, <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a>, <a href=\"https://www.wowhead.com/forever/item=4340\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4340\">Gray Dye</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Invoker's Cord</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Waist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">24 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+5 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 7.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">8</span><span class=\"price-copper\">64</span></tt-line></div></div>",
       "reqSkill": 125
+    },
+    "1229432": {
+      "spellId": 1229432,
+      "name": "Camp Tent",
+      "itemId": 279978,
+      "icon": 134250,
+      "quality": 1,
+      "tier": "Tier 1",
+      "slot": null,
+      "subType": null,
+      "reagents": [
+        {
+          "itemId": 2318,
+          "name": "Light Leather",
+          "count": 5
+        }
+      ],
+      "reagentsText": "Light Leather (5)",
+      "reqSkill": 20,
+      "tooltipHtml": "<tt-double-line><tt-title>Camp Tent</tt-title><tt-subtitle>Tier 1</tt-subtitle></tt-double-line><tt-double-line><span>10 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Leatherworking</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2318\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2318\">Light Leather</a> (5)</tt-indented-line>Craft a Camp Tent.<tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Camp Tent</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Builds a tent that allows you and others sitting nearby to increase Rested experience to 5% of a level. No effect if Rested experience already exceeds that value.\r\n\r\nRequires a Campfire nearby. All camping features share a cooldown of 1 |4hour:hrs;.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Leatherworking (20)</tt-inline-color></tt-line></div></div>"
     },
     "1229737": {
       "spellId": 1229737,
