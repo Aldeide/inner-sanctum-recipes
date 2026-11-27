@@ -3,7 +3,7 @@
  * Provides offline support, caching strategies, and installability.
  */
 
-const CACHE_VERSION = 'is-recipes-20261127073819';
+const CACHE_VERSION = 'is-recipes-20261127204119';
 const CACHE_NAME = `inner-sanctum-cache-${CACHE_VERSION}`;
 
 // Core assets to pre-cache on service worker install

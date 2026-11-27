@@ -3614,6 +3614,61 @@
     "reqSkill": 75,
     "tooltipHtml": "<tt-title>Coarse Dynamite</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4364\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4364\">Coarse Blasting Powder</a> (3), <a href=\"https://www.wowhead.com/forever/item=2589\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2589\">Linen Cloth</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Coarse Dynamite</tt-title><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=4061\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:4061\">Use: Inflicts 51 to 69 Fire damage in a 5 yard radius.</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Engineering (75)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 20</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
   },
+  "3932": {
+    "spellId": 3932,
+    "name": "Target Dummy",
+    "itemId": 4366,
+    "icon": 132766,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 4363,
+        "name": "Copper Modulator",
+        "count": 1
+      },
+      {
+        "itemId": 4359,
+        "name": "Handful of Copper Bolts",
+        "count": 2
+      },
+      {
+        "itemId": 2841,
+        "name": "Bronze Bar",
+        "count": 1
+      },
+      {
+        "itemId": 2592,
+        "name": "Wool Cloth",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Copper Modulator, Handful of Copper Bolts (2), Bronze Bar, Wool Cloth",
+    "reqSkill": 85,
+    "tooltipHtml": "<tt-title>Target Dummy</tt-title><tt-double-line><span>8 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"required-focus\">Requires Anvil</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer, Arclight Spanner</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4363\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4363\">Copper Modulator</a>, <a href=\"https://www.wowhead.com/forever/item=4359\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4359\">Handful of Copper Bolts</a> (2), <a href=\"https://www.wowhead.com/forever/item=2841\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2841\">Bronze Bar</a>, <a href=\"https://www.wowhead.com/forever/item=2592\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2592\">Wool Cloth</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Target Dummy</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Drops a target dummy on the ground that attracts nearby monsters to attack it.  Lasts for 15 seconds or until killed.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Engineering (85)</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">75</span></tt-line></div></div>"
+  },
+  "3973": {
+    "spellId": 3973,
+    "name": "Silver Contact",
+    "itemId": 4404,
+    "icon": 133218,
+    "quality": 1,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 2842,
+        "name": "Silver Bar",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Silver Bar",
+    "reqSkill": 75,
+    "tooltipHtml": "<tt-title>Silver Contact</tt-title><tt-double-line><span>5.125 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=2842\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2842\">Silver Bar</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Silver Contact</tt-title><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#66bbff\" style=\"color:#66bbff\">Crafting Reagent</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">25</span></tt-line></div></div>"
+  },
   "3977": {
     "spellId": 3977,
     "name": "Crude Scope",
@@ -8739,6 +8794,31 @@
     "tooltipHtml": "<tt-title>Enchant Chest - Superior Stamina</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a> (3)</tt-indented-line>Permanently enchant a piece of chest armor to grant +8 Stamina.",
     "reqSkill": 220
   },
+  "13868": {
+    "spellId": 13868,
+    "name": "Enchant Gloves - Advanced Herbalism",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 11137,
+        "name": "Vision Dust",
+        "count": 2
+      },
+      {
+        "itemId": 8838,
+        "name": "Sungrass",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Vision Dust (2), Sungrass",
+    "reqSkill": 200,
+    "tooltipHtml": "<tt-title>Enchant Gloves - Advanced Herbalism</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Miscellaneous, Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11137\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11137\">Vision Dust</a> (2), <a href=\"https://www.wowhead.com/forever/item=8838\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8838\">Sungrass</a></tt-indented-line>Permanently enchant gloves to grant +5 herbalism skill."
+  },
   "13882": {
     "spellId": 13882,
     "name": "Enchant Cloak - Lesser Agility",
@@ -8813,6 +8893,31 @@
     "reagentsText": "Small Radiant Shard, Aquamarine, Lesser Nether Essence",
     "tooltipHtml": "<tt-title>Enchant Boots - Minor Speed</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11177\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11177\">Small Radiant Shard</a>, <a href=\"https://www.wowhead.com/forever/item=7909\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7909\">Aquamarine</a>, <a href=\"https://www.wowhead.com/forever/item=11174\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11174\">Lesser Nether Essence</a></tt-indented-line>Permanently enchant boots to increase movement speed by 4%.",
     "reqSkill": 225
+  },
+  "13898": {
+    "spellId": 13898,
+    "name": "Enchant Weapon - Fiery Weapon",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 11177,
+        "name": "Small Radiant Shard",
+        "count": 2
+      },
+      {
+        "itemId": 7078,
+        "name": "Essence of Fire",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Small Radiant Shard (2), Essence of Fire",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Enchant Weapon - Fiery Weapon</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires One-Handed Axes, Two-Handed Axes, One-Handed Maces, Two-Handed Maces, Polearms, One-Handed Swords, Two-Handed Swords, Staves, Fist Weapons, Miscellaneous, Daggers, Spears</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11177\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11177\">Small Radiant Shard</a> (2), <a href=\"https://www.wowhead.com/forever/item=7078\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7078\">Essence of Fire</a></tt-indented-line>Permanently enchant a melee weapon to often strike for 40 additional fire damage."
   },
   "13905": {
     "spellId": 13905,
@@ -9729,6 +9834,36 @@
     "tooltipHtml": "<tt-title>Runecloth Belt</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Runecloth Belt</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Waist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">37 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+12 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 8.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 46</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">51</span><span class=\"price-copper\">12</span></tt-line></div></div>",
     "reqSkill": 255
   },
+  "18404": {
+    "spellId": 18404,
+    "name": "Frostweave Robe",
+    "itemId": 13868,
+    "icon": 132644,
+    "quality": 2,
+    "tier": null,
+    "slot": "Chest",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 5
+      },
+      {
+        "itemId": 7079,
+        "name": "Globe of Water",
+        "count": 2
+      },
+      {
+        "itemId": 14341,
+        "name": "Rune Thread",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (5), Globe of Water (2), Rune Thread",
+    "reqSkill": 230,
+    "tooltipHtml": "<tt-title>Frostweave Robe</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=7079\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7079\">Globe of Water</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Frostweave Robe</tt-title><tt-line data-line-type=\"item-level\">Item Level 51</tt-line><tt-line data-line-type=\"binding\">Binds when equipped</tt-line><tt-double-line><span>Chest</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">66 Armor</tt-line><tt-line data-line-type=\"item-stat\">+11 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases frost damage done by up to 24.</tt-line><tt-line data-line-type=\"durability\">Durability 115 / 115</tt-line><tt-line data-line-type=\"required-level\">Requires Level 46</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">96</span><span class=\"price-copper\">65</span></tt-line></div></div>"
+  },
   "18405": {
     "spellId": 18405,
     "name": "Runecloth Bag",
@@ -10599,6 +10734,31 @@
     "tooltipHtml": "<tt-title>Enchant 2H Weapon - Major Spirit</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Arcanite Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16203\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16203\">Greater Eternal Essence</a> (12), <a href=\"https://www.wowhead.com/forever/item=14344\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14344\">Large Brilliant Shard</a> (2)</tt-indented-line>Permanently enchant a Two-Handed Melee Weapon to add 9 to Spirit.",
     "reqSkill": 295
   },
+  "20036": {
+    "spellId": 20036,
+    "name": "Enchant 2H Weapon - Major Intellect",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 16203,
+        "name": "Greater Eternal Essence",
+        "count": 12
+      },
+      {
+        "itemId": 14344,
+        "name": "Large Brilliant Shard",
+        "count": 2
+      }
+    ],
+    "reagentsText": "Greater Eternal Essence (12), Large Brilliant Shard (2)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Enchant 2H Weapon - Major Intellect</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Arcanite Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=16203\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16203\">Greater Eternal Essence</a> (12), <a href=\"https://www.wowhead.com/forever/item=14344\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14344\">Large Brilliant Shard</a> (2)</tt-indented-line>Permanently enchant a Two-Handed Melee Weapon to add 9 to intellect."
+  },
   "20051": {
     "spellId": 20051,
     "name": "Runed Arcanite Rod",
@@ -11163,6 +11323,41 @@
     "reagentsText": "Bolt of Silk Cloth (3), Shadowgem, Fine Thread, Gray Dye",
     "tooltipHtml": "<tt-title>Invoker's Cord</tt-title><tt-double-line><span>25 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=4305\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4305\">Bolt of Silk Cloth</a> (3), <a href=\"https://www.wowhead.com/forever/item=1210\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:1210\">Shadowgem</a>, <a href=\"https://www.wowhead.com/forever/item=2321\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2321\">Fine Thread</a>, <a href=\"https://www.wowhead.com/forever/item=4340\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4340\">Gray Dye</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Invoker's Cord</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-double-line><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Waist</tt-inline-color></span><span><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Cloth</tt-inline-color></span></tt-double-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">24 Armor</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">+5 Intellect</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Equip: Increases damage and healing done by magical spells and effects by up to 7.</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#88aaff\" style=\"color:#88aaff\">You haven't collected this appearance</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">8</span><span class=\"price-copper\">64</span></tt-line></div></div>",
     "reqSkill": 125
+  },
+  "1219580": {
+    "spellId": 1219580,
+    "name": "Enchant 2H Weapon - Spellblasting",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 20725,
+        "name": "Nexus Crystal",
+        "count": 3
+      },
+      {
+        "itemId": 16204,
+        "name": "Illusion Dust",
+        "count": 24
+      },
+      {
+        "itemId": 12938,
+        "name": "Blood of Heroes",
+        "count": 1
+      },
+      {
+        "itemId": 8831,
+        "name": "Purple Lotus",
+        "count": 6
+      }
+    ],
+    "reagentsText": "Nexus Crystal (3), Illusion Dust (24), Blood of Heroes, Purple Lotus (6)",
+    "reqSkill": 1,
+    "tooltipHtml": "<tt-title>Enchant 2H Weapon - Spellblasting</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Two-Handed Axes, Two-Handed Maces, Polearms, Two-Handed Swords, Staves</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Arcanite Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=20725\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:20725\">Nexus Crystal</a> (3), <a href=\"https://www.wowhead.com/forever/item=16204\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:16204\">Illusion Dust</a> (24), <a href=\"https://www.wowhead.com/forever/item=12938\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12938\">Blood of Heroes</a>, <a href=\"https://www.wowhead.com/forever/item=8831\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8831\">Purple Lotus</a> (6)</tt-indented-line>Permanently enchant a 2H Weapon to add 65 Spell Power."
   },
   "1229432": {
     "spellId": 1229432,
@@ -13678,5 +13873,70 @@
     "reagentsText": "Murloc Eye (2), Tender Crab Meat, Hot Spices",
     "reqSkill": 125,
     "tooltipHtml": "<tt-title>Briny Seafood Stew</tt-title><tt-double-line><span>3 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Cooking</tt-line><tt-line data-line-type=\"required-focus\">Requires Cooking Fire</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=730\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:730\">Murloc Eye</a> (2), <a href=\"https://www.wowhead.com/forever/item=12206\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12206\">Tender Crab Meat</a>, <a href=\"https://www.wowhead.com/forever/item=2692\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:2692\">Hot Spices</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Briny Seafood Stew</tt-title><tt-line data-line-type=\"captured-item-spell-trigger-on-use\"><tt-inline-color data-color=\"#00ff00\" style=\"color:#00ff00\">Use: Restores 841 health over 27 sec.  Must remain seated while eating. If you spend at least 10 sec eating, you will become well fed and gain 14 Spell Damage for 15 min. Additionally, experience gained from kills is increased by 5%. (1 |4Sec:Sec; Cooldown)</tt-inline-color></tt-line><tt-line data-line-type=\"captured-usage-requirement\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Requires Level 25</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-copper\">12</span></tt-line></div></div>"
+  },
+  "1302161": {
+    "spellId": 1302161,
+    "name": "Harvester Override Signalcaster",
+    "itemId": 277132,
+    "icon": 133015,
+    "quality": 2,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 255007,
+        "name": "Golem Isospring",
+        "count": 4
+      },
+      {
+        "itemId": 4363,
+        "name": "Copper Modulator",
+        "count": 2
+      },
+      {
+        "itemId": 4405,
+        "name": "Crude Scope",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Golem Isospring (4), Copper Modulator (2), Crude Scope",
+    "reqSkill": 65,
+    "tooltipHtml": "<tt-title>Harvester Override Signalcaster</tt-title><tt-double-line><span>12.5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Engineering</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Blacksmith Hammer, Arclight Spanner</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=255007\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:255007\">Golem Isospring</a> (4), <a href=\"https://www.wowhead.com/forever/item=4363\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4363\">Copper Modulator</a> (2), <a href=\"https://www.wowhead.com/forever/item=4405\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:4405\">Crude Scope</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"2\">Harvester Override Signalcaster</tt-title><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-line data-line-type=\"item-effect\"><a href=\"https://www.wowhead.com/forever/spell=1301683\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"spell:1301683\">Use: Override control of the target mechanical creature for up to 3 min. The target will attack slower while under your control. Ineffective on targets above level 18. (3 Min Cooldown)</a></tt-line><tt-line data-line-type=\"required-skill\">Requires Engineering (65)</tt-line><tt-line data-line-type=\"stackable\">Max Stack: 5</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
+  },
+  "1328948": {
+    "spellId": 1328948,
+    "name": "Enchant Boots - Speed",
+    "itemId": null,
+    "icon": 135913,
+    "quality": null,
+    "tier": null,
+    "slot": null,
+    "subType": null,
+    "reagents": [
+      {
+        "itemId": 11178,
+        "name": "Large Radiant Shard",
+        "count": 2
+      },
+      {
+        "itemId": 11176,
+        "name": "Dream Dust",
+        "count": 8
+      },
+      {
+        "itemId": 11175,
+        "name": "Greater Nether Essence",
+        "count": 2
+      },
+      {
+        "itemId": 12361,
+        "name": "Blue Sapphire",
+        "count": 1
+      }
+    ],
+    "reagentsText": "Large Radiant Shard (2), Dream Dust (8), Greater Nether Essence (2), Blue Sapphire",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Enchant Boots - Speed</tt-title><tt-double-line><span>5 sec cast</span></tt-double-line><tt-line data-line-type=\"required-equip\">Requires Cloth, Leather, Mail, Plate</tt-line><tt-line data-line-type=\"required-skill\">Requires Enchanting</tt-line><tt-line data-line-type=\"spell-tools\">Tools:</tt-line><tt-indented-line>Runed Truesilver Rod</tt-indented-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=11178\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11178\">Large Radiant Shard</a> (2), <a href=\"https://www.wowhead.com/forever/item=11176\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11176\">Dream Dust</a> (8), <a href=\"https://www.wowhead.com/forever/item=11175\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:11175\">Greater Nether Essence</a> (2), <a href=\"https://www.wowhead.com/forever/item=12361\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:12361\">Blue Sapphire</a></tt-indented-line>Permanently enchant boots to increase movement speed by 8%."
   }
 }
