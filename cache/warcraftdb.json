@@ -13204,6 +13204,46 @@
     "reqSkill": 250,
     "tooltipHtml": "<tt-title>Runecloth Reagent Bag</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (5), <a href=\"https://www.wowhead.com/forever/item=8170\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8170\">Rugged Leather</a> (2), <a href=\"https://www.wowhead.com/forever/item=14341\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14341\">Rune Thread</a>, <a href=\"https://www.wowhead.com/forever/item=249431\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249431\">Viridian Dye</a></tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"1\">Runecloth Reagent Bag</tt-title><tt-line data-line-type=\"captured-item-binding\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">Binds when equipped</tt-inline-color></tt-line><tt-line data-line-type=\"captured-none\"><tt-inline-color data-color=\"#ffffff\" style=\"color:#ffffff\">14 Slot Reagent Bag</tt-inline-color></tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">2</span></tt-line></div></div>"
   },
+  "1257474": {
+    "spellId": 1257474,
+    "name": "Frothing Gloves",
+    "itemId": 254097,
+    "icon": 132951,
+    "quality": 3,
+    "tier": null,
+    "slot": "Hands",
+    "subType": "Cloth",
+    "reagents": [
+      {
+        "itemId": 14048,
+        "name": "Bolt of Runecloth",
+        "count": 8
+      },
+      {
+        "itemId": 8343,
+        "name": "Heavy Silken Thread",
+        "count": 4
+      },
+      {
+        "itemId": 249430,
+        "name": "Magenta Dye",
+        "count": 4
+      },
+      {
+        "itemId": 249409,
+        "name": "Cerulean Dye",
+        "count": 4
+      },
+      {
+        "itemId": 7079,
+        "name": "Globe of Water",
+        "count": 4
+      }
+    ],
+    "reagentsText": "Bolt of Runecloth (8), Heavy Silken Thread (4), Magenta Dye (4), Cerulean Dye (4), Globe of Water (4)",
+    "reqSkill": 250,
+    "tooltipHtml": "<tt-title>Frothing Gloves</tt-title><tt-double-line><span>1 min cast</span></tt-double-line><tt-line data-line-type=\"required-skill\">Requires Tailoring</tt-line><tt-line data-line-type=\"required-focus\">Requires Spinning Wheel</tt-line><tt-line data-line-type=\"spell-reagents\">Reagents:</tt-line><tt-indented-line><a href=\"https://www.wowhead.com/forever/item=14048\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:14048\">Bolt of Runecloth</a> (8), <a href=\"https://www.wowhead.com/forever/item=8343\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:8343\">Heavy Silken Thread</a> (4), <a href=\"https://www.wowhead.com/forever/item=249430\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249430\">Magenta Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=249409\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:249409\">Cerulean Dye</a> (4), <a href=\"https://www.wowhead.com/forever/item=7079\" target=\"_blank\" rel=\"noopener\" data-tooltip=\"item:7079\">Globe of Water</a> (4)</tt-indented-line><tt-spacer></tt-spacer><div class=\"wcdb-tooltip-embedded\"><div class=\"wcdb-tooltip\"><tt-title data-quality=\"3\">Frothing Gloves</tt-title><tt-line data-line-type=\"item-level\">Item Level 55</tt-line><tt-line data-line-type=\"binding\">Binds when picked up</tt-line><tt-double-line><span>Hands</span><span>Cloth</span></tt-double-line><tt-line data-line-type=\"armor\">49 Armor</tt-line><tt-line data-line-type=\"item-stat\">+9 Stamina</tt-line><tt-line data-line-type=\"item-stat\">+10 Intellect</tt-line><tt-line data-line-type=\"item-stat\">+8 Spirit</tt-line><tt-line data-line-type=\"item-stat-secondary\">Equip: Increases frost damage done by up to 19.</tt-line><tt-line data-line-type=\"durability\">Durability 50 / 50</tt-line><tt-line data-line-type=\"required-level\">Requires Level 50</tt-line><tt-line data-line-type=\"item-price\">Sell Price: <span class=\"price-silver\">36</span><span class=\"price-copper\">6</span></tt-line></div></div>"
+  },
   "1259342": {
     "spellId": 1259342,
     "name": "Simple Poultice",
